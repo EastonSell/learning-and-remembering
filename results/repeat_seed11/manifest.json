@@ -1,0 +1,87 @@
+{
+  "experiment": "functional-circuits-pilot-v1",
+  "created_at_utc": "2026-10-21T21:51:55.611058+00:00",
+  "config": {
+    "output": "results/repeat_seed11",
+    "seeds": [
+      11
+    ],
+    "epochs": 120,
+    "train_size": 2048,
+    "test_size": 2048,
+    "validation_size": 512,
+    "width": 8,
+    "batch_size": 128,
+    "lr": 0.01
+  },
+  "command": "python -m functional_circuits.experiment --output results/repeat_seed11 --seeds 11",
+  "models": [
+    "functional",
+    "monolithic",
+    "random_partition",
+    "dense_modular",
+    "no_gate",
+    "oracle_gate"
+  ],
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "blas_threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "elapsed_seconds": 3.117952576000789,
+  "seed_schedule": {
+    "11": {
+      "train": 1101,
+      "validation": 1102,
+      "validation_donors": 1103,
+      "id": 1104,
+      "balanced": 1105,
+      "conflict": 1106,
+      "test_donors": 1107
+    }
+  },
+  "dataset_sha256": {
+    "11": {
+      "train": "f76a1eeda085d2f027297ad7a89e43e3fb1c0fd365a6ceb5030285ec4fc0ead2",
+      "validation": "cbe14f349f624cbccb3f1c016e50351b2dbdf362d1121689840312a56125409a",
+      "validation_donors": "d2765202a6a08d51a551097def891bc62728786f8064c09477570e7251b507d5",
+      "test_donors": "9f627249acd1acd40ec8cb9ccd5f24bc049546299fceaa922adb6f980ed49cb5",
+      "id": "5edc7a1f46fff0647bd538febfc5d8868fd67558fb309a854ac9ec5bfe9cd4ee",
+      "balanced": "c4267bd43b08320d450e670c89fe8acd5228a9fb9c0fbea2af816794716cae64",
+      "conflict": "d7f32317113ae3f006b913e4d0c631daf3be9c94cc692547b57b9a6eb0bdb5c2"
+    }
+  },
+  "source_sha256": {
+    "scripts/verify_run.py": "b9be1d1fb77d531eeeabd97ff58caf7f8801be50a72589a21b3bcfa30ee1c34b",
+    "src/functional_circuits/__init__.py": "539ac2a157bf6b481c729b3dc96917425e1f2b00ecb8bca2cb1b1bce717c6bde",
+    "src/functional_circuits/data.py": "5587543b332c4b83a4d43d7843a24789ae7f84171e5072d33fd39dc3cee5e681",
+    "src/functional_circuits/experiment.py": "04cd645f7c2994d4a6a2109621d7a183c77fa88425c7e0cdb050894a8e71178b",
+    "src/functional_circuits/metrics.py": "40c645fcf324401786872fec7c5bd9442bda48b3c6e52c7e091511106131f4c9",
+    "src/functional_circuits/models.py": "c165ff251a9bb4e8985be79efadf19f060d952f9bd4d6aee17a7612402364d22",
+    "tests/test_core.py": "47cf4d9f6d83027a49194765e7c372d3a680c8a17c86b0b24c84d23e78c0e0fc"
+  },
+  "artifact_sha256": {
+    "checkpoints/dense_modular_11.npz": "69a838876c1140581526387e6579abc1fb91ed1fb704516416c69dcbdd8e6c36",
+    "checkpoints/functional_11.npz": "8eb927617dbb8714bc2833ee50c665e3793bbb74f415dffdaed8fe750366a166",
+    "checkpoints/monolithic_11.npz": "d2a80b2a8ab1c9d53058c9821f13b885f2587529e3598908bc2e79e4fc5b9b01",
+    "checkpoints/no_gate_11.npz": "135f92d0b9d6935ea15b7f21b732204d12f736ecd853cd625aca497b57ea4fa0",
+    "checkpoints/oracle_gate_11.npz": "1e5a75c26154de1ddf3693d0295d97741a7328a29e256e9866217a55454612a7",
+    "checkpoints/random_partition_11.npz": "5c9f07d44c7e8cceb3c8a6c78eb020a7693612753f6283b50a6970f672a83857",
+    "learning_curves.json": "39022baf0decd7d3dd04690aaea7d708845491af0ae72c44b0ef080a4ea1e871",
+    "metrics.csv": "f6012a5e2661d275cfeebe3bba094e80ef04e0b3027d17830be5123510727b7f",
+    "metrics.json": "189545a83b182481d21da7fff9b931b7f8e6fff4d2e0070a17ae1ba29d582b92",
+    "paired_comparisons.json": "103d038d4c25ecd6e432bb836744007307cfc89103d36f82dd2ddc50eee53832",
+    "summary.json": "19a18cf6c099d106671c908fca3d000417ccbb1a6b270b4a1ae57521fe7a11fa",
+    "summary.md": "ee778c38883181b2116300db5bd67b066408cf7972ed8e399c3cf8a54e30d494"
+  },
+  "model_downloads": [],
+  "external_datasets": [],
+  "synthetic_data_license": "MIT",
+  "original_code_license": "MIT",
+  "source_access_date": "2026-10-21",
+  "tuning": "No hyperparameter search. Validation used only for intervention mapping.",
+  "uncertainty": "Paired seed differences and descriptive t intervals; not corrected for multiple comparisons."
+}

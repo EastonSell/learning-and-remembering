@@ -1,0 +1,452 @@
+[
+  {
+    "contrast": "functional_minus_monolithic",
+    "split": "id",
+    "metric": "accuracy",
+    "paired_differences": [
+      0.02587890625
+    ],
+    "mean": 0.02587890625,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_monolithic",
+    "split": "id",
+    "metric": "memory_iia",
+    "paired_differences": [
+      0.1669921875
+    ],
+    "mean": 0.1669921875,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_monolithic",
+    "split": "id",
+    "metric": "memory_iia_changed",
+    "paired_differences": [
+      0.10609037328094306
+    ],
+    "mean": 0.10609037328094306,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_random_partition",
+    "split": "id",
+    "metric": "accuracy",
+    "paired_differences": [
+      0.09912109375
+    ],
+    "mean": 0.09912109375,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_random_partition",
+    "split": "id",
+    "metric": "memory_iia",
+    "paired_differences": [
+      0.38623046875
+    ],
+    "mean": 0.38623046875,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_random_partition",
+    "split": "id",
+    "metric": "memory_iia_changed",
+    "paired_differences": [
+      0.23182711198428296
+    ],
+    "mean": 0.23182711198428296,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_dense_modular",
+    "split": "id",
+    "metric": "accuracy",
+    "paired_differences": [
+      0.00732421875
+    ],
+    "mean": 0.00732421875,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_dense_modular",
+    "split": "id",
+    "metric": "memory_iia",
+    "paired_differences": [
+      0.0107421875
+    ],
+    "mean": 0.0107421875,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_dense_modular",
+    "split": "id",
+    "metric": "memory_iia_changed",
+    "paired_differences": [
+      0.0
+    ],
+    "mean": 0.0,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_no_gate",
+    "split": "id",
+    "metric": "accuracy",
+    "paired_differences": [
+      0.08544921875
+    ],
+    "mean": 0.08544921875,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_no_gate",
+    "split": "id",
+    "metric": "memory_iia",
+    "paired_differences": [
+      0.24462890625
+    ],
+    "mean": 0.24462890625,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_no_gate",
+    "split": "id",
+    "metric": "memory_iia_changed",
+    "paired_differences": [
+      0.4381139489194499
+    ],
+    "mean": 0.4381139489194499,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_oracle_gate",
+    "split": "id",
+    "metric": "accuracy",
+    "paired_differences": [
+      0.0029296875
+    ],
+    "mean": 0.0029296875,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_oracle_gate",
+    "split": "id",
+    "metric": "memory_iia",
+    "paired_differences": [
+      -0.00048828125
+    ],
+    "mean": -0.00048828125,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_oracle_gate",
+    "split": "id",
+    "metric": "memory_iia_changed",
+    "paired_differences": [
+      -0.0216110019646365
+    ],
+    "mean": -0.0216110019646365,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_monolithic",
+    "split": "balanced",
+    "metric": "accuracy",
+    "paired_differences": [
+      0.0537109375
+    ],
+    "mean": 0.0537109375,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_monolithic",
+    "split": "balanced",
+    "metric": "memory_iia",
+    "paired_differences": [
+      0.15087890625
+    ],
+    "mean": 0.15087890625,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_monolithic",
+    "split": "balanced",
+    "metric": "memory_iia_changed",
+    "paired_differences": [
+      0.1384615384615384
+    ],
+    "mean": 0.1384615384615384,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_random_partition",
+    "split": "balanced",
+    "metric": "accuracy",
+    "paired_differences": [
+      0.23583984375
+    ],
+    "mean": 0.23583984375,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_random_partition",
+    "split": "balanced",
+    "metric": "memory_iia",
+    "paired_differences": [
+      0.3857421875
+    ],
+    "mean": 0.3857421875,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_random_partition",
+    "split": "balanced",
+    "metric": "memory_iia_changed",
+    "paired_differences": [
+      0.25769230769230766
+    ],
+    "mean": 0.25769230769230766,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_dense_modular",
+    "split": "balanced",
+    "metric": "accuracy",
+    "paired_differences": [
+      0.01171875
+    ],
+    "mean": 0.01171875,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_dense_modular",
+    "split": "balanced",
+    "metric": "memory_iia",
+    "paired_differences": [
+      0.01806640625
+    ],
+    "mean": 0.01806640625,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_dense_modular",
+    "split": "balanced",
+    "metric": "memory_iia_changed",
+    "paired_differences": [
+      0.019230769230769162
+    ],
+    "mean": 0.019230769230769162,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_no_gate",
+    "split": "balanced",
+    "metric": "accuracy",
+    "paired_differences": [
+      0.2216796875
+    ],
+    "mean": 0.2216796875,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_no_gate",
+    "split": "balanced",
+    "metric": "memory_iia",
+    "paired_differences": [
+      0.2392578125
+    ],
+    "mean": 0.2392578125,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_no_gate",
+    "split": "balanced",
+    "metric": "memory_iia_changed",
+    "paired_differences": [
+      0.2596153846153846
+    ],
+    "mean": 0.2596153846153846,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_oracle_gate",
+    "split": "balanced",
+    "metric": "accuracy",
+    "paired_differences": [
+      -0.00830078125
+    ],
+    "mean": -0.00830078125,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_oracle_gate",
+    "split": "balanced",
+    "metric": "memory_iia",
+    "paired_differences": [
+      -0.0068359375
+    ],
+    "mean": -0.0068359375,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_oracle_gate",
+    "split": "balanced",
+    "metric": "memory_iia_changed",
+    "paired_differences": [
+      -0.007692307692307665
+    ],
+    "mean": -0.007692307692307665,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_monolithic",
+    "split": "conflict",
+    "metric": "accuracy",
+    "paired_differences": [
+      0.0908203125
+    ],
+    "mean": 0.0908203125,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_monolithic",
+    "split": "conflict",
+    "metric": "memory_iia",
+    "paired_differences": [
+      0.10693359375
+    ],
+    "mean": 0.10693359375,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_monolithic",
+    "split": "conflict",
+    "metric": "memory_iia_changed",
+    "paired_differences": [
+      0.09477756286266925
+    ],
+    "mean": 0.09477756286266925,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_random_partition",
+    "split": "conflict",
+    "metric": "accuracy",
+    "paired_differences": [
+      0.47021484375
+    ],
+    "mean": 0.47021484375,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_random_partition",
+    "split": "conflict",
+    "metric": "memory_iia",
+    "paired_differences": [
+      0.37841796875
+    ],
+    "mean": 0.37841796875,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_random_partition",
+    "split": "conflict",
+    "metric": "memory_iia_changed",
+    "paired_differences": [
+      0.2456479690522243
+    ],
+    "mean": 0.2456479690522243,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_dense_modular",
+    "split": "conflict",
+    "metric": "accuracy",
+    "paired_differences": [
+      0.02001953125
+    ],
+    "mean": 0.02001953125,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_dense_modular",
+    "split": "conflict",
+    "metric": "memory_iia",
+    "paired_differences": [
+      0.01416015625
+    ],
+    "mean": 0.01416015625,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_dense_modular",
+    "split": "conflict",
+    "metric": "memory_iia_changed",
+    "paired_differences": [
+      0.015473887814313358
+    ],
+    "mean": 0.015473887814313358,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_no_gate",
+    "split": "conflict",
+    "metric": "accuracy",
+    "paired_differences": [
+      0.46484375
+    ],
+    "mean": 0.46484375,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_no_gate",
+    "split": "conflict",
+    "metric": "memory_iia",
+    "paired_differences": [
+      0.2294921875
+    ],
+    "mean": 0.2294921875,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_no_gate",
+    "split": "conflict",
+    "metric": "memory_iia_changed",
+    "paired_differences": [
+      -0.0019342359767892114
+    ],
+    "mean": -0.0019342359767892114,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_oracle_gate",
+    "split": "conflict",
+    "metric": "accuracy",
+    "paired_differences": [
+      -0.01318359375
+    ],
+    "mean": -0.01318359375,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_oracle_gate",
+    "split": "conflict",
+    "metric": "memory_iia",
+    "paired_differences": [
+      -0.0078125
+    ],
+    "mean": -0.0078125,
+    "descriptive_t95_halfwidth": null
+  },
+  {
+    "contrast": "functional_minus_oracle_gate",
+    "split": "conflict",
+    "metric": "memory_iia_changed",
+    "paired_differences": [
+      0.005802707930367523
+    ],
+    "mean": 0.005802707930367523,
+    "descriptive_t95_halfwidth": null
+  }
+]

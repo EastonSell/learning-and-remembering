@@ -1,0 +1,2 @@
+# Only runtime dependency. The experiment used Python 3.12.14.
+numpy==2.3.5

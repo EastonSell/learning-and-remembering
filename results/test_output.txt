@@ -1,0 +1,17 @@
+test_counterfactual (test_core.DataTests.test_counterfactual) ... ok
+test_determinism_and_separation (test_core.DataTests.test_determinism_and_separation) ... ok
+test_exact_retrieval (test_core.DataTests.test_exact_retrieval) ... ok
+test_extreme_agreement (test_core.DataTests.test_extreme_agreement) ... ok
+test_generation_and_labels (test_core.DataTests.test_generation_and_labels) ... ok
+test_invalid_generation (test_core.DataTests.test_invalid_generation) ... ok
+test_gradients_every_parameter (test_core.ModelTests.test_gradients_every_parameter) ... ok
+test_mapping_budget_and_evaluation (test_core.ModelTests.test_mapping_budget_and_evaluation) ... ok
+test_parameter_counts (test_core.ModelTests.test_parameter_counts) ... ok
+test_role_restriction (test_core.ModelTests.test_role_restriction) ... ok
+test_self_patch_is_identity (test_core.ModelTests.test_self_patch_is_identity) ... ok
+test_training_is_deterministic_and_learns (test_core.ModelTests.test_training_is_deterministic_and_learns) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.252s
+
+OK

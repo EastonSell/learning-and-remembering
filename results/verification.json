@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "test_count": 12,
+  "test_command": "PYTHONPATH=src python -m unittest discover -s tests -v",
+  "gradient_checks": "All scalar parameters in all six model variants; central finite differences at epsilon 1e-5, tolerance 2e-7",
+  "pilot_rows": 90,
+  "pilot_fits": 30,
+  "source_and_artifact_hash_audit": "passed",
+  "repeat_seed": 11,
+  "repeat_rows": 18,
+  "repeat_checkpoint_arrays": "exact match",
+  "repeat_metrics": "exact match excluding training_seconds",
+  "initial_metadata_only_repeat_rows": 90,
+  "initial_metadata_only_repeat_metrics": "exact match excluding training_seconds",
+  "initial_metadata_only_repeat_checkpoint_arrays": "exact match",
+  "initial_run_metrics_sha256": "7ad3f30f2129d803fa4e115338ceb8624f005e6e0549244df78b07a61a8ec31d",
+  "note": "Initial duplicate files were removed after all 90 rows and all checkpoint arrays matched; the final five-seed run and independent seed-11 repeat are retained.",
+  "metadata_only_final_repeat_rows": 90,
+  "metadata_only_final_repeat_metrics": "exact match excluding training_seconds",
+  "metadata_only_final_repeat_checkpoint_arrays": "exact match",
+  "text_only_publication_audit": "passed: missing original checkpoints explicitly allowed; all regenerated seed-11 checkpoint hashes matched the original manifest"
+}

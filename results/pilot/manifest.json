@@ -1,0 +1,187 @@
+{
+  "experiment": "functional-circuits-pilot-v1",
+  "created_at_utc": "2026-10-21T21:51:18.283216+00:00",
+  "config": {
+    "output": "results/pilot",
+    "seeds": [
+      11,
+      23,
+      37,
+      53,
+      71
+    ],
+    "epochs": 120,
+    "train_size": 2048,
+    "test_size": 2048,
+    "validation_size": 512,
+    "width": 8,
+    "batch_size": 128,
+    "lr": 0.01
+  },
+  "command": "python -m functional_circuits.experiment --output results/pilot",
+  "models": [
+    "functional",
+    "monolithic",
+    "random_partition",
+    "dense_modular",
+    "no_gate",
+    "oracle_gate"
+  ],
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "blas_threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "elapsed_seconds": 15.230733800999587,
+  "seed_schedule": {
+    "11": {
+      "train": 1101,
+      "validation": 1102,
+      "validation_donors": 1103,
+      "id": 1104,
+      "balanced": 1105,
+      "conflict": 1106,
+      "test_donors": 1107
+    },
+    "23": {
+      "train": 2301,
+      "validation": 2302,
+      "validation_donors": 2303,
+      "id": 2304,
+      "balanced": 2305,
+      "conflict": 2306,
+      "test_donors": 2307
+    },
+    "37": {
+      "train": 3701,
+      "validation": 3702,
+      "validation_donors": 3703,
+      "id": 3704,
+      "balanced": 3705,
+      "conflict": 3706,
+      "test_donors": 3707
+    },
+    "53": {
+      "train": 5301,
+      "validation": 5302,
+      "validation_donors": 5303,
+      "id": 5304,
+      "balanced": 5305,
+      "conflict": 5306,
+      "test_donors": 5307
+    },
+    "71": {
+      "train": 7101,
+      "validation": 7102,
+      "validation_donors": 7103,
+      "id": 7104,
+      "balanced": 7105,
+      "conflict": 7106,
+      "test_donors": 7107
+    }
+  },
+  "dataset_sha256": {
+    "11": {
+      "train": "f76a1eeda085d2f027297ad7a89e43e3fb1c0fd365a6ceb5030285ec4fc0ead2",
+      "validation": "cbe14f349f624cbccb3f1c016e50351b2dbdf362d1121689840312a56125409a",
+      "validation_donors": "d2765202a6a08d51a551097def891bc62728786f8064c09477570e7251b507d5",
+      "test_donors": "9f627249acd1acd40ec8cb9ccd5f24bc049546299fceaa922adb6f980ed49cb5",
+      "id": "5edc7a1f46fff0647bd538febfc5d8868fd67558fb309a854ac9ec5bfe9cd4ee",
+      "balanced": "c4267bd43b08320d450e670c89fe8acd5228a9fb9c0fbea2af816794716cae64",
+      "conflict": "d7f32317113ae3f006b913e4d0c631daf3be9c94cc692547b57b9a6eb0bdb5c2"
+    },
+    "23": {
+      "train": "6adfea397a3d5286b242ef48a35cf3e93b6669f8f22d5b61bc0e93737a4f9438",
+      "validation": "88dcc71d01c702f96a4e21e47aeb2dc40ec95f4e87c7818b2510af3beea58676",
+      "validation_donors": "8c12fc74a1ed4a6466dcb224d80eca28735545d60602debe46356b5666f4034e",
+      "test_donors": "e9800016304aa8d8c56827f72cd4483d30bdf5f7dc83c5a7cb10cc839aea39db",
+      "id": "3b8eb0002734873340c2b9161779a5ed02cc4991c34522d8be9bf2c93f2f2ebe",
+      "balanced": "d84f556ffb1de0d329f673cf61fb91864deaf4b7e3416ab084ce6b90e260f5b1",
+      "conflict": "6c079f3009bc5885342bcda4234a8d52fd0dabc564ea7ff7f507a850005317e1"
+    },
+    "37": {
+      "train": "05e03c4eb88ebf6870d5197978b0443d23dd8bda28cd9688d5e947f15b31a339",
+      "validation": "30a5dd15bac7ed1222c0fa4a0d3c4cc88eb8cc515f0b4b225ab142b237a5d172",
+      "validation_donors": "030c446ef7045949b924476e63cb942a926d4599b51836fc76dcd47d78322900",
+      "test_donors": "3c96b590835b3c4349596a194e3d3eae550a72f1127b20a4ae9cec37b555c1d9",
+      "id": "dfe6dea88e75f089b5827c76c8e5865b5e569c23dd2db2d986adc00889d5b6a0",
+      "balanced": "6f62f742ef26a4defa25c3d279001ae62d838f27e89e66457cc487ab07f47c52",
+      "conflict": "845a3e6e8565249b964c1ee7205d896e73b66dadad51fe5fc7aa5bd5774c3da8"
+    },
+    "53": {
+      "train": "7065b67f132cb8719df5053f0c93603a4e93de681fc60a10aea89bf2e5cbde93",
+      "validation": "cbc63e2d0e6699904e6d4a939ecdd35032ec1370d11dda3b436e4675215cca2d",
+      "validation_donors": "5bdf6550b2878de787f375a584eef605ccdd70903e0dd97dd7c7c30e749ee06f",
+      "test_donors": "52f61762673a972bdcadc97c84c9fbe5b42250fa31b0e5bf7167468013314b0f",
+      "id": "a53995e944aa062e822cb9200131bb11c67c9470d341078260988e79889be220",
+      "balanced": "60ead216880ec84a8309c7e961db0f1884559ea0c2af126412658dfba67c305e",
+      "conflict": "86ca6e84394854a8d3c29e44b77cd73b57ecc1a1e78c227667efaa69dc171d34"
+    },
+    "71": {
+      "train": "28017cba5a39fda85cf4db531bd48a52330c121fc6966341eb9e69025c4c4212",
+      "validation": "c458d72703c626715f2d2e3957a959fab7530169481df80bf343af3a13d5b230",
+      "validation_donors": "47a05b70f0b4e96f5336b9fbc41aa7b49ef8baca0f52ef0954cf71aa1e99051d",
+      "test_donors": "21b155a7677e504541fb5cc860083e046d2ef138f1fb2ab10b57e68dc12b032a",
+      "id": "b6bcbe8fe17a98c46fec319cc9fee381202d0f81b56a1443b346b1c57eba3cfb",
+      "balanced": "add57a92a2896707e4c55494b6a8e58e1a7355af57caebcf9b32314ace440a3f",
+      "conflict": "e97a6aad7a6cc1a4ecc838476e7d928be0c2c8075ff31079adc1c9f7f8748062"
+    }
+  },
+  "source_sha256": {
+    "scripts/verify_run.py": "b9be1d1fb77d531eeeabd97ff58caf7f8801be50a72589a21b3bcfa30ee1c34b",
+    "src/functional_circuits/__init__.py": "539ac2a157bf6b481c729b3dc96917425e1f2b00ecb8bca2cb1b1bce717c6bde",
+    "src/functional_circuits/data.py": "5587543b332c4b83a4d43d7843a24789ae7f84171e5072d33fd39dc3cee5e681",
+    "src/functional_circuits/experiment.py": "04cd645f7c2994d4a6a2109621d7a183c77fa88425c7e0cdb050894a8e71178b",
+    "src/functional_circuits/metrics.py": "40c645fcf324401786872fec7c5bd9442bda48b3c6e52c7e091511106131f4c9",
+    "src/functional_circuits/models.py": "c165ff251a9bb4e8985be79efadf19f060d952f9bd4d6aee17a7612402364d22",
+    "tests/test_core.py": "47cf4d9f6d83027a49194765e7c372d3a680c8a17c86b0b24c84d23e78c0e0fc"
+  },
+  "artifact_sha256": {
+    "checkpoints/dense_modular_11.npz": "69a838876c1140581526387e6579abc1fb91ed1fb704516416c69dcbdd8e6c36",
+    "checkpoints/dense_modular_23.npz": "8670eda36ab8704bd85c9a71d34f19b9f168c7c81202161e4e0527b113c163af",
+    "checkpoints/dense_modular_37.npz": "68a30686bd63b7cba23e76aefc36337524852299eb380542d6e8e02d1dc79eb2",
+    "checkpoints/dense_modular_53.npz": "feb92c96286a23365c32e45722af8e4a5b1134c71267f37eafe7785b54584347",
+    "checkpoints/dense_modular_71.npz": "3c90529a01ea062c617c200ec1e639adf8b639c06366f4f7b4809fa002ff47cc",
+    "checkpoints/functional_11.npz": "8eb927617dbb8714bc2833ee50c665e3793bbb74f415dffdaed8fe750366a166",
+    "checkpoints/functional_23.npz": "438372048beb4afd658b746dcb94335b216751c17b6d26c9683240e8a9307eb0",
+    "checkpoints/functional_37.npz": "9203a4370296276d57b1717c46ed94a9f154b099a82e41fc94fc083646801c87",
+    "checkpoints/functional_53.npz": "9a96322198ed624c60c4397aa5fc4d5b5070751d7b30463f5388dcd98f45b0d0",
+    "checkpoints/functional_71.npz": "fc4e6b4ca624cf2a91a688bb187e340e3627b99b1c06b6088814ecdeb99d1c3d",
+    "checkpoints/monolithic_11.npz": "d2a80b2a8ab1c9d53058c9821f13b885f2587529e3598908bc2e79e4fc5b9b01",
+    "checkpoints/monolithic_23.npz": "6a7c10e0ceacc33de199bd844d1112bfb3f257a267cb1097dd76e8ac0cd1af03",
+    "checkpoints/monolithic_37.npz": "2752f819bf5e4e401c71b86a617ce450f6f64c14d4b53f8170e01ce875125349",
+    "checkpoints/monolithic_53.npz": "846e1d12092d11a0aba8381726720dbf1ac45a97693270da78e3dc85feb42994",
+    "checkpoints/monolithic_71.npz": "effda8d160b94b49696fba6446012532f96d3be5f5bf27533d4187afed9c106d",
+    "checkpoints/no_gate_11.npz": "135f92d0b9d6935ea15b7f21b732204d12f736ecd853cd625aca497b57ea4fa0",
+    "checkpoints/no_gate_23.npz": "b9eba4cd42cc5e06ad40a70604507ff2137b8db23fa859770c451f27a2fab88a",
+    "checkpoints/no_gate_37.npz": "6328531724f31d5c79bd6d3369b022132e5610d70767a2bb278d57e527634a3f",
+    "checkpoints/no_gate_53.npz": "c27220594d428a9da2f8df3ec5989525506478b1f569641d771d2c8a45455e3c",
+    "checkpoints/no_gate_71.npz": "6e2b4cdacc499c62ebde1000bde406a2acd9bf809a27820ef2ac8feea105b534",
+    "checkpoints/oracle_gate_11.npz": "1e5a75c26154de1ddf3693d0295d97741a7328a29e256e9866217a55454612a7",
+    "checkpoints/oracle_gate_23.npz": "04d9f437ff2cabff48d409a3ce81574ee21c3ad31e719785d763e70f6e2ef266",
+    "checkpoints/oracle_gate_37.npz": "b0f58d44bd03de46e5f9649ff9092e6900bc4c5da805eb34b767780dd5f1c54c",
+    "checkpoints/oracle_gate_53.npz": "61b000c1c531a027608b2c6d332c733ba132ad4b6e08e0d1323cd6942d265d62",
+    "checkpoints/oracle_gate_71.npz": "f88c669ffd62ee2d730c20ed7116ef0f9db7b46adee15da72ed42b64b7d80f71",
+    "checkpoints/random_partition_11.npz": "5c9f07d44c7e8cceb3c8a6c78eb020a7693612753f6283b50a6970f672a83857",
+    "checkpoints/random_partition_23.npz": "abd1cf0d50099936bb425641ef2bfb7eeb478f64078bf3d189fa2a7741d75c76",
+    "checkpoints/random_partition_37.npz": "ed2046b09f6cad8f7005a9f15c1b7f223192105bca2cfa97fbc65b465b42797f",
+    "checkpoints/random_partition_53.npz": "fecd73298c18cdc6b406cec757d7c7ae61298712f8813d2db92d3ceb2be0ec21",
+    "checkpoints/random_partition_71.npz": "79707be6ae2767da8e5c300890a91732518c1f93c8084c563a700cc363c0ad27",
+    "learning_curves.json": "bf234bfda78bfb1c4df0087c1c9bf30573ebdc5f6ac386d096b23144ad15fa7e",
+    "metrics.csv": "5a7f5934e3a44dbbe2cba95dc8917f8f15e5f350912332af3223baa8c998547f",
+    "metrics.json": "5bd76c5c46668125b9207ee7fb959fe89ce26dc7921122d24846c41ca7bd0ab2",
+    "paired_comparisons.json": "c1f237f7d7117fb81dfb75f608a378c84033820657aee13c2ff521b2020dab0a",
+    "summary.json": "c7b1e5fbe4a6390740faa229948313cea29b42fd887664efa4fbc4712c9a896a",
+    "summary.md": "9a3c54c00a9da5d088c457fb0147326ad890dbb7e9810a136568d4a3ceb52fc2"
+  },
+  "model_downloads": [],
+  "external_datasets": [],
+  "synthetic_data_license": "MIT",
+  "original_code_license": "MIT",
+  "source_access_date": "2026-10-21",
+  "tuning": "No hyperparameter search. Validation used only for intervention mapping.",
+  "uncertainty": "Paired seed differences and descriptive t intervals; not corrected for multiple comparisons."
+}
