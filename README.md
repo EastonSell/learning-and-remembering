@@ -4,7 +4,14 @@ A small, reproducible experiment asks whether separating **current evidence**, *
 
 The included Functional Circuits pilot trains six NumPy architectures on the same generated task, then measures prediction, conflicting-evidence robustness, and counterfactual behavior across five seeds. It runs on CPU with no model or dataset downloads.
 
-**Research status:** tested synthetic foundation plus a completed real-digit replay study. Historical replay improves retention under a fixed class-blocked stream; this does not establish biological fidelity or a new algorithm. The separate Fashion-MNIST delayed-memory proposal remains unrun.
+**Research status:** completed synthetic, handwritten-digit replay and Fashion-MNIST replay-selection studies. The separate [delayed-memory proposal](docs/next_experiment.md) remains unrun. These experiments do not establish biological fidelity or a new algorithm.
+
+## Start with the completed studies
+
+- [Fashion-MNIST replay selection](studies/replay-selection-fashion-mnist/README.md): 20 paired evaluation seeds and 100 runs. MIR minus high-loss final macro accuracy was +0.6265 percentage points (paired 95% bootstrap interval −0.3595 to +1.5330); it did not meet the prespecified support criterion. This is an inconclusive primary result. Read the [final report](studies/replay-selection-fashion-mnist/results/evaluation-report-public.md); the study README covers evidence reconstruction, verification and separate new-run setup.
+- [Handwritten-digit replay](docs/replay_results.md): reservoir replay improved retention over FIFO under the fixed class-blocked stream. The report includes the locked selection, all development/evaluation runs and reproduction instructions.
+- [Functional Circuits pilot](docs/results.md), [matched-capacity role controls](docs/role_controls.md) and [validation-matched competence controls](docs/competence_controls.md): synthetic tests of engineered role boundaries. The pilot reproduction commands are below.
+- [Replay mechanism evidence map](research/replay-mechanism-map.md): a retrospective primary-source synthesis connecting the Fashion-MNIST result to biological replay evidence. Its next prediction is proposed, not executed.
 
 ## Measured pilot
 
@@ -70,7 +77,7 @@ Across ten paired seeds, final macro accuracy was **88.44% reservoir**, **21.16%
 - [Design](docs/design.md) and [plan](docs/plan.md), written before implementation.
 - [Research background](docs/research.md) and [citation/claim matrix](docs/claim_matrix.md).
 - [Results and failures](docs/results.md).
-- [Deferred Fashion-MNIST protocol and resource gates](docs/next_experiment.md).
+- [Unrun delayed-memory proposal and resource gates](docs/next_experiment.md), separate from the completed replay-selection study above.
 - [Data/model provenance](docs/provenance.md).
 - [Implementation](src/functional_circuits), [tests](tests), [run manifest](results/pilot/manifest.json).
 
