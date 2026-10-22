@@ -1,0 +1,85 @@
+{
+  "experiment": "role-mask-controls-v1",
+  "baseline_commit": "b2bdba110d8f21e27f5c2b4701c2f8d1864a1514",
+  "config": {
+    "output": "results/role_controls",
+    "seeds": [
+      11,
+      23,
+      37,
+      53,
+      71
+    ],
+    "epochs": 120,
+    "train_size": 2048,
+    "test_size": 2048,
+    "validation_size": 512
+  },
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "dataset_sha256": {
+    "11": {
+      "train": "f76a1eeda085d2f027297ad7a89e43e3fb1c0fd365a6ceb5030285ec4fc0ead2",
+      "validation": "cbe14f349f624cbccb3f1c016e50351b2dbdf362d1121689840312a56125409a",
+      "validation_donors": "d2765202a6a08d51a551097def891bc62728786f8064c09477570e7251b507d5",
+      "test_donors": "9f627249acd1acd40ec8cb9ccd5f24bc049546299fceaa922adb6f980ed49cb5",
+      "id": "5edc7a1f46fff0647bd538febfc5d8868fd67558fb309a854ac9ec5bfe9cd4ee",
+      "balanced": "c4267bd43b08320d450e670c89fe8acd5228a9fb9c0fbea2af816794716cae64",
+      "conflict": "d7f32317113ae3f006b913e4d0c631daf3be9c94cc692547b57b9a6eb0bdb5c2"
+    },
+    "23": {
+      "train": "6adfea397a3d5286b242ef48a35cf3e93b6669f8f22d5b61bc0e93737a4f9438",
+      "validation": "88dcc71d01c702f96a4e21e47aeb2dc40ec95f4e87c7818b2510af3beea58676",
+      "validation_donors": "8c12fc74a1ed4a6466dcb224d80eca28735545d60602debe46356b5666f4034e",
+      "test_donors": "e9800016304aa8d8c56827f72cd4483d30bdf5f7dc83c5a7cb10cc839aea39db",
+      "id": "3b8eb0002734873340c2b9161779a5ed02cc4991c34522d8be9bf2c93f2f2ebe",
+      "balanced": "d84f556ffb1de0d329f673cf61fb91864deaf4b7e3416ab084ce6b90e260f5b1",
+      "conflict": "6c079f3009bc5885342bcda4234a8d52fd0dabc564ea7ff7f507a850005317e1"
+    },
+    "37": {
+      "train": "05e03c4eb88ebf6870d5197978b0443d23dd8bda28cd9688d5e947f15b31a339",
+      "validation": "30a5dd15bac7ed1222c0fa4a0d3c4cc88eb8cc515f0b4b225ab142b237a5d172",
+      "validation_donors": "030c446ef7045949b924476e63cb942a926d4599b51836fc76dcd47d78322900",
+      "test_donors": "3c96b590835b3c4349596a194e3d3eae550a72f1127b20a4ae9cec37b555c1d9",
+      "id": "dfe6dea88e75f089b5827c76c8e5865b5e569c23dd2db2d986adc00889d5b6a0",
+      "balanced": "6f62f742ef26a4defa25c3d279001ae62d838f27e89e66457cc487ab07f47c52",
+      "conflict": "845a3e6e8565249b964c1ee7205d896e73b66dadad51fe5fc7aa5bd5774c3da8"
+    },
+    "53": {
+      "train": "7065b67f132cb8719df5053f0c93603a4e93de681fc60a10aea89bf2e5cbde93",
+      "validation": "cbc63e2d0e6699904e6d4a939ecdd35032ec1370d11dda3b436e4675215cca2d",
+      "validation_donors": "5bdf6550b2878de787f375a584eef605ccdd70903e0dd97dd7c7c30e749ee06f",
+      "test_donors": "52f61762673a972bdcadc97c84c9fbe5b42250fa31b0e5bf7167468013314b0f",
+      "id": "a53995e944aa062e822cb9200131bb11c67c9470d341078260988e79889be220",
+      "balanced": "60ead216880ec84a8309c7e961db0f1884559ea0c2af126412658dfba67c305e",
+      "conflict": "86ca6e84394854a8d3c29e44b77cd73b57ecc1a1e78c227667efaa69dc171d34"
+    },
+    "71": {
+      "train": "28017cba5a39fda85cf4db531bd48a52330c121fc6966341eb9e69025c4c4212",
+      "validation": "c458d72703c626715f2d2e3957a959fab7530169481df80bf343af3a13d5b230",
+      "validation_donors": "47a05b70f0b4e96f5336b9fbc41aa7b49ef8baca0f52ef0954cf71aa1e99051d",
+      "test_donors": "21b155a7677e504541fb5cc860083e046d2ef138f1fb2ab10b57e68dc12b032a",
+      "id": "b6bcbe8fe17a98c46fec319cc9fee381202d0f81b56a1443b346b1c57eba3cfb",
+      "balanced": "add57a92a2896707e4c55494b6a8e58e1a7355af57caebcf9b32314ace440a3f",
+      "conflict": "e97a6aad7a6cc1a4ecc838476e7d928be0c2c8075ff31079adc1c9f7f8748062"
+    }
+  },
+  "source_sha256": {
+    "scripts/verify_run.py": "b9be1d1fb77d531eeeabd97ff58caf7f8801be50a72589a21b3bcfa30ee1c34b",
+    "src/functional_circuits/__init__.py": "539ac2a157bf6b481c729b3dc96917425e1f2b00ecb8bca2cb1b1bce717c6bde",
+    "src/functional_circuits/data.py": "5587543b332c4b83a4d43d7843a24789ae7f84171e5072d33fd39dc3cee5e681",
+    "src/functional_circuits/experiment.py": "04cd645f7c2994d4a6a2109621d7a183c77fa88425c7e0cdb050894a8e71178b",
+    "src/functional_circuits/metrics.py": "40c645fcf324401786872fec7c5bd9442bda48b3c6e52c7e091511106131f4c9",
+    "src/functional_circuits/models.py": "c165ff251a9bb4e8985be79efadf19f060d952f9bd4d6aee17a7612402364d22",
+    "src/functional_circuits/role_controls.py": "ebe69bf18ce0fc5d38e4d2af824b6a6563e6d27c23fb6c7865b4ca9888439a19",
+    "tests/test_core.py": "47cf4d9f6d83027a49194765e7c372d3a680c8a17c86b0b24c84d23e78c0e0fc",
+    "tests/test_role_controls.py": "98550713f399674d0c008384c197555186d9d2e481103959f1f790fa1c7e22f1"
+  },
+  "artifact_sha256": {
+    "learning_curves.json": "01e47afab1420dc93d20d736e36145d84a08acdaa3d6f3bf8df0a1e0dc69ba1e",
+    "metrics.json": "30b75c76a4be78840b1c248bb916e54ea57a64fb1225fb0be97a046e25cf0f1b",
+    "summary.json": "2014abe0b1bfd21857c7d019f6c3dca08521b683f4cc3008dbb4ec56d59289b5"
+  },
+  "design": "Fixed width 8, 132 parameters, 120 default epochs, Adam lr .01, batch 128; two mapping candidates. No outcome-based mask selection.",
+  "limitations": "One nested mask draw per seed; roles and targets remain engineered. Capacity matched, not accuracy matched. No biological or real-world claim."
+}

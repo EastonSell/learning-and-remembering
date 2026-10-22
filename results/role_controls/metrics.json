@@ -1,0 +1,2522 @@
+[
+  {
+    "seed": 11,
+    "swaps": 0,
+    "split": "id",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 7.105427357601002e-15,
+    "mapping_validation_iia": 0.98046875,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.9814453125,
+    "memory_iia": 0.9755859375,
+    "memory_iia_changed": 0.962671905697446,
+    "changed_examples": 509,
+    "irrelevant_swap_consistency": 0.9853515625,
+    "memory_lesion_drop_sensory_context": 0.0,
+    "memory_lesion_drop_memory_context": 0.1900191938579655,
+    "lesion_selectivity": 0.1900191938579655,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.042237270767279934,
+    "gate_memory_weight_memory_context": 0.913640977486637
+  },
+  {
+    "seed": 11,
+    "swaps": 0,
+    "split": "balanced",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 7.105427357601002e-15,
+    "mapping_validation_iia": 0.98046875,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.9765625,
+    "memory_iia": 0.97509765625,
+    "memory_iia_changed": 0.9730769230769231,
+    "changed_examples": 520,
+    "irrelevant_swap_consistency": 0.984375,
+    "memory_lesion_drop_sensory_context": -0.0049261083743842304,
+    "memory_lesion_drop_memory_context": 0.4685382381413359,
+    "lesion_selectivity": 0.4734643465157201,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.04223727076727993,
+    "gate_memory_weight_memory_context": 0.9136409774866368
+  },
+  {
+    "seed": 11,
+    "swaps": 0,
+    "split": "conflict",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 7.105427357601002e-15,
+    "mapping_validation_iia": 0.98046875,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.9716796875,
+    "memory_iia": 0.9775390625,
+    "memory_iia_changed": 0.988394584139265,
+    "changed_examples": 517,
+    "irrelevant_swap_consistency": 0.98828125,
+    "memory_lesion_drop_sensory_context": -0.006842619745845546,
+    "memory_lesion_drop_memory_context": 0.9395121951219512,
+    "lesion_selectivity": 0.9463548148677967,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.042237270767279934,
+    "gate_memory_weight_memory_context": 0.9136409774866368
+  },
+  {
+    "seed": 11,
+    "swaps": 1,
+    "split": "id",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        10,
+        4,
+        5
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        3,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 1.7763568394002505e-15,
+    "mapping_validation_iia": 0.916015625,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.9375,
+    "memory_iia": 0.9130859375,
+    "memory_iia_changed": 0.899803536345776,
+    "changed_examples": 509,
+    "irrelevant_swap_consistency": 0.9345703125,
+    "memory_lesion_drop_sensory_context": 0.013916500994035852,
+    "memory_lesion_drop_memory_context": 0.1785028790786949,
+    "lesion_selectivity": 0.16458637808465904,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.14694092443555312,
+    "gate_memory_weight_memory_context": 0.8509824939668268
+  },
+  {
+    "seed": 11,
+    "swaps": 1,
+    "split": "balanced",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        10,
+        4,
+        5
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        3,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 1.7763568394002505e-15,
+    "mapping_validation_iia": 0.916015625,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.9111328125,
+    "memory_iia": 0.90869140625,
+    "memory_iia_changed": 0.925,
+    "changed_examples": 520,
+    "irrelevant_swap_consistency": 0.92236328125,
+    "memory_lesion_drop_sensory_context": -0.012807881773398977,
+    "memory_lesion_drop_memory_context": 0.4065827686350436,
+    "lesion_selectivity": 0.4193906504084426,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.14694092443555312,
+    "gate_memory_weight_memory_context": 0.8509824939668268
+  },
+  {
+    "seed": 11,
+    "swaps": 1,
+    "split": "conflict",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        10,
+        4,
+        5
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        3,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 1.7763568394002505e-15,
+    "mapping_validation_iia": 0.916015625,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.85205078125,
+    "memory_iia": 0.9052734375,
+    "memory_iia_changed": 0.9574468085106383,
+    "changed_examples": 517,
+    "irrelevant_swap_consistency": 0.90673828125,
+    "memory_lesion_drop_sensory_context": -0.06451612903225801,
+    "memory_lesion_drop_memory_context": 0.7775609756097561,
+    "lesion_selectivity": 0.8420771046420141,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.1469409244355531,
+    "gate_memory_weight_memory_context": 0.8509824939668268
+  },
+  {
+    "seed": 11,
+    "swaps": 2,
+    "split": "id",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        10,
+        7,
+        5
+      ],
+      [
+        6,
+        4,
+        8,
+        9,
+        3,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 2.6645352591003757e-15,
+    "mapping_validation_iia": 0.796875,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.90625,
+    "memory_iia": 0.81005859375,
+    "memory_iia_changed": 0.6915520628683693,
+    "changed_examples": 509,
+    "irrelevant_swap_consistency": 0.83544921875,
+    "memory_lesion_drop_sensory_context": 0.05168986083499005,
+    "memory_lesion_drop_memory_context": 0.13819577735124755,
+    "lesion_selectivity": 0.0865059165162575,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.3970457946909563,
+    "gate_memory_weight_memory_context": 0.6999223532683001
+  },
+  {
+    "seed": 11,
+    "swaps": 2,
+    "split": "balanced",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        10,
+        7,
+        5
+      ],
+      [
+        6,
+        4,
+        8,
+        9,
+        3,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 3.552713678800501e-15,
+    "mapping_validation_iia": 0.796875,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.8408203125,
+    "memory_iia": 0.794921875,
+    "memory_iia_changed": 0.7692307692307693,
+    "changed_examples": 520,
+    "irrelevant_swap_consistency": 0.8203125,
+    "memory_lesion_drop_sensory_context": 0.00886699507389166,
+    "memory_lesion_drop_memory_context": 0.29332042594385277,
+    "lesion_selectivity": 0.2844534308699611,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.3970457946909563,
+    "gate_memory_weight_memory_context": 0.6999223532683003
+  },
+  {
+    "seed": 11,
+    "swaps": 2,
+    "split": "conflict",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        10,
+        7,
+        5
+      ],
+      [
+        6,
+        4,
+        8,
+        9,
+        3,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 3.552713678800501e-15,
+    "mapping_validation_iia": 0.796875,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.73291015625,
+    "memory_iia": 0.80419921875,
+    "memory_iia_changed": 0.9013539651837524,
+    "changed_examples": 517,
+    "irrelevant_swap_consistency": 0.78271484375,
+    "memory_lesion_drop_sensory_context": -0.06842619745845546,
+    "memory_lesion_drop_memory_context": 0.52,
+    "lesion_selectivity": 0.5884261974584555,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.3970457946909563,
+    "gate_memory_weight_memory_context": 0.6999223532683002
+  },
+  {
+    "seed": 11,
+    "swaps": 3,
+    "split": "id",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        10,
+        7,
+        8
+      ],
+      [
+        6,
+        4,
+        5,
+        9,
+        3,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 1.7763568394002505e-15,
+    "mapping_validation_iia": 0.78125,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.9033203125,
+    "memory_iia": 0.78173828125,
+    "memory_iia_changed": 0.6444007858546169,
+    "changed_examples": 509,
+    "irrelevant_swap_consistency": 0.8076171875,
+    "memory_lesion_drop_sensory_context": 0.05467196819085496,
+    "memory_lesion_drop_memory_context": 0.13051823416506714,
+    "lesion_selectivity": 0.07584626597421218,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.4202219557134598,
+    "gate_memory_weight_memory_context": 0.6931506525194322
+  },
+  {
+    "seed": 11,
+    "swaps": 3,
+    "split": "balanced",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        10,
+        7,
+        8
+      ],
+      [
+        6,
+        4,
+        5,
+        9,
+        3,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 1.7763568394002505e-15,
+    "mapping_validation_iia": 0.78125,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.82958984375,
+    "memory_iia": 0.775390625,
+    "memory_iia_changed": 0.7230769230769231,
+    "changed_examples": 520,
+    "irrelevant_swap_consistency": 0.78759765625,
+    "memory_lesion_drop_sensory_context": 0.021674876847290636,
+    "memory_lesion_drop_memory_context": 0.27783155856727976,
+    "lesion_selectivity": 0.2561566817199891,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.4202219557134599,
+    "gate_memory_weight_memory_context": 0.6931506525194322
+  },
+  {
+    "seed": 11,
+    "swaps": 3,
+    "split": "conflict",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        10,
+        7,
+        8
+      ],
+      [
+        6,
+        4,
+        5,
+        9,
+        3,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 1.7763568394002505e-15,
+    "mapping_validation_iia": 0.78125,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.68603515625,
+    "memory_iia": 0.78857421875,
+    "memory_iia_changed": 0.8723404255319149,
+    "changed_examples": 517,
+    "irrelevant_swap_consistency": 0.74462890625,
+    "memory_lesion_drop_sensory_context": -0.0811339198435973,
+    "memory_lesion_drop_memory_context": 0.4380487804878048,
+    "lesion_selectivity": 0.5191827003314021,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.4202219557134599,
+    "gate_memory_weight_memory_context": 0.6931506525194321
+  },
+  {
+    "seed": 23,
+    "swaps": 0,
+    "split": "id",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 3.552713678800501e-15,
+    "mapping_validation_iia": 0.974609375,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.98046875,
+    "memory_iia": 0.96875,
+    "memory_iia_changed": 0.9787644787644788,
+    "changed_examples": 518,
+    "irrelevant_swap_consistency": 0.98583984375,
+    "memory_lesion_drop_sensory_context": 0.004835589941972973,
+    "memory_lesion_drop_memory_context": 0.23865877712031558,
+    "lesion_selectivity": 0.2338231871783426,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.0714576236276904,
+    "gate_memory_weight_memory_context": 0.9339269660046979
+  },
+  {
+    "seed": 23,
+    "swaps": 0,
+    "split": "balanced",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 3.552713678800501e-15,
+    "mapping_validation_iia": 0.974609375,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.9755859375,
+    "memory_iia": 0.97802734375,
+    "memory_iia_changed": 0.9814471243042672,
+    "changed_examples": 539,
+    "irrelevant_swap_consistency": 0.982421875,
+    "memory_lesion_drop_sensory_context": -0.0009990009990009652,
+    "memory_lesion_drop_memory_context": 0.4632282712511938,
+    "lesion_selectivity": 0.4642272722501948,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.07145762362769038,
+    "gate_memory_weight_memory_context": 0.9339269660046978
+  },
+  {
+    "seed": 23,
+    "swaps": 0,
+    "split": "conflict",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 3.552713678800501e-15,
+    "mapping_validation_iia": 0.974609375,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.966796875,
+    "memory_iia": 0.97216796875,
+    "memory_iia_changed": 0.9814814814814815,
+    "changed_examples": 486,
+    "irrelevant_swap_consistency": 0.98583984375,
+    "memory_lesion_drop_sensory_context": -0.019588638589618013,
+    "memory_lesion_drop_memory_context": 0.949367088607595,
+    "lesion_selectivity": 0.968955727197213,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.0714576236276904,
+    "gate_memory_weight_memory_context": 0.9339269660046979
+  },
+  {
+    "seed": 23,
+    "swaps": 1,
+    "split": "id",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        10
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        5,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 3.552713678800501e-15,
+    "mapping_validation_iia": 0.947265625,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.96337890625,
+    "memory_iia": 0.9375,
+    "memory_iia_changed": 0.8745173745173745,
+    "changed_examples": 518,
+    "irrelevant_swap_consistency": 0.94580078125,
+    "memory_lesion_drop_sensory_context": 0.0019342359767892114,
+    "memory_lesion_drop_memory_context": 0.18934911242603547,
+    "lesion_selectivity": 0.18741487644924626,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.07734498578785884,
+    "gate_memory_weight_memory_context": 0.8668600625373932
+  },
+  {
+    "seed": 23,
+    "swaps": 1,
+    "split": "balanced",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        10
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        5,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 3.552713678800501e-15,
+    "mapping_validation_iia": 0.947265625,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.94970703125,
+    "memory_iia": 0.94580078125,
+    "memory_iia_changed": 0.9332096474953617,
+    "changed_examples": 539,
+    "irrelevant_swap_consistency": 0.9521484375,
+    "memory_lesion_drop_sensory_context": 0.0,
+    "memory_lesion_drop_memory_context": 0.39732569245463223,
+    "lesion_selectivity": 0.39732569245463223,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.07734498578785885,
+    "gate_memory_weight_memory_context": 0.8668600625373931
+  },
+  {
+    "seed": 23,
+    "swaps": 1,
+    "split": "conflict",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        10
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        5,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 3.552713678800501e-15,
+    "mapping_validation_iia": 0.947265625,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.90771484375,
+    "memory_iia": 0.93994140625,
+    "memory_iia_changed": 0.9547325102880658,
+    "changed_examples": 486,
+    "irrelevant_swap_consistency": 0.9501953125,
+    "memory_lesion_drop_sensory_context": -0.012732615083251742,
+    "memory_lesion_drop_memory_context": 0.8179162609542356,
+    "lesion_selectivity": 0.8306488760374874,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.07734498578785885,
+    "gate_memory_weight_memory_context": 0.866860062537393
+  },
+  {
+    "seed": 23,
+    "swaps": 2,
+    "split": "id",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        6,
+        10
+      ],
+      [
+        4,
+        7,
+        8,
+        9,
+        5,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 3.552713678800501e-15,
+    "mapping_validation_iia": 0.607421875,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.8583984375,
+    "memory_iia": 0.658203125,
+    "memory_iia_changed": 0.24324324324324326,
+    "changed_examples": 518,
+    "irrelevant_swap_consistency": 0.69970703125,
+    "memory_lesion_drop_sensory_context": 0.05705996131528046,
+    "memory_lesion_drop_memory_context": 0.02564102564102566,
+    "lesion_selectivity": -0.0314189356742548,
+    "routing_alignment": 0.5048828125,
+    "gate_memory_weight_sensory_context": 0.30838373192309365,
+    "gate_memory_weight_memory_context": 0.3573539123616752
+  },
+  {
+    "seed": 23,
+    "swaps": 2,
+    "split": "balanced",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        6,
+        10
+      ],
+      [
+        4,
+        7,
+        8,
+        9,
+        5,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 3.552713678800501e-15,
+    "mapping_validation_iia": 0.607421875,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.7412109375,
+    "memory_iia": 0.603515625,
+    "memory_iia_changed": 0.3395176252319109,
+    "changed_examples": 539,
+    "irrelevant_swap_consistency": 0.654296875,
+    "memory_lesion_drop_sensory_context": 0.06493506493506496,
+    "memory_lesion_drop_memory_context": -0.0019102196752626144,
+    "lesion_selectivity": -0.06684528461032757,
+    "routing_alignment": 0.48876953125,
+    "gate_memory_weight_sensory_context": 0.3083837319230937,
+    "gate_memory_weight_memory_context": 0.3573539123616752
+  },
+  {
+    "seed": 23,
+    "swaps": 2,
+    "split": "conflict",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        6,
+        10
+      ],
+      [
+        4,
+        7,
+        8,
+        9,
+        5,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 3.1086244689504383e-15,
+    "mapping_validation_iia": 0.607421875,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.50732421875,
+    "memory_iia": 0.51904296875,
+    "memory_iia_changed": 0.5267489711934157,
+    "changed_examples": 486,
+    "irrelevant_swap_consistency": 0.6044921875,
+    "memory_lesion_drop_sensory_context": 0.09794319294809017,
+    "memory_lesion_drop_memory_context": -0.046738072054527735,
+    "lesion_selectivity": -0.1446812650026179,
+    "routing_alignment": 0.49853515625,
+    "gate_memory_weight_sensory_context": 0.3083837319230937,
+    "gate_memory_weight_memory_context": 0.35735391236167513
+  },
+  {
+    "seed": 23,
+    "swaps": 3,
+    "split": "id",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        9,
+        2,
+        3,
+        6,
+        10
+      ],
+      [
+        4,
+        7,
+        8,
+        1,
+        5,
+        11
+      ]
+    ],
+    "mapping": [
+      0
+    ],
+    "rename_max_logit_error": 3.552713678800501e-15,
+    "mapping_validation_iia": 0.619140625,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.85888671875,
+    "memory_iia": 0.56591796875,
+    "memory_iia_changed": 0.6621621621621622,
+    "changed_examples": 518,
+    "irrelevant_swap_consistency": 0.69189453125,
+    "memory_lesion_drop_sensory_context": 0.36943907156673117,
+    "memory_lesion_drop_memory_context": 0.34812623274161736,
+    "lesion_selectivity": -0.02131283882511381,
+    "routing_alignment": 0.4951171875,
+    "gate_memory_weight_sensory_context": 0.6867136034249945,
+    "gate_memory_weight_memory_context": 0.6854203727789173
+  },
+  {
+    "seed": 23,
+    "swaps": 3,
+    "split": "balanced",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        9,
+        2,
+        3,
+        6,
+        10
+      ],
+      [
+        4,
+        7,
+        8,
+        1,
+        5,
+        11
+      ]
+    ],
+    "mapping": [
+      0
+    ],
+    "rename_max_logit_error": 3.552713678800501e-15,
+    "mapping_validation_iia": 0.619140625,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.73974609375,
+    "memory_iia": 0.5986328125,
+    "memory_iia_changed": 0.7012987012987013,
+    "changed_examples": 539,
+    "irrelevant_swap_consistency": 0.662109375,
+    "memory_lesion_drop_sensory_context": 0.23376623376623373,
+    "memory_lesion_drop_memory_context": 0.2531041069723018,
+    "lesion_selectivity": 0.019337873206068057,
+    "routing_alignment": 0.51123046875,
+    "gate_memory_weight_sensory_context": 0.6867136034249945,
+    "gate_memory_weight_memory_context": 0.6854203727789174
+  },
+  {
+    "seed": 23,
+    "swaps": 3,
+    "split": "conflict",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        9,
+        2,
+        3,
+        6,
+        10
+      ],
+      [
+        4,
+        7,
+        8,
+        1,
+        5,
+        11
+      ]
+    ],
+    "mapping": [
+      0
+    ],
+    "rename_max_logit_error": 2.6645352591003757e-15,
+    "mapping_validation_iia": 0.619140625,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.51904296875,
+    "memory_iia": 0.59765625,
+    "memory_iia_changed": 0.6872427983539094,
+    "changed_examples": 486,
+    "irrelevant_swap_consistency": 0.59521484375,
+    "memory_lesion_drop_sensory_context": -0.002938295788442735,
+    "memory_lesion_drop_memory_context": 0.022395326192794607,
+    "lesion_selectivity": 0.025333621981237342,
+    "routing_alignment": 0.50146484375,
+    "gate_memory_weight_sensory_context": 0.6867136034249945,
+    "gate_memory_weight_memory_context": 0.6854203727789173
+  },
+  {
+    "seed": 37,
+    "swaps": 0,
+    "split": "id",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 3.552713678800501e-15,
+    "mapping_validation_iia": 0.9765625,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.98681640625,
+    "memory_iia": 0.97119140625,
+    "memory_iia_changed": 0.9670781893004116,
+    "changed_examples": 486,
+    "irrelevant_swap_consistency": 0.9814453125,
+    "memory_lesion_drop_sensory_context": 0.006554307116104829,
+    "memory_lesion_drop_memory_context": 0.20714285714285707,
+    "lesion_selectivity": 0.20058855002675224,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.08309869791081922,
+    "gate_memory_weight_memory_context": 0.9184613985207917
+  },
+  {
+    "seed": 37,
+    "swaps": 0,
+    "split": "balanced",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 3.552713678800501e-15,
+    "mapping_validation_iia": 0.9765625,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.97998046875,
+    "memory_iia": 0.97021484375,
+    "memory_iia_changed": 0.9710743801652892,
+    "changed_examples": 484,
+    "irrelevant_swap_consistency": 0.982421875,
+    "memory_lesion_drop_sensory_context": -0.0038058991436726863,
+    "memory_lesion_drop_memory_context": 0.46639919759277837,
+    "lesion_selectivity": 0.47020509673645106,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.08309869791081922,
+    "gate_memory_weight_memory_context": 0.9184613985207917
+  },
+  {
+    "seed": 37,
+    "swaps": 0,
+    "split": "conflict",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 3.552713678800501e-15,
+    "mapping_validation_iia": 0.9765625,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.96240234375,
+    "memory_iia": 0.97509765625,
+    "memory_iia_changed": 0.9900199600798403,
+    "changed_examples": 501,
+    "irrelevant_swap_consistency": 0.97705078125,
+    "memory_lesion_drop_sensory_context": -0.021235521235521304,
+    "memory_lesion_drop_memory_context": 0.9496047430830039,
+    "lesion_selectivity": 0.9708402643185252,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.08309869791081922,
+    "gate_memory_weight_memory_context": 0.9184613985207917
+  },
+  {
+    "seed": 37,
+    "swaps": 1,
+    "split": "id",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        10,
+        4,
+        5
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        3,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 1.7763568394002505e-15,
+    "mapping_validation_iia": 0.888671875,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.939453125,
+    "memory_iia": 0.89599609375,
+    "memory_iia_changed": 0.8477366255144033,
+    "changed_examples": 486,
+    "irrelevant_swap_consistency": 0.92626953125,
+    "memory_lesion_drop_sensory_context": 0.014981273408239737,
+    "memory_lesion_drop_memory_context": 0.19489795918367347,
+    "lesion_selectivity": 0.17991668577543374,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.15186053929808366,
+    "gate_memory_weight_memory_context": 0.8166280273019206
+  },
+  {
+    "seed": 37,
+    "swaps": 1,
+    "split": "balanced",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        10,
+        4,
+        5
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        3,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 1.7763568394002505e-15,
+    "mapping_validation_iia": 0.888671875,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.90625,
+    "memory_iia": 0.9052734375,
+    "memory_iia_changed": 0.8946280991735537,
+    "changed_examples": 484,
+    "irrelevant_swap_consistency": 0.916015625,
+    "memory_lesion_drop_sensory_context": -0.021883920076117946,
+    "memory_lesion_drop_memory_context": 0.39919759277833505,
+    "lesion_selectivity": 0.421081512854453,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.15186053929808366,
+    "gate_memory_weight_memory_context": 0.8166280273019206
+  },
+  {
+    "seed": 37,
+    "swaps": 1,
+    "split": "conflict",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        10,
+        4,
+        5
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        3,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 1.7763568394002505e-15,
+    "mapping_validation_iia": 0.888671875,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.85400390625,
+    "memory_iia": 0.89501953125,
+    "memory_iia_changed": 0.9321357285429142,
+    "changed_examples": 501,
+    "irrelevant_swap_consistency": 0.9033203125,
+    "memory_lesion_drop_sensory_context": -0.0637065637065638,
+    "memory_lesion_drop_memory_context": 0.766798418972332,
+    "lesion_selectivity": 0.8305049826788958,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.15186053929808363,
+    "gate_memory_weight_memory_context": 0.8166280273019205
+  },
+  {
+    "seed": 37,
+    "swaps": 2,
+    "split": "id",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        10,
+        7,
+        5
+      ],
+      [
+        6,
+        4,
+        8,
+        9,
+        3,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 1.7763568394002505e-15,
+    "mapping_validation_iia": 0.783203125,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.90673828125,
+    "memory_iia": 0.7880859375,
+    "memory_iia_changed": 0.6358024691358025,
+    "changed_examples": 486,
+    "irrelevant_swap_consistency": 0.8251953125,
+    "memory_lesion_drop_sensory_context": 0.03183520599250933,
+    "memory_lesion_drop_memory_context": 0.1377551020408163,
+    "lesion_selectivity": 0.10591989604830698,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.4216606583033113,
+    "gate_memory_weight_memory_context": 0.681766791267437
+  },
+  {
+    "seed": 37,
+    "swaps": 2,
+    "split": "balanced",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        10,
+        7,
+        5
+      ],
+      [
+        6,
+        4,
+        8,
+        9,
+        3,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 1.7763568394002505e-15,
+    "mapping_validation_iia": 0.783203125,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.8359375,
+    "memory_iia": 0.79443359375,
+    "memory_iia_changed": 0.7355371900826446,
+    "changed_examples": 484,
+    "irrelevant_swap_consistency": 0.7880859375,
+    "memory_lesion_drop_sensory_context": -0.01712654614652709,
+    "memory_lesion_drop_memory_context": 0.2678034102306921,
+    "lesion_selectivity": 0.2849299563772192,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.4216606583033113,
+    "gate_memory_weight_memory_context": 0.681766791267437
+  },
+  {
+    "seed": 37,
+    "swaps": 2,
+    "split": "conflict",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        10,
+        7,
+        5
+      ],
+      [
+        6,
+        4,
+        8,
+        9,
+        3,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 1.7763568394002505e-15,
+    "mapping_validation_iia": 0.783203125,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.70751953125,
+    "memory_iia": 0.7822265625,
+    "memory_iia_changed": 0.8942115768463074,
+    "changed_examples": 501,
+    "irrelevant_swap_consistency": 0.76513671875,
+    "memory_lesion_drop_sensory_context": -0.08204633204633205,
+    "memory_lesion_drop_memory_context": 0.491106719367589,
+    "lesion_selectivity": 0.573153051413921,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.42166065830331134,
+    "gate_memory_weight_memory_context": 0.6817667912674371
+  },
+  {
+    "seed": 37,
+    "swaps": 3,
+    "split": "id",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        11,
+        10,
+        7,
+        5
+      ],
+      [
+        6,
+        4,
+        8,
+        9,
+        3,
+        2
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 3.552713678800501e-15,
+    "mapping_validation_iia": 0.72265625,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.88818359375,
+    "memory_iia": 0.7158203125,
+    "memory_iia_changed": 0.5576131687242798,
+    "changed_examples": 486,
+    "irrelevant_swap_consistency": 0.76318359375,
+    "memory_lesion_drop_sensory_context": 0.08801498127340823,
+    "memory_lesion_drop_memory_context": 0.19285714285714284,
+    "lesion_selectivity": 0.1048421615837346,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.4810379673158135,
+    "gate_memory_weight_memory_context": 0.6414005622314767
+  },
+  {
+    "seed": 37,
+    "swaps": 3,
+    "split": "balanced",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        11,
+        10,
+        7,
+        5
+      ],
+      [
+        6,
+        4,
+        8,
+        9,
+        3,
+        2
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 2.6645352591003757e-15,
+    "mapping_validation_iia": 0.72265625,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.783203125,
+    "memory_iia": 0.7265625,
+    "memory_iia_changed": 0.7024793388429752,
+    "changed_examples": 484,
+    "irrelevant_swap_consistency": 0.71875,
+    "memory_lesion_drop_sensory_context": 0.0019029495718363432,
+    "memory_lesion_drop_memory_context": 0.2557673019057171,
+    "lesion_selectivity": 0.25386435233388077,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.48103796731581355,
+    "gate_memory_weight_memory_context": 0.6414005622314766
+  },
+  {
+    "seed": 37,
+    "swaps": 3,
+    "split": "conflict",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        11,
+        10,
+        7,
+        5
+      ],
+      [
+        6,
+        4,
+        8,
+        9,
+        3,
+        2
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 3.552713678800501e-15,
+    "mapping_validation_iia": 0.72265625,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.6396484375,
+    "memory_iia": 0.7255859375,
+    "memory_iia_changed": 0.8662674650698603,
+    "changed_examples": 501,
+    "irrelevant_swap_consistency": 0.6767578125,
+    "memory_lesion_drop_sensory_context": -0.11583011583011582,
+    "memory_lesion_drop_memory_context": 0.39822134387351776,
+    "lesion_selectivity": 0.5140514597036336,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.4810379673158136,
+    "gate_memory_weight_memory_context": 0.6414005622314766
+  },
+  {
+    "seed": 53,
+    "swaps": 0,
+    "split": "id",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 3.552713678800501e-15,
+    "mapping_validation_iia": 0.9609375,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.97900390625,
+    "memory_iia": 0.96826171875,
+    "memory_iia_changed": 0.9611451942740287,
+    "changed_examples": 489,
+    "irrelevant_swap_consistency": 0.986328125,
+    "memory_lesion_drop_sensory_context": 0.006737247353224229,
+    "memory_lesion_drop_memory_context": 0.18533201189296333,
+    "lesion_selectivity": 0.1785947645397391,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.08492293750873496,
+    "gate_memory_weight_memory_context": 0.9418822653006652
+  },
+  {
+    "seed": 53,
+    "swaps": 0,
+    "split": "balanced",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 3.552713678800501e-15,
+    "mapping_validation_iia": 0.9609375,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.9736328125,
+    "memory_iia": 0.9697265625,
+    "memory_iia_changed": 0.96579476861167,
+    "changed_examples": 497,
+    "irrelevant_swap_consistency": 0.98681640625,
+    "memory_lesion_drop_sensory_context": 0.0,
+    "memory_lesion_drop_memory_context": 0.45940594059405937,
+    "lesion_selectivity": 0.45940594059405937,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.08492293750873496,
+    "gate_memory_weight_memory_context": 0.9418822653006652
+  },
+  {
+    "seed": 53,
+    "swaps": 0,
+    "split": "conflict",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 3.552713678800501e-15,
+    "mapping_validation_iia": 0.9609375,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.9580078125,
+    "memory_iia": 0.96875,
+    "memory_iia_changed": 0.9812734082397003,
+    "changed_examples": 534,
+    "irrelevant_swap_consistency": 0.98193359375,
+    "memory_lesion_drop_sensory_context": -0.025510204081632626,
+    "memory_lesion_drop_memory_context": 0.946629213483146,
+    "lesion_selectivity": 0.9721394175647786,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.08492293750873495,
+    "gate_memory_weight_memory_context": 0.9418822653006653
+  },
+  {
+    "seed": 53,
+    "swaps": 1,
+    "split": "id",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        6,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        1,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 4.440892098500626e-15,
+    "mapping_validation_iia": 0.564453125,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.88037109375,
+    "memory_iia": 0.6376953125,
+    "memory_iia_changed": 0.2331288343558282,
+    "changed_examples": 489,
+    "irrelevant_swap_consistency": 0.7080078125,
+    "memory_lesion_drop_sensory_context": 0.0654475457170356,
+    "memory_lesion_drop_memory_context": 0.05946481665014869,
+    "lesion_selectivity": -0.005982729066886905,
+    "routing_alignment": 0.50732421875,
+    "gate_memory_weight_sensory_context": 0.4176387223138044,
+    "gate_memory_weight_memory_context": 0.42378423761092676
+  },
+  {
+    "seed": 53,
+    "swaps": 1,
+    "split": "balanced",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        6,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        1,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 3.552713678800501e-15,
+    "mapping_validation_iia": 0.564453125,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.71630859375,
+    "memory_iia": 0.59765625,
+    "memory_iia_changed": 0.3641851106639839,
+    "changed_examples": 497,
+    "irrelevant_swap_consistency": 0.6591796875,
+    "memory_lesion_drop_sensory_context": 0.026011560693641522,
+    "memory_lesion_drop_memory_context": 0.02970297029702962,
+    "lesion_selectivity": 0.003691409603388096,
+    "routing_alignment": 0.5068359375,
+    "gate_memory_weight_sensory_context": 0.41763872231380444,
+    "gate_memory_weight_memory_context": 0.4237842376109268
+  },
+  {
+    "seed": 53,
+    "swaps": 1,
+    "split": "conflict",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        6,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        1,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 2.6645352591003757e-15,
+    "mapping_validation_iia": 0.564453125,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.484375,
+    "memory_iia": 0.5009765625,
+    "memory_iia_changed": 0.5243445692883895,
+    "changed_examples": 534,
+    "irrelevant_swap_consistency": 0.57568359375,
+    "memory_lesion_drop_sensory_context": 0.003061224489795844,
+    "memory_lesion_drop_memory_context": -0.013108614232209714,
+    "lesion_selectivity": -0.01616983872200556,
+    "routing_alignment": 0.478515625,
+    "gate_memory_weight_sensory_context": 0.4176387223138044,
+    "gate_memory_weight_memory_context": 0.4237842376109268
+  },
+  {
+    "seed": 53,
+    "swaps": 2,
+    "split": "id",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        6,
+        7,
+        3,
+        4,
+        5
+      ],
+      [
+        1,
+        2,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 1.7763568394002505e-15,
+    "mapping_validation_iia": 0.583984375,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.87353515625,
+    "memory_iia": 0.64794921875,
+    "memory_iia_changed": 0.25153374233128833,
+    "changed_examples": 489,
+    "irrelevant_swap_consistency": 0.7158203125,
+    "memory_lesion_drop_sensory_context": 0.059672762271414825,
+    "memory_lesion_drop_memory_context": 0.05450941526263631,
+    "lesion_selectivity": -0.005163347008778518,
+    "routing_alignment": 0.50732421875,
+    "gate_memory_weight_sensory_context": 0.375761176266578,
+    "gate_memory_weight_memory_context": 0.3629361465657267
+  },
+  {
+    "seed": 53,
+    "swaps": 2,
+    "split": "balanced",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        6,
+        7,
+        3,
+        4,
+        5
+      ],
+      [
+        1,
+        2,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 1.7763568394002505e-15,
+    "mapping_validation_iia": 0.583984375,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.712890625,
+    "memory_iia": 0.5859375,
+    "memory_iia_changed": 0.31388329979879276,
+    "changed_examples": 497,
+    "irrelevant_swap_consistency": 0.6484375,
+    "memory_lesion_drop_sensory_context": 0.0,
+    "memory_lesion_drop_memory_context": 0.02079207920792081,
+    "lesion_selectivity": 0.02079207920792081,
+    "routing_alignment": 0.5068359375,
+    "gate_memory_weight_sensory_context": 0.37576117626657807,
+    "gate_memory_weight_memory_context": 0.36293614656572676
+  },
+  {
+    "seed": 53,
+    "swaps": 2,
+    "split": "conflict",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        6,
+        7,
+        3,
+        4,
+        5
+      ],
+      [
+        1,
+        2,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 1.7763568394002505e-15,
+    "mapping_validation_iia": 0.583984375,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.4951171875,
+    "memory_iia": 0.50048828125,
+    "memory_iia_changed": 0.5280898876404494,
+    "changed_examples": 534,
+    "irrelevant_swap_consistency": 0.57275390625,
+    "memory_lesion_drop_sensory_context": -0.009183673469387754,
+    "memory_lesion_drop_memory_context": -0.0037453183520599342,
+    "lesion_selectivity": 0.00543835511732782,
+    "routing_alignment": 0.478515625,
+    "gate_memory_weight_sensory_context": 0.37576117626657807,
+    "gate_memory_weight_memory_context": 0.36293614656572665
+  },
+  {
+    "seed": 53,
+    "swaps": 3,
+    "split": "id",
+    "parameters": 132,
+    "groups": [
+      [
+        11,
+        6,
+        7,
+        3,
+        4,
+        5
+      ],
+      [
+        1,
+        2,
+        8,
+        9,
+        10,
+        0
+      ]
+    ],
+    "mapping": [
+      0
+    ],
+    "rename_max_logit_error": 1.7763568394002505e-15,
+    "mapping_validation_iia": 0.802734375,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.91552734375,
+    "memory_iia": 0.80810546875,
+    "memory_iia_changed": 0.6871165644171779,
+    "changed_examples": 489,
+    "irrelevant_swap_consistency": 0.85498046875,
+    "memory_lesion_drop_sensory_context": 0.04716073147256983,
+    "memory_lesion_drop_memory_context": 0.15659068384539143,
+    "lesion_selectivity": 0.1094299523728216,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.40040179931671543,
+    "gate_memory_weight_memory_context": 0.7280450429701606
+  },
+  {
+    "seed": 53,
+    "swaps": 3,
+    "split": "balanced",
+    "parameters": 132,
+    "groups": [
+      [
+        11,
+        6,
+        7,
+        3,
+        4,
+        5
+      ],
+      [
+        1,
+        2,
+        8,
+        9,
+        10,
+        0
+      ]
+    ],
+    "mapping": [
+      0
+    ],
+    "rename_max_logit_error": 1.7763568394002505e-15,
+    "mapping_validation_iia": 0.802734375,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.845703125,
+    "memory_iia": 0.810546875,
+    "memory_iia_changed": 0.7545271629778671,
+    "changed_examples": 497,
+    "irrelevant_swap_consistency": 0.8251953125,
+    "memory_lesion_drop_sensory_context": -0.011560693641618602,
+    "memory_lesion_drop_memory_context": 0.2940594059405941,
+    "lesion_selectivity": 0.3056200995822127,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.4004017993167154,
+    "gate_memory_weight_memory_context": 0.7280450429701607
+  },
+  {
+    "seed": 53,
+    "swaps": 3,
+    "split": "conflict",
+    "parameters": 132,
+    "groups": [
+      [
+        11,
+        6,
+        7,
+        3,
+        4,
+        5
+      ],
+      [
+        1,
+        2,
+        8,
+        9,
+        10,
+        0
+      ]
+    ],
+    "mapping": [
+      0
+    ],
+    "rename_max_logit_error": 1.7763568394002505e-15,
+    "mapping_validation_iia": 0.802734375,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.72314453125,
+    "memory_iia": 0.7998046875,
+    "memory_iia_changed": 0.9119850187265918,
+    "changed_examples": 534,
+    "irrelevant_swap_consistency": 0.78271484375,
+    "memory_lesion_drop_sensory_context": -0.09387755102040807,
+    "memory_lesion_drop_memory_context": 0.5739700374531834,
+    "lesion_selectivity": 0.6678475884735915,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.40040179931671543,
+    "gate_memory_weight_memory_context": 0.7280450429701607
+  },
+  {
+    "seed": 71,
+    "swaps": 0,
+    "split": "id",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 7.105427357601002e-15,
+    "mapping_validation_iia": 0.97265625,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.98388671875,
+    "memory_iia": 0.9833984375,
+    "memory_iia_changed": 0.9772296015180265,
+    "changed_examples": 527,
+    "irrelevant_swap_consistency": 0.98974609375,
+    "memory_lesion_drop_sensory_context": 0.005847953216374324,
+    "memory_lesion_drop_memory_context": 0.19960861056751467,
+    "lesion_selectivity": 0.19376065735114034,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.08549259822536451,
+    "gate_memory_weight_memory_context": 0.9368405994523585
+  },
+  {
+    "seed": 71,
+    "swaps": 0,
+    "split": "balanced",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 7.105427357601002e-15,
+    "mapping_validation_iia": 0.97265625,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.97705078125,
+    "memory_iia": 0.9794921875,
+    "memory_iia_changed": 0.985655737704918,
+    "changed_examples": 488,
+    "irrelevant_swap_consistency": 0.98974609375,
+    "memory_lesion_drop_sensory_context": -0.010617760617760652,
+    "memory_lesion_drop_memory_context": 0.48517786561264825,
+    "lesion_selectivity": 0.4957956262304089,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.08549259822536451,
+    "gate_memory_weight_memory_context": 0.9368405994523586
+  },
+  {
+    "seed": 71,
+    "swaps": 0,
+    "split": "conflict",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 7.105427357601002e-15,
+    "mapping_validation_iia": 0.97265625,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.96484375,
+    "memory_iia": 0.97216796875,
+    "memory_iia_changed": 0.9875518672199171,
+    "changed_examples": 482,
+    "irrelevant_swap_consistency": 0.984375,
+    "memory_lesion_drop_sensory_context": -0.021883920076118057,
+    "memory_lesion_drop_memory_context": 0.9418254764292878,
+    "lesion_selectivity": 0.9637093965054059,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.08549259822536452,
+    "gate_memory_weight_memory_context": 0.9368405994523585
+  },
+  {
+    "seed": 71,
+    "swaps": 1,
+    "split": "id",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        9,
+        5
+      ],
+      [
+        6,
+        7,
+        8,
+        4,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 1.7763568394002505e-15,
+    "mapping_validation_iia": 0.91015625,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.93798828125,
+    "memory_iia": 0.91015625,
+    "memory_iia_changed": 0.8956356736242884,
+    "changed_examples": 527,
+    "irrelevant_swap_consistency": 0.9267578125,
+    "memory_lesion_drop_sensory_context": 0.007797270955165692,
+    "memory_lesion_drop_memory_context": 0.1868884540117417,
+    "lesion_selectivity": 0.179091183056576,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.18394862002766196,
+    "gate_memory_weight_memory_context": 0.8530360274592949
+  },
+  {
+    "seed": 71,
+    "swaps": 1,
+    "split": "balanced",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        9,
+        5
+      ],
+      [
+        6,
+        7,
+        8,
+        4,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 1.7763568394002505e-15,
+    "mapping_validation_iia": 0.91015625,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.90673828125,
+    "memory_iia": 0.91748046875,
+    "memory_iia_changed": 0.9098360655737705,
+    "changed_examples": 488,
+    "irrelevant_swap_consistency": 0.927734375,
+    "memory_lesion_drop_sensory_context": -0.020270270270270285,
+    "memory_lesion_drop_memory_context": 0.41897233201581024,
+    "lesion_selectivity": 0.43924260228608053,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.183948620027662,
+    "gate_memory_weight_memory_context": 0.853036027459295
+  },
+  {
+    "seed": 71,
+    "swaps": 1,
+    "split": "conflict",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        1,
+        2,
+        3,
+        9,
+        5
+      ],
+      [
+        6,
+        7,
+        8,
+        4,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 1.7763568394002505e-15,
+    "mapping_validation_iia": 0.91015625,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.85888671875,
+    "memory_iia": 0.91748046875,
+    "memory_iia_changed": 0.9522821576763485,
+    "changed_examples": 482,
+    "irrelevant_swap_consistency": 0.90771484375,
+    "memory_lesion_drop_sensory_context": -0.09039010466222641,
+    "memory_lesion_drop_memory_context": 0.7853560682046138,
+    "lesion_selectivity": 0.8757461728668402,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.18394862002766196,
+    "gate_memory_weight_memory_context": 0.853036027459295
+  },
+  {
+    "seed": 71,
+    "swaps": 2,
+    "split": "id",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        7,
+        2,
+        3,
+        9,
+        5
+      ],
+      [
+        6,
+        1,
+        8,
+        4,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 1.7763568394002505e-15,
+    "mapping_validation_iia": 0.765625,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.87939453125,
+    "memory_iia": 0.72216796875,
+    "memory_iia_changed": 0.6717267552182163,
+    "changed_examples": 527,
+    "irrelevant_swap_consistency": 0.771484375,
+    "memory_lesion_drop_sensory_context": 0.08674463937621835,
+    "memory_lesion_drop_memory_context": 0.23385518590998033,
+    "lesion_selectivity": 0.147110546533762,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.4059291278470091,
+    "gate_memory_weight_memory_context": 0.5944834056006387
+  },
+  {
+    "seed": 71,
+    "swaps": 2,
+    "split": "balanced",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        7,
+        2,
+        3,
+        9,
+        5
+      ],
+      [
+        6,
+        1,
+        8,
+        4,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 1.7763568394002505e-15,
+    "mapping_validation_iia": 0.765625,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.7900390625,
+    "memory_iia": 0.7421875,
+    "memory_iia_changed": 0.7459016393442623,
+    "changed_examples": 488,
+    "irrelevant_swap_consistency": 0.76220703125,
+    "memory_lesion_drop_sensory_context": -0.009652509652509633,
+    "memory_lesion_drop_memory_context": 0.29446640316205536,
+    "lesion_selectivity": 0.304118912814565,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.405929127847009,
+    "gate_memory_weight_memory_context": 0.5944834056006387
+  },
+  {
+    "seed": 71,
+    "swaps": 2,
+    "split": "conflict",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        7,
+        2,
+        3,
+        9,
+        5
+      ],
+      [
+        6,
+        1,
+        8,
+        4,
+        10,
+        11
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 1.7763568394002505e-15,
+    "mapping_validation_iia": 0.765625,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.62060546875,
+    "memory_iia": 0.71923828125,
+    "memory_iia_changed": 0.8692946058091287,
+    "changed_examples": 482,
+    "irrelevant_swap_consistency": 0.693359375,
+    "memory_lesion_drop_sensory_context": -0.1817316841103711,
+    "memory_lesion_drop_memory_context": 0.4172517552657974,
+    "lesion_selectivity": 0.5989834393761685,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.405929127847009,
+    "gate_memory_weight_memory_context": 0.5944834056006387
+  },
+  {
+    "seed": 71,
+    "swaps": 3,
+    "split": "id",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        7,
+        2,
+        11,
+        9,
+        5
+      ],
+      [
+        6,
+        1,
+        8,
+        4,
+        10,
+        3
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 0.0,
+    "mapping_validation_iia": 0.73046875,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.8837890625,
+    "memory_iia": 0.72705078125,
+    "memory_iia_changed": 0.6679316888045541,
+    "changed_examples": 527,
+    "irrelevant_swap_consistency": 0.763671875,
+    "memory_lesion_drop_sensory_context": 0.07894736842105254,
+    "memory_lesion_drop_memory_context": 0.23972602739726023,
+    "lesion_selectivity": 0.1607786589762077,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.45859777848816824,
+    "gate_memory_weight_memory_context": 0.6351943577224659
+  },
+  {
+    "seed": 71,
+    "swaps": 3,
+    "split": "balanced",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        7,
+        2,
+        11,
+        9,
+        5
+      ],
+      [
+        6,
+        1,
+        8,
+        4,
+        10,
+        3
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 0.0,
+    "mapping_validation_iia": 0.73046875,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.791015625,
+    "memory_iia": 0.73779296875,
+    "memory_iia_changed": 0.7397540983606558,
+    "changed_examples": 488,
+    "irrelevant_swap_consistency": 0.74755859375,
+    "memory_lesion_drop_sensory_context": 0.009652509652509633,
+    "memory_lesion_drop_memory_context": 0.2885375494071147,
+    "lesion_selectivity": 0.27888503975460505,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.45859777848816824,
+    "gate_memory_weight_memory_context": 0.6351943577224659
+  },
+  {
+    "seed": 71,
+    "swaps": 3,
+    "split": "conflict",
+    "parameters": 132,
+    "groups": [
+      [
+        0,
+        7,
+        2,
+        11,
+        9,
+        5
+      ],
+      [
+        6,
+        1,
+        8,
+        4,
+        10,
+        3
+      ]
+    ],
+    "mapping": [
+      1
+    ],
+    "rename_max_logit_error": 0.0,
+    "mapping_validation_iia": 0.73046875,
+    "mapping_candidates": 2,
+    "patch_units": 1,
+    "accuracy": 0.62890625,
+    "memory_iia": 0.71435546875,
+    "memory_iia_changed": 0.8464730290456431,
+    "changed_examples": 482,
+    "irrelevant_swap_consistency": 0.67578125,
+    "memory_lesion_drop_sensory_context": -0.1617507136060895,
+    "memory_lesion_drop_memory_context": 0.4172517552657974,
+    "lesion_selectivity": 0.5790024688718869,
+    "routing_alignment": 1.0,
+    "gate_memory_weight_sensory_context": 0.45859777848816824,
+    "gate_memory_weight_memory_context": 0.635194357722466
+  }
+]

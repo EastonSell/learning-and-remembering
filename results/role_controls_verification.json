@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-22",
+  "tests_passed": 16,
+  "baseline_metric_rows_exact": 90,
+  "baseline_checkpoint_hashes_exact": 30,
+  "role_control_metric_rows": 60,
+  "repeat_artifacts_byte_identical": [
+    "metrics.json",
+    "summary.json",
+    "learning_curves.json"
+  ],
+  "aligned_metrics_match_published_pilot": true,
+  "source_and_artifact_hashes_verified": true,
+  "max_branch_rename_logit_error": 7.105427357601002e-15,
+  "external_data_or_model_downloads": false,
+  "small_sample_context_coverage_regression": "Rejected before training or output creation"
+}

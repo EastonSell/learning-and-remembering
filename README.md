@@ -21,6 +21,10 @@ Mean ± sample SD across seeds 11, 23, 37, 53 and 71. “Balanced” means the c
 
 Exact measurements, all distributions, paired differences, learning curves and checkpoint hashes: [results/pilot](results/pilot). Interpretation: [docs/results.md](docs/results.md).
 
+## Matched-capacity role control
+
+A fresh five-seed [role-mask control](docs/role_controls.md) keeps all conditions at 132 parameters and the same intervention/search budget. Mixing the supplied role boundaries lowers both prediction accuracy and intervention accuracy; merely exchanging branch names leaves predictions unchanged. This quantifies dependence on the engineered task alignment, not biological specificity. Full [results](results/role_controls) and limitations are retained separately from the pilot.
+
 ## Evidence limits
 
 - The task's true roles are supplied as input masks. The intervention target uses those same designed-in roles. This tests a helpful inductive bias, not autonomous discovery of interpretable structure.

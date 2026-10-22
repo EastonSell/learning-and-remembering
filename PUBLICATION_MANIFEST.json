@@ -1,5 +1,5 @@
 {
-  "bundle": "neurofunctional-lab-text-publication-v1",
+  "bundle": "neurofunctional-lab-text-publication-v2",
   "destination_repository": "EastonSell/neurofunctional-lab",
   "include_self": "PUBLICATION_MANIFEST.json",
   "include_files": [
@@ -15,8 +15,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "667d89156ce3242e3603752b6eca22030c35dbe93571b2f63ffbd313355c885e",
-      "bytes": 4290
+      "sha256": "93e2dad491161fd80efc72f79558428427db97d834b3814e79a66fbab07356bf",
+      "bytes": 4805
     },
     {
       "path": "docs/checkpoints.md",
@@ -57,6 +57,11 @@
       "path": "docs/results.md",
       "sha256": "1744d860e83a2617b1cb784f85c939b44f220d6ff856b75c298228564d60b56e",
       "bytes": 5465
+    },
+    {
+      "path": "docs/role_controls.md",
+      "sha256": "4f953c19374ff99441e36d4b44ae371e4b15a2751ba80d0872ec9b3982506987",
+      "bytes": 5790
     },
     {
       "path": "pyproject.toml",
@@ -139,6 +144,31 @@
       "bytes": 1180
     },
     {
+      "path": "results/role_controls/learning_curves.json",
+      "sha256": "01e47afab1420dc93d20d736e36145d84a08acdaa3d6f3bf8df0a1e0dc69ba1e",
+      "bytes": 17467
+    },
+    {
+      "path": "results/role_controls/manifest.json",
+      "sha256": "240cea44628c8048712e5e46efc1fce19d0793e467850fc1232efa85e3890189",
+      "bytes": 5119
+    },
+    {
+      "path": "results/role_controls/metrics.json",
+      "sha256": "30b75c76a4be78840b1c248bb916e54ea57a64fb1225fb0be97a046e25cf0f1b",
+      "bytes": 57797
+    },
+    {
+      "path": "results/role_controls/summary.json",
+      "sha256": "2014abe0b1bfd21857c7d019f6c3dca08521b683f4cc3008dbb4ec56d59289b5",
+      "bytes": 10114
+    },
+    {
+      "path": "results/role_controls_verification.json",
+      "sha256": "f9a6f4a260187ca2b6a9af48e81af5c7776039bb8b6d06a97b1d94d62fd3c943",
+      "bytes": 564
+    },
+    {
       "path": "results/test_output.txt",
       "sha256": "476f8f267a18120484ca4e168ce13d5377f155fade82a16c0e72f09e2dfba7b0",
       "bytes": 1107
@@ -184,9 +214,19 @@
       "bytes": 5440
     },
     {
+      "path": "src/functional_circuits/role_controls.py",
+      "sha256": "ebe69bf18ce0fc5d38e4d2af824b6a6563e6d27c23fb6c7865b4ca9888439a19",
+      "bytes": 6749
+    },
+    {
       "path": "tests/test_core.py",
       "sha256": "47cf4d9f6d83027a49194765e7c372d3a680c8a17c86b0b24c84d23e78c0e0fc",
       "bytes": 4942
+    },
+    {
+      "path": "tests/test_role_controls.py",
+      "sha256": "98550713f399674d0c008384c197555186d9d2e481103959f1f790fa1c7e22f1",
+      "bytes": 3458
     }
   ],
   "omit_generated_binary_checkpoints": [
@@ -373,5 +413,5 @@
   ],
   "omission_reason": "All weights regenerate with scripts/run_pilot.sh; see docs/checkpoints.md. Exact checkpoint hashes are also in run manifests.",
   "publication_state": "Prepared locally; this file does not assert remote publication.",
-  "test_status": "12 tests passed; source and artifact hashes passed; repeat metrics and checkpoint arrays matched exactly; text-only omitted-checkpoint audit passed."
+  "test_status": "16 tests passed. Original 90 metric rows and 30 checkpoint hashes reproduce exactly. New 60-row role control repeated with byte-identical metric, summary and learning-curve JSON. Original and new manifest audits passed."
 }
