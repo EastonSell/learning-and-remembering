@@ -6,6 +6,8 @@ Status: protocol only, not executed. This is the next falsification opportunity,
 
 Use Fashion-MNIST's real product-image inputs: official train/test split, 28×28 grayscale, 10 categories. Sources: [dataset paper, exact v2](https://arxiv.org/abs/1708.07747v2), [official repository](https://github.com/zalandoresearch/fashion-mnist), [MIT license, Zalando SE 2017](https://github.com/zalandoresearch/fashion-mnist/blob/master/LICENSE). The official repository lists approximately 30.4 MB of compressed files. This repository has not downloaded or redistributed them.
 
+**Status clarification (2026-10-22):** The no-download/no-redistribution sentence above records the historical status when this proposal was written, not the repository's current data holdings. The separate, completed [Fashion-MNIST replay-selection study and public export](../studies/replay-selection-fashion-mnist/README.md#get-and-verify-the-evidence) includes official test image/label assets with their original MIT notice; raw training downloads are omitted from that export. This delayed-memory proposal remains protocol only and has not been executed.
+
 Before download, resolve and record an immutable repository commit and exact HTTPS asset URLs. Retain the upstream copyright/license notice, verify official published MD5 values for consistency and record new SHA-256 hashes. MD5 is used only to compare the upstream manifest, not as a security guarantee. Stop if content, license, or file sizes differ materially. Original URLs using HTTP must be replaced with verified HTTPS assets in the official repository, never bypassed security warnings.
 
 ## Task and split protocol
