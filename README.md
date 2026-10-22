@@ -1,84 +1,48 @@
-# Neurofunctional Lab
+# Learning and Remembering
 
-A small, reproducible experiment asks whether separating **current evidence**, **retrieved evidence**, and **context control** makes neural computations easier to verify through activation interventions.
+What helps a small neural network learn something new without losing what it already knows? And when we give a network separate computational roles, do activation interventions become easier to interpret?
 
-The included Functional Circuits pilot trains six NumPy architectures on the same generated task, then measures prediction, conflicting-evidence robustness, and counterfactual behavior across five seeds. It runs on CPU with no model or dataset downloads.
+This repository studies those questions through small, reproducible experiments. The replay studies separate **which examples stay in memory** from **which stored examples are rehearsed**. A separate synthetic study examines supplied boundaries between current evidence, retrieved evidence and context control.
 
-**Research status:** completed synthetic, handwritten-digit replay and Fashion-MNIST replay-selection studies. The separate [delayed-memory proposal](docs/next_experiment.md) remains unrun. These experiments do not establish biological fidelity or a new algorithm.
+## Start here
 
-## Start with the completed studies
+- [Learn the ideas with a tiny working example](docs/START_HERE.md). The guide explains forgetting, replay buffers and the difference between current error and predicted interference.
+- [Read the research overview](docs/RESEARCH_OVERVIEW.md) for hypotheses, controls, related work and open questions.
+- [Read the latest replay-selection report](studies/replay-selection-fashion-mnist/results/evaluation-report-public.md), then inspect its [protocol and evidence guide](studies/replay-selection-fashion-mnist/README.md).
 
-- [Fashion-MNIST replay selection](studies/replay-selection-fashion-mnist/README.md): 20 paired evaluation seeds and 100 runs. MIR minus high-loss final macro accuracy was +0.6265 percentage points (paired 95% bootstrap interval −0.3595 to +1.5330); it did not meet the prespecified support criterion. This is an inconclusive primary result. Read the [final report](studies/replay-selection-fashion-mnist/results/evaluation-report-public.md); the study README covers evidence reconstruction, verification and separate new-run setup.
-- [Handwritten-digit replay](docs/replay_results.md): reservoir replay improved retention over FIFO under the fixed class-blocked stream. The report includes the locked selection, all development/evaluation runs and reproduction instructions.
-- [Functional Circuits pilot](docs/results.md), [matched-capacity role controls](docs/role_controls.md) and [validation-matched competence controls](docs/competence_controls.md): synthetic tests of engineered role boundaries. The pilot reproduction commands are below.
-- [Replay mechanism evidence map](research/replay-mechanism-map.md): a retrospective primary-source synthesis connecting the Fashion-MNIST result to biological replay evidence. Its next prediction is proposed, not executed.
+## Watch the concept in 24 seconds
 
-## Measured pilot
+[![Illustrative linear learner: B-only learning changes A prediction from one to about one-half; replay retains A. High current loss and greatest predicted loss increase select different stored examples.](docs/animations/poster.png)](docs/animations/concept.mp4)
 
-Mean ± sample SD across seeds 11, 23, 37, 53 and 71. “Balanced” means the current and retrieved categories agree in half the examples. IIA is memory activation-interchange intervention accuracy against the known task counterfactual.
+[MP4](docs/animations/concept.mp4) · [Optional GIF preview](docs/animations/concept.gif) · [Text transcript](docs/animations/transcript.txt) · [Captions](docs/animations/captions.vtt)
 
-| Architecture | Parameters | Accuracy on 50%-agreement split | Memory IIA |
-|---|---:|---:|---:|
-| Functional roles | 132 | 97.66 ± 0.23% | 97.45 ± 0.44% |
-| Monolithic | 136 | 91.37 ± 0.93% | 79.60 ± 2.16% |
-| Random partition | 132 | 77.41 ± 3.86% | 68.17 ± 8.38% |
-| Dense modular | 228 | 95.70 ± 0.60% | 95.81 ± 0.94% |
-| No gate | 130 | 74.84 ± 0.89% | 75.18 ± 1.27% |
-| Oracle gate | 130 | 98.28 ± 0.32% | 98.30 ± 0.39% |
+Offline linear toy · not benchmark evidence. No audio. The poster and transcript provide a no-motion alternative. The downloaded [HTML viewer](docs/animations/index.html) is static by default and never autoplays.
 
-Exact measurements, all distributions, paired differences, learning curves and checkpoint hashes: [results/pilot](results/pilot). Interpretation: [docs/results.md](docs/results.md).
+## What the experiments found
 
-## Matched-capacity role control
+**Keeping historical coverage helped in the digit stream.** Across ten paired seeds, final macro accuracy was 88.44% for reservoir replay, 21.16% for equally sized FIFO memory and 19.70% for current-only repetition. Immediate acquisition was strong in every arm. The [digit report](docs/replay_results.md) links the selection lock, all development/evaluation runs and reproduction instructions.
 
-A fresh five-seed [role-mask control](docs/role_controls.md) keeps all conditions at 132 parameters and the same intervention/search budget. Mixing the supplied role boundaries lowers both prediction accuracy and intervention accuracy; merely exchanging branch names leaves predictions unchanged. This quantifies dependence on the engineered task alignment, not biological specificity. Full [results](results/role_controls) and limitations are retained separately from the pilot.
+**More elaborate selection did not clear the Fashion-MNIST study's support criterion.** Across 20 paired seeds and 100 runs, maximally interfered retrieval (MIR) exceeded high-loss replay by 0.6265 percentage points; the paired 95% bootstrap interval was −0.3595 to +1.5330 points. The primary result is inconclusive. Uniform replay had a higher descriptive mean, and the prespecified protection audit was adverse to MIR. [All results and compute controls](studies/replay-selection-fashion-mnist/results/evaluation-report-public.md) are retained.
 
-## Validation-matched competence study
+**Engineered role boundaries affected both prediction and interventions.** The [six-architecture pilot](docs/results.md), [equal-parameter role controls](docs/role_controls.md) and [validation-matched competence study](docs/competence_controls.md) trace this dependence. Matching was incomplete, and one intervention diagnostic follows algebraically from the supplied masks. A competence-independent interpretability advantage remains unestablished.
 
-A fresh [validation-only matching study](docs/competence_controls.md) finds eligible prediction-matched pairs in 10 of 15 comparisons, with only 6 retaining the matching tolerances on untouched test data. IIA differences remain in reported pairs, but incomplete matching and an explicit architectural identity prevent an accuracy-independent interpretability claim. All candidates, unmatched comparisons and held-out results are retained.
-
-## Pilot evidence limits
-
-- The task's true roles are supplied as input masks. The intervention target uses those same designed-in roles. This tests a helpful inductive bias, not autonomous discovery of interpretable structure.
-- The functional model is also more accurate. The IIA difference cannot be cleanly separated from predictive competence without accuracy-matched comparisons.
-- A generic dense modular model performs well, weakening any claim that the benefit specifically requires biological inspiration.
-- Every model receives the same perfectly retrieved evidence. Learning storage, retrieval, delay robustness or consolidation is outside this pilot.
-- Five seeds, one task family, unequal intervention granularity, and a greedy monolithic mapping search limit generalization. The architecture has no demonstrated anatomical fidelity or new-method claim.
+These are task-specific computational findings. The [biological evidence map](research/replay-mechanism-map.md) explains the motivation and where the analogy ends.
 
 ## Reproduce
 
-Tested with Python 3.12.14 and NumPy 2.3.5. NumPy is the sole runtime dependency; `requirements.txt` pins the tested version. The commands below do not install or download anything.
+With Python and NumPy already available, from the repository root:
 
 ```sh
-# From the repository root, with NumPy available:
 bash scripts/run_pilot.sh --output results/local-reproduction
-
-# Audit the committed run and compare exact numerical outputs/checkpoints:
 PYTHONPATH=src python scripts/verify_run.py results/pilot \
   --allow-missing-checkpoints --compare results/local-reproduction
-
-# Tests only:
 PYTHONPATH=src python -m unittest discover -s tests -v
 ```
 
-The full run took about 15 seconds in the measured CPU environment; runtime varies. Existing run directories containing a manifest are protected against overwrite. The text-only publication omits binary checkpoints; [regeneration and availability](docs/checkpoints.md) are documented. A separately rerun seed-11 experiment is retained in [results/repeat_seed11](results/repeat_seed11). Numerical equality excludes timings and platform metadata. The term “balanced” names the 50%-category-agreement test distribution; all reported prediction accuracies are ordinary micro accuracies, not macro-average recall.
+The recorded runtime was Python 3.12.14 with NumPy 2.3.5; `requirements.txt` pins NumPy. These commands perform no downloads. Use a fresh output directory. The text-only pilot publication omits binary checkpoints; [availability and regeneration](docs/checkpoints.md) explain that boundary. The [verifier correction](docs/audit_coverage_fix.md) documents its exact-coverage checks. Each real-data study has separate setup and evidence-verification instructions.
 
-The [post-run verifier correction](docs/audit_coverage_fix.md) closes an incomplete-comparison bug. Comparisons now enforce exact row/checkpoint coverage; partial seed comparisons require explicit scope. The 53-test suite passes, and saved experiment results remain unchanged.
+## Next questions
 
-## Neuroscience-grounded replay study
+Would replay help when classes recur naturally? Can a selection audit predict protection under the learner's actual joint update? Do role effects survive interventions that lack a designed-in alignment? The [delayed-memory proposal](docs/next_experiment.md) and [replay mechanism map](research/replay-mechanism-map.md) describe prospective work; their proposed experiments remain unrun.
 
-The [neural-motif evidence matrix](docs/neural_motifs.md) separates biological findings, computational analogies and existing ML results. A [frozen, now-executed protocol](docs/protocols/replay_digits_v1.md) tested historical replay on real handwritten digits with the official writer-held-out test split.
-
-Across ten paired seeds, final macro accuracy was **88.44% reservoir**, **21.16% FIFO**, and **19.70% current-only**. The primary reservoir–FIFO gain was **67.28 percentage points**, with a descriptive paired-seed bootstrap interval of **[65.27, 69.04] points**, conditional on this dataset. Strong immediate acquisition in every arm distinguishes retention loss from failure to learn the current block. This is a known replay mechanism under an imposed class shift, not biological validation or a novelty claim.
-
-[Full results, locked selection, reproducibility and limitations](docs/replay_results.md) preserve all 18 development comparisons and all 30 evaluation runs. The [data/core checkpoint](docs/replay_implementation.md) and [staged driver checkpoint](docs/replay_execution.md) remain as historical pre-run records.
-
-## Explore
-
-- [Design](docs/design.md) and [plan](docs/plan.md), written before implementation.
-- [Research background](docs/research.md) and [citation/claim matrix](docs/claim_matrix.md).
-- [Results and failures](docs/results.md).
-- [Unrun delayed-memory proposal and resource gates](docs/next_experiment.md), separate from the completed replay-selection study above.
-- [Data/model provenance](docs/provenance.md).
-- [Implementation](src/functional_circuits), [tests](tests), [run manifest](results/pilot/manifest.json).
-
-Original code, generated data, trained weights and original documentation: [MIT](LICENSE). Referenced papers and external dependencies retain their own licenses.
+[Design](docs/design.md), [claim matrix](docs/claim_matrix.md), [source](src/functional_circuits), [tests](tests) and [provenance](docs/provenance.md) provide the audit trail. Original code, generated data, trained weights and original documentation are [MIT licensed](LICENSE). External datasets, dependencies and papers retain their own licenses and attribution requirements.

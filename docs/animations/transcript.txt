@@ -1,0 +1,21 @@
+Learn today without losing yesterday
+OFFLINE LINEAR TOY · NOT BENCHMARK EVIDENCE
+
+No audio. All meaning is available in this transcript and on-screen text.
+The MP4 has no autoplay; the HTML viewer defaults to a static poster and respects reduced motion.
+
+00–06 seconds: Compatible tasks
+Shared weights can solve both tasks. New updates can still damage old predictions.
+The linear prediction is w1*x1+w2*x2. Task A has input (1,0), target 1; B has input (1,1), target 0. The shared solution (1,-1) fits both. Learning only A reaches approximately (1,0).
+
+06–12 seconds: Forgetting / rehearsal
+Same model and later-update count. Replay changes access to old data.
+From the learned-A state, 120 updates containing B twice approach (0.5,-0.5). A predicts 0.5 and B predicts 0. Replacing one B presentation with stored A approaches (0.999,-0.998), retaining both. Each later condition has 240 example presentations, but replay stores one old example and uses fewer B presentations. Values come from the offline demo, not image benchmarks.
+
+12–18 seconds: Which example next?
+Hard now and threatened next are different rankings. The virtual step is discarded.
+At weights (1,0), a hypothetical B step gives (0.75,-0.25). Current half-squared losses for old anchor, hard-now and threatened-next examples are 0, 0.5 and 0. Signed loss changes are +0.03125, -0.21875 and +0.125. High-loss selects hard-now; predicted-interference selects threatened-next. Uniform selection gives one-third to each. This is a scoring distinction, not a full MIR implementation or evidence that either selection improves a real model.
+
+18–24 seconds: Keep the claims separate
+Buffer retention asks what remains. Selection asks what to rehearse from it.
+One toy demonstrates forgetting and possible protection; another illustrates different replay scores. Neither establishes a benchmark advantage, biological fidelity, an optimal selector or guaranteed protection. Read the repository's controlled studies separately.
