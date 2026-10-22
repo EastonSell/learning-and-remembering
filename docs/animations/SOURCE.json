@@ -1,6 +1,16 @@
 {
-  "scene": "rehearsal-selection",
-  "repository": "neurofunctional-lab",
-  "path": "examples/learning/replay_demo.py",
-  "sha256": "c00da67d8134b5b68a2ba5289900943378445714fd0819bbecd40ec1801ac216"
+  "renderer": "Actual Manim Community 0.22.0, Cairo",
+  "scene": "ReplaySelection",
+  "neutral_asset_slug": "rehearsal-selection",
+  "source_demo": "examples/learning/replay_demo.py",
+  "asset_provenance": "Original programmatic geometry and typography; no generated scientific data or external media.",
+  "evidence_scope": "OFFLINE LINEAR TOY \u00b7 NOT BENCHMARK EVIDENCE",
+  "duration_seconds": 24,
+  "frames_per_second": 15,
+  "no_audio": true,
+  "motion_free_path": [
+    "poster.png",
+    "transcript.txt",
+    "index.html (static by default)"
+  ]
 }

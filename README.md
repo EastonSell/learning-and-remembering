@@ -12,11 +12,11 @@ This repository studies those questions through small, reproducible experiments.
 
 ## Watch the concept in 24 seconds
 
-[![Illustrative linear learner: B-only learning changes A prediction from one to about one-half; replay retains A. High current loss and greatest predicted loss increase select different stored examples.](docs/animations/poster.png)](docs/animations/concept.mp4)
+[![A toy loss plot shows that the hard-now example has the greatest current loss, while a different threatened-next example has the greatest signed loss increase after a virtual update.](docs/animations/poster.png)](docs/animations/concept.mp4)
 
-[MP4](docs/animations/concept.mp4) · [Optional GIF preview](docs/animations/concept.gif) · [Text transcript](docs/animations/transcript.txt) · [Captions](docs/animations/captions.vtt)
+[24-second Manim MP4](docs/animations/concept.mp4) · [Optional GIF preview](docs/animations/concept.gif) · [Text transcript](docs/animations/transcript.txt) · [Captions](docs/animations/captions.vtt)
 
-Offline linear toy · not benchmark evidence. No audio. The poster and transcript provide a no-motion alternative. The downloaded [HTML viewer](docs/animations/index.html) is static by default and never autoplays.
+Rendered with Manim Community 0.22.0. Offline linear toy · not benchmark evidence. No audio. The poster and transcript provide a no-motion alternative. The downloaded [HTML viewer](docs/animations/index.html) is static by default and never autoplays.
 
 ## What the experiments found
 

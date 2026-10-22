@@ -1,17 +1,13 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:06.000
-Shared weights can solve both tasks. New updates can still damage old predictions.
+00:00:00.000 --> 00:00:08.000
+Compatible tasks can still interfere through shared weights.
 
 2
-00:00:06.000 --> 00:00:12.000
-Same model and later-update count. Replay changes access to old data.
+00:00:08.000 --> 00:00:16.000
+B only forgets A; rehearsing stored A can retain both in this toy.
 
 3
-00:00:12.000 --> 00:00:18.000
-Hard now and threatened next are different rankings. The virtual step is discarded.
-
-4
-00:00:18.000 --> 00:00:24.000
-Buffer retention asks what remains. Selection asks what to rehearse from it.
+00:00:16.000 --> 00:00:24.000
+Hard now is not threatened next. The virtual update is discarded.
