@@ -1,0 +1,302 @@
+[
+  {
+    "seed": 101,
+    "swaps": 1,
+    "matched": true,
+    "selected": [
+      {
+        "seed": 101,
+        "swaps": 0,
+        "epoch": 2,
+        "accuracy": 0.73095703125,
+        "context_accuracy": [
+          0.8220918866080157,
+          0.64
+        ]
+      },
+      {
+        "seed": 101,
+        "swaps": 1,
+        "epoch": 32,
+        "accuracy": 0.73046875,
+        "context_accuracy": [
+          0.7849462365591398,
+          0.6760975609756098
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 101,
+    "swaps": 2,
+    "matched": true,
+    "selected": [
+      {
+        "seed": 101,
+        "swaps": 0,
+        "epoch": 2,
+        "accuracy": 0.73095703125,
+        "context_accuracy": [
+          0.8220918866080157,
+          0.64
+        ]
+      },
+      {
+        "seed": 101,
+        "swaps": 2,
+        "epoch": 8,
+        "accuracy": 0.7333984375,
+        "context_accuracy": [
+          0.7878787878787878,
+          0.6790243902439025
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 101,
+    "swaps": 3,
+    "matched": false,
+    "selected": null
+  },
+  {
+    "seed": 127,
+    "swaps": 1,
+    "matched": true,
+    "selected": [
+      {
+        "seed": 127,
+        "swaps": 0,
+        "epoch": 4,
+        "accuracy": 0.8544921875,
+        "context_accuracy": [
+          0.8723404255319149,
+          0.8362919132149902
+        ]
+      },
+      {
+        "seed": 127,
+        "swaps": 1,
+        "epoch": 8,
+        "accuracy": 0.8701171875,
+        "context_accuracy": [
+          0.9081237911025145,
+          0.8313609467455622
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 127,
+    "swaps": 2,
+    "matched": true,
+    "selected": [
+      {
+        "seed": 127,
+        "swaps": 0,
+        "epoch": 2,
+        "accuracy": 0.74609375,
+        "context_accuracy": [
+          0.7408123791102514,
+          0.7514792899408284
+        ]
+      },
+      {
+        "seed": 127,
+        "swaps": 2,
+        "epoch": 120,
+        "accuracy": 0.74169921875,
+        "context_accuracy": [
+          0.758220502901354,
+          0.7248520710059172
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 127,
+    "swaps": 3,
+    "matched": true,
+    "selected": [
+      {
+        "seed": 127,
+        "swaps": 0,
+        "epoch": 2,
+        "accuracy": 0.74609375,
+        "context_accuracy": [
+          0.7408123791102514,
+          0.7514792899408284
+        ]
+      },
+      {
+        "seed": 127,
+        "swaps": 3,
+        "epoch": 32,
+        "accuracy": 0.74072265625,
+        "context_accuracy": [
+          0.7553191489361702,
+          0.7258382642998028
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 149,
+    "swaps": 1,
+    "matched": true,
+    "selected": [
+      {
+        "seed": 149,
+        "swaps": 0,
+        "epoch": 32,
+        "accuracy": 0.9306640625,
+        "context_accuracy": [
+          0.9123152709359605,
+          0.9486931268151017
+        ]
+      },
+      {
+        "seed": 149,
+        "swaps": 1,
+        "epoch": 32,
+        "accuracy": 0.916015625,
+        "context_accuracy": [
+          0.9201970443349754,
+          0.9119070667957405
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 149,
+    "swaps": 2,
+    "matched": true,
+    "selected": [
+      {
+        "seed": 149,
+        "swaps": 0,
+        "epoch": 2,
+        "accuracy": 0.76123046875,
+        "context_accuracy": [
+          0.7467980295566502,
+          0.7754114230396902
+        ]
+      },
+      {
+        "seed": 149,
+        "swaps": 2,
+        "epoch": 2,
+        "accuracy": 0.755859375,
+        "context_accuracy": [
+          0.741871921182266,
+          0.7696030977734754
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 149,
+    "swaps": 3,
+    "matched": true,
+    "selected": [
+      {
+        "seed": 149,
+        "swaps": 0,
+        "epoch": 2,
+        "accuracy": 0.76123046875,
+        "context_accuracy": [
+          0.7467980295566502,
+          0.7754114230396902
+        ]
+      },
+      {
+        "seed": 149,
+        "swaps": 3,
+        "epoch": 64,
+        "accuracy": 0.77294921875,
+        "context_accuracy": [
+          0.761576354679803,
+          0.7841239109390126
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 173,
+    "swaps": 1,
+    "matched": true,
+    "selected": [
+      {
+        "seed": 173,
+        "swaps": 0,
+        "epoch": 2,
+        "accuracy": 0.74560546875,
+        "context_accuracy": [
+          0.82421875,
+          0.6669921875
+        ]
+      },
+      {
+        "seed": 173,
+        "swaps": 1,
+        "epoch": 2,
+        "accuracy": 0.72802734375,
+        "context_accuracy": [
+          0.8017578125,
+          0.654296875
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 173,
+    "swaps": 2,
+    "matched": false,
+    "selected": null
+  },
+  {
+    "seed": 173,
+    "swaps": 3,
+    "matched": true,
+    "selected": [
+      {
+        "seed": 173,
+        "swaps": 0,
+        "epoch": 2,
+        "accuracy": 0.74560546875,
+        "context_accuracy": [
+          0.82421875,
+          0.6669921875
+        ]
+      },
+      {
+        "seed": 173,
+        "swaps": 3,
+        "epoch": 2,
+        "accuracy": 0.73388671875,
+        "context_accuracy": [
+          0.791015625,
+          0.6767578125
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 197,
+    "swaps": 1,
+    "matched": false,
+    "selected": null
+  },
+  {
+    "seed": 197,
+    "swaps": 2,
+    "matched": false,
+    "selected": null
+  },
+  {
+    "seed": 197,
+    "swaps": 3,
+    "matched": false,
+    "selected": null
+  }
+]

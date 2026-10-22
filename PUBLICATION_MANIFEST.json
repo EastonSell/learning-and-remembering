@@ -1,5 +1,5 @@
 {
-  "bundle": "neurofunctional-lab-text-publication-v2",
+  "bundle": "neurofunctional-lab-text-publication-v3",
   "destination_repository": "EastonSell/neurofunctional-lab",
   "include_self": "PUBLICATION_MANIFEST.json",
   "include_files": [
@@ -15,8 +15,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "93e2dad491161fd80efc72f79558428427db97d834b3814e79a66fbab07356bf",
-      "bytes": 4805
+      "sha256": "87af8616d6d96868d9b9af5a0cab22ee23045312ce9842cc0ea4432688128880",
+      "bytes": 5285
     },
     {
       "path": "docs/checkpoints.md",
@@ -27,6 +27,11 @@
       "path": "docs/claim_matrix.md",
       "sha256": "98f60fc105f428dab3c38425d41c80eae06ddee64fc285776e84545975bb83ee",
       "bytes": 2744
+    },
+    {
+      "path": "docs/competence_controls.md",
+      "sha256": "b493ff0c5b4317c679f5e52ce235d35b7c8d2e6d933762a3066a0301be2c473b",
+      "bytes": 6830
     },
     {
       "path": "docs/design.md",
@@ -42,6 +47,11 @@
       "path": "docs/plan.md",
       "sha256": "bef6993339fc2368393fa8c4407664f71ddc51263ae0901c9760348e9bce0356",
       "bytes": 2704
+    },
+    {
+      "path": "docs/protocols/competence_controls_v1.json",
+      "sha256": "f94fc0c6d8f05e89d31834abc67ba3466950d05d13e1a5cf3cd6aa139330c914",
+      "bytes": 2333
     },
     {
       "path": "docs/provenance.md",
@@ -72,6 +82,36 @@
       "path": "requirements.txt",
       "sha256": "edba2275dc8d18f25e54846f9631d22f64d4e903448fdf4fa5a7f3caecd7b409",
       "bytes": 76
+    },
+    {
+      "path": "results/competence_controls/candidates.json",
+      "sha256": "466637786065a3a25c82d1face385f5b487b37dfa58426b0355d4cc646883404",
+      "bytes": 26962
+    },
+    {
+      "path": "results/competence_controls/manifest.json",
+      "sha256": "e0259ec23de1f1223adb601203a43fc768aa5d02932ff6710e924993e65e9b13",
+      "bytes": 6815
+    },
+    {
+      "path": "results/competence_controls/metrics.json",
+      "sha256": "4fb634ec0b227c6032704b2745806454d81f37057c8eb724760cae1264768ace",
+      "bytes": 11983
+    },
+    {
+      "path": "results/competence_controls/selections.json",
+      "sha256": "95adef36909651c37a01fc0b29021976bc7b6cc79b1a32f5c0fab8146650d208",
+      "bytes": 5433
+    },
+    {
+      "path": "results/competence_controls/summary.json",
+      "sha256": "6a7ceebda7c83d87aca8c9753d2bde917b3c7e62502c651408b7ab2e557820b2",
+      "bytes": 1347
+    },
+    {
+      "path": "results/competence_controls_verification.json",
+      "sha256": "2fd29f4c7d7116022a8f403c0cc0fb6636e5f10f57858bc949beda29ddf8d309",
+      "bytes": 429
     },
     {
       "path": "results/pilot/learning_curves.json",
@@ -194,6 +234,11 @@
       "bytes": 93
     },
     {
+      "path": "src/functional_circuits/competence_controls.py",
+      "sha256": "ce76606ae4ebdf03d7e82d19472a75bd4f6d2cb64befee7a0ab58bd5ef9731d2",
+      "bytes": 9652
+    },
+    {
       "path": "src/functional_circuits/data.py",
       "sha256": "5587543b332c4b83a4d43d7843a24789ae7f84171e5072d33fd39dc3cee5e681",
       "bytes": 2174
@@ -217,6 +262,11 @@
       "path": "src/functional_circuits/role_controls.py",
       "sha256": "ebe69bf18ce0fc5d38e4d2af824b6a6563e6d27c23fb6c7865b4ca9888439a19",
       "bytes": 6749
+    },
+    {
+      "path": "tests/test_competence_controls.py",
+      "sha256": "32022108be0f24338a859b3301f34433ec6a85cb21e8e7c5a4076c942612a99c",
+      "bytes": 4392
     },
     {
       "path": "tests/test_core.py",
@@ -413,5 +463,5 @@
   ],
   "omission_reason": "All weights regenerate with scripts/run_pilot.sh; see docs/checkpoints.md. Exact checkpoint hashes are also in run manifests.",
   "publication_state": "Prepared locally; this file does not assert remote publication.",
-  "test_status": "16 tests passed. Original 90 metric rows and 30 checkpoint hashes reproduce exactly. New 60-row role control repeated with byte-identical metric, summary and learning-curve JSON. Original and new manifest audits passed."
+  "test_status": "22 tests passed. Original pilot and role-control manifests verified. Fresh validation-matched competence study repeated with byte-identical candidates, selections, metrics and summary JSON; protocol and selection hashes verified. All previously published source, tests and results preserved."
 }

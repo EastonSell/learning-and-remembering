@@ -1,0 +1,61 @@
+[
+  {
+    "swaps": 1,
+    "attempted_pairs": 5,
+    "validation_matched_pairs": 4,
+    "test_match_transferred_pairs": 3,
+    "mean_accuracy_gap": -0.000732421875,
+    "mean_iia_gap": 0.03436279296875,
+    "shared_correct_examples": [
+      3624,
+      5729,
+      7133,
+      4588
+    ],
+    "mean_shared_correct_iia_gap": 0.05988814416720384,
+    "paired_iia_gaps": [
+      0.10888671875,
+      -0.00732421875,
+      0.0159912109375,
+      0.0198974609375
+    ]
+  },
+  {
+    "swaps": 2,
+    "attempted_pairs": 5,
+    "validation_matched_pairs": 3,
+    "test_match_transferred_pairs": 1,
+    "mean_accuracy_gap": 0.00020345052083333334,
+    "mean_iia_gap": 0.0765380859375,
+    "shared_correct_examples": [
+      3690,
+      3624,
+      4970
+    ],
+    "mean_shared_correct_iia_gap": 0.15704073113880854,
+    "paired_iia_gaps": [
+      0.0811767578125,
+      0.14013671875,
+      0.00830078125
+    ]
+  },
+  {
+    "swaps": 3,
+    "attempted_pairs": 5,
+    "validation_matched_pairs": 3,
+    "test_match_transferred_pairs": 2,
+    "mean_accuracy_gap": 0.009969075520833334,
+    "mean_iia_gap": 0.08784993489583333,
+    "shared_correct_examples": [
+      3808,
+      4414,
+      4134
+    ],
+    "mean_shared_correct_iia_gap": 0.1586997116160925,
+    "paired_iia_gaps": [
+      0.154052734375,
+      0.0570068359375,
+      0.052490234375
+    ]
+  }
+]

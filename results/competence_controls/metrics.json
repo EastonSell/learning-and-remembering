@@ -1,0 +1,667 @@
+[
+  {
+    "seed": 101,
+    "swaps": 1,
+    "matched": true,
+    "epochs": [
+      2,
+      32
+    ],
+    "parameters": [
+      132,
+      132
+    ],
+    "mappings": [
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "test_profiles": [
+      {
+        "accuracy": 0.720458984375,
+        "context_accuracy": [
+          0.8068126520681265,
+          0.6335129838314552
+        ]
+      },
+      {
+        "accuracy": 0.738525390625,
+        "context_accuracy": [
+          0.7909975669099757,
+          0.6856932876041156
+        ]
+      }
+    ],
+    "accuracy_gap_aligned_minus_mixed": -0.01806640625,
+    "context_accuracy_gaps": [
+      0.015815085158150777,
+      -0.052180303772660475
+    ],
+    "test_match_transferred": false,
+    "memory_iia": [
+      0.7142333984375,
+      0.6053466796875
+    ],
+    "iia_gap_aligned_minus_mixed": 0.10888671875,
+    "changed_memory_iia": [
+      0.6215043394406943,
+      0.3235294117647059
+    ],
+    "shared_correct": {
+      "examples": 3624,
+      "changed_examples": 327,
+      "iia": [
+        1.0,
+        0.7969094922737306
+      ],
+      "changed_iia": [
+        1.0,
+        0.1743119266055046
+      ]
+    }
+  },
+  {
+    "seed": 101,
+    "swaps": 2,
+    "matched": true,
+    "epochs": [
+      2,
+      8
+    ],
+    "parameters": [
+      132,
+      132
+    ],
+    "mappings": [
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "test_profiles": [
+      {
+        "accuracy": 0.720458984375,
+        "context_accuracy": [
+          0.8068126520681265,
+          0.6335129838314552
+        ]
+      },
+      {
+        "accuracy": 0.7403564453125,
+        "context_accuracy": [
+          0.7871046228710462,
+          0.6932876041156296
+        ]
+      }
+    ],
+    "accuracy_gap_aligned_minus_mixed": -0.0198974609375,
+    "context_accuracy_gaps": [
+      0.019708029197080257,
+      -0.05977462028417446
+    ],
+    "test_match_transferred": false,
+    "memory_iia": [
+      0.7142333984375,
+      0.633056640625
+    ],
+    "iia_gap_aligned_minus_mixed": 0.0811767578125,
+    "changed_memory_iia": [
+      0.6215043394406943,
+      0.32111861137897785
+    ],
+    "shared_correct": {
+      "examples": 3690,
+      "changed_examples": 362,
+      "iia": [
+        1.0,
+        0.864769647696477
+      ],
+      "changed_iia": [
+        1.0,
+        0.12154696132596685
+      ]
+    }
+  },
+  {
+    "seed": 101,
+    "swaps": 3,
+    "matched": false
+  },
+  {
+    "seed": 127,
+    "swaps": 1,
+    "matched": true,
+    "epochs": [
+      4,
+      8
+    ],
+    "parameters": [
+      132,
+      132
+    ],
+    "mappings": [
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "test_profiles": [
+      {
+        "accuracy": 0.851318359375,
+        "context_accuracy": [
+          0.8650832517140059,
+          0.8376338851022396
+        ]
+      },
+      {
+        "accuracy": 0.8681640625,
+        "context_accuracy": [
+          0.903281096963761,
+          0.8332521908471275
+        ]
+      }
+    ],
+    "accuracy_gap_aligned_minus_mixed": -0.016845703125,
+    "context_accuracy_gaps": [
+      -0.038197845249755114,
+      0.004381694255112034
+    ],
+    "test_match_transferred": true,
+    "memory_iia": [
+      0.8487548828125,
+      0.8560791015625
+    ],
+    "iia_gap_aligned_minus_mixed": -0.00732421875,
+    "changed_memory_iia": [
+      0.8291727851199217,
+      0.8164464023494861
+    ],
+    "shared_correct": {
+      "examples": 5729,
+      "changed_examples": 1187,
+      "iia": [
+        1.0,
+        0.9860359574096701
+      ],
+      "changed_iia": [
+        1.0,
+        0.9856781802864364
+      ]
+    }
+  },
+  {
+    "seed": 127,
+    "swaps": 2,
+    "matched": true,
+    "epochs": [
+      2,
+      120
+    ],
+    "parameters": [
+      132,
+      132
+    ],
+    "mappings": [
+      [
+        1
+      ],
+      [
+        0
+      ]
+    ],
+    "test_profiles": [
+      {
+        "accuracy": 0.7535400390625,
+        "context_accuracy": [
+          0.7558765915768854,
+          0.7512171372930867
+        ]
+      },
+      {
+        "accuracy": 0.7315673828125,
+        "context_accuracy": [
+          0.7365328109696376,
+          0.7266309639727361
+        ]
+      }
+    ],
+    "accuracy_gap_aligned_minus_mixed": 0.02197265625,
+    "context_accuracy_gaps": [
+      0.01934378060724773,
+      0.024586173320350624
+    ],
+    "test_match_transferred": false,
+    "memory_iia": [
+      0.7503662109375,
+      0.6102294921875
+    ],
+    "iia_gap_aligned_minus_mixed": 0.14013671875,
+    "changed_memory_iia": [
+      0.7498776309348997,
+      0.71071953010279
+    ],
+    "shared_correct": {
+      "examples": 3624,
+      "changed_examples": 689,
+      "iia": [
+        1.0,
+        0.6928807947019867
+      ],
+      "changed_iia": [
+        1.0,
+        0.8127721335268505
+      ]
+    }
+  },
+  {
+    "seed": 127,
+    "swaps": 3,
+    "matched": true,
+    "epochs": [
+      2,
+      32
+    ],
+    "parameters": [
+      132,
+      132
+    ],
+    "mappings": [
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "test_profiles": [
+      {
+        "accuracy": 0.7535400390625,
+        "context_accuracy": [
+          0.7558765915768854,
+          0.7512171372930867
+        ]
+      },
+      {
+        "accuracy": 0.730224609375,
+        "context_accuracy": [
+          0.7426542605288933,
+          0.7178675754625121
+        ]
+      }
+    ],
+    "accuracy_gap_aligned_minus_mixed": 0.0233154296875,
+    "context_accuracy_gaps": [
+      0.013222331047992086,
+      0.03334956183057458
+    ],
+    "test_match_transferred": false,
+    "memory_iia": [
+      0.7503662109375,
+      0.5963134765625
+    ],
+    "iia_gap_aligned_minus_mixed": 0.154052734375,
+    "changed_memory_iia": [
+      0.7498776309348997,
+      0.3240332843857073
+    ],
+    "shared_correct": {
+      "examples": 3808,
+      "changed_examples": 709,
+      "iia": [
+        1.0,
+        0.7555147058823529
+      ],
+      "changed_iia": [
+        1.0,
+        0.21015514809590974
+      ]
+    }
+  },
+  {
+    "seed": 149,
+    "swaps": 1,
+    "matched": true,
+    "epochs": [
+      32,
+      32
+    ],
+    "parameters": [
+      132,
+      132
+    ],
+    "mappings": [
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "test_profiles": [
+      {
+        "accuracy": 0.9447021484375,
+        "context_accuracy": [
+          0.9267578125,
+          0.962646484375
+        ]
+      },
+      {
+        "accuracy": 0.929443359375,
+        "context_accuracy": [
+          0.93017578125,
+          0.9287109375
+        ]
+      }
+    ],
+    "accuracy_gap_aligned_minus_mixed": 0.0152587890625,
+    "context_accuracy_gaps": [
+      -0.00341796875,
+      0.033935546875
+    ],
+    "test_match_transferred": true,
+    "memory_iia": [
+      0.943359375,
+      0.9273681640625
+    ],
+    "iia_gap_aligned_minus_mixed": 0.0159912109375,
+    "changed_memory_iia": [
+      0.9612965650701499,
+      0.9235607160135462
+    ],
+    "shared_correct": {
+      "examples": 7133,
+      "changed_examples": 1759,
+      "iia": [
+        1.0,
+        0.9973363241272957
+      ],
+      "changed_iia": [
+        1.0,
+        0.9937464468447982
+      ]
+    }
+  },
+  {
+    "seed": 149,
+    "swaps": 2,
+    "matched": true,
+    "epochs": [
+      2,
+      2
+    ],
+    "parameters": [
+      132,
+      132
+    ],
+    "mappings": [
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "test_profiles": [
+      {
+        "accuracy": 0.7734375,
+        "context_accuracy": [
+          0.768310546875,
+          0.778564453125
+        ]
+      },
+      {
+        "accuracy": 0.77490234375,
+        "context_accuracy": [
+          0.772216796875,
+          0.777587890625
+        ]
+      }
+    ],
+    "accuracy_gap_aligned_minus_mixed": -0.00146484375,
+    "context_accuracy_gaps": [
+      -0.00390625,
+      0.0009765625
+    ],
+    "test_match_transferred": true,
+    "memory_iia": [
+      0.778076171875,
+      0.769775390625
+    ],
+    "iia_gap_aligned_minus_mixed": 0.00830078125,
+    "changed_memory_iia": [
+      0.7919690372520561,
+      0.7851959361393324
+    ],
+    "shared_correct": {
+      "examples": 4970,
+      "changed_examples": 1146,
+      "iia": [
+        1.0,
+        0.9712273641851107
+      ],
+      "changed_iia": [
+        1.0,
+        0.9650959860383944
+      ]
+    }
+  },
+  {
+    "seed": 149,
+    "swaps": 3,
+    "matched": true,
+    "epochs": [
+      2,
+      64
+    ],
+    "parameters": [
+      132,
+      132
+    ],
+    "mappings": [
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "test_profiles": [
+      {
+        "accuracy": 0.7734375,
+        "context_accuracy": [
+          0.768310546875,
+          0.778564453125
+        ]
+      },
+      {
+        "accuracy": 0.7825927734375,
+        "context_accuracy": [
+          0.78564453125,
+          0.779541015625
+        ]
+      }
+    ],
+    "accuracy_gap_aligned_minus_mixed": -0.0091552734375,
+    "context_accuracy_gaps": [
+      -0.017333984375,
+      -0.0009765625
+    ],
+    "test_match_transferred": true,
+    "memory_iia": [
+      0.778076171875,
+      0.7210693359375
+    ],
+    "iia_gap_aligned_minus_mixed": 0.0570068359375,
+    "changed_memory_iia": [
+      0.7919690372520561,
+      0.7324625060474117
+    ],
+    "shared_correct": {
+      "examples": 4414,
+      "changed_examples": 994,
+      "iia": [
+        1.0,
+        0.8767557770729497
+      ],
+      "changed_iia": [
+        1.0,
+        0.8772635814889336
+      ]
+    }
+  },
+  {
+    "seed": 173,
+    "swaps": 1,
+    "matched": true,
+    "epochs": [
+      2,
+      2
+    ],
+    "parameters": [
+      132,
+      132
+    ],
+    "mappings": [
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "test_profiles": [
+      {
+        "accuracy": 0.7490234375,
+        "context_accuracy": [
+          0.8158914728682171,
+          0.6811023622047244
+        ]
+      },
+      {
+        "accuracy": 0.7322998046875,
+        "context_accuracy": [
+          0.8001453488372093,
+          0.6633858267716536
+        ]
+      }
+    ],
+    "accuracy_gap_aligned_minus_mixed": 0.0167236328125,
+    "context_accuracy_gaps": [
+      0.015746124031007724,
+      0.017716535433070835
+    ],
+    "test_match_transferred": true,
+    "memory_iia": [
+      0.74658203125,
+      0.7266845703125
+    ],
+    "iia_gap_aligned_minus_mixed": 0.0198974609375,
+    "changed_memory_iia": [
+      0.6821552150271873,
+      0.6722689075630253
+    ],
+    "shared_correct": {
+      "examples": 4588,
+      "changed_examples": 648,
+      "iia": [
+        1.0,
+        0.9801656495204882
+      ],
+      "changed_iia": [
+        1.0,
+        0.9567901234567902
+      ]
+    }
+  },
+  {
+    "seed": 173,
+    "swaps": 2,
+    "matched": false
+  },
+  {
+    "seed": 173,
+    "swaps": 3,
+    "matched": true,
+    "epochs": [
+      2,
+      2
+    ],
+    "parameters": [
+      132,
+      132
+    ],
+    "mappings": [
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "test_profiles": [
+      {
+        "accuracy": 0.7490234375,
+        "context_accuracy": [
+          0.8158914728682171,
+          0.6811023622047244
+        ]
+      },
+      {
+        "accuracy": 0.7332763671875,
+        "context_accuracy": [
+          0.7759205426356589,
+          0.6899606299212598
+        ]
+      }
+    ],
+    "accuracy_gap_aligned_minus_mixed": 0.0157470703125,
+    "context_accuracy_gaps": [
+      0.039970930232558155,
+      -0.008858267716535417
+    ],
+    "test_match_transferred": true,
+    "memory_iia": [
+      0.74658203125,
+      0.694091796875
+    ],
+    "iia_gap_aligned_minus_mixed": 0.052490234375,
+    "changed_memory_iia": [
+      0.6821552150271873,
+      0.661888284725655
+    ],
+    "shared_correct": {
+      "examples": 4134,
+      "changed_examples": 605,
+      "iia": [
+        1.0,
+        0.8916303821964199
+      ],
+      "changed_iia": [
+        1.0,
+        0.7966942148760331
+      ]
+    }
+  },
+  {
+    "seed": 197,
+    "swaps": 1,
+    "matched": false
+  },
+  {
+    "seed": 197,
+    "swaps": 2,
+    "matched": false
+  },
+  {
+    "seed": 197,
+    "swaps": 3,
+    "matched": false
+  }
+]

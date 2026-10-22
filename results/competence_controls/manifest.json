@@ -1,0 +1,117 @@
+{
+  "study": "validation-matched-competence-v1",
+  "protocol": {
+    "study": "validation-matched-competence-v1",
+    "recorded_before_execution_utc": "2026-10-22T04:18:00Z",
+    "baseline_commit": "04151cfb4948bc3d489882d2e60c4a3bfe06e235",
+    "seeds": [
+      101,
+      127,
+      149,
+      173,
+      197
+    ],
+    "epochs": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      120
+    ],
+    "swaps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "train_size": 2048,
+    "selection_size": 2048,
+    "mapping_size": 1024,
+    "test_size": 8192,
+    "seed_offsets": {
+      "train": 1,
+      "selection": 2,
+      "mapping": 3,
+      "mapping_donors": 8,
+      "test": 41,
+      "test_donors": 42
+    },
+    "seed_formula": "100 * seed + offset",
+    "train_agreement": 0.8,
+    "evaluation_agreement": 0.5,
+    "overall_accuracy_tolerance": 0.02,
+    "context_accuracy_tolerance": 0.04,
+    "minimum_accuracy": 0.7,
+    "selection": "For each aligned-vs-mixed pair, retain candidates meeting accuracy floor and overall/per-context gaps. Maximize minimum overall accuracy, then minimize overall gap, then prefer smaller aligned epoch and smaller mixed epoch. No IIA used. Report unmatched pairs; do not relax criteria.",
+    "training": "Each epoch candidate retrains from identical initialization with the pilot Adam implementation, lr .01, batch 128, training RNG seed +10000. Fixed 132 parameters. No optimizer restarts within candidate.",
+    "mapping": "After pair selection, choose one of two branches on independent mapping data and donors using existing mapping algorithm.",
+    "primary": "All validation-selected pairs: held-out overall and context accuracy gaps and memory IIA differences, plus whether the same matching tolerances transfer. Never drop pairs based on test performance.",
+    "secondary": "IIA on one shared subset where both models predict the factual input and explicit memory-input replacement counterfactual correctly. Report subset size and changed-case subset size; null for empty groups. This is a selection-biased diagnostic, not a causal adjustment.",
+    "limitations": "Engineered task/masks; validation matching is approximate; fixed small checkpoint grid can fail; training duration differs; accuracy equality does not imply equal error structure; no biological inference. No formal confirmatory significance test.",
+    "publication": "Publish protocol hash, all candidate validation scores, locked selections, all selected-pair test results, summaries and source/data hashes. No post-hoc protocol revisions based on test outcomes."
+  },
+  "protocol_sha256": "f94fc0c6d8f05e89d31834abc67ba3466950d05d13e1a5cf3cd6aa139330c914",
+  "selections_locked_before_test_sha256": "95adef36909651c37a01fc0b29021976bc7b6cc79b1a32f5c0fab8146650d208",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "dataset_sha256": {
+    "101": {
+      "train": "ac297b263f845cc2964a2ceb37d425ad0e24714ad0a1c1d0cd1403e6469941fe",
+      "selection": "135c437953251c42c79bc885cf030af652e0a446c0b8d6338abc8099e066ca96",
+      "mapping": "d174d325297df7171976fc54b44ff6a78fcc00a776f79e5c8158eec64eea062d",
+      "mapping_donors": "b0cf5dab9fb7a94d78b8146dd3552c2500537ca1a5a85ad5c8c907caa72b0a46",
+      "test": "95b39a95ffad5b574cfc694fddda549604f3fc3b3057b078f3e1bc92d7da9289",
+      "test_donors": "6b0868fd7d2bdec57d399232a08b87a597ed791669d78440f7d247bae138942f"
+    },
+    "127": {
+      "train": "8488abeb6118b9f63cab454addb065da15b8888c1b6a0281156bc592f9c7603a",
+      "selection": "9c6db974fdecd7f32a3682bb8e86a98161731f9182fdf5a85f80ac9bc5e53eeb",
+      "mapping": "d5a7d07f12c3eba6f14a555710e2123baf5d29e63bcbca8434eac7d53d115a54",
+      "mapping_donors": "3e1c4a8ab668e5ccc306f05c7044b078ea791f00b86e64cb1d5cc8f82b89b77b",
+      "test": "66ca1a7f198f6a049b44ef1645ff4a6f99c6979c8dc5cf8709e8cd5131402373",
+      "test_donors": "12ec3839d6a3ef2cc47535a768fdc143dede94d8040764d8ad5bebcb41b36e09"
+    },
+    "149": {
+      "train": "5629c90ecf8ffa689698c65d6ffc206d6f6f69f16bee830f6c9fde31e72ee559",
+      "selection": "4b3e7fef35f7feb0cdfde58ff7c70668ed5d37224469c668d14a1d5b290adf2e",
+      "mapping": "99499bd9472491525635372e53dfe353d1d068444743d0f5b93e6007a337390d",
+      "mapping_donors": "ebf577bb6b5f26ca62c980f6cc5f89f9664f6882235de3b1b010df76cf108419",
+      "test": "d20e479e9941987898a5dcd924b750b5b410f085017b48613dbab626aaf27c40",
+      "test_donors": "aa827b3f48920d1e604a028a0a9e0bb5d8cda5e37316d79cf5b3288ce39007b8"
+    },
+    "173": {
+      "train": "e328d14fd10decce45bc7295cd2d0a52692cffff9736d7afee2e592df2e55134",
+      "selection": "da724b262cf177490a356f009f02bc385839ba15ec1cc079d26267f60373f370",
+      "mapping": "bd86a367b4d8f841854e9115a8399fd4a23b9a8dca7bb2dd89e209db2c9c02f7",
+      "mapping_donors": "7265632cb15c1a84825c2ee92c7c37e3385b67e4952dab21287353d2af68451e",
+      "test": "58bc9b8416e0df5dc93da6346d9bd11b2cc60af408e12d345c76e279dcacd6c9",
+      "test_donors": "a25a636c9c4305ef2a926b596556bcc966af485aada705f2a958c6496ae01690"
+    },
+    "197": {
+      "train": "479cbdde663e9ac0f345476c47ed5e69c3c2a1f5e1b3046e78b06ea88c44b6a5",
+      "selection": "aa8ffd8ea80f1df2680f8f13051ec6d388892401d4b50f2bd5f6a0e8d650d679"
+    }
+  },
+  "source_sha256": {
+    "scripts/verify_run.py": "b9be1d1fb77d531eeeabd97ff58caf7f8801be50a72589a21b3bcfa30ee1c34b",
+    "src/functional_circuits/__init__.py": "539ac2a157bf6b481c729b3dc96917425e1f2b00ecb8bca2cb1b1bce717c6bde",
+    "src/functional_circuits/competence_controls.py": "ce76606ae4ebdf03d7e82d19472a75bd4f6d2cb64befee7a0ab58bd5ef9731d2",
+    "src/functional_circuits/data.py": "5587543b332c4b83a4d43d7843a24789ae7f84171e5072d33fd39dc3cee5e681",
+    "src/functional_circuits/experiment.py": "04cd645f7c2994d4a6a2109621d7a183c77fa88425c7e0cdb050894a8e71178b",
+    "src/functional_circuits/metrics.py": "40c645fcf324401786872fec7c5bd9442bda48b3c6e52c7e091511106131f4c9",
+    "src/functional_circuits/models.py": "c165ff251a9bb4e8985be79efadf19f060d952f9bd4d6aee17a7612402364d22",
+    "src/functional_circuits/role_controls.py": "ebe69bf18ce0fc5d38e4d2af824b6a6563e6d27c23fb6c7865b4ca9888439a19",
+    "tests/test_competence_controls.py": "32022108be0f24338a859b3301f34433ec6a85cb21e8e7c5a4076c942612a99c",
+    "tests/test_core.py": "47cf4d9f6d83027a49194765e7c372d3a680c8a17c86b0b24c84d23e78c0e0fc",
+    "tests/test_role_controls.py": "98550713f399674d0c008384c197555186d9d2e481103959f1f790fa1c7e22f1"
+  },
+  "artifact_sha256": {
+    "candidates.json": "466637786065a3a25c82d1face385f5b487b37dfa58426b0355d4cc646883404",
+    "metrics.json": "4fb634ec0b227c6032704b2745806454d81f37057c8eb724760cae1264768ace",
+    "selections.json": "95adef36909651c37a01fc0b29021976bc7b6cc79b1a32f5c0fab8146650d208",
+    "summary.json": "6a7ceebda7c83d87aca8c9753d2bde917b3c7e62502c651408b7ab2e557820b2"
+  }
+}

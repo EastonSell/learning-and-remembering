@@ -25,6 +25,10 @@ Exact measurements, all distributions, paired differences, learning curves and c
 
 A fresh five-seed [role-mask control](docs/role_controls.md) keeps all conditions at 132 parameters and the same intervention/search budget. Mixing the supplied role boundaries lowers both prediction accuracy and intervention accuracy; merely exchanging branch names leaves predictions unchanged. This quantifies dependence on the engineered task alignment, not biological specificity. Full [results](results/role_controls) and limitations are retained separately from the pilot.
 
+## Validation-matched competence study
+
+A fresh [validation-only matching study](docs/competence_controls.md) finds eligible prediction-matched pairs in 10 of 15 comparisons, with only 6 retaining the matching tolerances on untouched test data. IIA differences remain in reported pairs, but incomplete matching and an explicit architectural identity prevent an accuracy-independent interpretability claim. All candidates, unmatched comparisons and held-out results are retained.
+
 ## Evidence limits
 
 - The task's true roles are supplied as input masks. The intervention target uses those same designed-in roles. This tests a helpful inductive bias, not autonomous discovery of interpretable structure.
