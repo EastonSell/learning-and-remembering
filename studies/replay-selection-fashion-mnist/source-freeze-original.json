@@ -1,0 +1,75 @@
+{
+  "architecture": [
+    196,
+    32,
+    10
+  ],
+  "arms": [
+    "mir",
+    "highloss",
+    "uniform",
+    "shuffledscore",
+    "uniform-extra-replay"
+  ],
+  "budget_convention": "logical-scalar-kernels-v1",
+  "created_at": "2026-10-22T08:56:16.164270+00:00",
+  "files": {
+    "README.md": "3eedc55be291bedad823160ea931dd74e666ddcb80571807e46a0ed4181d372e",
+    "docs/README.md": "e63939b2dbf76b729bec31ff5348b2f84e72aabf9b4b6d1eeb2a41e2257f80cf",
+    "docs/data-amendment.md": "d7a68fd8468b15133f42b93b2d42aa340eb55ba68107e6211a51c0fe9d459025",
+    "docs/implementation-amendment.md": "431275a3a800e38d61c1de08409582ab54dad902a228581d1f4a9cefc5a8f4f3",
+    "docs/operation-ledger.md": "a9abc21144f354248b7df0ef45de8fb5f61bd4185ff5fb5bf6369262832364cf",
+    "docs/protocol.md": "4669a11b43302f9fc054d100c52cb39fc8f40b8b36b59be044c4ebc2caa6ad0b",
+    "docs/retention.md": "f4b986cc25d4bfe720eec9168888d70f49155cf5dc089420a6955afad7abf755",
+    "docs/review-amendment-v2.md": "0ff4d444312a238df947b9749d570e414c37fd94fb67f8ea71a40dff1f2c1e38",
+    "docs/sources.md": "7d0dcf1adaf82a303e735405e2f5f128b63e309df444baeeaa9441c64cd8cf63",
+    "replaystudy/__init__.py": "0e9d1d97c316136c3c5957ff7e2560b39623ef14bb984ce1e1a11e7a6760552f",
+    "replaystudy/core.py": "1ccaf5b088c3b676ab6fc0d52a7beb305d652486cd6e864392d2152655d74626",
+    "replaystudy/data.py": "e47b83bc4b7e1e69a4ee1fed6f42166a9dbf5e2a773711fa245cfa759c97d1c5",
+    "replaystudy/evidence.py": "eec6a121e7078c6108b94e9101e836ba1d4b761ed7c3c83ff0a5d17ff912cdb0",
+    "replaystudy/runner.py": "e2c455771d15b8053946a886b3a57b395cb40655f5d5f97afc3eb6c548462453",
+    "replaystudy/stages.py": "fa12c11af43371c943d16d9a7be4b85e7162d3be0aa065414f4c2f384dd76b0e",
+    "run.py": "6b754c4743d7b5a0d57ce3ea0c1332bac03f248b0859b8e00181c675af8a69f4",
+    "tests/test_core.py": "f302efdae9b38dd3e0379df57def1109a22f3e17043fea3d925bcb0364e32833",
+    "tests/test_data.py": "1bdce60a8a389d3632eea157a87964caed5fbb1a9136c018e1360c67235dfa3c",
+    "tests/test_evidence.py": "48de2ba24d9c986809d148f2b5f0c33f1e84e16e1d7c9ddd0d707a54bd798cea",
+    "tests/test_review_gates.py": "42447bcc24ccb7412e726d0a6e1ac65485b62641fe10f15ebb4d63095b3593d4",
+    "tests/test_runner.py": "3f318f57d1ca6b2d1ee3534b10aceddf485a5cbf08c2ee7e535d71cb913a6d48",
+    "tests/test_stages.py": "c8f41dcd65a51b20bd519bd2c97bb1457d1c8687461ecdbb8b57e785601ba56a"
+  },
+  "kind": "source-protocol-freeze-v1",
+  "numpy": "2.3.5",
+  "parameter_count": 6634,
+  "python": "3.12.14",
+  "rates": [
+    0.03,
+    0.1,
+    0.3
+  ],
+  "seeds_development": [
+    1001,
+    1002
+  ],
+  "seeds_evaluation": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020
+  ]
+}

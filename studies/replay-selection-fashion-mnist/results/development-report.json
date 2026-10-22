@@ -1,0 +1,107 @@
+{
+  "actual_stage_resource_record": {
+    "cpu_seconds": 287.097135551,
+    "event": "2026-10-22T08:59:45.066905+00:00",
+    "resource_samples_through_budget_close": {
+      "sampled_peak_output_bytes": 77309571,
+      "sampled_peak_rss_bytes": 60719104,
+      "sampled_total_cpu_seconds": 287.097121289
+    },
+    "status": "finished",
+    "wall_seconds": 291.11728305400175
+  },
+  "evaluation_authorized": false,
+  "failures": [],
+  "kind": "development-only-report",
+  "maximum_observed_case_bytes_by_arm": {
+    "highloss": 992643,
+    "mir": 993230,
+    "shuffledscore": 992468,
+    "uniform": 992468,
+    "uniform-extra-replay": 1913698
+  },
+  "mean_validation_recall_by_eta_arm": {
+    "0.03": {
+      "highloss": 0.657,
+      "mir": 0.6887,
+      "shuffledscore": 0.6796,
+      "uniform": 0.6735,
+      "uniform-extra-replay": 0.7558
+    },
+    "0.1": {
+      "highloss": 0.6987,
+      "mir": 0.7251000000000001,
+      "shuffledscore": 0.7157,
+      "uniform": 0.7089,
+      "uniform-extra-replay": 0.7588999999999999
+    },
+    "0.3": {
+      "highloss": 0.6927000000000001,
+      "mir": 0.7232000000000001,
+      "shuffledscore": 0.7366999999999999,
+      "uniform": 0.7101999999999999,
+      "uniform-extra-replay": 0.7403
+    }
+  },
+  "official_test_predictions_performed": false,
+  "pooled_diagnostic_selection_scores": {
+    "0.03": 0.6747,
+    "0.1": 0.7121,
+    "0.3": 0.7157
+  },
+  "revised_prospective_forecast": {
+    "cpu_method": "Observed development charge plus 2x extrapolated 100-case cost, adding another validation-scoring cost to allow twice as many test examples. Not a replacement for the frozen executable forecast.",
+    "cpu_seconds": 2214.905627791,
+    "output_bytes": 229023499,
+    "output_method": "Current tracked peak + 1.2 times 20 cases per arm times maximum observed per-arm case bytes +10 MiB for predictions, trained-case JSONs, provenance and manifest. Existing development retained.",
+    "rss_bytes": 240881664,
+    "uncertainty": "Prospective estimates, not hard upper bounds; cooperative gates remain mandatory. No resource enlargement requested."
+  },
+  "selected_rates": {
+    "diagnostic_eta": 0.3,
+    "extra_eta": 0.1
+  },
+  "source_changed": false,
+  "source_freeze_sha256": "737efd1614adca5b923262e11990e054b26325ef30fad7c5fabf1534c9ef14b3",
+  "training_cpu_seconds": 281.904885033,
+  "validation_scoring_cpu_seconds": 2.0741382849999397,
+  "verification": {
+    "artifact_count": 363,
+    "case_count": 30,
+    "case_ids": [
+      "seed-1001__highloss__eta-0.03",
+      "seed-1001__highloss__eta-0.1",
+      "seed-1001__highloss__eta-0.3",
+      "seed-1001__mir__eta-0.03",
+      "seed-1001__mir__eta-0.1",
+      "seed-1001__mir__eta-0.3",
+      "seed-1001__shuffledscore__eta-0.03",
+      "seed-1001__shuffledscore__eta-0.1",
+      "seed-1001__shuffledscore__eta-0.3",
+      "seed-1001__uniform-extra-replay__eta-0.03",
+      "seed-1001__uniform-extra-replay__eta-0.1",
+      "seed-1001__uniform-extra-replay__eta-0.3",
+      "seed-1001__uniform__eta-0.03",
+      "seed-1001__uniform__eta-0.1",
+      "seed-1001__uniform__eta-0.3",
+      "seed-1002__highloss__eta-0.03",
+      "seed-1002__highloss__eta-0.1",
+      "seed-1002__highloss__eta-0.3",
+      "seed-1002__mir__eta-0.03",
+      "seed-1002__mir__eta-0.1",
+      "seed-1002__mir__eta-0.3",
+      "seed-1002__shuffledscore__eta-0.03",
+      "seed-1002__shuffledscore__eta-0.1",
+      "seed-1002__shuffledscore__eta-0.3",
+      "seed-1002__uniform-extra-replay__eta-0.03",
+      "seed-1002__uniform-extra-replay__eta-0.1",
+      "seed-1002__uniform-extra-replay__eta-0.3",
+      "seed-1002__uniform__eta-0.03",
+      "seed-1002__uniform__eta-0.1",
+      "seed-1002__uniform__eta-0.3"
+    ],
+    "complete": true,
+    "manifest_sha256": "3d385b851af36cd2b9965b0cdd5571498b9adcc878de68303da251304c591432",
+    "stage": "development"
+  }
+}

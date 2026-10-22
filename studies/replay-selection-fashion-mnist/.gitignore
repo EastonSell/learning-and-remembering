@@ -1,0 +1,7 @@
+# Extracted evidence is already tracked as checksummed archive parts.
+/data/
+/results/development-v2/
+/results/evaluation-v2/
+/results/feasibility/
+__pycache__/
+*.pyc

@@ -1,0 +1,71 @@
+{
+  "acquisition_tradeoff_threshold": 0.02,
+  "amendments": [
+    "docs/review-amendment-v2.md",
+    "docs/implementation-amendment.md",
+    "docs/data-amendment.md"
+  ],
+  "architecture": [
+    196,
+    32,
+    10
+  ],
+  "arms": [
+    "mir",
+    "highloss",
+    "uniform",
+    "shuffledscore",
+    "uniform-extra-replay"
+  ],
+  "bootstrap": {
+    "resamples": 10000,
+    "seed": 73103
+  },
+  "complete": true,
+  "created_at": "2026-10-22T09:11:05.562440+00:00",
+  "data_manifest_sha256": "7cebb66ddd6d6b279df9be4f00731917df8032be51bc85825283c1b1aeeca242",
+  "development_cases_sha256": "b0a5e0c66320887260c0083e0514cf8e4ea541b586ff83f463dcd8bb5b8939d9",
+  "forecast": {
+    "cpu_seconds": 2705.788288800001,
+    "feasibility_wall_seconds": 4.260318143002223,
+    "method": "2x synthetic measured CPU extrapolation; trace/checkpoint extrapolation plus 40 MiB audits/provenance; data included",
+    "output_bytes": 166411215,
+    "research_base_updates": 325000,
+    "rss_bytes": 240881664,
+    "scoring_probe_examples": 1000,
+    "synthetic_only": true
+  },
+  "forecast_sha256": "d41a13ec17c24880eb20151868738b7431b846d97a466ecc2d7a9d20be27f66d",
+  "kind": "evaluation-lock-v1",
+  "no_prior_test_selection": true,
+  "practical_threshold": 0.01,
+  "primary": "mir-minus-highloss final macro accuracy",
+  "rates": {
+    "diagnostic_eta": 0.3,
+    "extra_eta": 0.1
+  },
+  "seeds": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020
+  ],
+  "source_freeze_sha256": "737efd1614adca5b923262e11990e054b26325ef30fad7c5fabf1534c9ef14b3",
+  "test_provenance_basis": "Fashion-MNIST was selected prospectively within this study, with no prior Fashion-MNIST test predictions used for selection. Prior inspected Optdigits results were ineligible. This is project-local provenance, not global-unseen or pretraining evidence. Only completed validation development selected rates."
+}

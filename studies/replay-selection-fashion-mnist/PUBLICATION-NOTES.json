@@ -1,0 +1,27 @@
+{
+  "dataset_revision": "b2617bb6d3ffa2e429640350f613e3291e10b141",
+  "editorial_changes": [
+    "source/docs/protocol.md: remove execution-task permission instruction, no scientific change",
+    "source/docs/implementation-amendment.md: replace parent-attribution with study-provenance wording, no scientific change",
+    "development-report-public.md: omit obsolete internal next-gate request",
+    "evaluation-lock-public.json: omit host paths and replace internal attribution in provenance attestation; scientific lock values unchanged",
+    "results/evaluation-report-public.md: labeled readability edition; six whitespace-only corrections (All100, All10,000, The20, not20, 32ReLU, 10softmax); original report is separately retained unchanged"
+  ],
+  "excluded_categories": [
+    "Internal authorization receipts and review/handoff text",
+    "Duplicate run provenance snapshots (their original hash commitments remain in bundle-exports.json)",
+    "Historical source workflow README",
+    "Raw Fashion-MNIST training downloads (pinned source and checksums retained; official test assets included with MIT notice)",
+    "Historical report-generation scripts with private workflow coupling; public reconstruction verifier supplied instead"
+  ],
+  "format": "public-research-export-v1",
+  "original_final_report_sha256": "c9e3130b139d461af5f1193fe88e7fe410567ffaaff8e66d5a3e8f17bb2114f2",
+  "original_source_freeze_sha256": "737efd1614adca5b923262e11990e054b26325ef30fad7c5fabf1534c9ef14b3",
+  "readable_report_sha256": "5e1d7c823d64aa34fee24e4a1e03a55632654dfe6278ce559e3fda5ede992e81",
+  "recorded_runtime": {
+    "numpy": "2.3.5",
+    "platform": "Linux, single-thread BLAS",
+    "python": "3.12.14"
+  },
+  "source_code": "All .py source/tests are byte-for-byte frozen originals. The original source README is excluded; scientific docs have two editorial changes recorded here. Original freeze is a historical hash catalog, not a passing whole-export freeze."
+}
