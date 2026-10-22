@@ -1,5 +1,5 @@
 {
-  "bundle": "neurofunctional-lab-text-publication-v3",
+  "bundle": "neurofunctional-lab-text-publication-v4",
   "destination_repository": "EastonSell/neurofunctional-lab",
   "include_self": "PUBLICATION_MANIFEST.json",
   "include_files": [
@@ -15,8 +15,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "87af8616d6d96868d9b9af5a0cab22ee23045312ce9842cc0ea4432688128880",
-      "bytes": 5285
+      "sha256": "8fd2f38aa246834ad2985024c6b75ecbf96629b8b4c5ad3b2e863cae38e7f59e",
+      "bytes": 5708
+    },
+    {
+      "path": "docs/bibliography/neural_motifs.json",
+      "sha256": "0277e307efa1cf5679c5254d94afd612af4ca08691459c8c6b930ed6c037ad8d",
+      "bytes": 11586
     },
     {
       "path": "docs/checkpoints.md",
@@ -39,6 +44,11 @@
       "bytes": 5034
     },
     {
+      "path": "docs/neural_motifs.md",
+      "sha256": "f0e0a236f7eda09d521f1d74bcd1ace1fb24c342b6d2943a3ca6a58112996c3d",
+      "bytes": 7820
+    },
+    {
       "path": "docs/next_experiment.md",
       "sha256": "ad46928dec9a01f7209ea436ca3ca030a03616ca0a0f436662d637b303dc7905",
       "bytes": 6091
@@ -52,6 +62,11 @@
       "path": "docs/protocols/competence_controls_v1.json",
       "sha256": "f94fc0c6d8f05e89d31834abc67ba3466950d05d13e1a5cf3cd6aa139330c914",
       "bytes": 2333
+    },
+    {
+      "path": "docs/protocols/replay_digits_v1.md",
+      "sha256": "c0fde2c0a8a187d1d88248e7fd4127094bc5ea54a8840fca31bcd2bf42dd1250",
+      "bytes": 9845
     },
     {
       "path": "docs/provenance.md",
@@ -463,5 +478,6 @@
   ],
   "omission_reason": "All weights regenerate with scripts/run_pilot.sh; see docs/checkpoints.md. Exact checkpoint hashes are also in run manifests.",
   "publication_state": "Prepared locally; this file does not assert remote publication.",
-  "test_status": "22 tests passed. Original pilot and role-control manifests verified. Fresh validation-matched competence study repeated with byte-identical candidates, selections, metrics and summary JSON; protocol and selection hashes verified. All previously published source, tests and results preserved."
+  "test_status": "22 tests passed. Original pilot and role-control manifests verified. Fresh validation-matched competence study repeated with byte-identical candidates, selections, metrics and summary JSON; protocol and selection hashes verified. All previously published source, tests and results preserved.",
+  "research_checkpoint": "Neural motifs memo and source bibliography checked; replay-digits protocol is design-only and unrun. Prior source, tests and results preserved."
 }

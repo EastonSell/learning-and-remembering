@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "scope": "Targeted source-linked research, not a systematic review. Paraphrases are limited to inspected source portions; no external paper text or data redistributed.",
+  "experiment_status": "No new experiment executed; replay_digits_v1 is a proposed pre-run protocol.",
+  "entries": [
+    {
+      "id": "mcclelland1995",
+      "type": "computational_theory",
+      "authors": [
+        "James L. McClelland",
+        "Bruce L. McNaughton",
+        "Randall C. O'Reilly"
+      ],
+      "year": 1995,
+      "title": "Why there are complementary learning systems in the hippocampus and neocortex: Insights from the successes and failures of connectionist models of learning and memory",
+      "doi": "10.1037/0033-295X.102.3.419",
+      "url": "https://web.stanford.edu/~jlmcc/papers/McCMcNaughtonOReilly95.pdf",
+      "inspected": "Author-hosted paper indexed passages on interleaved learning, consolidation and model assumptions; canonical bibliographic metadata. Direct PDF retrieval timed out; no complete-paper review claimed.",
+      "supports": "Fast episodic storage and slower integration are proposed complementary computations.",
+      "does_not_establish": "A validated hippocampal network implementation or superiority of this repository architecture.",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "girardeau2009",
+      "type": "biological_causal_perturbation",
+      "authors": [
+        "Gabrielle Girardeau",
+        "Karim Benchenane",
+        "Sidney I. Wiener",
+        "Gyorgy Buzsaki",
+        "Michael B. Zugaro"
+      ],
+      "year": 2009,
+      "title": "Selective suppression of hippocampal ripples impairs spatial memory",
+      "doi": "10.1038/nn.2384",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19749750/",
+      "inspected": "Original abstract and citation at PubMed; publisher retrieval unavailable.",
+      "supports": "Post-training sharp-wave ripple suppression impaired a rat hippocampus-dependent spatial-memory task.",
+      "does_not_establish": "Uniform reservoir sampling, stored label replay, or a unique computational mechanism for the effect.",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "rigotti2013",
+      "type": "biological_recording_and_computational_analysis",
+      "authors": [
+        "Mattia Rigotti",
+        "Omri Barak",
+        "Melissa R. Warden",
+        "Xiao-Jing Wang",
+        "Nathaniel D. Daw",
+        "Earl K. Miller",
+        "Stefano Fusi"
+      ],
+      "year": 2013,
+      "title": "The importance of mixed selectivity in complex cognitive tasks",
+      "doi": "10.1038/nature12160",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23685452/",
+      "inspected": "Original abstract and figure captions, including task, decoding, dimensionality and error-trial analyses; full author PDF retrieval failed.",
+      "supports": "Nonlinear mixed selectivity in monkey PFC supports rich population readouts; dimensionality differs on error trials.",
+      "does_not_establish": "Causal necessity of a particular artificial module or disjoint role allocation.",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "fisek2023",
+      "type": "biological_recording_and_optogenetic_perturbation",
+      "authors": [
+        "Mehmet Fisek",
+        "Dustin Herrmann",
+        "Alexander Egea-Weiss",
+        "Matilda Cloves",
+        "Lisa Bauer",
+        "Tai-Ying Lee",
+        "Lloyd E. Russell",
+        "Michael Hausser"
+      ],
+      "year": 2023,
+      "title": "Cortico-cortical feedback engages active dendrites in visual cortex",
+      "doi": "10.1038/s41586-023-06007-6",
+      "url": "https://www.nature.com/articles/s41586-023-06007-6",
+      "inspected": "Publisher abstract, circuit organization and dendritic-events results, experimental details and figure captions; page notes a 2023 publisher correction.",
+      "supports": "Mouse LM-to-V1 feedback effects vary with retinotopic relationship and recruit local dendritic events.",
+      "does_not_establish": "That a scalar routing gate or generic MLP reproduces dendritic computation.",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "wallis2001",
+      "type": "biological_recording",
+      "authors": [
+        "J. D. Wallis",
+        "K. C. Anderson",
+        "E. K. Miller"
+      ],
+      "year": 2001,
+      "title": "Single neurons in prefrontal cortex encode abstract rules",
+      "doi": "10.1038/35082081",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11418860/",
+      "inspected": "Original abstract and bibliographic metadata at PubMed.",
+      "supports": "Monkey PFC responses encode task rules that generalize to new pictures.",
+      "does_not_establish": "Anatomically isolated rule experts or ML interpretability benefits.",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "chaudhry2019",
+      "type": "machine_learning_empirical",
+      "authors": [
+        "Arslan Chaudhry",
+        "Marcus Rohrbach",
+        "Mohamed Elhoseiny",
+        "Thalaiyasingam Ajanthan",
+        "Puneet K. Dokania",
+        "Philip H. S. Torr",
+        "Marc'Aurelio Ranzato"
+      ],
+      "year": 2019,
+      "title": "On Tiny Episodic Memories in Continual Learning",
+      "arxiv": "1902.10486v4",
+      "url": "https://arxiv.org/html/1902.10486v4",
+      "inspected": "Version metadata; full-text passages from learning framework, replay algorithm, memory policies and results.",
+      "supports": "Small rehearsal buffers can be effective; storage policy and continual-learning protocol affect results.",
+      "does_not_establish": "Equivalent performance for task-ID-free class-incremental testing or biological fidelity.",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "rolnick2019",
+      "type": "machine_learning_empirical",
+      "authors": [
+        "David Rolnick",
+        "Arun Ahuja",
+        "Jonathan Schwarz",
+        "Timothy Lillicrap",
+        "Gregory Wayne"
+      ],
+      "year": 2019,
+      "title": "Experience Replay for Continual Learning",
+      "venue": "NeurIPS 2019",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2019/hash/fa7cdfad1a5aaf8370ebeda47a1ff1c3-Abstract.html",
+      "inspected": "Official proceedings abstract and bibliographic metadata.",
+      "supports": "CLEAR combines replay, off-policy learning and behavioral cloning to reduce forgetting in continual reinforcement learning.",
+      "does_not_establish": "That simple supervised rehearsal duplicates CLEAR or explains a brain circuit.",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "uci_optdigits",
+      "type": "official_dataset",
+      "authors": [
+        "E. Alpaydin",
+        "C. Kaynak"
+      ],
+      "year": 1998,
+      "title": "Optical Recognition of Handwritten Digits",
+      "doi": "10.24432/C50P49",
+      "url": "https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits",
+      "inspected": "Official dataset information, class counts, file list, attribution and license.",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "samples": 5620,
+      "features": 64,
+      "official_train_samples": 3823,
+      "official_test_samples": 1797,
+      "training_writers": 30,
+      "test_writers": 13,
+      "partition_evidence": "Dataset Information says 30 contributors supplied training and different 13 supplied test. Per-class counts sum to reported split sizes.",
+      "status": "Metadata only; data not downloaded.",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "sklearn_digits",
+      "type": "official_loader_documentation",
+      "authors": [
+        "scikit-learn developers"
+      ],
+      "title": "load_digits",
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html",
+      "inspected": "API description and source-dataset note.",
+      "samples": 1797,
+      "features": 64,
+      "partition_warning": "The bundled dataset copies UCI test data only; it is not the complete official train/test pair.",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "fashion_mnist",
+      "type": "official_dataset_repository",
+      "authors": [
+        "Han Xiao",
+        "Kashif Rasul",
+        "Roland Vollgraf"
+      ],
+      "year": 2017,
+      "title": "Fashion-MNIST",
+      "url": "https://github.com/zalandoresearch/fashion-mnist",
+      "inspected": "Official README dataset size, download table and license section.",
+      "license": "MIT",
+      "official_train_samples": 60000,
+      "official_test_samples": 10000,
+      "image_shape": [
+        28,
+        28
+      ],
+      "status": "Alternative benchmark; no new download or experiment.",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "allen_visual_coding",
+      "type": "official_dataset_documentation",
+      "authors": [
+        "Allen Institute"
+      ],
+      "title": "Visual Coding – Neuropixels",
+      "url": "https://allensdk.readthedocs.io/en/latest/visual_coding_neuropixels.html",
+      "inspected": "Project description and preprocessing/data access overview.",
+      "supports": "Mouse extracellular recordings during visual stimulation, suitable for a future neural-response study.",
+      "status": "Not selected; immutable subset, resource estimate and terms review required.",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "dandi000021",
+      "type": "dataset_archive_metadata",
+      "authors": [
+        "Allen Institute"
+      ],
+      "title": "Allen Institute - Visual Coding - Neuropixels (Brain Observatory 1.1 Stimulus Set)",
+      "url": "https://dandiarchive.org/dandiset/000021/draft",
+      "inspected": "Archive listing and access/license metadata, not recording files.",
+      "version_observed": "0.251116.2246 listed alongside mutable draft",
+      "license_metadata": "spdx:CC-BY-4.0; listing also says subject to Allen Institute terms.",
+      "observed_size_gb": 477.6,
+      "observed_file_count": 214,
+      "observed_subject_count": 32,
+      "status": "Mutable listing; resolve exact version and applicable terms before use.",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "allen_citation_policy",
+      "type": "official_policy",
+      "authors": [
+        "Allen Institute"
+      ],
+      "title": "Citation policy",
+      "url": "https://alleninstitute.org/citation-policy/",
+      "inspected": "Official citation requirements and pointer to terms of use.",
+      "supports": "Specific dataset and publication attribution are requested; commercial-use questions refer to separate terms.",
+      "does_not_establish": "A blanket license for every dataset or redistribution context.",
+      "accessed": "2026-10-22"
+    }
+  ],
+  "motifs": [
+    {
+      "id": "complementary_learning",
+      "sources": [
+        "mcclelland1995",
+        "girardeau2009"
+      ],
+      "candidate": "bounded historical replay plus parametric learner",
+      "ml_precedents": [
+        "chaudhry2019",
+        "rolnick2019"
+      ],
+      "priority": "selected for protocol"
+    },
+    {
+      "id": "mixed_selectivity",
+      "sources": [
+        "rigotti2013"
+      ],
+      "candidate": "shared nonlinear representations",
+      "priority": "counterweight to strict modularity; deferred"
+    },
+    {
+      "id": "dendritic_feedback",
+      "sources": [
+        "fisek2023"
+      ],
+      "candidate": "nonlinear context feedback",
+      "priority": "deferred"
+    },
+    {
+      "id": "abstract_rule_context",
+      "sources": [
+        "wallis2001"
+      ],
+      "candidate": "learned context modulation",
+      "priority": "deferred"
+    }
+  ]
+}

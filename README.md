@@ -55,6 +55,10 @@ PYTHONPATH=src python -m unittest discover -s tests -v
 
 The full run took about 15 seconds in the measured CPU environment; runtime varies. Existing run directories containing a manifest are protected against overwrite. The text-only publication omits binary checkpoints; [regeneration and availability](docs/checkpoints.md) are documented. A separately rerun seed-11 experiment is retained in [results/repeat_seed11](results/repeat_seed11). Numerical equality excludes timings and platform metadata. The term “balanced” names the 50%-category-agreement test distribution; all reported prediction accuracies are ordinary micro accuracies, not macro-average recall.
 
+## Neuroscience-grounded next step
+
+The [neural-motif evidence matrix](docs/neural_motifs.md) separates biological findings, computational analogies and existing ML results. Its next proposed experiment tests historical replay on real handwritten digits with an official writer-held-out test split. The [detailed protocol](docs/protocols/replay_digits_v1.md) is unrun and awaits review; no new efficacy result is claimed.
+
 ## Explore
 
 - [Design](docs/design.md) and [plan](docs/plan.md), written before implementation.
