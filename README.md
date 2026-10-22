@@ -59,6 +59,8 @@ The full run took about 15 seconds in the measured CPU environment; runtime vari
 
 The [neural-motif evidence matrix](docs/neural_motifs.md) separates biological findings, computational analogies and existing ML results. Its next proposed experiment tests historical replay on real handwritten digits with an official writer-held-out test split. The [detailed protocol](docs/protocols/replay_digits_v1.md) is unrun and awaits review; no new efficacy result is claimed.
 
+The [implementation/data-integrity checkpoint](docs/replay_implementation.md) adds tested replay primitives and validates the exact official data without fitting or scoring any model. The frozen split passes its duplicate/leakage gates. A reviewed staged experiment driver is still required before execution.
+
 ## Explore
 
 - [Design](docs/design.md) and [plan](docs/plan.md), written before implementation.

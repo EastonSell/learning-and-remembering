@@ -1,0 +1,14 @@
+{
+  "requested_url": "https://archive.ics.uci.edu/static/public/80/optical%2Brecognition%2Bof%2Bhandwritten%2Bdigits.zip",
+  "resolved_url": "https://archive.ics.uci.edu/static/public/80/optical%2Brecognition%2Bof%2Bhandwritten%2Bdigits.zip",
+  "retrieved_utc": "2026-10-22T04:36:17.329890+00:00",
+  "bytes": 591292,
+  "sha256": "0d7b054fea010270e9b3f06411c654c5e59547732ad626381980baffe0a23fb0",
+  "content_type": null,
+  "dataset_doi": "10.24432/C50P49",
+  "license": "CC-BY-4.0",
+  "creators": [
+    "E. Alpaydin",
+    "C. Kaynak"
+  ]
+}

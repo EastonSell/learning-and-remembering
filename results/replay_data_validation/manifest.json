@@ -1,0 +1,14 @@
+{
+  "stage": "data_integrity_only_no_model_training",
+  "source_sha256": {
+    "src/functional_circuits/replay_data.py": "b23404ea71b6b26884fd06b760966403d4fc3086a2ee479294d25fcd7efcd544",
+    "src/functional_circuits/replay_core.py": "c5b87f54e08ffde054b704f16d008952212e57cd56de0d354c8d88c5e746e6c0",
+    "tests/test_replay_data.py": "9919dcffae0f1de19a4d1530fd7981a778df8af4aa43c0ad8b4c1eb0201ed759",
+    "tests/test_replay_core.py": "82f6b81514d0a1473fa1eebd10470036d3b5dd0cde25ab4bc35457114dd17787",
+    "docs/protocols/replay_digits_v1.md": "c0fde2c0a8a187d1d88248e7fd4127094bc5ea54a8840fca31bcd2bf42dd1250"
+  },
+  "artifact_sha256": {
+    "report.json": "f2bc38875ad3cd4f8b549e1b7f4fed72bba48d4039bf88cbdd2bb8c9fb40cd3f",
+    "download_provenance.json": "323e88ef4090580911233ea610b2fab549e273a5b490e63c6632a8e74533b5ca"
+  }
+}
