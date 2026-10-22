@@ -1,5 +1,5 @@
 {
-  "bundle": "neurofunctional-lab-text-publication-v5",
+  "bundle": "neurofunctional-lab-text-publication-v6",
   "destination_repository": "EastonSell/neurofunctional-lab",
   "include_self": "PUBLICATION_MANIFEST.json",
   "include_files": [
@@ -15,8 +15,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "b1531421c527bbaab0472e21d134fe4e57eee27e36c6d9cda406d0cd932038b4",
-      "bytes": 6018
+      "sha256": "c20c4c4865cc0aa991eedc2af1a228a12086ae50cb0e09f33b181d7555bba989",
+      "bytes": 6104
     },
     {
       "path": "docs/bibliography/neural_motifs.json",
@@ -72,6 +72,11 @@
       "path": "docs/provenance.md",
       "sha256": "10c66c61eeabe2b9a881269b2edbb667553cad551b3fa5a486228ad4e6baa212",
       "bytes": 2979
+    },
+    {
+      "path": "docs/replay_execution.md",
+      "sha256": "a9d332cc749f17852b63f2f9433b9bc8abbc0cd568afe75d475d0f9f133b8358",
+      "bytes": 4845
     },
     {
       "path": "docs/replay_implementation.md",
@@ -259,6 +264,11 @@
       "bytes": 303
     },
     {
+      "path": "scripts/run_replay_digits.py",
+      "sha256": "439dbbb06d90640f60afcc45066c1620bd3abb934f109d5a17ad670437c1662a",
+      "bytes": 404
+    },
+    {
       "path": "scripts/verify_run.py",
       "sha256": "b9be1d1fb77d531eeeabd97ff58caf7f8801be50a72589a21b3bcfa30ee1c34b",
       "bytes": 3026
@@ -304,6 +314,11 @@
       "bytes": 8345
     },
     {
+      "path": "src/functional_circuits/replay_study.py",
+      "sha256": "8a2969703b9dc236e45092fb8ccae686e93af3a4cb4cf025965235c229a26237",
+      "bytes": 13502
+    },
+    {
       "path": "src/functional_circuits/role_controls.py",
       "sha256": "ebe69bf18ce0fc5d38e4d2af824b6a6563e6d27c23fb6c7865b4ca9888439a19",
       "bytes": 6749
@@ -327,6 +342,11 @@
       "path": "tests/test_replay_data.py",
       "sha256": "9919dcffae0f1de19a4d1530fd7981a778df8af4aa43c0ad8b4c1eb0201ed759",
       "bytes": 4822
+    },
+    {
+      "path": "tests/test_replay_study.py",
+      "sha256": "59237ecf108fbea44636ea908629010f594bc7f1ef822b7d920f4b557aa12e25",
+      "bytes": 8994
     },
     {
       "path": "tests/test_role_controls.py",
@@ -518,6 +538,6 @@
   ],
   "omission_reason": "All weights regenerate with scripts/run_pilot.sh; see docs/checkpoints.md. Exact checkpoint hashes are also in run manifests.",
   "publication_state": "Prepared locally; this file does not assert remote publication.",
-  "test_status": "22 tests passed. Original pilot and role-control manifests verified. Fresh validation-matched competence study repeated with byte-identical candidates, selections, metrics and summary JSON; protocol and selection hashes verified. All previously published source, tests and results preserved.",
-  "research_checkpoint": "Replay data gate and numerical primitives implemented; 34 tests pass, exact official data audit repeats. No UCI fitting/scoring; staged experiment driver remains unimplemented. Frozen protocol unchanged."
+  "test_status": "42 tests passed. Original pilot, role controls, competence controls and replay data-validation manifests verified. New driver orchestration tests use synthetic fixtures and mocked training/scoring; no UCI model study has run.",
+  "research_checkpoint": "Staged replay driver implemented; 42 tests pass with mocked orchestration. Frozen protocol and prior artifacts unchanged. Actual UCI fitting/scoring remains unrun pending source review."
 }
