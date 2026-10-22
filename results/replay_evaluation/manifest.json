@@ -1,0 +1,14 @@
+{
+  "source_sha256": {
+    "src/functional_circuits/replay_data.py": "b23404ea71b6b26884fd06b760966403d4fc3086a2ee479294d25fcd7efcd544",
+    "src/functional_circuits/replay_core.py": "c5b87f54e08ffde054b704f16d008952212e57cd56de0d354c8d88c5e746e6c0",
+    "src/functional_circuits/replay_study.py": "8a2969703b9dc236e45092fb8ccae686e93af3a4cb4cf025965235c229a26237",
+    "scripts/run_replay_digits.py": "439dbbb06d90640f60afcc45066c1620bd3abb934f109d5a17ad670437c1662a",
+    "docs/protocols/replay_digits_v1.md": "c0fde2c0a8a187d1d88248e7fd4127094bc5ea54a8840fca31bcd2bf42dd1250"
+  },
+  "artifact_sha256": {
+    "evaluation_lock.json": "b4f3535d68f4c47e71b20b5a784eec6ab423610ca9a278e9263c53d9b432502d",
+    "metrics.json": "0798cf05c0e514f0d695df2161fcaac6a3c56c6b8761babec8a419a05cba582f",
+    "summary.json": "32c14dc940b3edecb78705c4a7406fdee0aa030f526675c65fe5992f286c671b"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status": "exact_numerical_repeat",
+  "research_sample_size": "The same 30 configurations repeated for verification, not additional independent samples.",
+  "compared_rows": 30,
+  "ignored_metric_fields": [
+    "training_seconds",
+    "peak_rss_bytes"
+  ],
+  "ignored_lock_fields": [
+    "created_utc"
+  ],
+  "canonical_numeric_sha256": "2fe85656396207c18963d435b8a8ddcbfeb6fb257601c7aa6aea2071662d4a63",
+  "original_manifest_sha256": "2d84ad65906995c2b479b00227bd14b56b6fbec72f591a4570b25b992a2bc3a1",
+  "repeat_manifest_sha256": "f84db897ffee4789e7be42ce44067941378e5c3ebe04f51ee09bab5056de3724",
+  "summary_sha256": "32c14dc940b3edecb78705c4a7406fdee0aa030f526675c65fe5992f286c671b",
+  "selection_sha256": "3d2e8b04fd4058cdbaae26506246399398f7a72723de70df1b24140a7227b82f",
+  "repeat_command": "PYTHONPATH=src python scripts/run_replay_digits.py evaluate --archive /path/to/optdigits.zip --selection results/replay_development/selection.json --selection-sha256 3d2e8b04fd4058cdbaae26506246399398f7a72723de70df1b24140a7227b82f --output results/local-replay-repeat"
+}

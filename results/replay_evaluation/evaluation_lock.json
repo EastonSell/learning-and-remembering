@@ -1,0 +1,701 @@
+{
+  "selection_sha256": "3d2e8b04fd4058cdbaae26506246399398f7a72723de70df1b24140a7227b82f",
+  "selection": {
+    "schema_version": 1,
+    "stage": "validation_selection_complete",
+    "created_utc": "2026-10-22T05:00:32.408889+00:00",
+    "config": {
+      "protocol": "replay_digits_v1",
+      "rates": [
+        0.03,
+        0.1,
+        0.3
+      ],
+      "development_seeds": [
+        3,
+        7
+      ],
+      "evaluation_seeds": [
+        211,
+        223,
+        227,
+        229,
+        233,
+        239,
+        241,
+        251,
+        257,
+        263
+      ],
+      "arms": [
+        "reservoir",
+        "fifo",
+        "current_only"
+      ],
+      "batch_size": 16,
+      "updates_per_batch": 4,
+      "memory_capacity": 100,
+      "network": [
+        64,
+        32,
+        10
+      ],
+      "dtype": "float64",
+      "maximum_threads": 1
+    },
+    "versions": {
+      "python": "3.12.14",
+      "numpy": "2.3.5"
+    },
+    "source_sha256": {
+      "src/functional_circuits/replay_data.py": "b23404ea71b6b26884fd06b760966403d4fc3086a2ee479294d25fcd7efcd544",
+      "src/functional_circuits/replay_core.py": "c5b87f54e08ffde054b704f16d008952212e57cd56de0d354c8d88c5e746e6c0",
+      "src/functional_circuits/replay_study.py": "8a2969703b9dc236e45092fb8ccae686e93af3a4cb4cf025965235c229a26237",
+      "scripts/run_replay_digits.py": "439dbbb06d90640f60afcc45066c1620bd3abb934f109d5a17ad670437c1662a",
+      "docs/protocols/replay_digits_v1.md": "c0fde2c0a8a187d1d88248e7fd4127094bc5ea54a8840fca31bcd2bf42dd1250"
+    },
+    "data_identity": {
+      "archive_sha256": "0d7b054fea010270e9b3f06411c654c5e59547732ad626381980baffe0a23fb0",
+      "audit_sha256": "f2bc38875ad3cd4f8b549e1b7f4fed72bba48d4039bf88cbdd2bb8c9fb40cd3f",
+      "split_id_sha256": {
+        "train": "261bf89ade6eea3485484e2c990591e559e46abce22cb30688fa528f82a4d59d",
+        "validation": "21bf316013e5ebebe7540850d5924698d45e9100053e2046d07ea78a3ae94a33",
+        "test": "67a20cc9a4089e17305c2563b9f49897c4fbe4cee8eaac614bccebe6aa3704b9"
+      },
+      "members": {
+        "optdigits.tra": {
+          "bytes": 563639,
+          "sha256": "e1b683cc211604fe8fd8c4417e6a69f31380e0c61d4af22e93cc21e9257ffedd",
+          "rows": 3823,
+          "class_counts": [
+            376,
+            389,
+            380,
+            389,
+            387,
+            376,
+            377,
+            387,
+            380,
+            382
+          ]
+        },
+        "optdigits.tes": {
+          "bytes": 264712,
+          "sha256": "6ebb3d2fee246a4e99363262ddf8a00a3c41bee6014c373ed9d9216ba7f651b8",
+          "rows": 1797,
+          "class_counts": [
+            178,
+            182,
+            177,
+            183,
+            181,
+            182,
+            181,
+            179,
+            174,
+            180
+          ]
+        }
+      }
+    },
+    "selected_rate": 0.3,
+    "development_scores": [
+      {
+        "rate": 0.03,
+        "seed": 3,
+        "arm": "reservoir",
+        "validation": {
+          "macro_accuracy": 0.8215174299384825,
+          "micro_accuracy": 0.8212877792378449,
+          "per_class_recall": [
+            0.96,
+            0.5324675324675324,
+            0.7763157894736842,
+            0.961038961038961,
+            0.7922077922077922,
+            0.6666666666666666,
+            0.9733333333333334,
+            0.961038961038961,
+            0.9868421052631579,
+            0.6052631578947368
+          ]
+        },
+        "training_and_validation_seconds": 0.06753687800028274,
+        "peak_rss_bytes": 33206272,
+        "counts": {
+          "fresh_observations": 3062,
+          "fresh_presentations": 12248,
+          "replay": 12248,
+          "presentations": 24496,
+          "updates": 772
+        }
+      },
+      {
+        "rate": 0.03,
+        "seed": 3,
+        "arm": "fifo",
+        "validation": {
+          "macro_accuracy": 0.1973855092276145,
+          "micro_accuracy": 0.19842312746386334,
+          "per_class_recall": [
+            0.0,
+            0.0,
+            0.0,
+            0.987012987012987,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.9868421052631579,
+            0.0
+          ]
+        },
+        "training_and_validation_seconds": 0.06175034100033372,
+        "peak_rss_bytes": 33206272,
+        "counts": {
+          "fresh_observations": 3062,
+          "fresh_presentations": 12248,
+          "replay": 12248,
+          "presentations": 24496,
+          "updates": 772
+        }
+      },
+      {
+        "rate": 0.03,
+        "seed": 3,
+        "arm": "current_only",
+        "validation": {
+          "macro_accuracy": 0.1973855092276145,
+          "micro_accuracy": 0.19842312746386334,
+          "per_class_recall": [
+            0.0,
+            0.0,
+            0.0,
+            0.987012987012987,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.9868421052631579,
+            0.0
+          ]
+        },
+        "training_and_validation_seconds": 0.06298050199984573,
+        "peak_rss_bytes": 33206272,
+        "counts": {
+          "fresh_observations": 3062,
+          "fresh_presentations": 12248,
+          "replay": 12248,
+          "presentations": 24496,
+          "updates": 772
+        }
+      },
+      {
+        "rate": 0.03,
+        "seed": 7,
+        "arm": "reservoir",
+        "validation": {
+          "macro_accuracy": 0.8361679197994988,
+          "micro_accuracy": 0.835742444152431,
+          "per_class_recall": [
+            0.9466666666666667,
+            0.7922077922077922,
+            0.868421052631579,
+            0.7922077922077922,
+            0.7532467532467533,
+            0.88,
+            0.9466666666666667,
+            0.948051948051948,
+            0.4868421052631579,
+            0.9473684210526315
+          ]
+        },
+        "training_and_validation_seconds": 0.06400960099927033,
+        "peak_rss_bytes": 33206272,
+        "counts": {
+          "fresh_observations": 3062,
+          "fresh_presentations": 12248,
+          "replay": 12248,
+          "presentations": 24496,
+          "updates": 772
+        }
+      },
+      {
+        "rate": 0.03,
+        "seed": 7,
+        "arm": "fifo",
+        "validation": {
+          "macro_accuracy": 0.192,
+          "micro_accuracy": 0.19053876478318002,
+          "per_class_recall": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.92,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "training_and_validation_seconds": 0.06576347500049451,
+        "peak_rss_bytes": 33206272,
+        "counts": {
+          "fresh_observations": 3062,
+          "fresh_presentations": 12248,
+          "replay": 12248,
+          "presentations": 24496,
+          "updates": 772
+        }
+      },
+      {
+        "rate": 0.03,
+        "seed": 7,
+        "arm": "current_only",
+        "validation": {
+          "macro_accuracy": 0.19203508771929825,
+          "micro_accuracy": 0.19053876478318002,
+          "per_class_recall": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.9466666666666667,
+            0.0,
+            0.0,
+            0.0,
+            0.9736842105263158
+          ]
+        },
+        "training_and_validation_seconds": 0.05692176200045651,
+        "peak_rss_bytes": 33206272,
+        "counts": {
+          "fresh_observations": 3062,
+          "fresh_presentations": 12248,
+          "replay": 12248,
+          "presentations": 24496,
+          "updates": 772
+        }
+      },
+      {
+        "rate": 0.1,
+        "seed": 3,
+        "arm": "reservoir",
+        "validation": {
+          "macro_accuracy": 0.9027938026885394,
+          "micro_accuracy": 0.9027595269382391,
+          "per_class_recall": [
+            0.96,
+            0.8311688311688312,
+            0.8947368421052632,
+            0.974025974025974,
+            0.8441558441558441,
+            0.8266666666666667,
+            0.96,
+            0.974025974025974,
+            0.9736842105263158,
+            0.7894736842105263
+          ]
+        },
+        "training_and_validation_seconds": 0.06459575799999584,
+        "peak_rss_bytes": 33206272,
+        "counts": {
+          "fresh_observations": 3062,
+          "fresh_presentations": 12248,
+          "replay": 12248,
+          "presentations": 24496,
+          "updates": 772
+        }
+      },
+      {
+        "rate": 0.1,
+        "seed": 3,
+        "arm": "fifo",
+        "validation": {
+          "macro_accuracy": 0.1973855092276145,
+          "micro_accuracy": 0.19842312746386334,
+          "per_class_recall": [
+            0.0,
+            0.0,
+            0.0,
+            0.987012987012987,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.9868421052631579,
+            0.0
+          ]
+        },
+        "training_and_validation_seconds": 0.06115675100045337,
+        "peak_rss_bytes": 33206272,
+        "counts": {
+          "fresh_observations": 3062,
+          "fresh_presentations": 12248,
+          "replay": 12248,
+          "presentations": 24496,
+          "updates": 772
+        }
+      },
+      {
+        "rate": 0.1,
+        "seed": 3,
+        "arm": "current_only",
+        "validation": {
+          "macro_accuracy": 0.1973855092276145,
+          "micro_accuracy": 0.19842312746386334,
+          "per_class_recall": [
+            0.0,
+            0.0,
+            0.0,
+            0.987012987012987,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.9868421052631579,
+            0.0
+          ]
+        },
+        "training_and_validation_seconds": 0.058567342999594985,
+        "peak_rss_bytes": 33206272,
+        "counts": {
+          "fresh_observations": 3062,
+          "fresh_presentations": 12248,
+          "replay": 12248,
+          "presentations": 24496,
+          "updates": 772
+        }
+      },
+      {
+        "rate": 0.1,
+        "seed": 7,
+        "arm": "reservoir",
+        "validation": {
+          "macro_accuracy": 0.9083358395989973,
+          "micro_accuracy": 0.9080157687253614,
+          "per_class_recall": [
+            0.9866666666666667,
+            0.8831168831168831,
+            0.9473684210526315,
+            0.8571428571428571,
+            0.8701298701298701,
+            0.96,
+            0.96,
+            0.961038961038961,
+            0.7236842105263158,
+            0.9342105263157895
+          ]
+        },
+        "training_and_validation_seconds": 0.06391370500023186,
+        "peak_rss_bytes": 33206272,
+        "counts": {
+          "fresh_observations": 3062,
+          "fresh_presentations": 12248,
+          "replay": 12248,
+          "presentations": 24496,
+          "updates": 772
+        }
+      },
+      {
+        "rate": 0.1,
+        "seed": 7,
+        "arm": "fifo",
+        "validation": {
+          "macro_accuracy": 0.19603508771929826,
+          "micro_accuracy": 0.19448094612352168,
+          "per_class_recall": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.9866666666666667,
+            0.0,
+            0.0,
+            0.0,
+            0.9736842105263158
+          ]
+        },
+        "training_and_validation_seconds": 0.06293209900013608,
+        "peak_rss_bytes": 33206272,
+        "counts": {
+          "fresh_observations": 3062,
+          "fresh_presentations": 12248,
+          "replay": 12248,
+          "presentations": 24496,
+          "updates": 772
+        }
+      },
+      {
+        "rate": 0.1,
+        "seed": 7,
+        "arm": "current_only",
+        "validation": {
+          "macro_accuracy": 0.19340350877192983,
+          "micro_accuracy": 0.19185282522996058,
+          "per_class_recall": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.9866666666666667,
+            0.0,
+            0.0,
+            0.0,
+            0.9473684210526315
+          ]
+        },
+        "training_and_validation_seconds": 0.057840071999635256,
+        "peak_rss_bytes": 33206272,
+        "counts": {
+          "fresh_observations": 3062,
+          "fresh_presentations": 12248,
+          "replay": 12248,
+          "presentations": 24496,
+          "updates": 772
+        }
+      },
+      {
+        "rate": 0.3,
+        "seed": 3,
+        "arm": "reservoir",
+        "validation": {
+          "macro_accuracy": 0.9132868534973799,
+          "micro_accuracy": 0.9132720105124835,
+          "per_class_recall": [
+            0.96,
+            0.8701298701298701,
+            0.9342105263157895,
+            0.974025974025974,
+            0.8441558441558441,
+            0.8533333333333334,
+            0.96,
+            0.987012987012987,
+            0.9605263157894737,
+            0.7894736842105263
+          ]
+        },
+        "training_and_validation_seconds": 0.0639975020003476,
+        "peak_rss_bytes": 33206272,
+        "counts": {
+          "fresh_observations": 3062,
+          "fresh_presentations": 12248,
+          "replay": 12248,
+          "presentations": 24496,
+          "updates": 772
+        }
+      },
+      {
+        "rate": 0.3,
+        "seed": 3,
+        "arm": "fifo",
+        "validation": {
+          "macro_accuracy": 0.2532989291410344,
+          "micro_accuracy": 0.25492772667542707,
+          "per_class_recall": [
+            0.0,
+            0.0,
+            0.0,
+            0.974025974025974,
+            0.0,
+            0.02666666666666667,
+            0.0,
+            0.5454545454545454,
+            0.9868421052631579,
+            0.0
+          ]
+        },
+        "training_and_validation_seconds": 0.06567049900058919,
+        "peak_rss_bytes": 33206272,
+        "counts": {
+          "fresh_observations": 3062,
+          "fresh_presentations": 12248,
+          "replay": 12248,
+          "presentations": 24496,
+          "updates": 772
+        }
+      },
+      {
+        "rate": 0.3,
+        "seed": 3,
+        "arm": "current_only",
+        "validation": {
+          "macro_accuracy": 0.19608680792891317,
+          "micro_accuracy": 0.19710906701708278,
+          "per_class_recall": [
+            0.0,
+            0.0,
+            0.0,
+            0.974025974025974,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.9868421052631579,
+            0.0
+          ]
+        },
+        "training_and_validation_seconds": 0.07286433199988096,
+        "peak_rss_bytes": 33206272,
+        "counts": {
+          "fresh_observations": 3062,
+          "fresh_presentations": 12248,
+          "replay": 12248,
+          "presentations": 24496,
+          "updates": 772
+        }
+      },
+      {
+        "rate": 0.3,
+        "seed": 7,
+        "arm": "reservoir",
+        "validation": {
+          "macro_accuracy": 0.9136174527227159,
+          "micro_accuracy": 0.9132720105124835,
+          "per_class_recall": [
+            0.9733333333333334,
+            0.9090909090909091,
+            0.9210526315789473,
+            0.8311688311688312,
+            0.8831168831168831,
+            0.9866666666666667,
+            0.9866666666666667,
+            0.974025974025974,
+            0.7368421052631579,
+            0.9342105263157895
+          ]
+        },
+        "training_and_validation_seconds": 0.08483907600020757,
+        "peak_rss_bytes": 33206272,
+        "counts": {
+          "fresh_observations": 3062,
+          "fresh_presentations": 12248,
+          "replay": 12248,
+          "presentations": 24496,
+          "updates": 772
+        }
+      },
+      {
+        "rate": 0.3,
+        "seed": 7,
+        "arm": "fifo",
+        "validation": {
+          "macro_accuracy": 0.2326725905673274,
+          "micro_accuracy": 0.23127463863337713,
+          "per_class_recall": [
+            0.0,
+            0.0,
+            0.18421052631578946,
+            0.0,
+            0.16883116883116883,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.9736842105263158
+          ]
+        },
+        "training_and_validation_seconds": 0.07308456300052057,
+        "peak_rss_bytes": 33206272,
+        "counts": {
+          "fresh_observations": 3062,
+          "fresh_presentations": 12248,
+          "replay": 12248,
+          "presentations": 24496,
+          "updates": 772
+        }
+      },
+      {
+        "rate": 0.3,
+        "seed": 7,
+        "arm": "current_only",
+        "validation": {
+          "macro_accuracy": 0.19342105263157894,
+          "micro_accuracy": 0.19185282522996058,
+          "per_class_recall": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.9342105263157895
+          ]
+        },
+        "training_and_validation_seconds": 0.06990812499952881,
+        "peak_rss_bytes": 33206272,
+        "counts": {
+          "fresh_observations": 3062,
+          "fresh_presentations": 12248,
+          "replay": 12248,
+          "presentations": 24496,
+          "updates": 772
+        }
+      }
+    ],
+    "test_model_evaluations": 0,
+    "freeze_scope": "Selected common rate, scores, configuration, source/data versions; no model weights persisted."
+  },
+  "data_identity": {
+    "archive_sha256": "0d7b054fea010270e9b3f06411c654c5e59547732ad626381980baffe0a23fb0",
+    "audit_sha256": "f2bc38875ad3cd4f8b549e1b7f4fed72bba48d4039bf88cbdd2bb8c9fb40cd3f",
+    "split_id_sha256": {
+      "train": "261bf89ade6eea3485484e2c990591e559e46abce22cb30688fa528f82a4d59d",
+      "validation": "21bf316013e5ebebe7540850d5924698d45e9100053e2046d07ea78a3ae94a33",
+      "test": "67a20cc9a4089e17305c2563b9f49897c4fbe4cee8eaac614bccebe6aa3704b9"
+    },
+    "members": {
+      "optdigits.tra": {
+        "bytes": 563639,
+        "sha256": "e1b683cc211604fe8fd8c4417e6a69f31380e0c61d4af22e93cc21e9257ffedd",
+        "rows": 3823,
+        "class_counts": [
+          376,
+          389,
+          380,
+          389,
+          387,
+          376,
+          377,
+          387,
+          380,
+          382
+        ]
+      },
+      "optdigits.tes": {
+        "bytes": 264712,
+        "sha256": "6ebb3d2fee246a4e99363262ddf8a00a3c41bee6014c373ed9d9216ba7f651b8",
+        "rows": 1797,
+        "class_counts": [
+          178,
+          182,
+          177,
+          183,
+          181,
+          182,
+          181,
+          179,
+          174,
+          180
+        ]
+      }
+    }
+  },
+  "source_sha256": {
+    "src/functional_circuits/replay_data.py": "b23404ea71b6b26884fd06b760966403d4fc3086a2ee479294d25fcd7efcd544",
+    "src/functional_circuits/replay_core.py": "c5b87f54e08ffde054b704f16d008952212e57cd56de0d354c8d88c5e746e6c0",
+    "src/functional_circuits/replay_study.py": "8a2969703b9dc236e45092fb8ccae686e93af3a4cb4cf025965235c229a26237",
+    "scripts/run_replay_digits.py": "439dbbb06d90640f60afcc45066c1620bd3abb934f109d5a17ad670437c1662a",
+    "docs/protocols/replay_digits_v1.md": "c0fde2c0a8a187d1d88248e7fd4127094bc5ea54a8840fca31bcd2bf42dd1250"
+  },
+  "created_utc": "2026-10-22T05:01:27.522749+00:00"
+}

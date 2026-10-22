@@ -1,0 +1,45 @@
+{
+  "primary_reservoir_minus_fifo": {
+    "mean_difference": 0.6728212493829291,
+    "interval_95": [
+      0.6527310431578119,
+      0.6903948492803215
+    ],
+    "supported_for_setup": true,
+    "interval_scope": "Descriptive seed bootstrap, conditional on one dataset and fixed setup"
+  },
+  "exploratory_reservoir_minus_current_only": {
+    "mean_difference": 0.687370916065352,
+    "per_seed": [
+      0.7024916626004116,
+      0.6956294332894724,
+      0.6814753266168778,
+      0.6681201044617364,
+      0.6723287006130483,
+      0.7053287442611714,
+      0.6345720793479295,
+      0.691335325958164,
+      0.7040296699974455,
+      0.7183981135072626
+    ]
+  },
+  "primary_per_seed": [
+    0.6952395934232138,
+    0.6805021178601478,
+    0.6296891917846299,
+    0.6427057398208524,
+    0.6723287006130483,
+    0.6997760877308612,
+    0.614133126036048,
+    0.6907888778707323,
+    0.7018446963731987,
+    0.7012043623165596
+  ],
+  "mean_immediate_acquisition": {
+    "reservoir": 0.9778236815981469,
+    "fifo": 0.9889590707653728,
+    "current_only": 0.9893484370222222
+  },
+  "acquisition_collapse": false,
+  "claim_scope": "Algorithmic retention on this setup, not biological fidelity or novelty."
+}

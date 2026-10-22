@@ -4,7 +4,7 @@ A small, reproducible experiment asks whether separating **current evidence**, *
 
 The included Functional Circuits pilot trains six NumPy architectures on the same generated task, then measures prediction, conflicting-evidence robustness, and counterfactual behavior across five seeds. It runs on CPU with no model or dataset downloads.
 
-**Research status:** tested synthetic foundation. The next real-image protocol is specified but has not been run. Biological literature motivates functional questions; the measured result concerns an engineered causal prior.
+**Research status:** tested synthetic foundation plus a completed real-digit replay study. Historical replay improves retention under a fixed class-blocked stream; this does not establish biological fidelity or a new algorithm. The separate Fashion-MNIST delayed-memory proposal remains unrun.
 
 ## Measured pilot
 
@@ -29,7 +29,7 @@ A fresh five-seed [role-mask control](docs/role_controls.md) keeps all condition
 
 A fresh [validation-only matching study](docs/competence_controls.md) finds eligible prediction-matched pairs in 10 of 15 comparisons, with only 6 retaining the matching tolerances on untouched test data. IIA differences remain in reported pairs, but incomplete matching and an explicit architectural identity prevent an accuracy-independent interpretability claim. All candidates, unmatched comparisons and held-out results are retained.
 
-## Evidence limits
+## Pilot evidence limits
 
 - The task's true roles are supplied as input masks. The intervention target uses those same designed-in roles. This tests a helpful inductive bias, not autonomous discovery of interpretable structure.
 - The functional model is also more accurate. The IIA difference cannot be cleanly separated from predictive competence without accuracy-matched comparisons.
@@ -55,18 +55,22 @@ PYTHONPATH=src python -m unittest discover -s tests -v
 
 The full run took about 15 seconds in the measured CPU environment; runtime varies. Existing run directories containing a manifest are protected against overwrite. The text-only publication omits binary checkpoints; [regeneration and availability](docs/checkpoints.md) are documented. A separately rerun seed-11 experiment is retained in [results/repeat_seed11](results/repeat_seed11). Numerical equality excludes timings and platform metadata. The term “balanced” names the 50%-category-agreement test distribution; all reported prediction accuracies are ordinary micro accuracies, not macro-average recall.
 
-## Neuroscience-grounded next step
+The [post-run verifier correction](docs/audit_coverage_fix.md) closes an incomplete-comparison bug. Comparisons now enforce exact row/checkpoint coverage; partial seed comparisons require explicit scope. The 53-test suite passes, and saved experiment results remain unchanged.
 
-The [neural-motif evidence matrix](docs/neural_motifs.md) separates biological findings, computational analogies and existing ML results. Its next proposed experiment tests historical replay on real handwritten digits with an official writer-held-out test split. The [detailed protocol](docs/protocols/replay_digits_v1.md) is unrun and awaits review; no new efficacy result is claimed.
+## Neuroscience-grounded replay study
 
-The [implementation/data-integrity checkpoint](docs/replay_implementation.md) adds tested replay primitives and validates the exact official data without fitting or scoring any model. The frozen split passes its duplicate/leakage gates. The [staged execution driver](docs/replay_execution.md) is now implemented and software-tested, but the real model study remains unrun pending source review.
+The [neural-motif evidence matrix](docs/neural_motifs.md) separates biological findings, computational analogies and existing ML results. A [frozen, now-executed protocol](docs/protocols/replay_digits_v1.md) tested historical replay on real handwritten digits with the official writer-held-out test split.
+
+Across ten paired seeds, final macro accuracy was **88.44% reservoir**, **21.16% FIFO**, and **19.70% current-only**. The primary reservoir–FIFO gain was **67.28 percentage points**, with a descriptive paired-seed bootstrap interval of **[65.27, 69.04] points**, conditional on this dataset. Strong immediate acquisition in every arm distinguishes retention loss from failure to learn the current block. This is a known replay mechanism under an imposed class shift, not biological validation or a novelty claim.
+
+[Full results, locked selection, reproducibility and limitations](docs/replay_results.md) preserve all 18 development comparisons and all 30 evaluation runs. The [data/core checkpoint](docs/replay_implementation.md) and [staged driver checkpoint](docs/replay_execution.md) remain as historical pre-run records.
 
 ## Explore
 
 - [Design](docs/design.md) and [plan](docs/plan.md), written before implementation.
 - [Research background](docs/research.md) and [citation/claim matrix](docs/claim_matrix.md).
 - [Results and failures](docs/results.md).
-- [Next real-data/model protocol and resource gates](docs/next_experiment.md).
+- [Deferred Fashion-MNIST protocol and resource gates](docs/next_experiment.md).
 - [Data/model provenance](docs/provenance.md).
 - [Implementation](src/functional_circuits), [tests](tests), [run manifest](results/pilot/manifest.json).
 

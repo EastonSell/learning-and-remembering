@@ -1,5 +1,5 @@
 {
-  "bundle": "neurofunctional-lab-text-publication-v6",
+  "bundle": "neurofunctional-lab-text-publication-v7",
   "destination_repository": "EastonSell/neurofunctional-lab",
   "include_self": "PUBLICATION_MANIFEST.json",
   "include_files": [
@@ -15,8 +15,18 @@
     },
     {
       "path": "README.md",
-      "sha256": "c20c4c4865cc0aa991eedc2af1a228a12086ae50cb0e09f33b181d7555bba989",
-      "bytes": 6104
+      "sha256": "f0e7ceee71f8e946cbf9a7bc535f87f246fc318514af0e17d47ee8bf2a9f0fbc",
+      "bytes": 6814
+    },
+    {
+      "path": "docs/archive/verify_run_pre_coverage_fix.py.txt",
+      "sha256": "b9be1d1fb77d531eeeabd97ff58caf7f8801be50a72589a21b3bcfa30ee1c34b",
+      "bytes": 3026
+    },
+    {
+      "path": "docs/audit_coverage_fix.md",
+      "sha256": "d42474f6e1d414475f9418ab00bd91d12d3de314ffcc444274d804bca81238de",
+      "bytes": 3640
     },
     {
       "path": "docs/bibliography/neural_motifs.json",
@@ -82,6 +92,11 @@
       "path": "docs/replay_implementation.md",
       "sha256": "8b30e59500b1ce3c8f20c3137e5a9c532dae58bd5e4e6518e9775e1c0551823a",
       "bytes": 4166
+    },
+    {
+      "path": "docs/replay_results.md",
+      "sha256": "236d18c4a4359cfe0a10a4737710f933573820e63084c62a463ed1222304510d",
+      "bytes": 6754
     },
     {
       "path": "docs/research.md",
@@ -224,6 +239,41 @@
       "bytes": 67681
     },
     {
+      "path": "results/replay_development/manifest.json",
+      "sha256": "9706de6b296fca55ac0fcecb92780f99a344940e276229e0d68b25c43c5531f9",
+      "bytes": 702
+    },
+    {
+      "path": "results/replay_development/selection.json",
+      "sha256": "3d2e8b04fd4058cdbaae26506246399398f7a72723de70df1b24140a7227b82f",
+      "bytes": 15813
+    },
+    {
+      "path": "results/replay_evaluation/evaluation_lock.json",
+      "sha256": "b4f3535d68f4c47e71b20b5a784eec6ab423610ca9a278e9263c53d9b432502d",
+      "bytes": 19059
+    },
+    {
+      "path": "results/replay_evaluation/manifest.json",
+      "sha256": "2d84ad65906995c2b479b00227bd14b56b6fbec72f591a4570b25b992a2bc3a1",
+      "bytes": 884
+    },
+    {
+      "path": "results/replay_evaluation/metrics.json",
+      "sha256": "0798cf05c0e514f0d695df2161fcaac6a3c56c6b8761babec8a419a05cba582f",
+      "bytes": 3499618
+    },
+    {
+      "path": "results/replay_evaluation/summary.json",
+      "sha256": "32c14dc940b3edecb78705c4a7406fdee0aa030f526675c65fe5992f286c671b",
+      "bytes": 1211
+    },
+    {
+      "path": "results/replay_repeat_verification.json",
+      "sha256": "1dbaefadf3ec3383fe228a69052bf525533a5a65d11d1184e0a969622aef7083",
+      "bytes": 1073
+    },
+    {
       "path": "results/role_controls/learning_curves.json",
       "sha256": "01e47afab1420dc93d20d736e36145d84a08acdaa3d6f3bf8df0a1e0dc69ba1e",
       "bytes": 17467
@@ -259,6 +309,11 @@
       "bytes": 1307
     },
     {
+      "path": "results/verifier_coverage_verification.json",
+      "sha256": "66cff377632f51227f6be146fd8378cc4e45eb1d4a4a93291aa66878bf8a1d77",
+      "bytes": 1372
+    },
+    {
       "path": "scripts/run_pilot.sh",
       "sha256": "af13b34a9d2b04e0bd5b964525fed9ab1fff4ff7d2af9bdb37f469b7bbd41577",
       "bytes": 303
@@ -270,8 +325,8 @@
     },
     {
       "path": "scripts/verify_run.py",
-      "sha256": "b9be1d1fb77d531eeeabd97ff58caf7f8801be50a72589a21b3bcfa30ee1c34b",
-      "bytes": 3026
+      "sha256": "b77baf9b6693476a4b67fee8d0a9d258b3f9127064f0351b2d03bb9c4e0c49af",
+      "bytes": 7062
     },
     {
       "path": "src/functional_circuits/__init__.py",
@@ -352,6 +407,11 @@
       "path": "tests/test_role_controls.py",
       "sha256": "98550713f399674d0c008384c197555186d9d2e481103959f1f790fa1c7e22f1",
       "bytes": 3458
+    },
+    {
+      "path": "tests/test_verify_run.py",
+      "sha256": "e795f2f17c28d64d7f8d29c3bf7326d0fb4acb24f440d2cdf1ed1c7d8f9decdf",
+      "bytes": 4791
     }
   ],
   "omit_generated_binary_checkpoints": [
@@ -538,6 +598,7 @@
   ],
   "omission_reason": "All weights regenerate with scripts/run_pilot.sh; see docs/checkpoints.md. Exact checkpoint hashes are also in run manifests.",
   "publication_state": "Prepared locally; this file does not assert remote publication.",
-  "test_status": "42 tests passed. Original pilot, role controls, competence controls and replay data-validation manifests verified. New driver orchestration tests use synthetic fixtures and mocked training/scoring; no UCI model study has run.",
-  "research_checkpoint": "Staged replay driver implemented; 42 tests pass with mocked orchestration. Frozen protocol and prior artifacts unchanged. Actual UCI fitting/scoring remains unrun pending source review."
+  "test_status": "53 tests passed, including 11 audit-coverage regressions; all seven public run/data manifests verified. All 30 replay evaluation configurations repeated exactly excluding timing/RSS/creation time; legacy seed-11 regeneration matches all 18 metric rows and six recorded checkpoint hashes.",
+  "research_checkpoint": "Completed prereviewed replay-digits study with validation-locked selection and all prescribed seeds/arms. Source/protocol unchanged; behavioral retention benefit does not establish biological fidelity or novelty. No raw external dataset redistributed.",
+  "post_run_tooling_correction": "scripts/verify_run.py now requires exact candidate row/checkpoint coverage and explicit partial seed scope. Its exact historical bytes are archived; frozen training sources, protocol, selection and saved results are unchanged. See docs/audit_coverage_fix.md."
 }

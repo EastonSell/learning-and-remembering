@@ -1,0 +1,27 @@
+{
+  "purpose": "Post-run audit-tool regression and reproducibility verification; no new independent research sample",
+  "verifier_sha256": "b77baf9b6693476a4b67fee8d0a9d258b3f9127064f0351b2d03bb9c4e0c49af",
+  "historical_verifier_sha256": "b9be1d1fb77d531eeeabd97ff58caf7f8801be50a72589a21b3bcfa30ee1c34b",
+  "tests_passed": 53,
+  "verifier_regression_tests": 11,
+  "pilot_explicit_seed_scope": [
+    11
+  ],
+  "pilot_matching_rows": 18,
+  "pilot_matching_checkpoint_sha256": {
+    "checkpoints/dense_modular_11.npz": "69a838876c1140581526387e6579abc1fb91ed1fb704516416c69dcbdd8e6c36",
+    "checkpoints/functional_11.npz": "8eb927617dbb8714bc2833ee50c665e3793bbb74f415dffdaed8fe750366a166",
+    "checkpoints/monolithic_11.npz": "d2a80b2a8ab1c9d53058c9821f13b885f2587529e3598908bc2e79e4fc5b9b01",
+    "checkpoints/no_gate_11.npz": "135f92d0b9d6935ea15b7f21b732204d12f736ecd853cd625aca497b57ea4fa0",
+    "checkpoints/oracle_gate_11.npz": "1e5a75c26154de1ddf3693d0295d97741a7328a29e256e9866217a55454612a7",
+    "checkpoints/random_partition_11.npz": "5c9f07d44c7e8cceb3c8a6c78eb020a7693612753f6283b50a6970f672a83857"
+  },
+  "replay_matching_rows": 30,
+  "replay_expected_checkpoints": 0,
+  "replay_repeat_directory": "results/local-replay-repeat",
+  "excluded_metric_fields": [
+    "training_seconds",
+    "peak_rss_bytes"
+  ],
+  "saved_experiment_results_modified": false
+}
