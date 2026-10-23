@@ -52,3 +52,7 @@ Would replay help when classes recur naturally? Can a selection audit predict pr
 [Same-state update-composition diagnostic and complete signed outputs](studies/replay-joint-update-diagnostic/README.md) find that the local MIR-versus-high-loss contrast changes sign between deployed JOINT and sequential updates. Important adverse context: MIR still raises old-panel loss by +0.71271 nats from the original state and raises new-panel loss by +0.37056 versus fresh-only SGD. These are conditional one-step findings from four reused historical seed clusters, not fresh confirmation, future-retention evidence or a general plasticity advantage.
 
 [Portable rerun inputs and independently checked saved numerical reproduction](studies/replay-joint-update-reproduction/README.md) are available as an additive package. This reproduces the same historical diagnostic, not fresh confirmation, and leaves its adverse findings unchanged.
+
+## Historical 2×2 replay update decomposition
+
+[Complete signed component diagnostic and saved-evidence verification](studies/replay-update-decomposition/README.md) separate combined weighting from replay-gradient location on four additional historical seed clusters. JOINT MIR still increases old loss by +0.905519 nats; its −0.025069 MIR-minus-high-loss contrast does not clear the frozen −0.005 interval margin. The +0.517077 interaction is a local arithmetic finding, not robust retention efficacy or a biological mapping. Both fresh-control scales and all adverse new-class results are retained.

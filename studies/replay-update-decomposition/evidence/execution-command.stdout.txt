@@ -1,0 +1,1 @@
+Diagnostic artifacts finalized; success also requires observed process exit 0.

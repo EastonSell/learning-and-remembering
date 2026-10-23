@@ -1,0 +1,172 @@
+{
+  "excluded_self": "PUBLIC-FILES.json",
+  "files": {
+    "LICENSE": {
+      "bytes": 1089,
+      "sha256": "8e64a581b4bf26f9750605771e8234243f05645cbde4e23839548ce497bb91e5"
+    },
+    "README.md": {
+      "bytes": 8873,
+      "sha256": "e0a393c12766c008cc8305e4d869bc7e76c2ec8035444bf0bdf5704afde7e8a1"
+    },
+    "analysis/aggregate-components.csv": {
+      "bytes": 14493,
+      "sha256": "a0be441fb23c13012880b0a2780a60a73d4be0b0101092d7bf7fc47b279c173b"
+    },
+    "analysis/all-350-summary-metrics.csv": {
+      "bytes": 64434,
+      "sha256": "2f08e874dda9a496925da7aa1daa8e57e74e05b9d663e226b891d26c18aecf0a"
+    },
+    "analysis/independent-review.public.json": {
+      "bytes": 50336,
+      "sha256": "f8da25f14cfbaca1e22354e670f3e9f563594a50523eeb62f413268189c37795"
+    },
+    "analysis/saved-analysis.public.json": {
+      "bytes": 802716,
+      "sha256": "0dbeea7fe7dd2eafbde5224cfec0956e00507b2dd8d865443c028ba566985e98"
+    },
+    "analysis/signed-seed-components.csv": {
+      "bytes": 6575,
+      "sha256": "36371aa4742c4fda51d138405c4b780e8b9044c57f2c4df82f78dd2e0bb4bb01"
+    },
+    "analysis/signed-state-components.csv": {
+      "bytes": 25965,
+      "sha256": "2d5b24cae477f02f354b6dfc86ceb5f5747f06fba5683aa226f28c4e631adae6"
+    },
+    "docs/METHODS.md": {
+      "bytes": 8126,
+      "sha256": "360ca591d6499b853440a01cc37c1cea455e54cb9247e2cf156677360abafe83"
+    },
+    "docs/PLAIN_LANGUAGE.md": {
+      "bytes": 3724,
+      "sha256": "9eec02eb5f2d95bc852db944405df6d04c711d21a0d16ace6cac1442a1dc7fc2"
+    },
+    "docs/RESULTS.md": {
+      "bytes": 13908,
+      "sha256": "2375830316f028650adabf4cf3549820d1f595d653cb3d884de0312747a4d99f"
+    },
+    "evidence/COMPLETE.json": {
+      "bytes": 3078,
+      "sha256": "51853d31e6d7f50b64da1cacfbcda51a582564c6c4e0c0c4f5b0102c2146eca4"
+    },
+    "evidence/execution-command.exit.txt": {
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "evidence/execution-command.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evidence/execution-command.stdout.txt": {
+      "bytes": 79,
+      "sha256": "cda10568917d8c8701232496a8a6135f7a5ab44781ac007a489a6503272918e9"
+    },
+    "evidence/run-input-freeze.public.json": {
+      "bytes": 12450,
+      "sha256": "7d450709c8b950ffe94aa2bbeb4963964f1d52e402d723505901cc44a320e7a9"
+    },
+    "evidence/seed-2005-block-0.json": {
+      "bytes": 123689,
+      "sha256": "37980d2f981b8ce17ddd0aa8b49b92e784f57108222e0b5b0986c7d775a04518"
+    },
+    "evidence/seed-2005-block-1.json": {
+      "bytes": 144551,
+      "sha256": "b737deaa0d58d2d2cdd846996aca4d51cde8bdd4c6839106288489a1166d3157"
+    },
+    "evidence/seed-2005-block-2.json": {
+      "bytes": 165993,
+      "sha256": "1a1475cdabfbde0c410fd0656c266c42c97fee8a40e3e87bf5f6df5b65284d0b"
+    },
+    "evidence/seed-2005-block-3.json": {
+      "bytes": 186986,
+      "sha256": "d716639826e58ea305bd13ee4dde162dc79c0e5eb612548f7c12af96fedc88a9"
+    },
+    "evidence/seed-2006-block-0.json": {
+      "bytes": 123726,
+      "sha256": "0b6fd3fc9ef8a1daa2f101bc8d9fd3a835b65f5897934697cd3ff88afdc20743"
+    },
+    "evidence/seed-2006-block-1.json": {
+      "bytes": 144841,
+      "sha256": "0fc1eb7f66b8b65ad9e33035bca41e3edccda9cd51670a117fb7bed7c1513172"
+    },
+    "evidence/seed-2006-block-2.json": {
+      "bytes": 165758,
+      "sha256": "ec68387ffea24a55f968aaf71f325986624555c1ca29dbdaacf661913cdcd22e"
+    },
+    "evidence/seed-2006-block-3.json": {
+      "bytes": 187079,
+      "sha256": "cd824c2eefbb751c87469101f66685fd85ac8b0407df588b7ed95d48bd8f4353"
+    },
+    "evidence/seed-2007-block-0.json": {
+      "bytes": 123656,
+      "sha256": "feed353164752c928c7d83781e95e66eea8b45e1fb4e1b24ccad6351930e1571"
+    },
+    "evidence/seed-2007-block-1.json": {
+      "bytes": 144695,
+      "sha256": "8caab4dfd462fc720364df3bfd6435349ea2f4d370a96111619d32987bb4a49e"
+    },
+    "evidence/seed-2007-block-2.json": {
+      "bytes": 165910,
+      "sha256": "e5090e71b8c7d3880cf371e40366dc96c5dc9c6d2e27599681ed632e8b13a039"
+    },
+    "evidence/seed-2007-block-3.json": {
+      "bytes": 186818,
+      "sha256": "aff7078731aecb11177c6656e294531e50a844d3ed7b66cdf9dcc5e0343fcc86"
+    },
+    "evidence/seed-2008-block-0.json": {
+      "bytes": 123598,
+      "sha256": "b73d9b7c137dd0b1a8640d823026e1114c043f90b1affdec3ea8edc634d23a9b"
+    },
+    "evidence/seed-2008-block-1.json": {
+      "bytes": 144672,
+      "sha256": "eef7dd67cba46986fba44441c66cfc2675d2c084f670531874e770effbbfc644"
+    },
+    "evidence/seed-2008-block-2.json": {
+      "bytes": 166082,
+      "sha256": "bcd774055ca0c628a5acbefa31db577aca6a0cf9e0918784d26f25d408d5f251"
+    },
+    "evidence/seed-2008-block-3.json": {
+      "bytes": 187235,
+      "sha256": "77097551d7235336bad03681c7a09241e5ac5cb57e45b6376810382e8891a65f"
+    },
+    "evidence/summary.json": {
+      "bytes": 668241,
+      "sha256": "e411cec1236837fe6e8bbb9bed3e20615479430b00508b579cc7ba1f028a7e12"
+    },
+    "reference/README.md": {
+      "bytes": 725,
+      "sha256": "53c814759c34ecc28462a8a06cff8988ad4e614f21f9ec514255b4f33b03079c"
+    },
+    "reference/jointaudit/mechanics.py": {
+      "bytes": 11495,
+      "sha256": "3704fb4963498c1cf60ad7fbfe2baa2750e8761e155f797c388c241e7e5eadf5"
+    },
+    "reference/vendor/LICENSE": {
+      "bytes": 1089,
+      "sha256": "8e64a581b4bf26f9750605771e8234243f05645cbde4e23839548ce497bb91e5"
+    },
+    "reference/vendor/deployed_core.py": {
+      "bytes": 5953,
+      "sha256": "1ccaf5b088c3b676ab6fc0d52a7beb305d652486cd6e864392d2152655d74626"
+    },
+    "requirements-verification.txt": {
+      "bytes": 13,
+      "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7"
+    },
+    "tests/test_saved_verifier.py": {
+      "bytes": 3085,
+      "sha256": "20a6db14509157a9473fe11ec89dded39f463d7158cfbdde98b72a19d429d8ac"
+    },
+    "transformations.json": {
+      "bytes": 16533,
+      "sha256": "af5f0a48b89620cf04dfed963442e1690a060e5253f99f1e8df0b198e7449351"
+    },
+    "verify_saved.py": {
+      "bytes": 17309,
+      "sha256": "8e8ac8e6b1ff66bc05161d5d8bbc385f17412edb1e288018ebea154cf2982ced"
+    }
+  },
+  "interpreter_cache_exclusion": false,
+  "kind": "closed-exact-public-file-allowlist",
+  "policy": "No unlisted file, directory, symlink or generated output is allowed. Run Python with -B and keep outputs outside the package. This manifest is not proof of authenticity of omitted originals."
+}

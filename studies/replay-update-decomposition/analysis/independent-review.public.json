@@ -1,0 +1,1801 @@
+{
+  "artifact_bytes": 3175082,
+  "artifact_count": 19,
+  "checked_scalar_summaries": 350,
+  "checked_seed_clusters": 4,
+  "checked_states": 16,
+  "checkpoints_decoded": false,
+  "complete_sha256": "51853d31e6d7f50b64da1cacfbcda51a582564c6c4e0c0c4f5b0102c2146eca4",
+  "image_arrays_decoded": false,
+  "key_summaries": {
+    "cell00.mir.new_change_from_fresh_deployed": {
+      "ci95": [
+        -0.12973201963864245,
+        -0.008947850712807681
+      ],
+      "cluster_count": 4,
+      "mean": -0.05777400654903603,
+      "seed_means": {
+        "2005": -0.036010999530553645,
+        "2006": -0.03327329906076226,
+        "2007": -0.16188492649793584,
+        "2008": 7.319889310763994e-05
+      },
+      "seed_sign_counts": {
+        "negative": 3,
+        "positive": 1,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 9,
+        "positive": 7,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "cell00.mir.new_change_from_fresh_unit": {
+      "ci95": [
+        0.16243037257227108,
+        0.48877294155245177
+      ],
+      "cluster_count": 4,
+      "mean": 0.33597366926399985,
+      "seed_means": {
+        "2005": 0.3563331600639504,
+        "2006": 0.5329195353819522,
+        "2007": 0.35710222727060326,
+        "2008": 0.09753975433949369
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 4,
+        "positive": 12,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "cell00.mir.new_change_from_original": {
+      "ci95": [
+        -9.743285546526312,
+        -7.341312646707287
+      ],
+      "cluster_count": 4,
+      "mean": -8.836032317509641,
+      "seed_means": {
+        "2005": -9.39542438915372,
+        "2006": -9.85923926565051,
+        "2007": -6.637892485797406,
+        "2008": -9.451573129436932
+      },
+      "seed_sign_counts": {
+        "negative": 4,
+        "positive": 0,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 16,
+        "positive": 0,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "cell00.mir.new_loss": {
+      "ci95": [
+        3.024125793039799,
+        4.564099416036624
+      ],
+      "cluster_count": 4,
+      "mean": 3.7941126045382116,
+      "seed_means": {
+        "2005": 3.248011504024267,
+        "2006": 2.80024008205533,
+        "2007": 4.608835582792759,
+        "2008": 4.51936324928049
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 0,
+        "positive": 16,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "cell00.mir.old_change_from_fresh_deployed": {
+      "ci95": [
+        -0.1888711598647509,
+        -0.044370790237851065
+      ],
+      "cluster_count": 4,
+      "mean": -0.11662097505130098,
+      "seed_means": {
+        "2005": -0.05715311682011279,
+        "2006": -0.15515115659387485,
+        "2007": -0.22259116313562693,
+        "2008": -0.031588463655589344
+      },
+      "seed_sign_counts": {
+        "negative": 4,
+        "positive": 0,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 14,
+        "positive": 2,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "cell00.mir.old_change_from_fresh_unit": {
+      "ci95": [
+        -1.0091762044692807,
+        -0.6987677701702706
+      ],
+      "cluster_count": 4,
+      "mean": -0.8539719873197756,
+      "seed_means": {
+        "2005": -1.0055450952629053,
+        "2006": -0.7642082233326457,
+        "2007": -0.6333273170078954,
+        "2008": -1.0128073136756561
+      },
+      "seed_sign_counts": {
+        "negative": 4,
+        "positive": 0,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 16,
+        "positive": 0,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "cell00.mir.old_change_from_original": {
+      "ci95": [
+        0.5263449724223013,
+        1.480878706841815
+      ],
+      "cluster_count": 4,
+      "mean": 0.9055192529057605,
+      "seed_means": {
+        "2005": 0.6476227098043137,
+        "2006": 0.444778146862396,
+        "2007": 0.7710454491020171,
+        "2008": 1.7586307058543156
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 0,
+        "positive": 16,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "cell00.mir.old_loss": {
+      "ci95": [
+        1.0722929104224297,
+        1.9230962033644174
+      ],
+      "cluster_count": 4,
+      "mean": 1.412904675521812,
+      "seed_means": {
+        "2005": 1.1600934192983545,
+        "2006": 0.9875384118102988,
+        "2007": 1.3265564062588227,
+        "2008": 2.1774304647197718
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 0,
+        "positive": 16,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "cell11.mir.new_change_from_fresh_deployed": {
+      "ci95": [
+        -1.3739477693270892,
+        0.1652181914672257
+      ],
+      "cluster_count": 4,
+      "mean": -0.6339896574821323,
+      "seed_means": {
+        "2005": 0.5279396130740645,
+        "2006": -0.4635327158197762,
+        "2007": -0.9229460733532906,
+        "2008": -1.6774194538295268
+      },
+      "seed_sign_counts": {
+        "negative": 3,
+        "positive": 1,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 11,
+        "positive": 5,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "cell11.mir.new_change_from_fresh_unit": {
+      "ci95": [
+        -1.159299644131621,
+        0.5892230996052384
+      ],
+      "cluster_count": 4,
+      "mean": -0.24024198166909638,
+      "seed_means": {
+        "2005": 0.9202837726685684,
+        "2006": 0.10266011862293839,
+        "2007": -0.4039589195847515,
+        "2008": -1.5799528983831408
+      },
+      "seed_sign_counts": {
+        "negative": 2,
+        "positive": 2,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 5,
+        "positive": 11,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "cell11.mir.new_change_from_original": {
+      "ci95": [
+        -10.709282232284547,
+        -8.11521370460093
+      ],
+      "cluster_count": 4,
+      "mean": -9.412247968442738,
+      "seed_means": {
+        "2005": -8.831473776549101,
+        "2006": -10.289498682409524,
+        "2007": -7.398953632652759,
+        "2008": -11.129065782159568
+      },
+      "seed_sign_counts": {
+        "negative": 4,
+        "positive": 0,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 16,
+        "positive": 0,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "cell11.mir.new_loss": {
+      "ci95": [
+        2.6059256309270857,
+        3.8298682762831446
+      ],
+      "cluster_count": 4,
+      "mean": 3.2178969536051154,
+      "seed_means": {
+        "2005": 3.811962116628885,
+        "2006": 2.3699806652963162,
+        "2007": 3.847774435937404,
+        "2008": 2.8418705965578557
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 0,
+        "positive": 16,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "cell11.mir.old_change_from_fresh_deployed": {
+      "ci95": [
+        -0.49988974754269566,
+        0.9806867177089709
+      ],
+      "cluster_count": 4,
+      "mean": 0.1804619887105592,
+      "seed_means": {
+        "2005": 1.3723033210866697,
+        "2006": 0.31534108435493075,
+        "2007": -0.19416309242412583,
+        "2008": -0.7716333581752378
+      },
+      "seed_sign_counts": {
+        "negative": 2,
+        "positive": 2,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 5,
+        "positive": 11,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "cell11.mir.old_change_from_fresh_unit": {
+      "ci95": [
+        -1.3880681517424385,
+        0.1667086954088094
+      ],
+      "cluster_count": 4,
+      "mean": -0.5568890235579155,
+      "seed_means": {
+        "2005": 0.4239113426438773,
+        "2006": -0.2937159823838402,
+        "2007": -0.6048992462963944,
+        "2008": -1.7528522081953046
+      },
+      "seed_sign_counts": {
+        "negative": 3,
+        "positive": 1,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 12,
+        "positive": 4,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "cell11.mir.old_change_from_original": {
+      "ci95": [
+        0.8542515926938055,
+        1.7866269577361225
+      ],
+      "cluster_count": 4,
+      "mean": 1.2026022166676207,
+      "seed_means": {
+        "2005": 2.077079147711096,
+        "2006": 0.9152703878112015,
+        "2007": 0.7994735198135183,
+        "2008": 1.0185858113346669
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 0,
+        "positive": 16,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "cell11.mir.old_loss": {
+      "ci95": [
+        1.3807460209175189,
+        2.301508785453884
+      ],
+      "cluster_count": 4,
+      "mean": 1.7099876392836721,
+      "seed_means": {
+        "2005": 2.5895498572051374,
+        "2006": 1.4580306527591045,
+        "2007": 1.3549844769703236,
+        "2008": 1.437385570200123
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 0,
+        "positive": 16,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "new.mir_minus_highloss.cell00": {
+      "ci95": [
+        -0.058481686155311616,
+        0.003623803401365977
+      ],
+      "cluster_count": 4,
+      "mean": -0.02877624529320734,
+      "seed_means": {
+        "2005": -0.06979075846075994,
+        "2006": 0.01762748353928334,
+        "2007": -0.03838723701238611,
+        "2008": -0.024554469238966647
+      },
+      "seed_sign_counts": {
+        "negative": 3,
+        "positive": 1,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 5,
+        "positive": 11,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "new.mir_minus_highloss.cell01": {
+      "ci95": [
+        -0.1869931526430884,
+        0.008726342631503958
+      ],
+      "cluster_count": 4,
+      "mean": -0.05868944762693723,
+      "seed_means": {
+        "2005": -0.0007582214772701157,
+        "2006": 0.011887864001095316,
+        "2007": -0.25104258877038976,
+        "2008": 0.005155155738815642
+      },
+      "seed_sign_counts": {
+        "negative": 2,
+        "positive": 2,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 8,
+        "positive": 8,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "new.mir_minus_highloss.cell10": {
+      "ci95": [
+        -0.27609585856896596,
+        -0.012841992348199646
+      ],
+      "cluster_count": 4,
+      "mean": -0.14778886908740962,
+      "seed_means": {
+        "2005": -0.3197416491641198,
+        "2006": 0.03744368550460786,
+        "2007": -0.1451584867835044,
+        "2008": -0.16369902590662216
+      },
+      "seed_sign_counts": {
+        "negative": 3,
+        "positive": 1,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 7,
+        "positive": 9,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "new.mir_minus_highloss.cell11": {
+      "ci95": [
+        0.11685806328430758,
+        1.025437227720395
+      ],
+      "cluster_count": 4,
+      "mean": 0.4567178502399475,
+      "seed_means": {
+        "2005": 1.2993250891491772,
+        "2006": 0.2037736434340479,
+        "2007": 0.07182979238033271,
+        "2008": 0.25194287599623216
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 3,
+        "positive": 13,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "new.mir_minus_highloss.interaction": {
+      "ci95": [
+        0.23646309083118125,
+        1.2590087202286235
+      ],
+      "cluster_count": 4,
+      "mean": 0.634419921661087,
+      "seed_means": {
+        "2005": 1.5500342013298072,
+        "2006": 0.17206957746762808,
+        "2007": 0.42964363092184077,
+        "2008": 0.38593227692507204
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 1,
+        "positive": 15,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "new.mir_minus_highloss.location_at_deployed": {
+      "ci95": [
+        -0.15206410757405717,
+        0.05033949785307036
+      ],
+      "cluster_count": 4,
+      "mean": -0.02991320233372989,
+      "seed_means": {
+        "2005": 0.06903253698348982,
+        "2006": -0.005739619538188023,
+        "2007": -0.21265535175800365,
+        "2008": 0.02970962497778229
+      },
+      "seed_sign_counts": {
+        "negative": 2,
+        "positive": 2,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 7,
+        "positive": 9,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "new.mir_minus_highloss.location_at_unit": {
+      "ci95": [
+        0.19165911854663858,
+        1.2685471235259322
+      ],
+      "cluster_count": 4,
+      "mean": 0.6045067193273572,
+      "seed_means": {
+        "2005": 1.6190667383132973,
+        "2006": 0.16632995792944005,
+        "2007": 0.21698827916383712,
+        "2008": 0.4156419019028543
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 2,
+        "positive": 14,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "new.mir_minus_highloss.reconciliation_residual": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "cluster_count": 4,
+      "mean": 0.0,
+      "seed_means": {
+        "2005": 0.0,
+        "2006": 0.0,
+        "2007": 0.0,
+        "2008": 0.0
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 0,
+        "zero": 4
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 0,
+        "positive": 0,
+        "zero": 16
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "new.mir_minus_highloss.total_sequential_minus_joint": {
+      "ci95": [
+        0.1481815946437417,
+        1.073373425681144
+      ],
+      "cluster_count": 4,
+      "mean": 0.48549409553315487,
+      "seed_means": {
+        "2005": 1.3691158476099372,
+        "2006": 0.18614615989476457,
+        "2007": 0.11021702939271882,
+        "2008": 0.2764973452351988
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 3,
+        "positive": 13,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "new.mir_minus_highloss.weight_at_original": {
+      "ci95": [
+        -0.21415598047029946,
+        -0.01992398769292049
+      ],
+      "cluster_count": 4,
+      "mean": -0.11901262379420229,
+      "seed_means": {
+        "2005": -0.24995089070335985,
+        "2006": 0.01981620196532452,
+        "2007": -0.10677124977111829,
+        "2008": -0.13914455666765552
+      },
+      "seed_sign_counts": {
+        "negative": 3,
+        "positive": 1,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 10,
+        "positive": 6,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "new.mir_minus_highloss.weight_at_updated": {
+      "ci95": [
+        0.21933674984518453,
+        1.0367594130341897
+      ],
+      "cluster_count": 4,
+      "mean": 0.5154072978668848,
+      "seed_means": {
+        "2005": 1.3000833106264473,
+        "2006": 0.1918857794329526,
+        "2007": 0.3228723811507225,
+        "2008": 0.24678772025741652
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 2,
+        "positive": 14,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "new.mir_minus_uniform.cell00": {
+      "ci95": [
+        -0.07518087705399354,
+        -0.0166699574661906
+      ],
+      "cluster_count": 4,
+      "mean": -0.0422977580650476,
+      "seed_means": {
+        "2005": -0.04376727090775967,
+        "2006": -0.008867945976555602,
+        "2007": -0.09208384642004952,
+        "2008": -0.024471968955825596
+      },
+      "seed_sign_counts": {
+        "negative": 4,
+        "positive": 0,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 13,
+        "positive": 3,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "new.mir_minus_uniform.cell01": {
+      "ci95": [
+        -0.12631074457801889,
+        0.032617255660705224
+      ],
+      "cluster_count": 4,
+      "mean": -0.04684674445865683,
+      "seed_means": {
+        "2005": -0.008093400157987984,
+        "2006": 0.07332791147939843,
+        "2007": -0.1613204696774484,
+        "2008": -0.09130101947858937
+      },
+      "seed_sign_counts": {
+        "negative": 3,
+        "positive": 1,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 8,
+        "positive": 8,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "new.mir_minus_uniform.cell10": {
+      "ci95": [
+        -0.1609415211114103,
+        0.018105071933954546
+      ],
+      "cluster_count": 4,
+      "mean": -0.07278762890149673,
+      "seed_means": {
+        "2005": -0.14340154720004675,
+        "2006": 0.07194061164528831,
+        "2007": -0.17848149502277388,
+        "2008": -0.04120808502845463
+      },
+      "seed_sign_counts": {
+        "negative": 3,
+        "positive": 1,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 11,
+        "positive": 5,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "new.mir_minus_uniform.cell11": {
+      "ci95": [
+        0.10491526312415955,
+        0.9718853469481692
+      ],
+      "cluster_count": 4,
+      "mean": 0.4379964924542,
+      "seed_means": {
+        "2005": 1.228102984558791,
+        "2006": 0.2711453004642391,
+        "2007": 0.20323243411630376,
+        "2008": 0.04950525067746636
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 3,
+        "positive": 13,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "new.mir_minus_uniform.interaction": {
+      "ci95": [
+        0.13727560879584078,
+        1.0412585923139708
+      ],
+      "cluster_count": 4,
+      "mean": 0.515333107749306,
+      "seed_means": {
+        "2005": 1.335830661009066,
+        "2006": 0.11700883136299678,
+        "2007": 0.4509505523964765,
+        "2008": 0.15754238622868477
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 2,
+        "positive": 14,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "new.mir_minus_uniform.location_at_deployed": {
+      "ci95": [
+        -0.06803283689008133,
+        0.05893486410286286
+      ],
+      "cluster_count": 4,
+      "mean": -0.004548986393609233,
+      "seed_means": {
+        "2005": 0.035673870749771686,
+        "2006": 0.08219585745595404,
+        "2007": -0.06923662325739888,
+        "2008": -0.06682905052276378
+      },
+      "seed_sign_counts": {
+        "negative": 2,
+        "positive": 2,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 7,
+        "positive": 9,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "new.mir_minus_uniform.location_at_unit": {
+      "ci95": [
+        0.1449590122624359,
+        1.078429571023866
+      ],
+      "cluster_count": 4,
+      "mean": 0.5107841213556967,
+      "seed_means": {
+        "2005": 1.3715045317588377,
+        "2006": 0.19920468881895081,
+        "2007": 0.38171392913907765,
+        "2008": 0.090713335705921
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 4,
+        "positive": 12,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "new.mir_minus_uniform.reconciliation_residual": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "cluster_count": 4,
+      "mean": 0.0,
+      "seed_means": {
+        "2005": 0.0,
+        "2006": 0.0,
+        "2007": 0.0,
+        "2008": 0.0
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 0,
+        "zero": 4
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 0,
+        "positive": 0,
+        "zero": 16
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "new.mir_minus_uniform.total_sequential_minus_joint": {
+      "ci95": [
+        0.1293119848590573,
+        1.0239060032101117
+      ],
+      "cluster_count": 4,
+      "mean": 0.4802942505192476,
+      "seed_means": {
+        "2005": 1.2718702554665506,
+        "2006": 0.2800132464407947,
+        "2007": 0.2953162805363533,
+        "2008": 0.07397721963329196
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 3,
+        "positive": 13,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "new.mir_minus_uniform.weight_at_original": {
+      "ci95": [
+        -0.09301596244750572,
+        0.039007006065701844
+      ],
+      "cluster_count": 4,
+      "mean": -0.03048987083644914,
+      "seed_means": {
+        "2005": -0.09963427629228708,
+        "2006": 0.08080855762184391,
+        "2007": -0.08639764860272436,
+        "2008": -0.016736116072629037
+      },
+      "seed_sign_counts": {
+        "negative": 3,
+        "positive": 1,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 10,
+        "positive": 6,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "new.mir_minus_uniform.weight_at_updated": {
+      "ci95": [
+        0.1693118295704482,
+        0.9766016357837943
+      ],
+      "cluster_count": 4,
+      "mean": 0.4848432369128569,
+      "seed_means": {
+        "2005": 1.236196384716779,
+        "2006": 0.1978173889848407,
+        "2007": 0.36455290379375216,
+        "2008": 0.14080627015605574
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 1,
+        "positive": 15,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "old.mir_minus_highloss.cell00": {
+      "ci95": [
+        -0.0513974325648674,
+        -0.0043000206432646584
+      ],
+      "cluster_count": 4,
+      "mean": -0.02506858497444485,
+      "seed_means": {
+        "2005": -0.014191596060022758,
+        "2006": 0.002541641599107858,
+        "2007": -0.06379937806648228,
+        "2008": -0.024825007370382207
+      },
+      "seed_sign_counts": {
+        "negative": 3,
+        "positive": 1,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 9,
+        "positive": 7,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "old.mir_minus_highloss.cell01": {
+      "ci95": [
+        -0.12670858611196772,
+        -0.013354099346940321
+      ],
+      "cluster_count": 4,
+      "mean": -0.07003134272945402,
+      "seed_means": {
+        "2005": -0.0038506497156983246,
+        "2006": -0.022857548978182318,
+        "2007": -0.12070844028700259,
+        "2008": -0.13270873193693286
+      },
+      "seed_sign_counts": {
+        "negative": 4,
+        "positive": 0,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 11,
+        "positive": 5,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "old.mir_minus_highloss.cell10": {
+      "ci95": [
+        -0.22944391742048292,
+        -0.03152748594474526
+      ],
+      "cluster_count": 4,
+      "mean": -0.13199123527150497,
+      "seed_means": {
+        "2005": -0.20704863192161665,
+        "2006": 0.02697956271421187,
+        "2007": -0.25183920291934914,
+        "2008": -0.09605666895926593
+      },
+      "seed_sign_counts": {
+        "negative": 3,
+        "positive": 1,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 9,
+        "positive": 7,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "old.mir_minus_highloss.cell11": {
+      "ci95": [
+        0.0779029862784782,
+        0.8286607449401671
+      ],
+      "cluster_count": 4,
+      "mean": 0.34012344189989674,
+      "seed_means": {
+        "2005": 1.0721240821808098,
+        "2006": 0.09827073321823884,
+        "2007": 0.06075649645668718,
+        "2008": 0.12934245574385128
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 4,
+        "positive": 12,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "old.mir_minus_highloss.interaction": {
+      "ci95": [
+        0.164893961210127,
+        1.0349445381359934
+      ],
+      "cluster_count": 4,
+      "mean": 0.5170774349264109,
+      "seed_means": {
+        "2005": 1.2688317677581018,
+        "2006": 0.09669036108131715,
+        "2007": 0.3695047615965566,
+        "2008": 0.3332828492696679
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 3,
+        "positive": 13,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "old.mir_minus_highloss.location_at_deployed": {
+      "ci95": [
+        -0.08726259106923553,
+        -0.006471555796886751
+      ],
+      "cluster_count": 4,
+      "mean": -0.04496275775500917,
+      "seed_means": {
+        "2005": 0.010340946344324434,
+        "2006": -0.025399190577290176,
+        "2007": -0.05690906222052031,
+        "2008": -0.10788372456655065
+      },
+      "seed_sign_counts": {
+        "negative": 3,
+        "positive": 1,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 9,
+        "positive": 7,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "old.mir_minus_highloss.location_at_unit": {
+      "ci95": [
+        0.13161730272202932,
+        1.0157293167525991
+      ],
+      "cluster_count": 4,
+      "mean": 0.47211467717140176,
+      "seed_means": {
+        "2005": 1.2791727141024265,
+        "2006": 0.07129117050402697,
+        "2007": 0.3125956993760363,
+        "2008": 0.2253991247031172
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 3,
+        "positive": 13,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "old.mir_minus_highloss.reconciliation_residual": {
+      "ci95": [
+        -8.326672684688674e-17,
+        0.0
+      ],
+      "cluster_count": 4,
+      "mean": -2.7755575615628914e-17,
+      "seed_means": {
+        "2005": -1.1102230246251565e-16,
+        "2006": 0.0,
+        "2007": 0.0,
+        "2008": 0.0
+      },
+      "seed_sign_counts": {
+        "negative": 1,
+        "positive": 0,
+        "zero": 3
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 1,
+        "positive": 0,
+        "zero": 15
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "old.mir_minus_highloss.total_sequential_minus_joint": {
+      "ci95": [
+        0.11014248307115022,
+        0.8458757273114166
+      ],
+      "cluster_count": 4,
+      "mean": 0.36519202687434155,
+      "seed_means": {
+        "2005": 1.0863156782408323,
+        "2006": 0.09572909161913098,
+        "2007": 0.12455587452316946,
+        "2008": 0.1541674631142335
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 4,
+        "positive": 12,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "old.mir_minus_highloss.weight_at_original": {
+      "ci95": [
+        -0.19044843035723036,
+        -0.023396870236889855
+      ],
+      "cluster_count": 4,
+      "mean": -0.1069226502970601,
+      "seed_means": {
+        "2005": -0.1928570358615939,
+        "2006": 0.02443792111510401,
+        "2007": -0.18803982485286683,
+        "2008": -0.07123166158888372
+      },
+      "seed_sign_counts": {
+        "negative": 3,
+        "positive": 1,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 10,
+        "positive": 6,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "old.mir_minus_highloss.weight_at_updated": {
+      "ci95": [
+        0.15129660947005547,
+        0.8523472831083033
+      ],
+      "cluster_count": 4,
+      "mean": 0.41015478462935073,
+      "seed_means": {
+        "2005": 1.0759747318965078,
+        "2006": 0.12112828219642116,
+        "2007": 0.18146493674368977,
+        "2008": 0.26205118768078417
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 3,
+        "positive": 13,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "old.mir_minus_uniform.cell00": {
+      "ci95": [
+        -0.0872678206545021,
+        -0.03478920382538656
+      ],
+      "cluster_count": 4,
+      "mean": -0.06102851223994433,
+      "seed_means": {
+        "2005": -0.038499003964129516,
+        "2006": -0.07152547675247056,
+        "2007": -0.10301016455653364,
+        "2008": -0.03107940368664361
+      },
+      "seed_sign_counts": {
+        "negative": 4,
+        "positive": 0,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 14,
+        "positive": 2,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "old.mir_minus_uniform.cell01": {
+      "ci95": [
+        -0.10114572416336984,
+        0.013012537130300855
+      ],
+      "cluster_count": 4,
+      "mean": -0.0459992703530088,
+      "seed_means": {
+        "2005": -0.025317543025877683,
+        "2006": -0.12350586702619654,
+        "2007": -0.07878558130054314,
+        "2008": 0.043611909940582186
+      },
+      "seed_sign_counts": {
+        "negative": 3,
+        "positive": 1,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 12,
+        "positive": 4,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "old.mir_minus_uniform.cell10": {
+      "ci95": [
+        -0.18719617271930722,
+        0.10739419468710194
+      ],
+      "cluster_count": 4,
+      "mean": -0.06281661043527265,
+      "seed_means": {
+        "2005": -0.13729983392103023,
+        "2006": 0.18895887088981267,
+        "2007": -0.22292960608367796,
+        "2008": -0.07999587262619504
+      },
+      "seed_sign_counts": {
+        "negative": 3,
+        "positive": 1,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 10,
+        "positive": 6,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "old.mir_minus_uniform.cell11": {
+      "ci95": [
+        0.15211896404541392,
+        0.9861532687551465
+      ],
+      "cluster_count": 4,
+      "mean": 0.5071739080966298,
+      "seed_means": {
+        "2005": 1.254002340359032,
+        "2006": 0.47045536393665904,
+        "2007": 0.1826060539434904,
+        "2008": 0.12163187414733748
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 0,
+        "positive": 16,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "old.mir_minus_uniform.interaction": {
+      "ci95": [
+        0.19053009405252447,
+        1.1169597558365008
+      ],
+      "cluster_count": 4,
+      "mean": 0.5549612766449668,
+      "seed_means": {
+        "2005": 1.3781207133418103,
+        "2006": 0.33347688332057235,
+        "2007": 0.3813110767711778,
+        "2008": 0.1269364331463067
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 1,
+        "positive": 15,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "old.mir_minus_uniform.location_at_deployed": {
+      "ci95": [
+        -0.03292914689129686,
+        0.0593138504549823
+      ],
+      "cluster_count": 4,
+      "mean": 0.015029241886935536,
+      "seed_means": {
+        "2005": 0.01318146093825183,
+        "2006": -0.05198039027372598,
+        "2007": 0.0242245832559905,
+        "2008": 0.0746913136272258
+      },
+      "seed_sign_counts": {
+        "negative": 1,
+        "positive": 3,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 8,
+        "positive": 8,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "old.mir_minus_uniform.location_at_unit": {
+      "ci95": [
+        0.24156211991018944,
+        1.1138507539717581
+      ],
+      "cluster_count": 4,
+      "mean": 0.5699905185319023,
+      "seed_means": {
+        "2005": 1.391302174280062,
+        "2006": 0.2814964930468464,
+        "2007": 0.40553566002716834,
+        "2008": 0.2016277467735325
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 0,
+        "positive": 16,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "old.mir_minus_uniform.reconciliation_residual": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "cluster_count": 4,
+      "mean": 0.0,
+      "seed_means": {
+        "2005": 0.0,
+        "2006": 0.0,
+        "2007": 0.0,
+        "2008": 0.0
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 0,
+        "zero": 4
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 0,
+        "positive": 0,
+        "zero": 16
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "old.mir_minus_uniform.total_sequential_minus_joint": {
+      "ci95": [
+        0.21916374816700257,
+        1.040780062867377
+      ],
+      "cluster_count": 4,
+      "mean": 0.568202420336574,
+      "seed_means": {
+        "2005": 1.2925013443231612,
+        "2006": 0.5419808406891296,
+        "2007": 0.28561621850002405,
+        "2008": 0.15271127783398109
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 0,
+        "positive": 16,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "old.mir_minus_uniform.weight_at_original": {
+      "ci95": [
+        -0.10936013574202252,
+        0.17066305324248726
+      ],
+      "cluster_count": 4,
+      "mean": -0.001788098195328304,
+      "seed_means": {
+        "2005": -0.09880082995690072,
+        "2006": 0.26048434764228323,
+        "2007": -0.11991944152714432,
+        "2008": -0.04891646893955143
+      },
+      "seed_sign_counts": {
+        "negative": 3,
+        "positive": 1,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 9,
+        "positive": 7,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "old.mir_minus_uniform.weight_at_updated": {
+      "ci95": [
+        0.1697057997253944,
+        1.0248378213496903
+      ],
+      "cluster_count": 4,
+      "mean": 0.5531731784496384,
+      "seed_means": {
+        "2005": 1.2793198833849093,
+        "2006": 0.5939612309628555,
+        "2007": 0.2613916352440335,
+        "2008": 0.07801996420675529
+      },
+      "seed_sign_counts": {
+        "negative": 0,
+        "positive": 4,
+        "zero": 0
+      },
+      "state_count": 16,
+      "state_sign_counts": {
+        "negative": 1,
+        "positive": 15,
+        "zero": 0
+      },
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    }
+  },
+  "max_arithmetic_discrepancy": 0.0,
+  "max_recorded_mathematical00_panel_loss_difference": 6.177425384557012e-07,
+  "max_recorded_parameter_abs_difference": 2.384185791015625e-07,
+  "max_recorded_parameter_tolerance_fraction": 0.05147882711875785,
+  "publication_derivative": {
+    "source_check_sha256": "edbc0d3bf704bf2706d82e23745ddbdfb50f5567a280118431c0cbadcaface10",
+    "source_review_sha256": "ce948485528d9e395d8715ef2e57c0018a04ad19482475444200a12e6533cc0e",
+    "transformation": "Allowlisted scientific review findings only; omit invocation/workspace paths, internal execution receipts and metadata inventory. These are saved original review assertions, not newly performed image/checkpoint scoring."
+  },
+  "reviewed_freeze_sha256": "8c70ca1b3a7ea529bddadd360ee78a40be5115f1dc5650aed2305bee2e85876c",
+  "scientific_model_functions_imported_or_called": false,
+  "seed_endpoint_sign_patterns": {
+    "2005": {
+      "00": -0.014191596060022758,
+      "01": -0.0038506497156983246,
+      "10": -0.20704863192161665,
+      "11": 1.0721240821808098
+    },
+    "2006": {
+      "00": 0.002541641599107858,
+      "01": -0.022857548978182318,
+      "10": 0.02697956271421187,
+      "11": 0.09827073321823884
+    },
+    "2007": {
+      "00": -0.06379937806648228,
+      "01": -0.12070844028700259,
+      "10": -0.25183920291934914,
+      "11": 0.06075649645668718
+    },
+    "2008": {
+      "00": -0.024825007370382207,
+      "01": -0.13270873193693286,
+      "10": -0.09605666895926593,
+      "11": 0.12934245574385128
+    }
+  },
+  "signed_primary_state_rows": [
+    {
+      "00": 0.001007671310566366,
+      "01": -0.009708432311192144,
+      "10": 0.0005724166631699834,
+      "11": 0.19862398017197858,
+      "block": 0,
+      "seed": 2005
+    },
+    {
+      "00": -0.07227621951151564,
+      "01": 0.05243265661897112,
+      "10": -0.7607564942203076,
+      "11": 3.291118867657115,
+      "block": 1,
+      "seed": 2005
+    },
+    {
+      "00": 0.034319779368569,
+      "01": 0.03524800525938199,
+      "10": 0.030319435615199453,
+      "11": 0.42557066423734446,
+      "block": 2,
+      "seed": 2005
+    },
+    {
+      "00": -0.019817615407710765,
+      "01": -0.09337482842995426,
+      "10": -0.0983298857445285,
+      "11": 0.3731828166568003,
+      "block": 3,
+      "seed": 2005
+    },
+    {
+      "00": -2.7799507137382662e-05,
+      "01": 9.824843416572637e-05,
+      "10": -0.0009596898406742937,
+      "11": -0.0027022796999663923,
+      "block": 0,
+      "seed": 2006
+    },
+    {
+      "00": -6.177154017206199e-05,
+      "01": -0.020757007728529286,
+      "10": 0.10483628028548697,
+      "11": 0.08347218390810696,
+      "block": 1,
+      "seed": 2006
+    },
+    {
+      "00": 0.002685315277622058,
+      "01": -0.0416460693063212,
+      "10": 0.03013246739626796,
+      "11": 0.28682882834097034,
+      "block": 2,
+      "seed": 2006
+    },
+    {
+      "00": 0.007570822166118818,
+      "01": -0.029125367312044514,
+      "10": -0.02609080698423316,
+      "11": 0.025484200323844464,
+      "block": 3,
+      "seed": 2006
+    },
+    {
+      "00": -0.035775652077049136,
+      "01": -0.06725542348064473,
+      "10": -0.01907394532859319,
+      "11": 0.003348374053835812,
+      "block": 0,
+      "seed": 2007
+    },
+    {
+      "00": -0.22924838051141183,
+      "01": -0.3746036740785528,
+      "10": -0.9719101074009289,
+      "11": -0.25551562600941313,
+      "block": 1,
+      "seed": 2007
+    },
+    {
+      "00": 0.06999557761707709,
+      "01": -0.07372486363746455,
+      "10": 0.07112204451614623,
+      "11": 0.36716074126329756,
+      "block": 2,
+      "seed": 2007
+    },
+    {
+      "00": -0.06016905729454525,
+      "01": 0.0327502000486517,
+      "10": -0.08749480346402061,
+      "11": 0.12803249651902848,
+      "block": 3,
+      "seed": 2007
+    },
+    {
+      "00": 0.02168360742318365,
+      "01": -0.5218530970046995,
+      "10": 0.03821803747117469,
+      "11": 0.5169470492973924,
+      "block": 0,
+      "seed": 2008
+    },
+    {
+      "00": 0.004879990975399373,
+      "01": 0.10907487746921829,
+      "10": 0.00881572708437961,
+      "11": -0.009445806648582078,
+      "block": 1,
+      "seed": 2008
+    },
+    {
+      "00": -0.06805494172477455,
+      "01": -0.06079203155324586,
+      "10": -0.3097609629401529,
+      "11": -0.1286357644079057,
+      "block": 2,
+      "seed": 2008
+    },
+    {
+      "00": -0.0578086861553373,
+      "01": -0.057264676659004365,
+      "10": -0.12149947745246514,
+      "11": 0.13850434473450046,
+      "block": 3,
+      "seed": 2008
+    }
+  ],
+  "status": "independent_saved_result_and_metadata_checks_passed",
+  "summary_sha256": "e411cec1236837fe6e8bbb9bed3e20615479430b00508b579cc7ba1f028a7e12"
+}

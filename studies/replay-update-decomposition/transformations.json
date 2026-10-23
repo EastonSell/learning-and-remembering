@@ -1,0 +1,477 @@
+{
+  "entries": [
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 3078,
+        "sha256": "51853d31e6d7f50b64da1cacfbcda51a582564c6c4e0c0c4f5b0102c2146eca4"
+      },
+      "public": {
+        "bytes": 3078,
+        "sha256": "51853d31e6d7f50b64da1cacfbcda51a582564c6c4e0c0c4f5b0102c2146eca4"
+      },
+      "public_path": "evidence/COMPLETE.json"
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 123689,
+        "sha256": "37980d2f981b8ce17ddd0aa8b49b92e784f57108222e0b5b0986c7d775a04518"
+      },
+      "public": {
+        "bytes": 123689,
+        "sha256": "37980d2f981b8ce17ddd0aa8b49b92e784f57108222e0b5b0986c7d775a04518"
+      },
+      "public_path": "evidence/seed-2005-block-0.json"
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 144551,
+        "sha256": "b737deaa0d58d2d2cdd846996aca4d51cde8bdd4c6839106288489a1166d3157"
+      },
+      "public": {
+        "bytes": 144551,
+        "sha256": "b737deaa0d58d2d2cdd846996aca4d51cde8bdd4c6839106288489a1166d3157"
+      },
+      "public_path": "evidence/seed-2005-block-1.json"
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 165993,
+        "sha256": "1a1475cdabfbde0c410fd0656c266c42c97fee8a40e3e87bf5f6df5b65284d0b"
+      },
+      "public": {
+        "bytes": 165993,
+        "sha256": "1a1475cdabfbde0c410fd0656c266c42c97fee8a40e3e87bf5f6df5b65284d0b"
+      },
+      "public_path": "evidence/seed-2005-block-2.json"
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 186986,
+        "sha256": "d716639826e58ea305bd13ee4dde162dc79c0e5eb612548f7c12af96fedc88a9"
+      },
+      "public": {
+        "bytes": 186986,
+        "sha256": "d716639826e58ea305bd13ee4dde162dc79c0e5eb612548f7c12af96fedc88a9"
+      },
+      "public_path": "evidence/seed-2005-block-3.json"
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 123726,
+        "sha256": "0b6fd3fc9ef8a1daa2f101bc8d9fd3a835b65f5897934697cd3ff88afdc20743"
+      },
+      "public": {
+        "bytes": 123726,
+        "sha256": "0b6fd3fc9ef8a1daa2f101bc8d9fd3a835b65f5897934697cd3ff88afdc20743"
+      },
+      "public_path": "evidence/seed-2006-block-0.json"
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 144841,
+        "sha256": "0fc1eb7f66b8b65ad9e33035bca41e3edccda9cd51670a117fb7bed7c1513172"
+      },
+      "public": {
+        "bytes": 144841,
+        "sha256": "0fc1eb7f66b8b65ad9e33035bca41e3edccda9cd51670a117fb7bed7c1513172"
+      },
+      "public_path": "evidence/seed-2006-block-1.json"
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 165758,
+        "sha256": "ec68387ffea24a55f968aaf71f325986624555c1ca29dbdaacf661913cdcd22e"
+      },
+      "public": {
+        "bytes": 165758,
+        "sha256": "ec68387ffea24a55f968aaf71f325986624555c1ca29dbdaacf661913cdcd22e"
+      },
+      "public_path": "evidence/seed-2006-block-2.json"
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 187079,
+        "sha256": "cd824c2eefbb751c87469101f66685fd85ac8b0407df588b7ed95d48bd8f4353"
+      },
+      "public": {
+        "bytes": 187079,
+        "sha256": "cd824c2eefbb751c87469101f66685fd85ac8b0407df588b7ed95d48bd8f4353"
+      },
+      "public_path": "evidence/seed-2006-block-3.json"
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 123656,
+        "sha256": "feed353164752c928c7d83781e95e66eea8b45e1fb4e1b24ccad6351930e1571"
+      },
+      "public": {
+        "bytes": 123656,
+        "sha256": "feed353164752c928c7d83781e95e66eea8b45e1fb4e1b24ccad6351930e1571"
+      },
+      "public_path": "evidence/seed-2007-block-0.json"
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 144695,
+        "sha256": "8caab4dfd462fc720364df3bfd6435349ea2f4d370a96111619d32987bb4a49e"
+      },
+      "public": {
+        "bytes": 144695,
+        "sha256": "8caab4dfd462fc720364df3bfd6435349ea2f4d370a96111619d32987bb4a49e"
+      },
+      "public_path": "evidence/seed-2007-block-1.json"
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 165910,
+        "sha256": "e5090e71b8c7d3880cf371e40366dc96c5dc9c6d2e27599681ed632e8b13a039"
+      },
+      "public": {
+        "bytes": 165910,
+        "sha256": "e5090e71b8c7d3880cf371e40366dc96c5dc9c6d2e27599681ed632e8b13a039"
+      },
+      "public_path": "evidence/seed-2007-block-2.json"
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 186818,
+        "sha256": "aff7078731aecb11177c6656e294531e50a844d3ed7b66cdf9dcc5e0343fcc86"
+      },
+      "public": {
+        "bytes": 186818,
+        "sha256": "aff7078731aecb11177c6656e294531e50a844d3ed7b66cdf9dcc5e0343fcc86"
+      },
+      "public_path": "evidence/seed-2007-block-3.json"
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 123598,
+        "sha256": "b73d9b7c137dd0b1a8640d823026e1114c043f90b1affdec3ea8edc634d23a9b"
+      },
+      "public": {
+        "bytes": 123598,
+        "sha256": "b73d9b7c137dd0b1a8640d823026e1114c043f90b1affdec3ea8edc634d23a9b"
+      },
+      "public_path": "evidence/seed-2008-block-0.json"
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 144672,
+        "sha256": "eef7dd67cba46986fba44441c66cfc2675d2c084f670531874e770effbbfc644"
+      },
+      "public": {
+        "bytes": 144672,
+        "sha256": "eef7dd67cba46986fba44441c66cfc2675d2c084f670531874e770effbbfc644"
+      },
+      "public_path": "evidence/seed-2008-block-1.json"
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 166082,
+        "sha256": "bcd774055ca0c628a5acbefa31db577aca6a0cf9e0918784d26f25d408d5f251"
+      },
+      "public": {
+        "bytes": 166082,
+        "sha256": "bcd774055ca0c628a5acbefa31db577aca6a0cf9e0918784d26f25d408d5f251"
+      },
+      "public_path": "evidence/seed-2008-block-2.json"
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 187235,
+        "sha256": "77097551d7235336bad03681c7a09241e5ac5cb57e45b6376810382e8891a65f"
+      },
+      "public": {
+        "bytes": 187235,
+        "sha256": "77097551d7235336bad03681c7a09241e5ac5cb57e45b6376810382e8891a65f"
+      },
+      "public_path": "evidence/seed-2008-block-3.json"
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 668241,
+        "sha256": "e411cec1236837fe6e8bbb9bed3e20615479430b00508b579cc7ba1f028a7e12"
+      },
+      "public": {
+        "bytes": 668241,
+        "sha256": "e411cec1236837fe6e8bbb9bed3e20615479430b00508b579cc7ba1f028a7e12"
+      },
+      "public_path": "evidence/summary.json"
+    },
+    {
+      "kind": "public-derivative",
+      "original": {
+        "bytes": 18474,
+        "sha256": "8c70ca1b3a7ea529bddadd360ee78a40be5115f1dc5650aed2305bee2e85876c"
+      },
+      "public": {
+        "bytes": 12450,
+        "sha256": "7d450709c8b950ffe94aa2bbeb4963964f1d52e402d723505901cc44a320e7a9"
+      },
+      "public_path": "evidence/run-input-freeze.public.json",
+      "transformation": "Replace all 65 absolute input/source inventory keys and 16 checkpoint path strings with stable opaque input aliases. Preserve every other original field and numerical value. This is not the original freeze and is not executable provenance."
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 14493,
+        "sha256": "a0be441fb23c13012880b0a2780a60a73d4be0b0101092d7bf7fc47b279c173b"
+      },
+      "public": {
+        "bytes": 14493,
+        "sha256": "a0be441fb23c13012880b0a2780a60a73d4be0b0101092d7bf7fc47b279c173b"
+      },
+      "public_path": "analysis/aggregate-components.csv"
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 64434,
+        "sha256": "2f08e874dda9a496925da7aa1daa8e57e74e05b9d663e226b891d26c18aecf0a"
+      },
+      "public": {
+        "bytes": 64434,
+        "sha256": "2f08e874dda9a496925da7aa1daa8e57e74e05b9d663e226b891d26c18aecf0a"
+      },
+      "public_path": "analysis/all-350-summary-metrics.csv"
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 6575,
+        "sha256": "36371aa4742c4fda51d138405c4b780e8b9044c57f2c4df82f78dd2e0bb4bb01"
+      },
+      "public": {
+        "bytes": 6575,
+        "sha256": "36371aa4742c4fda51d138405c4b780e8b9044c57f2c4df82f78dd2e0bb4bb01"
+      },
+      "public_path": "analysis/signed-seed-components.csv"
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 25965,
+        "sha256": "2d5b24cae477f02f354b6dfc86ceb5f5747f06fba5683aa226f28c4e631adae6"
+      },
+      "public": {
+        "bytes": 25965,
+        "sha256": "2d5b24cae477f02f354b6dfc86ceb5f5747f06fba5683aa226f28c4e631adae6"
+      },
+      "public_path": "analysis/signed-state-components.csv"
+    },
+    {
+      "kind": "public-derivative",
+      "original": {
+        "bytes": 802446,
+        "sha256": "c6ec8a71479ef6344d240543b7b113cafa57f6d3ec9bbd6694bb3a4a0fe5c408"
+      },
+      "public": {
+        "bytes": 802716,
+        "sha256": "0dbeea7fe7dd2eafbde5224cfec0956e00507b2dd8d865443c028ba566985e98"
+      },
+      "public_path": "analysis/saved-analysis.public.json",
+      "transformation": "Replace results_directory string only; add this derivative notice. All numerical outcomes, controls, component families and summary fields are unchanged."
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 11495,
+        "sha256": "3704fb4963498c1cf60ad7fbfe2baa2750e8761e155f797c388c241e7e5eadf5"
+      },
+      "public": {
+        "bytes": 11495,
+        "sha256": "3704fb4963498c1cf60ad7fbfe2baa2750e8761e155f797c388c241e7e5eadf5"
+      },
+      "public_path": "reference/jointaudit/mechanics.py"
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 5953,
+        "sha256": "1ccaf5b088c3b676ab6fc0d52a7beb305d652486cd6e864392d2152655d74626"
+      },
+      "public": {
+        "bytes": 5953,
+        "sha256": "1ccaf5b088c3b676ab6fc0d52a7beb305d652486cd6e864392d2152655d74626"
+      },
+      "public_path": "reference/vendor/deployed_core.py"
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 1089,
+        "sha256": "8e64a581b4bf26f9750605771e8234243f05645cbde4e23839548ce497bb91e5"
+      },
+      "public": {
+        "bytes": 1089,
+        "sha256": "8e64a581b4bf26f9750605771e8234243f05645cbde4e23839548ce497bb91e5"
+      },
+      "public_path": "reference/vendor/LICENSE"
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 1089,
+        "sha256": "8e64a581b4bf26f9750605771e8234243f05645cbde4e23839548ce497bb91e5"
+      },
+      "public": {
+        "bytes": 1089,
+        "sha256": "8e64a581b4bf26f9750605771e8234243f05645cbde4e23839548ce497bb91e5"
+      },
+      "public_path": "LICENSE"
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 2,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "public": {
+        "bytes": 2,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "public_path": "evidence/execution-command.exit.txt"
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "public": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "public_path": "evidence/execution-command.stderr.txt"
+    },
+    {
+      "kind": "exact-byte-copy",
+      "original": {
+        "bytes": 79,
+        "sha256": "cda10568917d8c8701232496a8a6135f7a5ab44781ac007a489a6503272918e9"
+      },
+      "public": {
+        "bytes": 79,
+        "sha256": "cda10568917d8c8701232496a8a6135f7a5ab44781ac007a489a6503272918e9"
+      },
+      "public_path": "evidence/execution-command.stdout.txt"
+    },
+    {
+      "kind": "public-derivative",
+      "original": {
+        "bytes": 13128,
+        "sha256": "5bcd7e7f17fad91dfc4a49ce36a39c3c2ecc77988ed557d06dea39ff4be405b9"
+      },
+      "public": {
+        "bytes": 13908,
+        "sha256": "2375830316f028650adabf4cf3549820d1f595d653cb3d884de0312747a4d99f"
+      },
+      "public_path": "docs/RESULTS.md",
+      "transformation": "Preserve all numeric scientific report contents; update obsolete pending-review status and publication-relative evidence links; remove private clearance wording from the original report opening; replace private analysis command/final gate with explicit saved-only public verifier and missing-input limits; add derivative label."
+    },
+    {
+      "kind": "public-derivative",
+      "original": {
+        "bytes": 53163,
+        "sha256": "edbc0d3bf704bf2706d82e23745ddbdfb50f5567a280118431c0cbadcaface10"
+      },
+      "public": {
+        "bytes": 50336,
+        "sha256": "f8da25f14cfbaca1e22354e670f3e9f563594a50523eeb62f413268189c37795"
+      },
+      "public_path": "analysis/independent-review.public.json",
+      "transformation": "Allowlisted scientific review findings only; omit invocation/workspace paths, internal execution receipts and metadata inventory. These are saved original review assertions, not newly performed image/checkpoint scoring."
+    },
+    {
+      "kind": "new-public-documentation-or-saved-only-software",
+      "original": null,
+      "public": {
+        "bytes": 8873,
+        "sha256": "e0a393c12766c008cc8305e4d869bc7e76c2ec8035444bf0bdf5704afde7e8a1"
+      },
+      "public_path": "README.md",
+      "transformation": "New publication artifact, not an executed original or scientific result."
+    },
+    {
+      "kind": "new-public-documentation-or-saved-only-software",
+      "original": null,
+      "public": {
+        "bytes": 8126,
+        "sha256": "360ca591d6499b853440a01cc37c1cea455e54cb9247e2cf156677360abafe83"
+      },
+      "public_path": "docs/METHODS.md",
+      "transformation": "New publication artifact, not an executed original or scientific result."
+    },
+    {
+      "kind": "new-public-documentation-or-saved-only-software",
+      "original": null,
+      "public": {
+        "bytes": 3724,
+        "sha256": "9eec02eb5f2d95bc852db944405df6d04c711d21a0d16ace6cac1442a1dc7fc2"
+      },
+      "public_path": "docs/PLAIN_LANGUAGE.md",
+      "transformation": "New publication artifact, not an executed original or scientific result."
+    },
+    {
+      "kind": "new-public-documentation-or-saved-only-software",
+      "original": null,
+      "public": {
+        "bytes": 725,
+        "sha256": "53c814759c34ecc28462a8a06cff8988ad4e614f21f9ec514255b4f33b03079c"
+      },
+      "public_path": "reference/README.md",
+      "transformation": "New publication artifact, not an executed original or scientific result."
+    },
+    {
+      "kind": "new-public-documentation-or-saved-only-software",
+      "original": null,
+      "public": {
+        "bytes": 13,
+        "sha256": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7"
+      },
+      "public_path": "requirements-verification.txt",
+      "transformation": "New publication artifact, not an executed original or scientific result."
+    },
+    {
+      "kind": "new-public-documentation-or-saved-only-software",
+      "original": null,
+      "public": {
+        "bytes": 3085,
+        "sha256": "20a6db14509157a9473fe11ec89dded39f463d7158cfbdde98b72a19d429d8ac"
+      },
+      "public_path": "tests/test_saved_verifier.py",
+      "transformation": "New publication artifact, not an executed original or scientific result."
+    },
+    {
+      "kind": "new-public-documentation-or-saved-only-software",
+      "original": null,
+      "public": {
+        "bytes": 17309,
+        "sha256": "8e8ac8e6b1ff66bc05161d5d8bbc385f17412edb1e288018ebea154cf2982ced"
+      },
+      "public_path": "verify_saved.py",
+      "transformation": "New publication artifact, not an executed original or scientific result."
+    }
+  ],
+  "kind": "public-original-to-release-hash-map",
+  "scope": "Saved-evidence publication only. Original receipt references the omitted original freeze. The separately named public freeze is an explicitly labeled identity-only derivative. This manifest excludes itself and PUBLIC-FILES.json; the closed public allowlist binds it.",
+  "source_freeze_sha256": "8c70ca1b3a7ea529bddadd360ee78a40be5115f1dc5650aed2305bee2e85876c"
+}
