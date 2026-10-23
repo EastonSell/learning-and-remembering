@@ -1,0 +1,104 @@
+{
+  "epsilon_nats": 0.005,
+  "future_retention_tested": false,
+  "highloss_tie_selection_changed_states": 0,
+  "mir_tie_selection_changed_states": 0,
+  "resources_sampled_before_summary_write": {
+    "cpu": 1.503740855,
+    "output": 1053948,
+    "rss_high_water_bytes": 94314496,
+    "wall": 1.5212892130075488
+  },
+  "status": "posthoc_diagnostic_not_confirmation",
+  "summaries": {
+    "joint_minus_sequential_contrast": {
+      "ci95": [
+        -0.45555197552578675,
+        -0.12788222292282303
+      ],
+      "cluster_count": 4,
+      "mean": -0.2588263867008339,
+      "seed_means": {
+        "2001": -0.2206755141159704,
+        "2002": -0.5522644976371112,
+        "2003": -0.0969511258584406,
+        "2004": -0.16541440919181358
+      },
+      "state_count": 16,
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "joint_mir_minus_highloss": {
+      "ci95": [
+        -0.21708349686279774,
+        -0.009546815767397493
+      ],
+      "cluster_count": 4,
+      "mean": -0.0954868528328241,
+      "seed_means": {
+        "2001": -0.07873947276833743,
+        "2002": -0.284114307028164,
+        "2003": -0.003102565168095983,
+        "2004": -0.015991066366699003
+      },
+      "state_count": 16,
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "joint_mir_minus_uniform": {
+      "ci95": [
+        -0.09162654889149549,
+        -0.003393057257735463
+      ],
+      "cluster_count": 4,
+      "mean": -0.04723669969521284,
+      "seed_means": {
+        "2001": -0.062414308213292136,
+        "2002": -0.1197463760520883,
+        "2003": -0.007267067409717054,
+        "2004": 0.0004809528942461283
+      },
+      "state_count": 16,
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "random_tie_contrast_shift": {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "cluster_count": 4,
+      "mean": 0.0,
+      "seed_means": {
+        "2001": 0.0,
+        "2002": 0.0,
+        "2003": 0.0,
+        "2004": 0.0
+      },
+      "state_count": 16,
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    },
+    "sequential_mir_minus_highloss": {
+      "ci95": [
+        0.1077422562240371,
+        0.23659665329361862
+      ],
+      "cluster_count": 4,
+      "mean": 0.16333953386800984,
+      "seed_means": {
+        "2001": 0.14193604134763296,
+        "2002": 0.2681501906089471,
+        "2003": 0.09384856069034461,
+        "2004": 0.14942334282511457
+      },
+      "state_count": 16,
+      "status": "posthoc_descriptive_only",
+      "warning": "few historical seed clusters; not fresh confirmation, dataset uncertainty, or retention evidence"
+    }
+  },
+  "yardstick_sensitivities": [
+    0.001,
+    0.01
+  ]
+}

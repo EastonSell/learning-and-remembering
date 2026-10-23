@@ -1,0 +1,323 @@
+{
+  "all_external_inputs_packaged": false,
+  "format": "external-scientific-input-catalog-v1",
+  "historical_repository_pin": "37663be762de74aa1ba6047e01f853a1ad8b8f7d",
+  "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+  "inputs": [
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "data/prepared-v1/manifest.json",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "7cebb66ddd6d6b279df9be4f00731917df8032be51bc85825283c1b1aeeca242",
+      "role_relative_path": "external-inputs/data/prepared-v1/manifest.json"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "data/prepared-v1/train_ids.npy",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "772c269977e16ddc684eef9c00279f82c569580e3281a224e16211a9fa906343",
+      "role_relative_path": "external-inputs/data/prepared-v1/train_ids.npy"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "data/prepared-v1/train_raw_sha256.npy",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "ce083a567ee324c6db23ea4956ed82cb5934cc1f40e611733d38c3472d017ea2",
+      "role_relative_path": "external-inputs/data/prepared-v1/train_raw_sha256.npy"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "data/prepared-v1/train_transformed_sha256.npy",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "e819856df67e4b84f6b2be9508f11542d8306e8d197a9f4e06c6f9f115f64844",
+      "role_relative_path": "external-inputs/data/prepared-v1/train_transformed_sha256.npy"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "data/prepared-v1/val_ids.npy",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "58b7d5ab3a96e5cf38896ae34f9b966d0477474ca79b5d04d03bbd0ff2a9e686",
+      "role_relative_path": "external-inputs/data/prepared-v1/val_ids.npy"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "data/LICENSE-Fashion-MNIST",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "13ef4788476d292858fa60eb9a5f74aeca5c65770bc885ccaa05823a17ef7be1",
+      "role_relative_path": "external-inputs/data/raw/LICENSE"
+    },
+    {
+      "availability": "official pinned upstream download; not downloaded or republished here",
+      "included_in_this_package": false,
+      "official_download": {
+        "bytes": 26421880,
+        "md5": "8d4fb7e6c68d591d4c3dfef9ec88bf0d",
+        "published_md5": "8d4fb7e6c68d591d4c3dfef9ec88bf0d",
+        "sha256": "3aede38d61863908ad78613f6a32ed271626dd12800ba2636569512369268a84",
+        "url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/b2617bb6d3ffa2e429640350f613e3291e10b141/data/fashion/train-images-idx3-ubyte.gz"
+      },
+      "required_original_sha256": "3aede38d61863908ad78613f6a32ed271626dd12800ba2636569512369268a84",
+      "role_relative_path": "external-inputs/data/raw/train-images-idx3-ubyte.gz"
+    },
+    {
+      "availability": "official pinned upstream download; not downloaded or republished here",
+      "included_in_this_package": false,
+      "official_download": {
+        "bytes": 29515,
+        "md5": "25c81989df183df01b3e8a0aad5dffbe",
+        "published_md5": "25c81989df183df01b3e8a0aad5dffbe",
+        "sha256": "a04f17134ac03560a47e3764e11b92fc97de4d1bfaf8ba1a3aa29af54cc90845",
+        "url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/b2617bb6d3ffa2e429640350f613e3291e10b141/data/fashion/train-labels-idx1-ubyte.gz"
+      },
+      "required_original_sha256": "a04f17134ac03560a47e3764e11b92fc97de4d1bfaf8ba1a3aa29af54cc90845",
+      "role_relative_path": "external-inputs/data/raw/train-labels-idx1-ubyte.gz"
+    },
+    {
+      "availability": "exact original lock is not public; historical evaluation-lock-public.json is an editorial projection, not byte-identical",
+      "included_in_this_package": false,
+      "public_projection_sha256": "77f692beecf8cc33aa4393d67675928be22005a2893ba83cab833c5c518be292",
+      "public_projection_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist/results/evaluation-lock-public.json",
+      "required_original_sha256": "56211a0a4c53de83e54dd77b424dbfe0099d44f28686a528c4a413b0c9c623ba",
+      "role_relative_path": "external-inputs/historical/results/evaluation-lock-v2.json"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/artifacts.json",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "f179d94ebc0cfc4329643a974276da54a50c191b77e1a9b9b4b90bbd7b9d6fc8",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/artifacts.json"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/cases.jsonl",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "ca5016867077cacc3f3de40413c804de98741cf9c91d5d6847ff837c7784385f",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/cases.jsonl"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/manifest.json",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "064c2b19322cdb1f6d9fc298f22305a640626ef8816b174941b3b78ad00c3873",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/manifest.json"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/seed-2001__uniform__eta-0.3/class-pairs.json",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "93b285b37d80b5b34d6593dcfe68de766512e589c8163e6139fcdeacb3c7318a",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/seed-2001__uniform__eta-0.3/class-pairs.json"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/seed-2001__uniform__eta-0.3/stream-indices.npy",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "dd41aa4e7cadcba2dd77bb0832a8e8d0e462df6e553db2cd528918f462524c1a",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/seed-2001__uniform__eta-0.3/stream-indices.npy"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/seed-2001__uniform__eta-0.3/training/block-0.npz",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "f1b7079fa91fab62f99d270b1fe92bfe553484dcb6a2222d3199ec9bf275e144",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/seed-2001__uniform__eta-0.3/training/block-0.npz"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/seed-2001__uniform__eta-0.3/training/block-1.npz",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "10ab45a304c310e3e8de49ba7e4d730eef32d97575612867f34f4fb525a03f77",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/seed-2001__uniform__eta-0.3/training/block-1.npz"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/seed-2001__uniform__eta-0.3/training/block-2.npz",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "78f41f16f2cd4843255edb6820c7e640b78cd5a00928756b9609c35ae5407b27",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/seed-2001__uniform__eta-0.3/training/block-2.npz"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/seed-2001__uniform__eta-0.3/training/block-3.npz",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "a7a8488afe02f0a49e9c1d856d73220ed21015efbb2e43f2c92f01496240c37e",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/seed-2001__uniform__eta-0.3/training/block-3.npz"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/seed-2002__uniform__eta-0.3/class-pairs.json",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "65d2e03a0cde81d7882e047834403d185520438f3270a0f19fe272131d0e588c",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/seed-2002__uniform__eta-0.3/class-pairs.json"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/seed-2002__uniform__eta-0.3/stream-indices.npy",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "4a406e63fd1650d42c38645160a1458a7a0323bb85b569fdf7d87bc49d23017c",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/seed-2002__uniform__eta-0.3/stream-indices.npy"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/seed-2002__uniform__eta-0.3/training/block-0.npz",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "b2d335e50af254dcc048ca2108a9f0f24906977b1de5ed407c02c8a5d230d2e1",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/seed-2002__uniform__eta-0.3/training/block-0.npz"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/seed-2002__uniform__eta-0.3/training/block-1.npz",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "655cfd97d7100f3c90059dc7d98481a311f32d391d23ff6f6c40565a2a3927ad",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/seed-2002__uniform__eta-0.3/training/block-1.npz"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/seed-2002__uniform__eta-0.3/training/block-2.npz",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "a3f1e16ea0f1f35668b328e51f314a2b39f75e0a484f585460659274dfd0f929",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/seed-2002__uniform__eta-0.3/training/block-2.npz"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/seed-2002__uniform__eta-0.3/training/block-3.npz",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "569c1f4644cdc1fcd148bbcdf4815ec98130ae0dac4cf270b9f909c82ffb509b",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/seed-2002__uniform__eta-0.3/training/block-3.npz"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/seed-2003__uniform__eta-0.3/class-pairs.json",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "3c2d4f3e1f0790a63b619ce4a94e7c3e2e0fdef46e7cb40e5dd1d4f56467e1fd",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/seed-2003__uniform__eta-0.3/class-pairs.json"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/seed-2003__uniform__eta-0.3/stream-indices.npy",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "0cbd9527cf8776d7b75ef31919421dc29c81e7c8fec7140ba639bcbedf8ea96f",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/seed-2003__uniform__eta-0.3/stream-indices.npy"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/seed-2003__uniform__eta-0.3/training/block-0.npz",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "65d5382dda00a7db62ecc3eb727a3ae4100784d60245728adae32ceafb0dd73a",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/seed-2003__uniform__eta-0.3/training/block-0.npz"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/seed-2003__uniform__eta-0.3/training/block-1.npz",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "67846d1c63b83faffce849ba9826f297b628fd1d3a48ae06c19c7804c9cae96b",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/seed-2003__uniform__eta-0.3/training/block-1.npz"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/seed-2003__uniform__eta-0.3/training/block-2.npz",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "bd4fbf5ae0c15d2e6ce70f2f6b5d630e7ff37e4de5d46aba53ad74d2181b9a03",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/seed-2003__uniform__eta-0.3/training/block-2.npz"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/seed-2003__uniform__eta-0.3/training/block-3.npz",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "8f6fd346ccf9d0bfae2877632a2a434713ea59791942d49299c7abeb32d02029",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/seed-2003__uniform__eta-0.3/training/block-3.npz"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/seed-2004__uniform__eta-0.3/class-pairs.json",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "ee78cf3fe15068ac3707693e609986791bb0de8f80df8d85146ec00e1182808f",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/seed-2004__uniform__eta-0.3/class-pairs.json"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/seed-2004__uniform__eta-0.3/stream-indices.npy",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "5ff7fd97b4a63e148098aef792145dfe031d13bfd522d644cf3a7345b3d30733",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/seed-2004__uniform__eta-0.3/stream-indices.npy"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/seed-2004__uniform__eta-0.3/training/block-0.npz",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "8931675c7afec9c9cf9e3ab95c83df70c76357d0de0ab47b7d9f7690a933948e",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/seed-2004__uniform__eta-0.3/training/block-0.npz"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/seed-2004__uniform__eta-0.3/training/block-1.npz",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "33b1c758f7439bb443dacc471442dfdbabbe7d3f96dfc1e1cb216328d79c6a95",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/seed-2004__uniform__eta-0.3/training/block-1.npz"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/seed-2004__uniform__eta-0.3/training/block-2.npz",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "9965091442f489f75ad343ee894d98bc6ac23ebf48c84d7edef1fa6830a256b1",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/seed-2004__uniform__eta-0.3/training/block-2.npz"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "results/evaluation-v2/seed-2004__uniform__eta-0.3/training/block-3.npz",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "89f3f43a2dab9452a0d875d2cc11bcf22589804208f576cc15cbdadd16c2f4c7",
+      "role_relative_path": "external-inputs/historical/results/evaluation-v2/seed-2004__uniform__eta-0.3/training/block-3.npz"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "source/replaystudy/core.py",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "1ccaf5b088c3b676ab6fc0d52a7beb305d652486cd6e864392d2152655d74626",
+      "role_relative_path": "external-inputs/historical/source/replaystudy/core.py"
+    },
+    {
+      "availability": "exact-hash match in pinned historical public allowlist (some assets require its evidence reconstruction)",
+      "historical_public_path": "source/replaystudy/runner.py",
+      "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+      "included_in_this_package": false,
+      "required_original_sha256": "e2c455771d15b8053946a886b3a57b395cb40655f5d5f97afc3eb6c548462453",
+      "role_relative_path": "external-inputs/historical/source/replaystudy/runner.py"
+    }
+  ],
+  "scientific_rerun_packaged": false
+}

@@ -1,0 +1,181 @@
+{
+  "boundary": "Execution metadata is a projection of saved records, not new observation by this public package. COMPLETE.json is exact but binds the omitted original run-input-freeze.json, not the supplied projection.",
+  "expected_states": [
+    [
+      2001,
+      0
+    ],
+    [
+      2001,
+      1
+    ],
+    [
+      2001,
+      2
+    ],
+    [
+      2001,
+      3
+    ],
+    [
+      2002,
+      0
+    ],
+    [
+      2002,
+      1
+    ],
+    [
+      2002,
+      2
+    ],
+    [
+      2002,
+      3
+    ],
+    [
+      2003,
+      0
+    ],
+    [
+      2003,
+      1
+    ],
+    [
+      2003,
+      2
+    ],
+    [
+      2003,
+      3
+    ],
+    [
+      2004,
+      0
+    ],
+    [
+      2004,
+      1
+    ],
+    [
+      2004,
+      2
+    ],
+    [
+      2004,
+      3
+    ]
+  ],
+  "format": "saved-execution-summary-projection-v1",
+  "invocation_record_boundary": "The original record was an after-execution transcription, not an independently pre-stamped launch log. Its original bytes are not distributed.",
+  "is_original_receipt": false,
+  "observed_external_exit": 0,
+  "original_completion_inclusive_bytes": 1060107,
+  "original_expected_artifacts": [
+    "COMPLETE.json",
+    "run-input-freeze.json",
+    "seed-2001-block-0.json",
+    "seed-2001-block-1.json",
+    "seed-2001-block-2.json",
+    "seed-2001-block-3.json",
+    "seed-2002-block-0.json",
+    "seed-2002-block-1.json",
+    "seed-2002-block-2.json",
+    "seed-2002-block-3.json",
+    "seed-2003-block-0.json",
+    "seed-2003-block-1.json",
+    "seed-2003-block-2.json",
+    "seed-2003-block-3.json",
+    "seed-2004-block-0.json",
+    "seed-2004-block-1.json",
+    "seed-2004-block-2.json",
+    "seed-2004-block-3.json",
+    "summary.json"
+  ],
+  "original_invocation_record_sha256": "cfa5468a90b9b6916a8b981f50811c21198529ed944dc8dd1aa3b48d9dcff11d",
+  "original_result_files": {
+    "COMPLETE.json": {
+      "bytes": 3060,
+      "sha256": "73b50f220aa0177c60ed744ea66497f634fcb868255861d23940035488c8c8c6"
+    },
+    "run-input-freeze.json": {
+      "bytes": 9720,
+      "sha256": "7e38b60132d88979e6c7c49850cc537221527fa7e4a3074196944017676dc16b"
+    },
+    "seed-2001-block-0.json": {
+      "bytes": 44121,
+      "sha256": "b6aba2201a38282ec57cfd7ccd782e1c3697a8b2133bf5b4f02b63df45b183db"
+    },
+    "seed-2001-block-1.json": {
+      "bytes": 58223,
+      "sha256": "2475a75d4de79d33543916a41213841caae9a96520fb58fc2b13c6879c26252b"
+    },
+    "seed-2001-block-2.json": {
+      "bytes": 72303,
+      "sha256": "946258732ade20c4e66eb1d97e9dfb8b3e0956eb803ddf8086114d92e5c5ae5a"
+    },
+    "seed-2001-block-3.json": {
+      "bytes": 86460,
+      "sha256": "f5f01ec091ebf4880db287512997d93003a4f4c39dcc4b5897bffdc39dcf07ed"
+    },
+    "seed-2002-block-0.json": {
+      "bytes": 43954,
+      "sha256": "b5858153f2321e959661b831496d6218ed4467fea1453b0fbdbd0d6980e4c614"
+    },
+    "seed-2002-block-1.json": {
+      "bytes": 58240,
+      "sha256": "396427a9993819bcd7326f0b68c2e8697abd6cd75cb319de7b3bdff158f9a306"
+    },
+    "seed-2002-block-2.json": {
+      "bytes": 72370,
+      "sha256": "82cdf0d27760ae43e17bb5a711c74ad6a51c30336e6b19865b9dd5e002c1c680"
+    },
+    "seed-2002-block-3.json": {
+      "bytes": 86521,
+      "sha256": "76ddbb606e0a30be6deba140f15d0216cd001109195da1015b0730a32ec85e22"
+    },
+    "seed-2003-block-0.json": {
+      "bytes": 43831,
+      "sha256": "899149d5e911ef5695884258d2d2e67cd946fe44d2f201dc964955a159931514"
+    },
+    "seed-2003-block-1.json": {
+      "bytes": 58262,
+      "sha256": "c7397760416d29bd163413346a1af55c047b0e150964797183709201b661762b"
+    },
+    "seed-2003-block-2.json": {
+      "bytes": 72355,
+      "sha256": "b27e3c52292b183f9258e03d4ec4a5bf568f7871149986548f4d4d1ffe4d02a8"
+    },
+    "seed-2003-block-3.json": {
+      "bytes": 86520,
+      "sha256": "c148636df59cc7492fe03a8413f240ad618850e52bc4b692fc0ddefacd0bedbc"
+    },
+    "seed-2004-block-0.json": {
+      "bytes": 44025,
+      "sha256": "566a061d12d2875512571a52f022a359bb9804977c3f061cf211d0a17fdee473"
+    },
+    "seed-2004-block-1.json": {
+      "bytes": 58146,
+      "sha256": "1f87f7fb880290957eed056dcd3d3041e84faf0f6a7b86bb18cc5897f85dfddf"
+    },
+    "seed-2004-block-2.json": {
+      "bytes": 72373,
+      "sha256": "60b6ab0105f8b383139039d7ab03e1f29be84040c84272532ec4feb40f9830c2"
+    },
+    "seed-2004-block-3.json": {
+      "bytes": 86524,
+      "sha256": "5c7713cb6f3414676c2ec7a05621b50a2e05279d04948d422ca3d4e17e4dd34a"
+    },
+    "summary.json": {
+      "bytes": 3099,
+      "sha256": "d8cf5c9101a0b1f66df3a53c516832448379a4e2a39961795bd63a4bd3bbff9c"
+    }
+  },
+  "original_result_manifest_sha256": "c650753ee9fa649bc9ede61f09bfd5c446a08cebcc6f6f4f03b08a3bdf1ff70b",
+  "original_stderr_bytes": 0,
+  "original_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "original_stdout_sha256": "cda10568917d8c8701232496a8a6135f7a5ab44781ac007a489a6503272918e9",
+  "scientific_attempts": 1,
+  "seed_clusters": 4,
+  "source_freeze_sha256": "7e38b60132d88979e6c7c49850cc537221527fa7e4a3074196944017676dc16b"
+}

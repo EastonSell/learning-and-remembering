@@ -46,3 +46,7 @@ The recorded runtime was Python 3.12.14 with NumPy 2.3.5; `requirements.txt` pin
 Would replay help when classes recur naturally? Can a selection audit predict protection under the learner's actual joint update? Do role effects survive interventions that lack a designed-in alignment? The [delayed-memory proposal](docs/next_experiment.md) and [replay mechanism map](research/replay-mechanism-map.md) describe prospective work; their proposed experiments remain unrun.
 
 [Design](docs/design.md), [claim matrix](docs/claim_matrix.md), [source](src/functional_circuits), [tests](tests) and [provenance](docs/provenance.md) provide the audit trail. Original code, generated data, trained weights and original documentation are [MIT licensed](LICENSE). External datasets, dependencies and papers retain their own licenses and attribution requirements.
+
+## Post-hoc JOINT replay diagnostic
+
+[Same-state update-composition diagnostic and complete signed outputs](studies/replay-joint-update-diagnostic/README.md) find that the local MIR-versus-high-loss contrast changes sign between deployed JOINT and sequential updates. Important adverse context: MIR still raises old-panel loss by +0.71271 nats from the original state and raises new-panel loss by +0.37056 versus fresh-only SGD. These are conditional one-step findings from four reused historical seed clusters, not fresh confirmation, future-retention evidence or a general plasticity advantage.
