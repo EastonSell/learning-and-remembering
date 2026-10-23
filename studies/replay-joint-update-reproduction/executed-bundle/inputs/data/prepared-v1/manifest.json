@@ -1,0 +1,249 @@
+{
+  "amendment_sha256": "d7a68fd8468b15133f42b93b2d42aa340eb55ba68107e6211a51c0fe9d459025",
+  "arrays": {
+    "initial_train_ids": {
+      "array_sha256": "a4c8d15980a8499ada2bf3bce871e6de21cfaa4373b930fa71b0ab2983c6b93b",
+      "dtype": "<i8",
+      "file": "initial_train_ids.npy",
+      "sha256": "772c269977e16ddc684eef9c00279f82c569580e3281a224e16211a9fa906343",
+      "shape": [
+        10000
+      ]
+    },
+    "initial_val_ids": {
+      "array_sha256": "8c9fb55c4fec28c3fd273d09f84c76d58d0b65b210bcfba028c9db5bdca87056",
+      "dtype": "<i8",
+      "file": "initial_val_ids.npy",
+      "sha256": "58b7d5ab3a96e5cf38896ae34f9b966d0477474ca79b5d04d03bbd0ff2a9e686",
+      "shape": [
+        5000
+      ]
+    },
+    "test_excluded_ids": {
+      "array_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "dtype": "<i8",
+      "file": "test_excluded_ids.npy",
+      "sha256": "e734dac55ea9fbbe782af2d8c02c3c5992131906228afb2aaaf137d6f3ed74db",
+      "shape": [
+        0
+      ]
+    },
+    "test_keep_ids": {
+      "array_sha256": "9e1c19b3fdc185411bd1a987deb6a9fda2531116aac060a84c4d878854d1c099",
+      "dtype": "<i8",
+      "file": "test_keep_ids.npy",
+      "sha256": "3e7d12429f219ff5b6814ff1948c5b0e771431218bfb55b619b183b1e1264c51",
+      "shape": [
+        10000
+      ]
+    },
+    "test_raw_sha256": {
+      "array_sha256": "6c68e2a7c342ce1073fdf16675641c179cd46cbf61799c74ad733dd12091e6e8",
+      "dtype": "|S64",
+      "file": "test_raw_sha256.npy",
+      "sha256": "96efb937785a224ff4dd290e44896df43a3e19ad0858f733f0c1089226a652ee",
+      "shape": [
+        10000
+      ]
+    },
+    "test_transformed_sha256": {
+      "array_sha256": "800ccf6c7aba5be0aecdc9844494c92bde78f771d356f5e5bb13b3ad33f214c7",
+      "dtype": "|S64",
+      "file": "test_transformed_sha256.npy",
+      "sha256": "e76fbd2eac968aef5ac4074db82cba16286c5dddbb43bbb344e21f50e950ee9a",
+      "shape": [
+        10000
+      ]
+    },
+    "train_ids": {
+      "array_sha256": "a4c8d15980a8499ada2bf3bce871e6de21cfaa4373b930fa71b0ab2983c6b93b",
+      "dtype": "<i8",
+      "file": "train_ids.npy",
+      "sha256": "772c269977e16ddc684eef9c00279f82c569580e3281a224e16211a9fa906343",
+      "shape": [
+        10000
+      ]
+    },
+    "train_raw_sha256": {
+      "array_sha256": "da798e17386b4180c96768b8287e13f9bdc9f4f38acfbda6ac5b0836c6d91d0a",
+      "dtype": "|S64",
+      "file": "train_raw_sha256.npy",
+      "sha256": "ce083a567ee324c6db23ea4956ed82cb5934cc1f40e611733d38c3472d017ea2",
+      "shape": [
+        60000
+      ]
+    },
+    "train_transformed_sha256": {
+      "array_sha256": "9c678910cfd4b668de9a7f338530d52b0d19314da6120038889f63e3a863415a",
+      "dtype": "|S64",
+      "file": "train_transformed_sha256.npy",
+      "sha256": "e819856df67e4b84f6b2be9508f11542d8306e8d197a9f4e06c6f9f115f64844",
+      "shape": [
+        60000
+      ]
+    },
+    "val_ids": {
+      "array_sha256": "8c9fb55c4fec28c3fd273d09f84c76d58d0b65b210bcfba028c9db5bdca87056",
+      "dtype": "<i8",
+      "file": "val_ids.npy",
+      "sha256": "58b7d5ab3a96e5cf38896ae34f9b966d0477474ca79b5d04d03bbd0ff2a9e686",
+      "shape": [
+        5000
+      ]
+    }
+  },
+  "assets": {
+    "LICENSE": {
+      "bytes": 1109,
+      "license": "MIT",
+      "md5": "db4652e53d27ef11e4457dcd7dc46722",
+      "sha256": "13ef4788476d292858fa60eb9a5f74aeca5c65770bc885ccaa05823a17ef7be1",
+      "url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/b2617bb6d3ffa2e429640350f613e3291e10b141/LICENSE"
+    },
+    "t10k-images-idx3-ubyte.gz": {
+      "bytes": 4422102,
+      "md5": "bef4ecab320f06d8554ea6380940ec79",
+      "published_md5": "bef4ecab320f06d8554ea6380940ec79",
+      "sha256": "346e55b948d973a97e58d2351dde16a484bd415d4595297633bb08f03db6a073",
+      "url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/b2617bb6d3ffa2e429640350f613e3291e10b141/data/fashion/t10k-images-idx3-ubyte.gz"
+    },
+    "t10k-labels-idx1-ubyte.gz": {
+      "bytes": 5148,
+      "md5": "bb300cfdad3c16e7a12a480ee83cd310",
+      "published_md5": "bb300cfdad3c16e7a12a480ee83cd310",
+      "sha256": "67da17c76eaffca5446c3361aaab5c3cd6d1c2608764d35dfb1850b086bf8dd5",
+      "url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/b2617bb6d3ffa2e429640350f613e3291e10b141/data/fashion/t10k-labels-idx1-ubyte.gz"
+    },
+    "train-images-idx3-ubyte.gz": {
+      "bytes": 26421880,
+      "md5": "8d4fb7e6c68d591d4c3dfef9ec88bf0d",
+      "published_md5": "8d4fb7e6c68d591d4c3dfef9ec88bf0d",
+      "sha256": "3aede38d61863908ad78613f6a32ed271626dd12800ba2636569512369268a84",
+      "url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/b2617bb6d3ffa2e429640350f613e3291e10b141/data/fashion/train-images-idx3-ubyte.gz"
+    },
+    "train-labels-idx1-ubyte.gz": {
+      "bytes": 29515,
+      "md5": "25c81989df183df01b3e8a0aad5dffbe",
+      "published_md5": "25c81989df183df01b3e8a0aad5dffbe",
+      "sha256": "a04f17134ac03560a47e3764e11b92fc97de4d1bfaf8ba1a3aa29af54cc90845",
+      "url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/b2617bb6d3ffa2e429640350f613e3291e10b141/data/fashion/train-labels-idx1-ubyte.gz"
+    }
+  },
+  "class_count_gate_passed": true,
+  "created_utc": "2026-10-22T08:21:23.665797+00:00",
+  "feature_hash_rule": "SHA256 of canonical contiguous little-endian raw uint8 or transformed float32 bytes",
+  "minimum_retained_per_class": 500,
+  "numpy_version": "2.3.5",
+  "preprocessing": "28x28 uint8; nonoverlapping 2x2 mean float32; /float32(255); row-major 196",
+  "prior_test_use_attestation": "unresolved; explicit no-prior-selection attestation required at complete lock",
+  "prospective_amendment_applied": false,
+  "retained_test_class_counts": [
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000
+  ],
+  "rng": {
+    "algorithm": "PCG64",
+    "class_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "seed": 73102
+  },
+  "schema_version": "fashion-mnist-replay-data-v1",
+  "source_repository": "https://github.com/zalandoresearch/fashion-mnist",
+  "source_revision": "b2617bb6d3ffa2e429640350f613e3291e10b141",
+  "split_version": "original-pcg64-stratified-v1",
+  "test_duplicate_audit": {
+    "both_match_items": 0,
+    "excluded_items": 0,
+    "raw": {
+      "groups": 0,
+      "left_items": 0,
+      "pairs": 0,
+      "right_items": 0
+    },
+    "raw_match_items": 0,
+    "retained_items": 10000,
+    "transformed": {
+      "groups": 0,
+      "left_items": 0,
+      "pairs": 0,
+      "right_items": 0
+    },
+    "transformed_match_items": 0
+  },
+  "test_exclusion_rule": "raw OR transformed SHA256 matches any selected training/validation feature; no labels used",
+  "test_predictions_performed": false,
+  "train_class_counts": [
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000
+  ],
+  "train_count": 10000,
+  "train_validation_duplicate_audit": {
+    "final": {
+      "raw": {
+        "groups": 0,
+        "left_items": 0,
+        "pairs": 0,
+        "right_items": 0
+      },
+      "transformed": {
+        "groups": 0,
+        "left_items": 0,
+        "pairs": 0,
+        "right_items": 0
+      }
+    },
+    "initial": {
+      "raw": {
+        "groups": 0,
+        "left_items": 0,
+        "pairs": 0,
+        "right_items": 0
+      },
+      "transformed": {
+        "groups": 0,
+        "left_items": 0,
+        "pairs": 0,
+        "right_items": 0
+      }
+    }
+  },
+  "validation_class_counts": [
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500
+  ],
+  "validation_count": 5000
+}

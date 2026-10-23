@@ -1,0 +1,90 @@
+{
+  "adapted_files": {
+    "ACQUIRE-TRAINING-DATA.md": "Fail-closed atomic fresh directory and noclobber shell output redirections for TRAIN-only curl acquisition.",
+    "README.md": "Use atomic fresh work directories and exclusive stdout/stderr/exit descriptors before actual scientific launch; document complete provenance claim versus execution-observation distinction.",
+    "RESULTS.md": "Retain all scientific findings/state table; adapt opening package-boundary prose and reproduction commands for this companion.",
+    "SCIENTIFIC-PROTOCOL.md": "Retain scientific design, failure criteria and resource history; adapt last sentence from recount to companion hash-only/rerun boundary.",
+    "compare_reproduction.py": "Validate complete freeze claims and exact run/receipt inventory/status; explicitly state supplied-exit and non-observation boundaries. Compare scientific JSON exactly as before.",
+    "jointaudit/runner.py": "Module docstring, ROOT/HISTORY/DATA/RAW bindings, stdlib portable integrity import, verify_freeze and make_review_freeze. Remove unused whole-history input_paths; keep every scientific function unchanged except two raw-data address expressions.",
+    "portable.py": "Extract the exact expected freeze schema/bindings without reading raw training; make_freeze still verifies actual compressed TRAIN bytes. Validate any run freeze by exact canonical JSON equality, including JSON numeric/boolean types.",
+    "run.py": "Rename explicit CLI modes for a new reproduction; require caller-selected freeze/TRAIN paths; set RAW; require complete regenerated freeze at preflight and execution. Preserve early resource admission and no-overwrite behavior.",
+    "tests/test_admission.py": "Adapt only reproduction flag and explicit synthetic TRAIN argument in fake-runner probes.",
+    "tests/test_comparison.py": "Add labeled synthetic saved-JSON provenance fixtures, positive schema case and rejection cases; no model execution.",
+    "tests/test_portable.py": "Add exact documented shell-fragment probes using replaced toy commands, pre-existing sentinels and a real nonzero toy exit; no network/science.",
+    "tests/test_runner.py": "Adapt only synthetic freeze bindings from absolute addresses to role-relative paths using temporary ROOT/RAW."
+  },
+  "comparison_method": "Python AST without source location attributes; exact source bytes where marked. This is static equivalence, not a numerical replication.",
+  "evaluation_lock_projection_checked": true,
+  "exact_source_files": {
+    "jointaudit/__init__.py": "266cb445dfd1932903841f21e162c79889a79980309c91a8a64ffc7aeacfe45c",
+    "jointaudit/admission.py": "2d4e98c0cd8596733a09f35b484c86301462826ba6a4eb5eac0a76cdb3400d6a",
+    "jointaudit/mechanics.py": "925a949f383e6e4e70f7d0337e09b994f81915e2763a2dd9e1702b09e116ba68",
+    "tests/test_mechanics.py": "f9cb03da77b3567c18c45b263d0529255a541f96ace543434723b659179c309f",
+    "vendor/LICENSE": "8e64a581b4bf26f9750605771e8234243f05645cbde4e23839548ce497bb91e5",
+    "vendor/deployed_core.py": "1ccaf5b088c3b676ab6fc0d52a7beb305d652486cd6e864392d2152655d74626"
+  },
+  "format": "portable-joint-source-equivalence-v1",
+  "new_files": [
+    "portable.py",
+    "verify_inputs.py",
+    "compare_reproduction.py",
+    "tests/test_portable.py",
+    "tests/test_comparison.py"
+  ],
+  "original_runner_sha256": "ba733afc48911d416330bad68919fa54955965f72d37555501754cfe539ad596",
+  "packaging_integrity_revision": {
+    "R1": "Require exact new freeze schema/config/caps and every current package/manifest/TRAIN role identity; require exact nineteen regular run files and expected completion schema/status; separate supplied exit/receipt/provenance claims from actual execution observation.",
+    "R2": "Atomically create absent work/TRAIN directories with fail-closed setup; noclobber-reserve all three external receipt descriptors before launch; record actual command status, preserve collisions and fail downloads without automatic retry.",
+    "preserved_v1_manifest_sha256": "c7b6fa9e4205876035c420bf8d4881c1f319b2298cffab1cc1cb9333041c7371",
+    "revision": 2,
+    "scope": "Only comparator/freeze-claim integrity, exclusive shell evidence capture, affected synthetic tests and documentation/provenance. Scientific runner, kernel, mechanics, admission, numerical constants and all retained input/output evidence remain byte-identical to v1."
+  },
+  "portable_runner_sha256": "ebaa46c3d720d455e47643a5cf3629c2c6029b0cda9131dcc9eccb381a450441",
+  "projection_original_scientific_fields_preserved": true,
+  "scientific_execution_performed": false,
+  "scientific_function_checks": {
+    "ResourceCaps": {
+      "ast_identical": true,
+      "normalized_ast_sha256": "674cfdb743ec3e27362b4d42c42703e0ca1615306ead0f09b89713247c126a29"
+    },
+    "_case": {
+      "ast_identical": true,
+      "normalized_ast_sha256": "71967c1e066a6f518436b598658c81a0756a38d007668ced7e24ed6521821d29"
+    },
+    "_panel_loss": {
+      "ast_identical": true,
+      "normalized_ast_sha256": "b31e87dd6a2c837b30d9b31293dc689eed42efc2af78251e4e8b95d1efdfac19"
+    },
+    "_train_arrays": {
+      "ast_identical_after_only_two_raw_path_substitutions": true,
+      "normalized_ast_sha256": "20c6b92f7fc75f284a1fc54f5a31abf08b142809ed3ab968517cc784f88babcf"
+    },
+    "audit_state": {
+      "ast_identical": true,
+      "normalized_ast_sha256": "eb11207e4180099caab3641d9f60b50da55d7194bd29c18c6794d06c622455b9"
+    },
+    "execute": {
+      "ast_identical": true,
+      "normalized_ast_sha256": "60af2e605355effdd0f1e1d5d655c8ea3d425154cb3099eb7f977a5192da0632"
+    },
+    "reconstruct_reservoir": {
+      "ast_identical": true,
+      "normalized_ast_sha256": "e5a6e2923e05bfbb9d1b4b398138f87b2adc4cece8931bea3bef09a7a4509d54"
+    }
+  },
+  "scientific_top_level_constants": {
+    "BLOCKS": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "ETA": 0.3,
+    "SEEDS": [
+      2001,
+      2002,
+      2003,
+      2004
+    ]
+  }
+}

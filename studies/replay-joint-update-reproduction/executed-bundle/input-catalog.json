@@ -1,0 +1,249 @@
+{
+  "all_nontraining_computational_inputs_packaged": true,
+  "array_decode_validation_performed": false,
+  "excluded_historical_bindings": {
+    "evaluation-lock-original": "Replaced only for portable integrity/configuration checks by the labeled projection; no scientific numerical function reads it.",
+    "historical-artifacts-manifest-cases": "Whole-experiment inventories are provenance only for this one-step diagnostic; the exact consumed scientific subset is bound directly here.",
+    "historical-runner-and-source-snapshot": "Historical runner is unused by diagnostic computation. The deployed kernel is retained byte-identically under vendor/ and separately identity-bound."
+  },
+  "external_training_assets": {
+    "train-images-idx3-ubyte.gz": {
+      "bytes": 26421880,
+      "git_blob_sha1": "e6ee0e37929b03937517cd45e65f4e8ca9de720d",
+      "md5": "8d4fb7e6c68d591d4c3dfef9ec88bf0d",
+      "published_md5": "8d4fb7e6c68d591d4c3dfef9ec88bf0d",
+      "sha256": "3aede38d61863908ad78613f6a32ed271626dd12800ba2636569512369268a84",
+      "url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/b2617bb6d3ffa2e429640350f613e3291e10b141/data/fashion/train-images-idx3-ubyte.gz"
+    },
+    "train-labels-idx1-ubyte.gz": {
+      "bytes": 29515,
+      "git_blob_sha1": "9c4aae27b27439210af73e0803a54a74af5c8756",
+      "md5": "25c81989df183df01b3e8a0aad5dffbe",
+      "published_md5": "25c81989df183df01b3e8a0aad5dffbe",
+      "sha256": "a04f17134ac03560a47e3764e11b92fc97de4d1bfaf8ba1a3aa29af54cc90845",
+      "url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/b2617bb6d3ffa2e429640350f613e3291e10b141/data/fashion/train-labels-idx1-ubyte.gz"
+    }
+  },
+  "files": {
+    "inputs/data/LICENSE-Fashion-MNIST": {
+      "bytes": 1109,
+      "historical_public_path": "data/LICENSE-Fashion-MNIST",
+      "sha256": "13ef4788476d292858fa60eb9a5f74aeca5c65770bc885ccaa05823a17ef7be1",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/data/prepared-v1/manifest.json": {
+      "bytes": 7666,
+      "historical_public_path": "data/prepared-v1/manifest.json",
+      "sha256": "7cebb66ddd6d6b279df9be4f00731917df8032be51bc85825283c1b1aeeca242",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/data/prepared-v1/train_ids.npy": {
+      "bytes": 80128,
+      "historical_public_path": "data/prepared-v1/train_ids.npy",
+      "sha256": "772c269977e16ddc684eef9c00279f82c569580e3281a224e16211a9fa906343",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/data/prepared-v1/train_raw_sha256.npy": {
+      "bytes": 3840128,
+      "historical_public_path": "data/prepared-v1/train_raw_sha256.npy",
+      "sha256": "ce083a567ee324c6db23ea4956ed82cb5934cc1f40e611733d38c3472d017ea2",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/data/prepared-v1/train_transformed_sha256.npy": {
+      "bytes": 3840128,
+      "historical_public_path": "data/prepared-v1/train_transformed_sha256.npy",
+      "sha256": "e819856df67e4b84f6b2be9508f11542d8306e8d197a9f4e06c6f9f115f64844",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/data/prepared-v1/val_ids.npy": {
+      "bytes": 40128,
+      "historical_public_path": "data/prepared-v1/val_ids.npy",
+      "sha256": "58b7d5ab3a96e5cf38896ae34f9b966d0477474ca79b5d04d03bbd0ff2a9e686",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/history/seed-2001__uniform__eta-0.3/class-pairs.json": {
+      "bytes": 113,
+      "historical_public_path": "results/evaluation-v2/seed-2001__uniform__eta-0.3/class-pairs.json",
+      "sha256": "93b285b37d80b5b34d6593dcfe68de766512e589c8163e6139fcdeacb3c7318a",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/history/seed-2001__uniform__eta-0.3/stream-indices.npy": {
+      "bytes": 80128,
+      "historical_public_path": "results/evaluation-v2/seed-2001__uniform__eta-0.3/stream-indices.npy",
+      "sha256": "dd41aa4e7cadcba2dd77bb0832a8e8d0e462df6e553db2cd528918f462524c1a",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/history/seed-2001__uniform__eta-0.3/training/block-0.npz": {
+      "bytes": 27502,
+      "historical_public_path": "results/evaluation-v2/seed-2001__uniform__eta-0.3/training/block-0.npz",
+      "sha256": "f1b7079fa91fab62f99d270b1fe92bfe553484dcb6a2222d3199ec9bf275e144",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/history/seed-2001__uniform__eta-0.3/training/block-1.npz": {
+      "bytes": 27502,
+      "historical_public_path": "results/evaluation-v2/seed-2001__uniform__eta-0.3/training/block-1.npz",
+      "sha256": "10ab45a304c310e3e8de49ba7e4d730eef32d97575612867f34f4fb525a03f77",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/history/seed-2001__uniform__eta-0.3/training/block-2.npz": {
+      "bytes": 27502,
+      "historical_public_path": "results/evaluation-v2/seed-2001__uniform__eta-0.3/training/block-2.npz",
+      "sha256": "78f41f16f2cd4843255edb6820c7e640b78cd5a00928756b9609c35ae5407b27",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/history/seed-2001__uniform__eta-0.3/training/block-3.npz": {
+      "bytes": 27502,
+      "historical_public_path": "results/evaluation-v2/seed-2001__uniform__eta-0.3/training/block-3.npz",
+      "sha256": "a7a8488afe02f0a49e9c1d856d73220ed21015efbb2e43f2c92f01496240c37e",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/history/seed-2002__uniform__eta-0.3/class-pairs.json": {
+      "bytes": 113,
+      "historical_public_path": "results/evaluation-v2/seed-2002__uniform__eta-0.3/class-pairs.json",
+      "sha256": "65d2e03a0cde81d7882e047834403d185520438f3270a0f19fe272131d0e588c",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/history/seed-2002__uniform__eta-0.3/stream-indices.npy": {
+      "bytes": 80128,
+      "historical_public_path": "results/evaluation-v2/seed-2002__uniform__eta-0.3/stream-indices.npy",
+      "sha256": "4a406e63fd1650d42c38645160a1458a7a0323bb85b569fdf7d87bc49d23017c",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/history/seed-2002__uniform__eta-0.3/training/block-0.npz": {
+      "bytes": 27502,
+      "historical_public_path": "results/evaluation-v2/seed-2002__uniform__eta-0.3/training/block-0.npz",
+      "sha256": "b2d335e50af254dcc048ca2108a9f0f24906977b1de5ed407c02c8a5d230d2e1",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/history/seed-2002__uniform__eta-0.3/training/block-1.npz": {
+      "bytes": 27502,
+      "historical_public_path": "results/evaluation-v2/seed-2002__uniform__eta-0.3/training/block-1.npz",
+      "sha256": "655cfd97d7100f3c90059dc7d98481a311f32d391d23ff6f6c40565a2a3927ad",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/history/seed-2002__uniform__eta-0.3/training/block-2.npz": {
+      "bytes": 27502,
+      "historical_public_path": "results/evaluation-v2/seed-2002__uniform__eta-0.3/training/block-2.npz",
+      "sha256": "a3f1e16ea0f1f35668b328e51f314a2b39f75e0a484f585460659274dfd0f929",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/history/seed-2002__uniform__eta-0.3/training/block-3.npz": {
+      "bytes": 27502,
+      "historical_public_path": "results/evaluation-v2/seed-2002__uniform__eta-0.3/training/block-3.npz",
+      "sha256": "569c1f4644cdc1fcd148bbcdf4815ec98130ae0dac4cf270b9f909c82ffb509b",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/history/seed-2003__uniform__eta-0.3/class-pairs.json": {
+      "bytes": 113,
+      "historical_public_path": "results/evaluation-v2/seed-2003__uniform__eta-0.3/class-pairs.json",
+      "sha256": "3c2d4f3e1f0790a63b619ce4a94e7c3e2e0fdef46e7cb40e5dd1d4f56467e1fd",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/history/seed-2003__uniform__eta-0.3/stream-indices.npy": {
+      "bytes": 80128,
+      "historical_public_path": "results/evaluation-v2/seed-2003__uniform__eta-0.3/stream-indices.npy",
+      "sha256": "0cbd9527cf8776d7b75ef31919421dc29c81e7c8fec7140ba639bcbedf8ea96f",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/history/seed-2003__uniform__eta-0.3/training/block-0.npz": {
+      "bytes": 27502,
+      "historical_public_path": "results/evaluation-v2/seed-2003__uniform__eta-0.3/training/block-0.npz",
+      "sha256": "65d5382dda00a7db62ecc3eb727a3ae4100784d60245728adae32ceafb0dd73a",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/history/seed-2003__uniform__eta-0.3/training/block-1.npz": {
+      "bytes": 27502,
+      "historical_public_path": "results/evaluation-v2/seed-2003__uniform__eta-0.3/training/block-1.npz",
+      "sha256": "67846d1c63b83faffce849ba9826f297b628fd1d3a48ae06c19c7804c9cae96b",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/history/seed-2003__uniform__eta-0.3/training/block-2.npz": {
+      "bytes": 27502,
+      "historical_public_path": "results/evaluation-v2/seed-2003__uniform__eta-0.3/training/block-2.npz",
+      "sha256": "bd4fbf5ae0c15d2e6ce70f2f6b5d630e7ff37e4de5d46aba53ad74d2181b9a03",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/history/seed-2003__uniform__eta-0.3/training/block-3.npz": {
+      "bytes": 27502,
+      "historical_public_path": "results/evaluation-v2/seed-2003__uniform__eta-0.3/training/block-3.npz",
+      "sha256": "8f6fd346ccf9d0bfae2877632a2a434713ea59791942d49299c7abeb32d02029",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/history/seed-2004__uniform__eta-0.3/class-pairs.json": {
+      "bytes": 113,
+      "historical_public_path": "results/evaluation-v2/seed-2004__uniform__eta-0.3/class-pairs.json",
+      "sha256": "ee78cf3fe15068ac3707693e609986791bb0de8f80df8d85146ec00e1182808f",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/history/seed-2004__uniform__eta-0.3/stream-indices.npy": {
+      "bytes": 80128,
+      "historical_public_path": "results/evaluation-v2/seed-2004__uniform__eta-0.3/stream-indices.npy",
+      "sha256": "5ff7fd97b4a63e148098aef792145dfe031d13bfd522d644cf3a7345b3d30733",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/history/seed-2004__uniform__eta-0.3/training/block-0.npz": {
+      "bytes": 27502,
+      "historical_public_path": "results/evaluation-v2/seed-2004__uniform__eta-0.3/training/block-0.npz",
+      "sha256": "8931675c7afec9c9cf9e3ab95c83df70c76357d0de0ab47b7d9f7690a933948e",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/history/seed-2004__uniform__eta-0.3/training/block-1.npz": {
+      "bytes": 27502,
+      "historical_public_path": "results/evaluation-v2/seed-2004__uniform__eta-0.3/training/block-1.npz",
+      "sha256": "33b1c758f7439bb443dacc471442dfdbabbe7d3f96dfc1e1cb216328d79c6a95",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/history/seed-2004__uniform__eta-0.3/training/block-2.npz": {
+      "bytes": 27502,
+      "historical_public_path": "results/evaluation-v2/seed-2004__uniform__eta-0.3/training/block-2.npz",
+      "sha256": "9965091442f489f75ad343ee894d98bc6ac23ebf48c84d7edef1fa6830a256b1",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    },
+    "inputs/history/seed-2004__uniform__eta-0.3/training/block-3.npz": {
+      "bytes": 27502,
+      "historical_public_path": "results/evaluation-v2/seed-2004__uniform__eta-0.3/training/block-3.npz",
+      "sha256": "89f3f43a2dab9452a0d875d2cc11bcf22589804208f576cc15cbdadd16c2f4c7",
+      "source": "historical-public-allowlist-exact",
+      "source_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d"
+    }
+  },
+  "format": "portable-joint-scientific-input-catalog-v1",
+  "historical_public_allowlist": {
+    "git_blob_sha1": "bc05691e1f3b9299910a20062c4e1704b2cd59a3",
+    "sha256": "438e5db24e07a5ccfc70034f81b2b6b4d49954e3a567e420d95bd6781dd60336",
+    "url": "https://github.com/EastonSell/learning-and-remembering/blob/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist/PUBLIC-FILES.json"
+  },
+  "historical_public_revision": "37663be762de74aa1ba6047e01f853a1ad8b8f7d",
+  "historical_study_url": "https://github.com/EastonSell/learning-and-remembering/tree/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist",
+  "scientific_execution_performed": false,
+  "training_assets_packaged": false
+}

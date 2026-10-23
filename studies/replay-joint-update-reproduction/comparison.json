@@ -1,0 +1,33 @@
+{
+  "comparisons": {
+    "seed-2001-block-0.json": true,
+    "seed-2001-block-1.json": true,
+    "seed-2001-block-2.json": true,
+    "seed-2001-block-3.json": true,
+    "seed-2002-block-0.json": true,
+    "seed-2002-block-1.json": true,
+    "seed-2002-block-2.json": true,
+    "seed-2002-block-3.json": true,
+    "seed-2003-block-0.json": true,
+    "seed-2003-block-1.json": true,
+    "seed-2003-block-2.json": true,
+    "seed-2003-block-3.json": true,
+    "seed-2004-block-0.json": true,
+    "seed-2004-block-1.json": true,
+    "seed-2004-block-2.json": true,
+    "seed-2004-block-3.json": true,
+    "summary.json": true
+  },
+  "completion_receipt_integrity_valid": true,
+  "exact_scientific_json_match": true,
+  "execution_observed_by_comparator": false,
+  "exit_code_source": "Caller-supplied; the comparator did not observe process execution.",
+  "format": "joint-reproduction-scientific-comparison-v2",
+  "historical_execution_freeze_reproduced": false,
+  "new_freeze_sha256": "fd604745e8986617d22c2e736fc44519000a07a753b51c3477538e3b09d2ed16",
+  "resource_measurements_compared": false,
+  "run_input_freeze_matches_current_package_and_training_catalog": true,
+  "scope": "Exact freeze/receipt claim validation against the current package, manifest and two TRAIN catalog hashes; exact 16 state JSON payloads and summary except resource timing; not independent observation or proof that computation occurred. No numerical tolerance is silently applied.",
+  "source_input_binding_count": 82,
+  "supplied_exit_code": 0
+}

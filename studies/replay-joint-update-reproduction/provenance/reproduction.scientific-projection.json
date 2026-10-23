@@ -1,0 +1,50 @@
+{
+  "TEST_assets_required_by_reproduction": false,
+  "accepted_executed_bundle_manifest_sha256": "3cb7c99ff63c95d0a24cf8c77fa8fabbb3bed96d699ac26c0176bbba37aace0f",
+  "caps": {
+    "address_space_limit_bytes": 805306368,
+    "artifact_output_limit_bytes": 33554432,
+    "cpu_hard_backstop_seconds": 181,
+    "cpu_soft_seconds": 180,
+    "observed_rss_gate_bytes": 805306368,
+    "threads": 1,
+    "wall_signal_seconds": 300
+  },
+  "completion_resources": {
+    "sampled_before_completion_write": {
+      "cpu": 1.588399489,
+      "output": 1057586,
+      "rss_high_water_bytes": 95006720,
+      "wall": 1.607101257002796
+    }
+  },
+  "execution_independently_attested": false,
+  "format": "portable-joint-numerical-reproduction-public-projection-v1",
+  "is_original_execution_receipt": false,
+  "new_complete_sha256": "7c66754505b6efa6440ad5dfb4199a251836457f3223a01d7bb782820bddfc66",
+  "new_data_downloads_reported": false,
+  "new_freeze_sha256": "fd604745e8986617d22c2e736fc44519000a07a753b51c3477538e3b09d2ed16",
+  "new_summary_sha256": "bcc77b97cf4eed2ca65134a585e24ade4ca9a8e07258f076e46f41b8b6e12561",
+  "observation_boundary": "Reported foreground completion comes from the author-retained original tool response and report, cross-checked by saved-only review. This projection is not a live witness, independent OS attestation, or publication of the private observation receipts.",
+  "official_TRAIN_only_basis": "The reviewed source/recipe consumes only the two official TRAIN image/label assets and packaged prepared metadata. This is a source/recipe conclusion, not an independent runtime syscall trace.",
+  "reported_comparator_exit": 0,
+  "reported_foreground_scientific_exit": 0,
+  "reported_prelaunch_utc": "2026-10-23T01:29:48.334644+00:00",
+  "reported_scientific_invocations": 1,
+  "reported_scientific_retries": 0,
+  "resource_boundary": "These are pre-completion samples, not final process-end CPU/RSS/wall. External receipts are outside the scientific-directory byte ledger. RSS/aggregate-output gates are sampled, not hard aggregate-RSS/exact-wall guarantees.",
+  "runtime_platform_family": "Linux",
+  "runtime_selected_from_prelaunch": {
+    "machine": "x86_64",
+    "numpy": "2.3.5",
+    "python": "3.12.14",
+    "thread_environment": {
+      "MKL_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1"
+    }
+  },
+  "scientific_directory_artifacts": 19,
+  "scientific_directory_bytes_including_complete": 1060646,
+  "scope": "Same four historical seed clusters and sixteen dependent fixed states; no new confirmation, new seed cohort, restored test blindness, checkpoint retraining or persistent retention test."
+}

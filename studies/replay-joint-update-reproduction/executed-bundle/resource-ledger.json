@@ -1,0 +1,29 @@
+{
+  "attempt_count": 1,
+  "completion_sample": {
+    "cpu": 1.507592503,
+    "output": 1057047,
+    "rss_high_water_bytes": 94314496,
+    "wall": 1.5238900690019364
+  },
+  "enforcement": "Per-process CPU soft180/hard181; AS768MiB; per-file FSIZE32MiB; signal wall300s/outerTERM330s,KILL+5s; observed RSS gate. No hard aggregate/RSS/exact-wall guarantee.",
+  "excluded_from_directory_byte_total": "External command stdout/stderr/exit receipts and analysis/review artifacts are retained separately, not silently counted as scientific-directory files.",
+  "graph_expected_not_instrumented_runtime_counters": {
+    "candidate_forward_passes": 32,
+    "panel_example_forward_evaluations": 1008000,
+    "seed_clusters": 4,
+    "sgd_calls": 272,
+    "states": 16
+  },
+  "kind": "observed-resource-ledger-v1",
+  "observed_artifact_bytes_including_completion": 1060107,
+  "observed_artifact_count": 19,
+  "process_exit_observed": 0,
+  "summary_sample": {
+    "cpu": 1.503740855,
+    "output": 1053948,
+    "rss_high_water_bytes": 94314496,
+    "wall": 1.5212892130075488
+  },
+  "timing_boundary": "CPU/wall/RSS fields are explicitly pre-summary or pre-completion samples, not final process-end measurements. External exit0 was separately observed."
+}

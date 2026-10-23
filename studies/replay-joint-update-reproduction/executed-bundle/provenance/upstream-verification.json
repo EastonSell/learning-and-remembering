@@ -1,0 +1,43 @@
+{
+  "checkpoint_arrays_decoded": false,
+  "dataset_revision": "b2617bb6d3ffa2e429640350f613e3291e10b141",
+  "existing_compressed_train_hashes_match_upstream_git_blobs": true,
+  "format": "pinned-read-only-input-provenance-v1",
+  "historical_license_git_blob_sha1": "220154348efae296d3caeee8a3fcdacde5bd5fbe",
+  "historical_license_sha256": "8e64a581b4bf26f9750605771e8234243f05645cbde4e23839548ce497bb91e5",
+  "historical_license_url": "https://github.com/EastonSell/learning-and-remembering/blob/37663be762de74aa1ba6047e01f853a1ad8b8f7d/studies/replay-selection-fashion-mnist/LICENSE",
+  "new_training_data_downloaded": false,
+  "official_tree_truncated": false,
+  "official_tree_url": "https://api.github.com/repos/zalandoresearch/fashion-mnist/git/trees/b2617bb6d3ffa2e429640350f613e3291e10b141?recursive=1",
+  "redistribution_basis": "Published package-level MIT notice from the pinned historical release, its retained-artifact allowlist, and the official dataset MIT notice. No additional license grant, exclusive ownership, or unrelated rights clearance is asserted. Raw TRAIN assets are omitted.",
+  "train_published_md5_verified_in_pinned_readme": true,
+  "training_data_decoded": false,
+  "upstream_dataset_license_sha256": "13ef4788476d292858fa60eb9a5f74aeca5c65770bc885ccaa05823a17ef7be1",
+  "verification_utc_date": "2026-10-23",
+  "verified_official_entries": [
+    {
+      "mode": "100644",
+      "path": "LICENSE",
+      "sha": "6bc221fc3a933bbcba0161c926d69e4897382eda",
+      "size": 1109,
+      "type": "blob",
+      "url": "https://api.github.com/repos/zalandoresearch/fashion-mnist/git/blobs/6bc221fc3a933bbcba0161c926d69e4897382eda"
+    },
+    {
+      "mode": "100644",
+      "path": "data/fashion/train-images-idx3-ubyte.gz",
+      "sha": "e6ee0e37929b03937517cd45e65f4e8ca9de720d",
+      "size": 26421880,
+      "type": "blob",
+      "url": "https://api.github.com/repos/zalandoresearch/fashion-mnist/git/blobs/e6ee0e37929b03937517cd45e65f4e8ca9de720d"
+    },
+    {
+      "mode": "100644",
+      "path": "data/fashion/train-labels-idx1-ubyte.gz",
+      "sha": "9c4aae27b27439210af73e0803a54a74af5c8756",
+      "size": 29515,
+      "type": "blob",
+      "url": "https://api.github.com/repos/zalandoresearch/fashion-mnist/git/blobs/9c4aae27b27439210af73e0803a54a74af5c8756"
+    }
+  ]
+}

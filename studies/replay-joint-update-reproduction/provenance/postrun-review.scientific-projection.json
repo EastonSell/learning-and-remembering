@@ -1,0 +1,37 @@
+{
+  "execution_observation_qualification": "Independent saved numerical and integrity/provenance checks pass. The author-retained original foreground-tool receipt reports scientific exit 0 and comparison exit 0. The independent reviewer was not a separate live witness and no independent OS/process attestation is supplied. Hash sealing validates retained bytes, not the historical origin of a private observation file.",
+  "format": "postrun-saved-numerical-review-public-projection-v1",
+  "is_original_review_record": false,
+  "private_machine_or_observer_routing_fields_included": false,
+  "raw_observer_tool_receipts_included": false,
+  "reviewed_scientific_fields": {
+    "all_16_state_JSON_files_byte_identical_to_original_public_and_expected": true,
+    "candidate_manifest_sha256": "3cb7c99ff63c95d0a24cf8c77fa8fabbb3bed96d699ac26c0176bbba37aace0f",
+    "decision": "ACCEPT_EXACT_SCOPED_REPRODUCTION_EVIDENCE_WITH_REPORTED_EXECUTION_OBSERVATION",
+    "freeze_bindings": 82,
+    "new_complete_sha256": "7c66754505b6efa6440ad5dfb4199a251836457f3223a01d7bb782820bddfc66",
+    "new_freeze_sha256": "fd604745e8986617d22c2e736fc44519000a07a753b51c3477538e3b09d2ed16",
+    "new_summary_file_sha256": "bcc77b97cf4eed2ca65134a585e24ade4ca9a8e07258f076e46f41b8b6e12561",
+    "no_blocking_saved_evidence_findings": true,
+    "precompletion_resource_sample": {
+      "cpu": 1.588399489,
+      "output": 1057586,
+      "rss_high_water_bytes": 95006720,
+      "wall": 1.607101257002796
+    },
+    "scientific_artifact_bytes": 1060646,
+    "scientific_artifact_count": 19,
+    "scientific_summary_exact_except_measured_resource_sample": true,
+    "scientific_summary_projection_canonical_sha256": "fa9f4312192fc5289610d2d8c6d033878e74b4d462a0f8badd122b9388f1fbf6",
+    "scope": "Exact same historical post-hoc one-step conditional computation only; not fresh confirmation, new seeds, restored test blindness, future retention evidence or original execution-freeze recreation.",
+    "summary_resource_sample": {
+      "cpu": 1.584698224,
+      "output": 1054487,
+      "rss_high_water_bytes": 95006720,
+      "wall": 1.6045509670075262
+    }
+  },
+  "selection_rule": "Retain the listed scientific identities, equality checks, resource samples and scope; replace private execution receipt/routing/address detail with the explicit observation qualification. Original private records are not included.",
+  "source_review_sha256": "80f2641cb08d5b780bb7f5436b9ed1b3fd6b34ffc050952bc87b60442a28d42f",
+  "source_verdict_sha256": "92922be53a1a01b97b53f5f7a3744852ef6f717aeccd0836053e602fa93f87a5"
+}
