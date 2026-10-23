@@ -8,6 +8,7 @@ This repository studies those questions through small, reproducible experiments.
 
 - [Learn the ideas with a tiny working example](docs/START_HERE.md). The guide explains forgetting, replay buffers and the difference between current error and predicted interference.
 - [Read the research overview](docs/RESEARCH_OVERVIEW.md) for hypotheses, controls, related work and open questions.
+- [Choose an evidence question and reproduction level](docs/EVIDENCE_MAP.md): connect the later JOINT/decomposition diagnostics to the original results, with saved-check versus inference/training routes.
 - [Read the latest replay-selection report](studies/replay-selection-fashion-mnist/results/evaluation-report-public.md), then inspect its [protocol and evidence guide](studies/replay-selection-fashion-mnist/README.md).
 
 ## Watch the concept in 24 seconds
@@ -29,6 +30,8 @@ Rendered with Manim Community 0.22.0. Offline linear toy · not benchmark eviden
 These are task-specific computational findings. The [biological evidence map](research/replay-mechanism-map.md) explains the motivation and where the analogy ends.
 
 ## Reproduce
+
+The commands below retrain the **synthetic pilot**, not every study. For no-training evidence checks or study-specific inference/recomputation, use the [reproduction-level guide](docs/EVIDENCE_MAP.md#5-choose-a-reproduction-level-before-running-a-command).
 
 With Python and NumPy already available, from the repository root:
 

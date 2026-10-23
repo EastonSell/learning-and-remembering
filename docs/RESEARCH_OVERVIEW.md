@@ -1,7 +1,7 @@
 # Learning and Remembering
 ## Replay coverage, replay selection and supplied functional structure in small neural networks
 
-Evidence snapshot: 22 October 2026. This overview synthesizes the linked completed studies and proposes follow-ups. Original protocols, reports and amendments retain their own dates and status.
+Evidence snapshot: 22 October 2026. This overview synthesizes the linked completed studies and proposes follow-ups. Original protocols, reports and amendments retain their own dates and status. For the subsequently added JOINT diagnostic, portable reproduction and 2×2 decomposition, see the [current evidence map](EVIDENCE_MAP.md); those conditional one-step findings do not change the locked primary selection result.
 
 ## Abstract
 

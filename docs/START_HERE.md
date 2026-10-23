@@ -65,6 +65,8 @@ Uniform averaged 72.1355%; useful-compute uniform averaged 75.3325%. These are d
 
 ## 4. Inspect evidence before spending compute
 
+For the later JOINT diagnostic, its portable reproduction and the 2×2 update decomposition, use the [evidence map](EVIDENCE_MAP.md). It explains why their one-step loss comparisons do not replace the original final-accuracy result and labels what can be checked without training.
+
 - Fashion-MNIST: follow [the study's reconstruction and verification instructions](../studies/replay-selection-fashion-mnist/README.md). Reconstructing saved evidence and reproducing saved predictions are different from retraining. The public export has explicit redaction and verification limits.
 - Digits: [results and evidence links](replay_results.md) include all selection trials, held-out outcomes, matched budgets and exact-repeat qualifications.
 - The separate synthetic role study asks about supplied architectural boundaries, not learned replay. Use [the root README's study navigation](../README.md) to reach its pilot and controls. Its role masks are engineered, not discovered brain regions.
