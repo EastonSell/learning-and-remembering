@@ -1,0 +1,167 @@
+{
+  "commit": "69411a790bb59161fb5d44bdfeefb1c8d76669f2",
+  "files": [
+    {
+      "path": "studies/replay-update-decomposition/README.md",
+      "git_blob": "d22a21aeb85709eddafc9863c762a47afca1ff25",
+      "sha256": "e0a393c12766c008cc8305e4d869bc7e76c2ec8035444bf0bdf5704afde7e8a1",
+      "bytes": 8873
+    },
+    {
+      "path": "studies/replay-update-decomposition/analysis/aggregate-components.csv",
+      "git_blob": "5b6d6386a9bc5cf43f8d1cdd4daec7a0214598c4",
+      "sha256": "a0be441fb23c13012880b0a2780a60a73d4be0b0101092d7bf7fc47b279c173b",
+      "bytes": 14493
+    },
+    {
+      "path": "studies/replay-update-decomposition/analysis/signed-seed-components.csv",
+      "git_blob": "ee93db721b274fcc58a94b167811e2f52595b3a3",
+      "sha256": "36371aa4742c4fda51d138405c4b780e8b9044c57f2c4df82f78dd2e0bb4bb01",
+      "bytes": 6575
+    },
+    {
+      "path": "studies/replay-update-decomposition/analysis/signed-state-components.csv",
+      "git_blob": "5dd18cc05a2aac0306d47a952a4e85532dcd170c",
+      "sha256": "2d5b24cae477f02f354b6dfc86ceb5f5747f06fba5683aa226f28c4e631adae6",
+      "bytes": 25965
+    },
+    {
+      "path": "studies/replay-update-decomposition/docs/METHODS.md",
+      "git_blob": "aecc053f3d9bda5813dcd732a4de623b16d20774",
+      "sha256": "360ca591d6499b853440a01cc37c1cea455e54cb9247e2cf156677360abafe83",
+      "bytes": 8126
+    },
+    {
+      "path": "studies/replay-update-decomposition/docs/PLAIN_LANGUAGE.md",
+      "git_blob": "09e9c7ae41c79aab555cb8a7490d3ebee002227b",
+      "sha256": "9eec02eb5f2d95bc852db944405df6d04c711d21a0d16ace6cac1442a1dc7fc2",
+      "bytes": 3724
+    },
+    {
+      "path": "studies/replay-update-decomposition/docs/RESULTS.md",
+      "git_blob": "9c4ddfc8a9a8dd7ba48e501eeb3bfdf67b7f27c8",
+      "sha256": "2375830316f028650adabf4cf3549820d1f595d653cb3d884de0312747a4d99f",
+      "bytes": 13908
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2005-block-0.json",
+      "git_blob": "349112ee7c3c59acb9e8191de0d428fa37b8a33d",
+      "sha256": "37980d2f981b8ce17ddd0aa8b49b92e784f57108222e0b5b0986c7d775a04518",
+      "bytes": 123689
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2005-block-1.json",
+      "git_blob": "e255d2ac4fd37099cda75b554f14ad710af599ce",
+      "sha256": "b737deaa0d58d2d2cdd846996aca4d51cde8bdd4c6839106288489a1166d3157",
+      "bytes": 144551
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2005-block-2.json",
+      "git_blob": "a3dbf60b1610e6ea390dea301981d28dff622412",
+      "sha256": "1a1475cdabfbde0c410fd0656c266c42c97fee8a40e3e87bf5f6df5b65284d0b",
+      "bytes": 165993
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2005-block-3.json",
+      "git_blob": "55e51b9acb91c538387246728ed2b96b51c60887",
+      "sha256": "d716639826e58ea305bd13ee4dde162dc79c0e5eb612548f7c12af96fedc88a9",
+      "bytes": 186986
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2006-block-0.json",
+      "git_blob": "2a9bb391e6852ac5418d54cdc133f5737afecfc8",
+      "sha256": "0b6fd3fc9ef8a1daa2f101bc8d9fd3a835b65f5897934697cd3ff88afdc20743",
+      "bytes": 123726
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2006-block-1.json",
+      "git_blob": "bf25fa6ce6a5adcf8154cf2d746c4f798c78872f",
+      "sha256": "0fc1eb7f66b8b65ad9e33035bca41e3edccda9cd51670a117fb7bed7c1513172",
+      "bytes": 144841
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2006-block-2.json",
+      "git_blob": "fde8e49c790e7c8d19e7887fb88577788f5f3159",
+      "sha256": "ec68387ffea24a55f968aaf71f325986624555c1ca29dbdaacf661913cdcd22e",
+      "bytes": 165758
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2006-block-3.json",
+      "git_blob": "5f62590ce5c46224873a8be04da34cf082419cec",
+      "sha256": "cd824c2eefbb751c87469101f66685fd85ac8b0407df588b7ed95d48bd8f4353",
+      "bytes": 187079
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2007-block-0.json",
+      "git_blob": "308eff124be382acfc56c1b52cb54fa9ddcbc5e0",
+      "sha256": "feed353164752c928c7d83781e95e66eea8b45e1fb4e1b24ccad6351930e1571",
+      "bytes": 123656
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2007-block-1.json",
+      "git_blob": "acd2d6974db2ea2eff820c587eb4cc2a889309d1",
+      "sha256": "8caab4dfd462fc720364df3bfd6435349ea2f4d370a96111619d32987bb4a49e",
+      "bytes": 144695
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2007-block-2.json",
+      "git_blob": "a7e83c3749ae6ed6cdc805cc27a61e921971aa8c",
+      "sha256": "e5090e71b8c7d3880cf371e40366dc96c5dc9c6d2e27599681ed632e8b13a039",
+      "bytes": 165910
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2007-block-3.json",
+      "git_blob": "e216f42c1890f4f1eeef1cba97c2d33d73f7923e",
+      "sha256": "aff7078731aecb11177c6656e294531e50a844d3ed7b66cdf9dcc5e0343fcc86",
+      "bytes": 186818
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2008-block-0.json",
+      "git_blob": "76fc0b4eaa6647db402de29e56704a22cfbfcba8",
+      "sha256": "b73d9b7c137dd0b1a8640d823026e1114c043f90b1affdec3ea8edc634d23a9b",
+      "bytes": 123598
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2008-block-1.json",
+      "git_blob": "467a1c92583ac5b1bfcabd2819743728fcb5332c",
+      "sha256": "eef7dd67cba46986fba44441c66cfc2675d2c084f670531874e770effbbfc644",
+      "bytes": 144672
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2008-block-2.json",
+      "git_blob": "3133a274e4d05fb0b0bea1b5b68a78064f54e125",
+      "sha256": "bcd774055ca0c628a5acbefa31db577aca6a0cf9e0918784d26f25d408d5f251",
+      "bytes": 166082
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2008-block-3.json",
+      "git_blob": "72e23eb24cea30aa21760e7a4481d54b031ad9bb",
+      "sha256": "77097551d7235336bad03681c7a09241e5ac5cb57e45b6376810382e8891a65f",
+      "bytes": 187235
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/summary.json",
+      "git_blob": "9891c691728798b166b8a84d1ec7b75c8399e2cf",
+      "sha256": "e411cec1236837fe6e8bbb9bed3e20615479430b00508b579cc7ba1f028a7e12",
+      "bytes": 668241
+    },
+    {
+      "path": "studies/replay-update-decomposition/reference/jointaudit/mechanics.py",
+      "git_blob": "0a3d995e9b3113981130cc78fa37dc62b8f40733",
+      "sha256": "3704fb4963498c1cf60ad7fbfe2baa2750e8761e155f797c388c241e7e5eadf5",
+      "bytes": 11495
+    },
+    {
+      "path": "studies/replay-update-decomposition/tests/test_saved_verifier.py",
+      "git_blob": "d1569379ea7cbd2049189ae8c97dffb6a92255ae",
+      "sha256": "20a6db14509157a9473fe11ec89dded39f463d7158cfbdde98b72a19d429d8ac",
+      "bytes": 3085
+    },
+    {
+      "path": "studies/replay-update-decomposition/verify_saved.py",
+      "git_blob": "f631ad39d405d5bf96acb9984541ae92e9f7d8eb",
+      "sha256": "8e8ac8e6b1ff66bc05161d5d8bbc385f17412edb1e288018ebea154cf2982ced",
+      "bytes": 17309
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "quadratic_control": {
+    "00": {
+      "endpoints": {
+        "mir": {
+          "exact": "-21/130",
+          "float": -0.16153846153846155
+        },
+        "highloss": {
+          "exact": "-27/130",
+          "float": -0.2076923076923077
+        }
+      },
+      "D": {
+        "exact": "-21/3380",
+        "float": -0.00621301775147929
+      }
+    },
+    "01": {
+      "endpoints": {
+        "mir": {
+          "exact": "-129/1690",
+          "float": -0.07633136094674556
+        },
+        "highloss": {
+          "exact": "-207/1690",
+          "float": -0.12248520710059171
+        }
+      },
+      "D": {
+        "exact": "-501/219700",
+        "float": -0.002280382339553937
+      }
+    },
+    "10": {
+      "endpoints": {
+        "mir": {
+          "exact": "-6/25",
+          "float": -0.24
+        },
+        "highloss": {
+          "exact": "-9/25",
+          "float": -0.36
+        }
+      },
+      "D": {
+        "exact": "-3/100",
+        "float": -0.03
+      }
+    },
+    "11": {
+      "endpoints": {
+        "mir": {
+          "exact": "3/25",
+          "float": 0.12
+        },
+        "highloss": {
+          "exact": "0",
+          "float": 0.0
+        }
+      },
+      "D": {
+        "exact": "33/2500",
+        "float": 0.0132
+      }
+    },
+    "interaction": {
+      "exact": "53919/1373125",
+      "float": 0.03926736458807465
+    }
+  },
+  "affine_evaluator_control": {
+    "00": {
+      "endpoints": {
+        "mir": {
+          "exact": "-21/130",
+          "float": -0.16153846153846155
+        },
+        "highloss": {
+          "exact": "-27/130",
+          "float": -0.2076923076923077
+        }
+      },
+      "D": {
+        "exact": "3/65",
+        "float": 0.046153846153846156
+      }
+    },
+    "01": {
+      "endpoints": {
+        "mir": {
+          "exact": "-129/1690",
+          "float": -0.07633136094674556
+        },
+        "highloss": {
+          "exact": "-207/1690",
+          "float": -0.12248520710059171
+        }
+      },
+      "D": {
+        "exact": "3/65",
+        "float": 0.046153846153846156
+      }
+    },
+    "10": {
+      "endpoints": {
+        "mir": {
+          "exact": "-6/25",
+          "float": -0.24
+        },
+        "highloss": {
+          "exact": "-9/25",
+          "float": -0.36
+        }
+      },
+      "D": {
+        "exact": "3/25",
+        "float": 0.12
+      }
+    },
+    "11": {
+      "endpoints": {
+        "mir": {
+          "exact": "3/25",
+          "float": 0.12
+        },
+        "highloss": {
+          "exact": "0",
+          "float": 0.0
+        }
+      },
+      "D": {
+        "exact": "3/25",
+        "float": 0.12
+      }
+    },
+    "interaction": {
+      "exact": "0",
+      "float": 0.0
+    }
+  },
+  "constant_replay_gradient_control": {
+    "00": {
+      "endpoints": {
+        "mir": {
+          "exact": "-21/130",
+          "float": -0.16153846153846155
+        },
+        "highloss": {
+          "exact": "-27/130",
+          "float": -0.2076923076923077
+        }
+      },
+      "D": {
+        "exact": "-21/3380",
+        "float": -0.00621301775147929
+      }
+    },
+    "01": {
+      "endpoints": {
+        "mir": {
+          "exact": "-21/130",
+          "float": -0.16153846153846155
+        },
+        "highloss": {
+          "exact": "-27/130",
+          "float": -0.2076923076923077
+        }
+      },
+      "D": {
+        "exact": "-21/3380",
+        "float": -0.00621301775147929
+      }
+    },
+    "10": {
+      "endpoints": {
+        "mir": {
+          "exact": "-6/25",
+          "float": -0.24
+        },
+        "highloss": {
+          "exact": "-9/25",
+          "float": -0.36
+        }
+      },
+      "D": {
+        "exact": "-3/100",
+        "float": -0.03
+      }
+    },
+    "11": {
+      "endpoints": {
+        "mir": {
+          "exact": "-6/25",
+          "float": -0.24
+        },
+        "highloss": {
+          "exact": "-9/25",
+          "float": -0.36
+        }
+      },
+      "D": {
+        "exact": "-3/100",
+        "float": -0.03
+      }
+    },
+    "interaction": {
+      "exact": "0",
+      "float": 0.0
+    }
+  },
+  "half_eta": {
+    "00": {
+      "endpoints": {
+        "mir": {
+          "exact": "-21/260",
+          "float": -0.08076923076923077
+        },
+        "highloss": {
+          "exact": "-27/260",
+          "float": -0.10384615384615385
+        }
+      },
+      "D": {
+        "exact": "-33/33800",
+        "float": -0.0009763313609467456
+      }
+    },
+    "01": {
+      "endpoints": {
+        "mir": {
+          "exact": "-201/3380",
+          "float": -0.059467455621301776
+        },
+        "highloss": {
+          "exact": "-279/3380",
+          "float": -0.08254437869822485
+        }
+      },
+      "D": {
+        "exact": "-213/439400",
+        "float": -0.0004847519344560765
+      }
+    },
+    "10": {
+      "endpoints": {
+        "mir": {
+          "exact": "-3/25",
+          "float": -0.12
+        },
+        "highloss": {
+          "exact": "-9/50",
+          "float": -0.18
+        }
+      },
+      "D": {
+        "exact": "-3/500",
+        "float": -0.006
+      }
+    },
+    "11": {
+      "endpoints": {
+        "mir": {
+          "exact": "-3/100",
+          "float": -0.03
+        },
+        "highloss": {
+          "exact": "-9/100",
+          "float": -0.09
+        }
+      },
+      "D": {
+        "exact": "-3/5000",
+        "float": -0.0006
+      }
+    },
+    "interaction": {
+      "exact": "53919/10985000",
+      "float": 0.004908420573509331
+    }
+  },
+  "evaluator_null_control": {
+    "q_M0": [
+      0,
+      0
+    ],
+    "q_H0": [
+      1,
+      0
+    ],
+    "q_M1": [
+      0,
+      1
+    ],
+    "q_H1": [
+      1,
+      -1
+    ],
+    "evaluator": "V(x,y)=x*x/2",
+    "differential_drift_squared_norm": 4,
+    "C00": {
+      "exact": "-1/2",
+      "float": -0.5
+    },
+    "C10": {
+      "exact": "-1/2",
+      "float": -0.5
+    },
+    "C01": {
+      "exact": "-1/2",
+      "float": -0.5
+    },
+    "C11": {
+      "exact": "-1/2",
+      "float": -0.5
+    },
+    "A": {
+      "exact": "0",
+      "float": 0.0
+    },
+    "B": {
+      "exact": "0",
+      "float": 0.0
+    }
+  }
+}

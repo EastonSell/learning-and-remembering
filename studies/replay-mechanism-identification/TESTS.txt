@@ -1,0 +1,15 @@
+test_actual_selector_scores (test_analysis.AnalyticControl.test_actual_selector_scores) ... ok
+test_evaluator_null_differential_drift (test_analysis.AnalyticControl.test_evaluator_null_differential_drift) ... ok
+test_exact_cubic_formula (test_analysis.AnalyticControl.test_exact_cubic_formula) ... ok
+test_linear_evaluator_or_frozen_gradients_remove_interaction (test_analysis.AnalyticControl.test_linear_evaluator_or_frozen_gradients_remove_interaction) ... ok
+test_literal_independent_endpoints (test_analysis.AnalyticControl.test_literal_independent_endpoints) ... ok
+test_location_preserves_selector_separation (test_analysis.AnalyticControl.test_location_preserves_selector_separation) ... ok
+test_nearby_smaller_step_no_reversal (test_analysis.AnalyticControl.test_nearby_smaller_step_no_reversal) ... ok
+test_open_interval_sign_conditions (test_analysis.AnalyticControl.test_open_interval_sign_conditions) ... ok
+test_sign_reversal (test_analysis.AnalyticControl.test_sign_reversal) ... ok
+test_symmetric_transport_attribution (test_analysis.AnalyticControl.test_symmetric_transport_attribution) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.002s
+
+OK

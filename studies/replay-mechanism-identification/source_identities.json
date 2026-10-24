@@ -1,0 +1,104 @@
+{
+  "repo": "EastonSell/learning-and-remembering",
+  "source_commit": "69411a790bb59161fb5d44bdfeefb1c8d76669f2",
+  "unchanged_at_published_commit": "b0aeb63658c38b17e0e7ee42284dac724a75ee1c",
+  "basis": "Existing verified publication receipt records all frozen blobs unchanged; no new live-head claim.",
+  "files": [
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2005-block-0.json",
+      "git_blob": "349112ee7c3c59acb9e8191de0d428fa37b8a33d",
+      "sha256": "37980d2f981b8ce17ddd0aa8b49b92e784f57108222e0b5b0986c7d775a04518",
+      "bytes": 123689
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2005-block-1.json",
+      "git_blob": "e255d2ac4fd37099cda75b554f14ad710af599ce",
+      "sha256": "b737deaa0d58d2d2cdd846996aca4d51cde8bdd4c6839106288489a1166d3157",
+      "bytes": 144551
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2005-block-2.json",
+      "git_blob": "a3dbf60b1610e6ea390dea301981d28dff622412",
+      "sha256": "1a1475cdabfbde0c410fd0656c266c42c97fee8a40e3e87bf5f6df5b65284d0b",
+      "bytes": 165993
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2005-block-3.json",
+      "git_blob": "55e51b9acb91c538387246728ed2b96b51c60887",
+      "sha256": "d716639826e58ea305bd13ee4dde162dc79c0e5eb612548f7c12af96fedc88a9",
+      "bytes": 186986
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2006-block-0.json",
+      "git_blob": "2a9bb391e6852ac5418d54cdc133f5737afecfc8",
+      "sha256": "0b6fd3fc9ef8a1daa2f101bc8d9fd3a835b65f5897934697cd3ff88afdc20743",
+      "bytes": 123726
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2006-block-1.json",
+      "git_blob": "bf25fa6ce6a5adcf8154cf2d746c4f798c78872f",
+      "sha256": "0fc1eb7f66b8b65ad9e33035bca41e3edccda9cd51670a117fb7bed7c1513172",
+      "bytes": 144841
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2006-block-2.json",
+      "git_blob": "fde8e49c790e7c8d19e7887fb88577788f5f3159",
+      "sha256": "ec68387ffea24a55f968aaf71f325986624555c1ca29dbdaacf661913cdcd22e",
+      "bytes": 165758
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2006-block-3.json",
+      "git_blob": "5f62590ce5c46224873a8be04da34cf082419cec",
+      "sha256": "cd824c2eefbb751c87469101f66685fd85ac8b0407df588b7ed95d48bd8f4353",
+      "bytes": 187079
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2007-block-0.json",
+      "git_blob": "308eff124be382acfc56c1b52cb54fa9ddcbc5e0",
+      "sha256": "feed353164752c928c7d83781e95e66eea8b45e1fb4e1b24ccad6351930e1571",
+      "bytes": 123656
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2007-block-1.json",
+      "git_blob": "acd2d6974db2ea2eff820c587eb4cc2a889309d1",
+      "sha256": "8caab4dfd462fc720364df3bfd6435349ea2f4d370a96111619d32987bb4a49e",
+      "bytes": 144695
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2007-block-2.json",
+      "git_blob": "a7e83c3749ae6ed6cdc805cc27a61e921971aa8c",
+      "sha256": "e5090e71b8c7d3880cf371e40366dc96c5dc9c6d2e27599681ed632e8b13a039",
+      "bytes": 165910
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2007-block-3.json",
+      "git_blob": "e216f42c1890f4f1eeef1cba97c2d33d73f7923e",
+      "sha256": "aff7078731aecb11177c6656e294531e50a844d3ed7b66cdf9dcc5e0343fcc86",
+      "bytes": 186818
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2008-block-0.json",
+      "git_blob": "76fc0b4eaa6647db402de29e56704a22cfbfcba8",
+      "sha256": "b73d9b7c137dd0b1a8640d823026e1114c043f90b1affdec3ea8edc634d23a9b",
+      "bytes": 123598
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2008-block-1.json",
+      "git_blob": "467a1c92583ac5b1bfcabd2819743728fcb5332c",
+      "sha256": "eef7dd67cba46986fba44441c66cfc2675d2c084f670531874e770effbbfc644",
+      "bytes": 144672
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2008-block-2.json",
+      "git_blob": "3133a274e4d05fb0b0bea1b5b68a78064f54e125",
+      "sha256": "bcd774055ca0c628a5acbefa31db577aca6a0cf9e0918784d26f25d408d5f251",
+      "bytes": 166082
+    },
+    {
+      "path": "studies/replay-update-decomposition/evidence/seed-2008-block-3.json",
+      "git_blob": "72e23eb24cea30aa21760e7a4481d54b031ad9bb",
+      "sha256": "77097551d7235336bad03681c7a09241e5ac5cb57e45b6376810382e8891a65f",
+      "bytes": 187235
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "status": "PUBLISHED_AND_VERIFIED",
+  "repository": "EastonSell/learning-and-remembering",
+  "branch": "main",
+  "expected_previous_head": "69411a790bb59161fb5d44bdfeefb1c8d76669f2",
+  "commit": "b0aeb63658c38b17e0e7ee42284dac724a75ee1c",
+  "commit_url": "https://github.com/EastonSell/learning-and-remembering/commit/b0aeb63658c38b17e0e7ee42284dac724a75ee1c",
+  "new_tree": "a7c05a9ce8a224ea28a52b8dc17c2fc097b6ce03",
+  "non_force_expected_sha_update_confirmed": true,
+  "write_responses_saved": true,
+  "uncertain_writes": false,
+  "final_main_head_verified": true,
+  "changed_files": [
+    {
+      "path": "docs/SAVED_ARITHMETIC_CHECKS.md",
+      "status": "added",
+      "additions": 71,
+      "deletions": 0,
+      "sha256": "ca17ce476825bcb3afa27e19301b7bea605b6cbd1a812527b7e453d6480a135a",
+      "git_blob": "32aa1aceab2267ac5eb2cad6b76c6793a3540c93",
+      "bytes": 3931
+    },
+    {
+      "path": "scripts/check_replay_decomposition.py",
+      "status": "added",
+      "additions": 182,
+      "deletions": 0,
+      "sha256": "6231dd6f1f8252c70d0c862524445e15a57665c13073615b1156b725de0c9602",
+      "git_blob": "d7c6ada2887a89a21c796f61a72c5173608ef949",
+      "bytes": 7680
+    },
+    {
+      "path": "tests/test_replay_decomposition_arithmetic.py",
+      "status": "added",
+      "additions": 178,
+      "deletions": 0,
+      "sha256": "36fc404c819232c6b8bdf784dd4d544b299b94aeb79f806de46089daa75d179d",
+      "git_blob": "204ebd5b9e9a833efcfa31006ce8ccc075ffc0e7",
+      "bytes": 8746
+    }
+  ],
+  "patch_sha256": "5546c72135d4d66c4ce1b4adf5a6e26dcef3bb35730ab977434cf1067dbc82ef",
+  "all_existing_blobs_unchanged": true,
+  "frozen_studies_tree_unchanged": true,
+  "all_27_local_sources_match_live_pinned_git_tree": true,
+  "remote_new_file_bytes_match_accepted_patch": true,
+  "documented_default_commands_passed_on_staged_and_remote_bytes": true,
+  "stdlib_tests_passed": 17,
+  "independent_recount_rerun_matches_accepted_receipt": true,
+  "summary_keys": 104,
+  "scalar_means": 520,
+  "mutation_checks_caught": 10,
+  "remote_checks": {
+    "check_runs": 0,
+    "status_contexts": 0,
+    "actions_runs": 0,
+    "workflow_files": [],
+    "combined_status_raw": "pending",
+    "interpretation": "No remote CI ran or passed; the pending aggregate has zero status contexts."
+  },
+  "model_runs": false,
+  "model_api_calls": false,
+  "bootstrap_runs": false,
+  "full_release_verifier_run": false,
+  "full_repository_suite_run": false,
+  "limitations": "Supplemental retained-scalar arithmetic and interpretation checks, not new measurements, independent scientific replication, or full-release validation."
+}

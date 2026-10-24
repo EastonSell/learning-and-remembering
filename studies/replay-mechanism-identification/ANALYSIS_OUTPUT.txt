@@ -1,0 +1,91 @@
+{
+  "status": "posthoc_saved_arithmetic_not_new_model_evidence",
+  "aggregation": "four equal blocks per seed; four equal seeds",
+  "summary": {
+    "D00": {
+      "mean": -0.02506858497444485,
+      "negative": 9,
+      "positive": 7
+    },
+    "D01": {
+      "mean": -0.07003134272945402,
+      "negative": 11,
+      "positive": 5
+    },
+    "D10": {
+      "mean": -0.13199123527150497,
+      "negative": 9,
+      "positive": 7
+    },
+    "D11": {
+      "mean": 0.34012344189989674,
+      "negative": 4,
+      "positive": 12
+    },
+    "I": {
+      "mean": 0.5170774349264109,
+      "negative": 3,
+      "positive": 13
+    },
+    "mir_unit_updated_change_original": {
+      "mean": 1.2026022166676207,
+      "negative": 0,
+      "positive": 16
+    },
+    "mir_location_0": {
+      "mean": -0.5425940348040509,
+      "negative": 15,
+      "positive": 1
+    },
+    "mir_location_1": {
+      "mean": -0.42716093080815376,
+      "negative": 10,
+      "positive": 6
+    },
+    "highloss_unit_updated_change_original": {
+      "mean": 0.8624787747677239,
+      "negative": 0,
+      "positive": 16
+    },
+    "highloss_location_0": {
+      "mean": -0.4976312770490417,
+      "negative": 16,
+      "positive": 0
+    },
+    "highloss_location_1": {
+      "mean": -0.8992756079795554,
+      "negative": 15,
+      "positive": 1
+    }
+  },
+  "seed_interaction_means": {
+    "2005": 1.2688317677581018,
+    "2006": 0.09669036108131715,
+    "2007": 0.3695047615965566,
+    "2008": 0.3332828492696679
+  },
+  "leave_one_seed_out_interaction": {
+    "2005": 0.2664926573158472,
+    "2006": 0.6572064595414421,
+    "2007": 0.5662683260363622,
+    "2008": 0.5783422968119919
+  },
+  "largest_state": {
+    "seed": 2005,
+    "block": 1,
+    "D00": -0.07227621951151564,
+    "D01": 0.05243265661897112,
+    "D10": -0.7607564942203076,
+    "D11": 3.291118867657115,
+    "I": 3.927166485746936,
+    "mir_unit_updated_change_original": 4.762103215513287,
+    "mir_location_0": -0.46968076386974467,
+    "mir_location_1": 3.0180573237082045,
+    "highloss_unit_updated_change_original": 1.470984347856172,
+    "highloss_location_0": -0.5943896400002314,
+    "highloss_location_1": -1.0338180381692181
+  },
+  "largest_state_share_of_sum": 0.47468307216716005,
+  "leave_largest_state_out_unbalanced_descriptive_only": 0.28973816487170917,
+  "both_selectors_benefit_unit_location": 10
+}
