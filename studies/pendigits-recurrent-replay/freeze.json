@@ -1,0 +1,30 @@
+{
+  "source_url": "https://archive.ics.uci.edu/static/public/81/pen+based+recognition+of+handwritten+digits.zip",
+  "archive_sha256": "1e02bea023613c2b11c9492f6f34caf975420455934f3527d270cee9a1f03b64",
+  "training_sha256": "e2b9eb9f0d0467e2b64a4816a3420edf2b8043447576f4b84337aba44a9f97d3",
+  "training_shape": [
+    7494,
+    17
+  ],
+  "class_counts": [
+    780,
+    779,
+    780,
+    719,
+    780,
+    720,
+    720,
+    778,
+    719,
+    719
+  ],
+  "test_access": "Official test member was not opened, extracted, parsed or evaluated; archive bytes only transferred in memory. No models trained on dataset.",
+  "source_sha256": "7760db0c0a2b8c80d71d88d367b48b7a4be7a60c7d1be93e2cd7e665e8bbdd80",
+  "protocol_sha256": "2108eadb62dc2941c53b636fdbb99ca3b034699d9e70f27887883d3735af731f",
+  "review_sha256": "d78d381c64151b449e65a5c314023eaf88567cd9420f7a9a07c07c38edf2b566",
+  "frozen_utc": "2026-10-24T07:03:41.319221+00:00",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "sklearn": "1.8.0",
+  "status": "FROZEN_BEFORE_TEST_ACCESS"
+}

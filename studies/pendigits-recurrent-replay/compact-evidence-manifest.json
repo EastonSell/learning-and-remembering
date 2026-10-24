@@ -1,0 +1,16 @@
+{
+  "REPORT.md": "4b5f2cd7f26c45ef34665f27c10c06e13dd9a600a5537e2d29b29cae1065cba2",
+  "PROTOCOL.md": "2108eadb62dc2941c53b636fdbb99ca3b034699d9e70f27887883d3735af731f",
+  "experiment.py": "7760db0c0a2b8c80d71d88d367b48b7a4be7a60c7d1be93e2cd7e665e8bbdd80",
+  "verify_results.py": "b94dbd545003d5411372200a43d613bfa680cda5a44bb8f7c719ff34bcbdf129",
+  "independent_outcome_audit.py": "39d1c9b0eb1732976f846f281197f46758e79894592bf8b9671fbf48e8a634fb",
+  "freeze.json": "df8af6e928c86f24cb9d6e0f384b56d4d632b1fd13156c50058bd4abe521088d",
+  "independent-review.json": "d78d381c64151b449e65a5c314023eaf88567cd9420f7a9a07c07c38edf2b566",
+  "execution.log": "455577378cc46dd4f1caef9f9d1604c9c8756e13934879f870d6b1050eb3af10",
+  "results/summary.json": "90f48c6168401381e8453c3510fe6db3a1aac25d28567e1bbf4fdc8e9456f5cc",
+  "results/metrics.json": "f9fd474dcbb54411d8906cf3eb5e41844c99f591b0c1a0fb5f6e7c110289dcc5",
+  "results/verification.json": "8b29c14529097de34b0795e965abc56a9c7c50f456ba929b6d30c5cfebf6f80f",
+  "results/independent-audit.json": "b970276b036c136b479c2ba7a25d3a15a8ed33ab4026123087ec0dc69485f4f0",
+  "results/COMPLETE.json": "fc20978fdadb60450a2113b857e5f2e5c5fc4e185389447433c7e76ec3409442",
+  "results/seed-results.csv": "317102201fd695e632b891c9fef976e963a6934b5bc47c0ef84151fc3c5312e5"
+}

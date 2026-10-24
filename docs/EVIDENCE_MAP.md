@@ -143,3 +143,10 @@ The root `PUBLICATION_MANIFEST.json` identifies the earlier `neurofunctional-lab
 [competence]: https://github.com/EastonSell/learning-and-remembering/blob/1bff80d84f80209c926f779762f47a6a16af3cf3/docs/competence_controls.md
 [pilot-verifier]: https://github.com/EastonSell/learning-and-remembering/blob/1bff80d84f80209c926f779762f47a6a16af3cf3/scripts/verify_run.py
 [legacy-manifest]: https://github.com/EastonSell/learning-and-remembering/blob/1bff80d84f80209c926f779762f47a6a16af3cf3/PUBLICATION_MANIFEST.json
+
+
+## Addendum: fresh PenDigits empirical pilot (24 October 2026)
+
+The [PenDigits recurrent-replay study](../studies/pendigits-recurrent-replay/README.md) adds 30 newly trained MLPs and ten paired seeds on a different trajectory dataset. The primary MIR-minus-uniform final macro-accuracy difference is −1.46 percentage points, 95% paired-seed interval [−3.16, +0.33], with −7.88 points current-pair acquisition difference. The prospective support criterion failed; the interval does not establish inferiority or equivalence. High-loss is descriptive only. This does not revise the historical findings above.
+
+From the repository root, `OPENBLAS_NUM_THREADS=1 python -B studies/pendigits-recurrent-replay/verify_saved.py` checks published scalar evidence and the bootstrap without training. The [study guide](../studies/pendigits-recurrent-replay/README.md) separately explains full-checkpoint inference (original binaries are not public Git contents) and intentional labeled retraining from hash-verified official UCI data. Ten algorithmic seeds remain one dataset/split, not ten independent populations.

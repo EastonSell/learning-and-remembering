@@ -1,0 +1,26 @@
+{
+  "release": "pendigits-recurrent-replay-20261024",
+  "scope": "Additive empirical pilot publication; not a whole-repository inventory",
+  "base_commit": "17a861652dcf3a3a56e26a131f8b80331c8fda4a",
+  "files": {
+    "ARCHIVE.md": "bca323f38a52bf9464011e209a668a87246110ae524cc71e54149c77118fbb87",
+    "PROTOCOL.md": "2108eadb62dc2941c53b636fdbb99ca3b034699d9e70f27887883d3735af731f",
+    "README.md": "342692c36af6b7f86e6e8f1a1004b15dee908181ce9c4fe062e68398b3885181",
+    "REPORT.md": "4b5f2cd7f26c45ef34665f27c10c06e13dd9a600a5537e2d29b29cae1065cba2",
+    "compact-evidence-manifest.json": "c25ae9245f9d16c84102b87da0c90ece3619829365f7bb40cd76fe4344c10e5a",
+    "execution.log": "455577378cc46dd4f1caef9f9d1604c9c8756e13934879f870d6b1050eb3af10",
+    "experiment.py": "7760db0c0a2b8c80d71d88d367b48b7a4be7a60c7d1be93e2cd7e665e8bbdd80",
+    "freeze.json": "df8af6e928c86f24cb9d6e0f384b56d4d632b1fd13156c50058bd4abe521088d",
+    "independent-review.json": "d78d381c64151b449e65a5c314023eaf88567cd9420f7a9a07c07c38edf2b566",
+    "independent_outcome_audit.py": "39d1c9b0eb1732976f846f281197f46758e79894592bf8b9671fbf48e8a634fb",
+    "requirements-recorded.txt": "3b94fc7cf0b3ae8857f01f68fb101f406ad083592cc10eac5f807fb2c4e4e367",
+    "results/COMPLETE.json": "fc20978fdadb60450a2113b857e5f2e5c5fc4e185389447433c7e76ec3409442",
+    "results/independent-audit.json": "b970276b036c136b479c2ba7a25d3a15a8ed33ab4026123087ec0dc69485f4f0",
+    "results/metrics.json": "f9fd474dcbb54411d8906cf3eb5e41844c99f591b0c1a0fb5f6e7c110289dcc5",
+    "results/seed-results.csv": "317102201fd695e632b891c9fef976e963a6934b5bc47c0ef84151fc3c5312e5",
+    "results/summary.json": "90f48c6168401381e8453c3510fe6db3a1aac25d28567e1bbf4fdc8e9456f5cc",
+    "results/verification.json": "8b29c14529097de34b0795e965abc56a9c7c50f456ba929b6d30c5cfebf6f80f",
+    "verify_results.py": "b94dbd545003d5411372200a43d613bfa680cda5a44bb8f7c719ff34bcbdf129",
+    "verify_saved.py": "1d49ea9d8ae4cd6b78c2a6795e1b68dba7abedeef90cc69dd27e25c3f5e6ba77"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "verification": "pass",
+  "checkpoint_prediction_pairs_reproduced": 300,
+  "all_30_cases_accounted": true,
+  "within_seed_compute_counts_equal": true,
+  "bootstrap_recomputed": true,
+  "source_and_protocol_match_freeze": true
+}

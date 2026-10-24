@@ -1,0 +1,3 @@
+# Tested on Linux, Python 3.12.14; not a cross-platform system lock.
+numpy==2.3.5
+scikit-learn==1.8.0

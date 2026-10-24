@@ -9,7 +9,11 @@ This repository studies those questions through small, reproducible experiments.
 - [Learn the ideas with a tiny working example](docs/START_HERE.md). The guide explains forgetting, replay buffers and the difference between current error and predicted interference.
 - [Read the research overview](docs/RESEARCH_OVERVIEW.md) for hypotheses, controls, related work and open questions.
 - [Choose an evidence question and reproduction level](docs/EVIDENCE_MAP.md): connect the later JOINT/decomposition diagnostics to the original results, with saved-check versus inference/training routes.
-- [Read the latest replay-selection report](studies/replay-selection-fashion-mnist/results/evaluation-report-public.md), then inspect its [protocol and evidence guide](studies/replay-selection-fashion-mnist/README.md).
+- [Read the earlier Fashion-MNIST replay-selection report](studies/replay-selection-fashion-mnist/results/evaluation-report-public.md), then inspect its [protocol and evidence guide](studies/replay-selection-fashion-mnist/README.md).
+
+## New empirical result: PenDigits recurrent replay
+
+[Thirty newly trained MLPs on PenDigits](studies/pendigits-recurrent-replay/README.md) did not support MIR over uniform replay: final macro accuracy 78.48% versus 79.94%, difference −1.46 percentage points, paired-seed 95% bootstrap interval [−3.16, +0.33]. Current-pair acquisition was 7.88 points lower with MIR. The interval crossing zero is not proof of equivalence or confirmed inferiority. High-loss reached 85.65% descriptively, not as a confirmed winner. [Full report and limitations](studies/pendigits-recurrent-replay/REPORT.md), [frozen protocol](studies/pendigits-recurrent-replay/PROTOCOL.md), and [reproduction levels](studies/pendigits-recurrent-replay/README.md#what-is-bundled) preserve all adverse findings. This is a small trajectory-classification pilot, not an LLM or deployment benchmark.
 
 ## Watch the narrated explanation
 
@@ -67,3 +71,4 @@ Would replay help when classes recur naturally? Can a selection audit predict pr
 ## Historical 2×2 replay update decomposition
 
 [Complete signed component diagnostic and saved-evidence verification](studies/replay-update-decomposition/README.md) separate combined weighting from replay-gradient location on four additional historical seed clusters. JOINT MIR still increases old loss by +0.905519 nats; its −0.025069 MIR-minus-high-loss contrast does not clear the frozen −0.005 interval margin. The +0.517077 interaction is a local arithmetic finding, not robust retention efficacy or a biological mapping. Both fresh-control scales and all adverse new-class results are retained.
+

@@ -1,0 +1,119 @@
+{
+  "audit": "PASS",
+  "checkpoints_independently_recomputed": 300,
+  "source_and_protocol_hash_match_preexecution_review": true,
+  "file_timestamp_order": "review < freeze < saved test inputs < complete; source control flow also asserts freeze hashes before downloading/opening test",
+  "split_identity_and_all_pairwise_exact_feature_duplicate_checks": "PASS",
+  "stream_reservoir_candidate_reconstruction": "PASS; counts match all arms, 5995 distinct training examples per seed, no current-batch replay leakage",
+  "counts_per_seed_per_arm": {
+    "31001": {
+      "actual_steps": 760,
+      "virtual_steps": 760,
+      "candidate_pre_post_scored": 192000,
+      "fresh_presentations": 23980,
+      "replay_presentations": 24192
+    },
+    "31002": {
+      "actual_steps": 760,
+      "virtual_steps": 760,
+      "candidate_pre_post_scored": 192000,
+      "fresh_presentations": 23980,
+      "replay_presentations": 24192
+    },
+    "31003": {
+      "actual_steps": 760,
+      "virtual_steps": 760,
+      "candidate_pre_post_scored": 192000,
+      "fresh_presentations": 23980,
+      "replay_presentations": 24192
+    },
+    "31004": {
+      "actual_steps": 760,
+      "virtual_steps": 760,
+      "candidate_pre_post_scored": 192000,
+      "fresh_presentations": 23980,
+      "replay_presentations": 24192
+    },
+    "31005": {
+      "actual_steps": 760,
+      "virtual_steps": 760,
+      "candidate_pre_post_scored": 192000,
+      "fresh_presentations": 23980,
+      "replay_presentations": 24192
+    },
+    "31006": {
+      "actual_steps": 760,
+      "virtual_steps": 760,
+      "candidate_pre_post_scored": 192000,
+      "fresh_presentations": 23980,
+      "replay_presentations": 24192
+    },
+    "31007": {
+      "actual_steps": 760,
+      "virtual_steps": 760,
+      "candidate_pre_post_scored": 192000,
+      "fresh_presentations": 23980,
+      "replay_presentations": 24192
+    },
+    "31008": {
+      "actual_steps": 760,
+      "virtual_steps": 760,
+      "candidate_pre_post_scored": 192000,
+      "fresh_presentations": 23980,
+      "replay_presentations": 24192
+    },
+    "31009": {
+      "actual_steps": 760,
+      "virtual_steps": 760,
+      "candidate_pre_post_scored": 192000,
+      "fresh_presentations": 23980,
+      "replay_presentations": 24192
+    },
+    "31010": {
+      "actual_steps": 760,
+      "virtual_steps": 760,
+      "candidate_pre_post_scored": 192000,
+      "fresh_presentations": 23980,
+      "replay_presentations": 24192
+    }
+  },
+  "reconstructed_candidate_trace_sha256": {
+    "31001": "a8c1e1ca5669da0002b9b4e3a61f313ee80597311f86ffb17df59619c049ac23",
+    "31002": "9d15d8073e48100b6c4a8c157b5cf2cd2f933066c85ba4bd61bb9b13d93c56a6",
+    "31003": "bc411841f1273c5c20475b7bc89d89fccd7696a33d063c29434ffa22f62f8ae4",
+    "31004": "309e566c733948de71fffa4a5f234dbb734ed0fd715a8b2963df3da2fb5b5911",
+    "31005": "74cd48066f9b7f68e0c3de042b05043abbe2b75559f0c857163a51e9dd377cec",
+    "31006": "fa388a96d1ab07a397f5f612304d61504068f5fdebc5afab911e0f88f183a8a5",
+    "31007": "37c4f8d7f6ad5b91ea872d8a552613f7ca3946efc9ec7fd1189208f194e63944",
+    "31008": "a7b10e89159297ad1126663a97c92b4bc1de441df5bed5ccfbaeca20a2b88fde",
+    "31009": "852dc1539dde778da4cbfd0b53213d129f716b39817c190bbdafd141dd1e4c66",
+    "31010": "094ff17e82fc685ed94a04373252bba08d190bb8f12e1d638d79155588ed3ed2"
+  },
+  "bootstrap": "independently reproduced 10000 paired-seed resamples, RNG20261025",
+  "mean_final_macro": {
+    "uniform": 0.7994074845326542,
+    "mir": 0.7847641799629588,
+    "high_loss": 0.8565325162173874
+  },
+  "mir_minus_uniform_pp": -1.4643304569695348,
+  "ci95_pp": [
+    -3.160106492331734,
+    0.33135525755903633
+  ],
+  "acquisition_difference_pp": -7.884569616837256,
+  "support": false,
+  "reported_resource_usage": {
+    "wall_seconds": 17.458582089999936,
+    "peak_rss_bytes": 140091392
+  },
+  "limitations": [
+    "No model training or tuning performed by audit.",
+    "Filesystem ordering and frozen code support preregistration timing, but are not tamper-proof independent attestation of all historical test access.",
+    "Counts verified by independent stream reconstruction and frozen shared-loop inspection; no per-update runtime RNG trace was persisted.",
+    "Resource values are producer-process measurements, not independently sampled during execution.",
+    "Only one dataset/fixed split/artificial recurrence; algorithmic seeds do not provide independent writer/population replication.",
+    "High-loss is a descriptive secondary result, not confirmatory superiority.",
+    "MIR hypothesis unsupported; CI crosses zero, so this is not proof of inferiority or equivalence. Acquisition guardrail also failed."
+  ],
+  "official_data_independent_redownload": "PASS: archive hash, train/test raw member hashes, and every saved scaled test feature/label match official UCI download"
+}
