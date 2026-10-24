@@ -1,0 +1,27 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Learn today without losing yesterday</title><style>body{max-width:1000px;margin:auto;padding:24px;background:#0b0f15;color:#f4f5f7;font:18px/1.6 system-ui}img,video{width:100%;height:auto}a{color:#5ad8df}button{font:inherit;padding:10px}[hidden]{display:none!important}pre{white-space:pre-wrap;font:inherit}</style><main><h1>Learn today without losing yesterday</h1><p>53.7-second narrated Manim illustration. Synthetic stock voice. OFFLINE LINEAR TOY · NOT BENCHMARK EVIDENCE.</p><p>Static by default. Choose playback only if you want motion and sound. Captions use approximate sentence timing.</p><img id="still" src="poster.png" alt="A toy loss plot shows that the hard-now example has the greatest current loss, while a different threatened-next example has the greatest signed loss increase after a virtual update."><video id="clip" controls playsinline preload="none" poster="poster.png" hidden><source src="concept.mp4" type="video/mp4"><track kind="captions" src="captions.vtt" srclang="en" label="English (approximate timing)"></video><p><button id="play">Play narrated video</button> <button id="stop" hidden>Return to static view</button></p><p><a href="concept.mp4">Download narrated MP4</a> · <a href="transcript.txt">Complete text and visual explanation</a> · <a href="captions.vtt">Captions</a> · <a href="../index.html">Original silent version</a></p><h2>Text and visual explanation</h2><pre>Learn today without losing yesterday
+
+Narrated Manim concept video. 53.667 seconds.
+Synthetic stock voice: Kokoro am_michael.
+Sentence captions are approximate, not word-aligned.
+
+OFFLINE LINEAR TOY · NOT BENCHMARK EVIDENCE
+
+0.000–8.600 seconds
+Spoken: Here are two tasks that one small model can solve together. First, watch its shared weights move as it learns task A.
+
+Visual explanation: The linear prediction is w1*x1+w2*x2. Task A has input (1,0), target 1; B has input (1,1), target 0. The shared solution (1,-1) fits both. Learning only A reaches approximately (1,0).
+
+8.600–26.467 seconds
+Spoken: Now train on B alone, and A&#x27;s prediction gets worse. Instead, replay an example from task A. In this toy, that helps retain both tasks. Both paths use equal example counts, but replay needs memory and sees fewer new examples.
+
+Visual explanation: From the learned-A state, 120 updates containing B twice approach (0.5,-0.5). A predicts 0.5 and B predicts 0. Replacing one B presentation with stored A approaches (0.999,-0.998), retaining both. Each later condition has 240 example presentations, but replay stores one old example and uses fewer B presentations. Values come from the offline demo, not image benchmarks.
+
+26.467–40.633 seconds
+Spoken: Now consider which memory to replay. The hardest example right now is different from the one most harmed by a hypothetical update. That update is only used to score the memories, then discarded.
+
+Visual explanation: At weights (1,0), a hypothetical B step gives (0.75,-0.25). Current half-squared losses for old anchor, hard-now and threatened-next examples are 0, 0.5 and 0. Signed loss changes are +0.03125, -0.21875 and +0.125. High-loss selects hard-now; predicted-interference selects threatened-next. Uniform selection gives one-third to each. This is a scoring distinction, not a full MIR implementation or evidence that either selection improves a real model. One toy demonstrates forgetting and possible protection; another illustrates different replay scores. Neither establishes a benchmark advantage, biological fidelity, an optimal selector or guaranteed protection. Read the repository&#x27;s controlled studies separately.
+
+40.633–53.667 seconds
+Spoken: These examples explain forgetting and two selection scores. They don&#x27;t establish a winning selector. The repository&#x27;s controlled studies include inconclusive and adverse results.
+
+</pre></main><script>const v=document.querySelector('#clip'),s=document.querySelector('#still'),p=document.querySelector('#play'),b=document.querySelector('#stop');function stop(){v.pause();v.currentTime=0;v.hidden=true;s.hidden=false;p.hidden=false;b.hidden=true}p.onclick=()=>{v.hidden=false;s.hidden=true;p.hidden=true;b.hidden=false;v.play().catch(()=>{})};b.onclick=()=>{stop();p.focus()};matchMedia('(prefers-reduced-motion: reduce)').addEventListener('change',stop);</script></html>

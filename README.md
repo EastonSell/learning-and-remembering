@@ -11,6 +11,14 @@ This repository studies those questions through small, reproducible experiments.
 - [Choose an evidence question and reproduction level](docs/EVIDENCE_MAP.md): connect the later JOINT/decomposition diagnostics to the original results, with saved-check versus inference/training routes.
 - [Read the latest replay-selection report](studies/replay-selection-fashion-mnist/results/evaluation-report-public.md), then inspect its [protocol and evidence guide](studies/replay-selection-fashion-mnist/README.md).
 
+## Watch the narrated explanation
+
+[![Narrated concept illustration](docs/animations/narrated/poster.png)](docs/animations/narrated/concept.mp4)
+
+[53.7-second narrated MP4](docs/animations/narrated/concept.mp4) · [Complete transcript](docs/animations/narrated/transcript.txt) · [Captions](docs/animations/narrated/captions.vtt) · [Editable source and reproduction](docs/animations/narrated/RENDERING.md)
+
+Speech-led Manim animation with a synthetic stock voice. Offline linear toy · not benchmark evidence. This is an explanatory upgrade, not a new experimental result. Captions have approximate sentence timing. The [static-first viewer](docs/animations/narrated/index.html), poster and complete transcript provide a no-motion alternative. The original silent version and its historical QA remain unchanged below.
+
 ## Watch the concept in 24 seconds
 
 [![A toy loss plot shows that the hard-now example has the greatest current loss, while a different threatened-next example has the greatest signed loss increase after a virtual update.](docs/animations/poster.png)](docs/animations/concept.mp4)

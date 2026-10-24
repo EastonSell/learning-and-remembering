@@ -1,0 +1,45 @@
+{
+  "title": "Learning And Remembering",
+  "repo": "learning-and-remembering",
+  "legacy_class": "ReplaySelection",
+  "segments": [
+    {
+      "id": "beat-1",
+      "start": 0.0,
+      "end": 8.6,
+      "text": "Here are two tasks that one small model can solve together. First, watch its shared weights move as it learns task A.",
+      "visual": "Show both task constraints and their shared solution, then learn A.",
+      "chapter": "The example",
+      "frames": 258
+    },
+    {
+      "id": "beat-2",
+      "start": 8.6,
+      "end": 26.433333333333334,
+      "text": "Now train on B alone, and A's prediction gets worse. Instead, replay an example from task A. In this toy, that helps retain both tasks. Both paths use equal example counts, but replay needs memory and sees fewer new examples.",
+      "visual": "Follow the two existing SGD trajectories. Reveal replay tradeoff beside equal presentation count.",
+      "chapter": "What changes",
+      "frames": 535
+    },
+    {
+      "id": "beat-3",
+      "start": 26.433333333333334,
+      "end": 40.56666666666667,
+      "text": "Now consider which memory to replay. The hardest example right now is different from the one most harmed by a hypothetical update. That update is only used to score the memories, then discarded.",
+      "visual": "Clear geometry, introduce current-loss axis, then signed change axis. Highlight hard-now before threatened-next.",
+      "chapter": "The mechanism",
+      "frames": 424
+    },
+    {
+      "id": "beat-4",
+      "start": 40.56666666666667,
+      "end": 53.56666666666667,
+      "text": "These examples explain forgetting and two selection scores. They don't establish a winning selector. The repository's controlled studies include inconclusive and adverse results.",
+      "visual": "Hold selection contrast with scope card and study link.",
+      "chapter": "What this establishes",
+      "frames": 390
+    }
+  ],
+  "fps": 30,
+  "duration": 53.56666666666667
+}

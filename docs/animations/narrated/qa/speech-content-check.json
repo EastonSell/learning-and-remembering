@@ -1,0 +1,1254 @@
+{
+  "method": "Independent automatic speech recognition; no listening claim; no text prompt supplied. FFmpeg decodes WAV to mono float32 at 16 kHz for Whisper input.",
+  "model": "Systran/faster-whisper-small.en",
+  "model_source": "https://huggingface.co/Systran/faster-whisper-small.en",
+  "options": {
+    "device": "cpu",
+    "compute_type": "int8",
+    "cpu_threads": 6,
+    "beam_size": 5,
+    "language": "en",
+    "temperature": 0,
+    "condition_on_previous_text": false,
+    "word_timestamps": true,
+    "vad_filter": false,
+    "initial_prompt": null
+  },
+  "limitations": "ASR transcription is fallible and does not establish prosody, naturalness, or exact pronunciation. Text differences require interpretation, not automatic failure.",
+  "clips": [
+    {
+      "repo": "learning-and-remembering",
+      "id": "beat-1",
+      "sha256_before": "02f64a2d812637757a46b41b4de664190a6201e63f453ce301696a9f65fb90fc",
+      "manifest_sha256": "1524de2afa1de63d8330a6f58de49588baec4ce68fc42a8ca47c01a55f001401",
+      "canonical_text": "Here are two tasks that one small model can solve together. First, watch its shared weights move as it learns task A.",
+      "tts_text": "Here are two tasks that one small model can solve together. First, watch its shared weights move as it learns task A.",
+      "has_tts_override": false,
+      "cache_metadata": {
+        "cache_key": "27035990d14388d302ec7a9e2b8e7074d57004f0ad28ead12257fba9c79224b9",
+        "audio_sha256": "02f64a2d812637757a46b41b4de664190a6201e63f453ce301696a9f65fb90fc",
+        "parameters": {
+          "tts_text": "Here are two tasks that one small model can solve together. First, watch its shared weights move as it learns task A.",
+          "voice": "am_michael",
+          "language": "en-us",
+          "speed": 0.95,
+          "lead_in": 0.12,
+          "tail_out": 0.5
+        },
+        "engine": {
+          "model_sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+          "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+          "kokoro_onnx_version": "0.6.1",
+          "cache_version": 1
+        }
+      },
+      "audio_info": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "frames": 205856,
+        "duration_seconds": 8.577333333333334
+      },
+      "transcription": "Here are two tasks that one small model can solve together. First, watch its shared weights move as it learns task A.",
+      "segments": [
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 0.0,
+          "end": 3.34,
+          "text": " Here are two tasks that one small model can solve together.",
+          "tokens": [
+            50363,
+            3423,
+            389,
+            734,
+            8861,
+            326,
+            530,
+            1402,
+            2746,
+            460,
+            8494,
+            1978,
+            13,
+            50555
+          ],
+          "avg_logprob": -0.2328675463795662,
+          "compression_ratio": 1.1818181818181819,
+          "no_speech_prob": 0.0002457626105751842,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.28,
+              "word": " Here",
+              "probability": 0.9692970514297485
+            },
+            {
+              "start": 0.28,
+              "end": 0.44,
+              "word": " are",
+              "probability": 0.9977989792823792
+            },
+            {
+              "start": 0.44,
+              "end": 0.66,
+              "word": " two",
+              "probability": 0.9639111161231995
+            },
+            {
+              "start": 0.66,
+              "end": 1.12,
+              "word": " tasks",
+              "probability": 0.950145959854126
+            },
+            {
+              "start": 1.12,
+              "end": 1.38,
+              "word": " that",
+              "probability": 0.9931715726852417
+            },
+            {
+              "start": 1.38,
+              "end": 1.6,
+              "word": " one",
+              "probability": 0.9904308915138245
+            },
+            {
+              "start": 1.6,
+              "end": 1.92,
+              "word": " small",
+              "probability": 0.9982977509498596
+            },
+            {
+              "start": 1.92,
+              "end": 2.32,
+              "word": " model",
+              "probability": 0.9986093044281006
+            },
+            {
+              "start": 2.32,
+              "end": 2.56,
+              "word": " can",
+              "probability": 0.9978633522987366
+            },
+            {
+              "start": 2.56,
+              "end": 2.86,
+              "word": " solve",
+              "probability": 0.9990540146827698
+            },
+            {
+              "start": 2.86,
+              "end": 3.34,
+              "word": " together.",
+              "probability": 0.9983401298522949
+            }
+          ],
+          "temperature": 0
+        },
+        {
+          "id": 2,
+          "seek": 0,
+          "start": 4.06,
+          "end": 7.88,
+          "text": " First, watch its shared weights move as it learns task A.",
+          "tokens": [
+            50555,
+            3274,
+            11,
+            2342,
+            663,
+            4888,
+            19590,
+            1445,
+            355,
+            340,
+            22974,
+            4876,
+            317,
+            13,
+            50780
+          ],
+          "avg_logprob": -0.2328675463795662,
+          "compression_ratio": 1.1818181818181819,
+          "no_speech_prob": 0.0002457626105751842,
+          "words": [
+            {
+              "start": 4.06,
+              "end": 4.3,
+              "word": " First,",
+              "probability": 0.9954507946968079
+            },
+            {
+              "start": 4.78,
+              "end": 5.1,
+              "word": " watch",
+              "probability": 0.9977633953094482
+            },
+            {
+              "start": 5.1,
+              "end": 5.4,
+              "word": " its",
+              "probability": 0.9592583775520325
+            },
+            {
+              "start": 5.4,
+              "end": 5.7,
+              "word": " shared",
+              "probability": 0.9750512838363647
+            },
+            {
+              "start": 5.7,
+              "end": 6.04,
+              "word": " weights",
+              "probability": 0.9872943758964539
+            },
+            {
+              "start": 6.04,
+              "end": 6.4,
+              "word": " move",
+              "probability": 0.9971810579299927
+            },
+            {
+              "start": 6.4,
+              "end": 6.68,
+              "word": " as",
+              "probability": 0.9942797422409058
+            },
+            {
+              "start": 6.68,
+              "end": 6.8,
+              "word": " it",
+              "probability": 0.9991747736930847
+            },
+            {
+              "start": 6.8,
+              "end": 7.1,
+              "word": " learns",
+              "probability": 0.9996179342269897
+            },
+            {
+              "start": 7.1,
+              "end": 7.5,
+              "word": " task",
+              "probability": 0.6783201694488525
+            },
+            {
+              "start": 7.5,
+              "end": 7.88,
+              "word": " A.",
+              "probability": 0.9335687160491943
+            }
+          ],
+          "temperature": 0
+        }
+      ],
+      "differences_vs_canonical": [],
+      "differences_vs_tts": [],
+      "sha256_after": "02f64a2d812637757a46b41b4de664190a6201e63f453ce301696a9f65fb90fc",
+      "wav_unchanged_during_asr": true,
+      "asr_elapsed_seconds": 2.2549425659999542,
+      "sha256_final_recheck": "02f64a2d812637757a46b41b4de664190a6201e63f453ce301696a9f65fb90fc",
+      "cache_hash_matches": true,
+      "cache_tts_text_matches": true
+    },
+    {
+      "repo": "learning-and-remembering",
+      "id": "beat-2",
+      "sha256_before": "2f29117090cd8a020d2f3e1ab8286cd5bdd03daf5607b76a1b4873887bbbd492",
+      "manifest_sha256": "1524de2afa1de63d8330a6f58de49588baec4ce68fc42a8ca47c01a55f001401",
+      "canonical_text": "Now train on B alone, and A's prediction gets worse. Instead, replay an example from task A. In this toy, that helps retain both tasks. Both paths use equal example counts, but replay needs memory and sees fewer new examples.",
+      "tts_text": "Now train on B alone, and A's prediction gets worse. Instead, replay an example from task A. In this toy, that helps retain both tasks. Both paths use equal example counts, but replay needs memory and sees fewer new examples.",
+      "has_tts_override": false,
+      "cache_metadata": {
+        "cache_key": "d3473226df8551dc8bd8e36162269209fc8e5f6573d926d2c15fb355b0b39787",
+        "audio_sha256": "2f29117090cd8a020d2f3e1ab8286cd5bdd03daf5607b76a1b4873887bbbd492",
+        "parameters": {
+          "tts_text": "Now train on B alone, and A's prediction gets worse. Instead, replay an example from task A. In this toy, that helps retain both tasks. Both paths use equal example counts, but replay needs memory and sees fewer new examples.",
+          "voice": "am_michael",
+          "language": "en-us",
+          "speed": 0.95,
+          "lead_in": 0.12,
+          "tail_out": 0.5
+        },
+        "engine": {
+          "model_sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+          "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+          "kokoro_onnx_version": "0.6.1",
+          "cache_version": 1
+        }
+      },
+      "audio_info": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "frames": 427552,
+        "duration_seconds": 17.814666666666668
+      },
+      "transcription": "Now train on B alone, and A's prediction gets worse. Instead, replay an example from task A. In this toy, that helps retain both tasks. Both paths use equal example counts, but replay needs memory and sees fewer new examples.",
+      "segments": [
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 0.0,
+          "end": 3.36,
+          "text": " Now train on B alone, and A's prediction gets worse.",
+          "tokens": [
+            50363,
+            2735,
+            4512,
+            319,
+            347,
+            3436,
+            11,
+            290,
+            317,
+            338,
+            17724,
+            3011,
+            4785,
+            13,
+            50563
+          ],
+          "avg_logprob": -0.166947302890235,
+          "compression_ratio": 1.4423076923076923,
+          "no_speech_prob": 0.0011235004058107734,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.36,
+              "word": " Now",
+              "probability": 0.9411163926124573
+            },
+            {
+              "start": 0.36,
+              "end": 0.68,
+              "word": " train",
+              "probability": 0.9155516028404236
+            },
+            {
+              "start": 0.68,
+              "end": 0.9,
+              "word": " on",
+              "probability": 0.9804792404174805
+            },
+            {
+              "start": 0.9,
+              "end": 1.1,
+              "word": " B",
+              "probability": 0.9443539381027222
+            },
+            {
+              "start": 1.1,
+              "end": 1.5,
+              "word": " alone,",
+              "probability": 0.9948012828826904
+            },
+            {
+              "start": 1.82,
+              "end": 1.88,
+              "word": " and",
+              "probability": 0.9893369674682617
+            },
+            {
+              "start": 1.88,
+              "end": 2.28,
+              "word": " A's",
+              "probability": 0.9919378161430359
+            },
+            {
+              "start": 2.28,
+              "end": 2.62,
+              "word": " prediction",
+              "probability": 0.995359480381012
+            },
+            {
+              "start": 2.62,
+              "end": 3.02,
+              "word": " gets",
+              "probability": 0.996391236782074
+            },
+            {
+              "start": 3.02,
+              "end": 3.36,
+              "word": " worse.",
+              "probability": 0.9982239603996277
+            }
+          ],
+          "temperature": 0
+        },
+        {
+          "id": 2,
+          "seek": 0,
+          "start": 4.2,
+          "end": 7.08,
+          "text": " Instead, replay an example from task A.",
+          "tokens": [
+            50563,
+            5455,
+            11,
+            24788,
+            281,
+            1672,
+            422,
+            4876,
+            317,
+            13,
+            50738
+          ],
+          "avg_logprob": -0.166947302890235,
+          "compression_ratio": 1.4423076923076923,
+          "no_speech_prob": 0.0011235004058107734,
+          "words": [
+            {
+              "start": 4.2,
+              "end": 4.6,
+              "word": " Instead,",
+              "probability": 0.9984103441238403
+            },
+            {
+              "start": 5.12,
+              "end": 5.42,
+              "word": " replay",
+              "probability": 0.9744952321052551
+            },
+            {
+              "start": 5.42,
+              "end": 5.62,
+              "word": " an",
+              "probability": 0.9964014291763306
+            },
+            {
+              "start": 5.62,
+              "end": 6.02,
+              "word": " example",
+              "probability": 0.9941779375076294
+            },
+            {
+              "start": 6.02,
+              "end": 6.34,
+              "word": " from",
+              "probability": 0.9986294507980347
+            },
+            {
+              "start": 6.34,
+              "end": 6.74,
+              "word": " task",
+              "probability": 0.4601415693759918
+            },
+            {
+              "start": 6.74,
+              "end": 7.08,
+              "word": " A.",
+              "probability": 0.991061806678772
+            }
+          ],
+          "temperature": 0
+        },
+        {
+          "id": 3,
+          "seek": 0,
+          "start": 7.64,
+          "end": 10.46,
+          "text": " In this toy, that helps retain both tasks.",
+          "tokens": [
+            50738,
+            554,
+            428,
+            13373,
+            11,
+            326,
+            5419,
+            12377,
+            1111,
+            8861,
+            13,
+            50913
+          ],
+          "avg_logprob": -0.166947302890235,
+          "compression_ratio": 1.4423076923076923,
+          "no_speech_prob": 0.0011235004058107734,
+          "words": [
+            {
+              "start": 7.64,
+              "end": 7.84,
+              "word": " In",
+              "probability": 0.9944118857383728
+            },
+            {
+              "start": 7.84,
+              "end": 8.04,
+              "word": " this",
+              "probability": 0.9987378716468811
+            },
+            {
+              "start": 8.04,
+              "end": 8.44,
+              "word": " toy,",
+              "probability": 0.9886981248855591
+            },
+            {
+              "start": 8.68,
+              "end": 8.88,
+              "word": " that",
+              "probability": 0.9971588850021362
+            },
+            {
+              "start": 8.88,
+              "end": 9.16,
+              "word": " helps",
+              "probability": 0.9973980188369751
+            },
+            {
+              "start": 9.16,
+              "end": 9.6,
+              "word": " retain",
+              "probability": 0.9889909029006958
+            },
+            {
+              "start": 9.6,
+              "end": 9.88,
+              "word": " both",
+              "probability": 0.998431384563446
+            },
+            {
+              "start": 9.88,
+              "end": 10.46,
+              "word": " tasks.",
+              "probability": 0.9930830001831055
+            }
+          ],
+          "temperature": 0
+        },
+        {
+          "id": 4,
+          "seek": 0,
+          "start": 11.18,
+          "end": 16.96,
+          "text": " Both paths use equal example counts, but replay needs memory and sees fewer new examples.",
+          "tokens": [
+            50913,
+            5747,
+            13532,
+            779,
+            4961,
+            1672,
+            9853,
+            11,
+            475,
+            24788,
+            2476,
+            4088,
+            290,
+            7224,
+            7380,
+            649,
+            6096,
+            13,
+            51238
+          ],
+          "avg_logprob": -0.166947302890235,
+          "compression_ratio": 1.4423076923076923,
+          "no_speech_prob": 0.0011235004058107734,
+          "words": [
+            {
+              "start": 11.18,
+              "end": 11.38,
+              "word": " Both",
+              "probability": 0.9966121315956116
+            },
+            {
+              "start": 11.38,
+              "end": 11.78,
+              "word": " paths",
+              "probability": 0.9908809661865234
+            },
+            {
+              "start": 11.78,
+              "end": 12.08,
+              "word": " use",
+              "probability": 0.995680570602417
+            },
+            {
+              "start": 12.08,
+              "end": 12.52,
+              "word": " equal",
+              "probability": 0.9858453273773193
+            },
+            {
+              "start": 12.52,
+              "end": 12.98,
+              "word": " example",
+              "probability": 0.9636637568473816
+            },
+            {
+              "start": 12.98,
+              "end": 13.48,
+              "word": " counts,",
+              "probability": 0.9972565770149231
+            },
+            {
+              "start": 13.74,
+              "end": 13.82,
+              "word": " but",
+              "probability": 0.9966622591018677
+            },
+            {
+              "start": 13.82,
+              "end": 14.3,
+              "word": " replay",
+              "probability": 0.9286186695098877
+            },
+            {
+              "start": 14.3,
+              "end": 14.68,
+              "word": " needs",
+              "probability": 0.9965561628341675
+            },
+            {
+              "start": 14.68,
+              "end": 15.1,
+              "word": " memory",
+              "probability": 0.9968047142028809
+            },
+            {
+              "start": 15.1,
+              "end": 15.44,
+              "word": " and",
+              "probability": 0.9053223133087158
+            },
+            {
+              "start": 15.44,
+              "end": 15.8,
+              "word": " sees",
+              "probability": 0.9865021705627441
+            },
+            {
+              "start": 15.8,
+              "end": 16.16,
+              "word": " fewer",
+              "probability": 0.9954321384429932
+            },
+            {
+              "start": 16.16,
+              "end": 16.44,
+              "word": " new",
+              "probability": 0.9947350025177002
+            },
+            {
+              "start": 16.44,
+              "end": 16.96,
+              "word": " examples.",
+              "probability": 0.9988021850585938
+            }
+          ],
+          "temperature": 0
+        }
+      ],
+      "differences_vs_canonical": [],
+      "differences_vs_tts": [],
+      "sha256_after": "2f29117090cd8a020d2f3e1ab8286cd5bdd03daf5607b76a1b4873887bbbd492",
+      "wav_unchanged_during_asr": true,
+      "asr_elapsed_seconds": 3.696232190000046,
+      "sha256_final_recheck": "2f29117090cd8a020d2f3e1ab8286cd5bdd03daf5607b76a1b4873887bbbd492",
+      "rechecked_utc": "2026-10-24T04:58:20.582608+00:00",
+      "superseded_sha256": "8e2b543cfa590907c62bd3b5229df386ec1406a551573c7c397cc05714ad0c1b",
+      "cache_hash_matches": true,
+      "cache_tts_text_matches": true
+    },
+    {
+      "repo": "learning-and-remembering",
+      "id": "beat-3",
+      "sha256_before": "b1560d676dffdfeede02836dc71fd28cc4756d8662bf330581a67e8225519a6e",
+      "manifest_sha256": "1524de2afa1de63d8330a6f58de49588baec4ce68fc42a8ca47c01a55f001401",
+      "canonical_text": "Now consider which memory to replay. The hardest example right now is different from the one most harmed by a hypothetical update. That update is only used to score the memories, then discarded.",
+      "tts_text": "Now consider which memory to replay. The hardest example right now is different from the one most harmed by a hypothetical update. That update is only used to score the memories, then discarded.",
+      "has_tts_override": false,
+      "cache_metadata": {
+        "cache_key": "560618155ddbc27c009eb9bbd2c9d1e0355bb5a83969f1b804de9e344aab1e1b",
+        "audio_sha256": "b1560d676dffdfeede02836dc71fd28cc4756d8662bf330581a67e8225519a6e",
+        "parameters": {
+          "tts_text": "Now consider which memory to replay. The hardest example right now is different from the one most harmed by a hypothetical update. That update is only used to score the memories, then discarded.",
+          "voice": "am_michael",
+          "language": "en-us",
+          "speed": 0.95,
+          "lead_in": 0.12,
+          "tail_out": 0.5
+        },
+        "engine": {
+          "model_sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+          "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+          "kokoro_onnx_version": "0.6.1",
+          "cache_version": 1
+        }
+      },
+      "audio_info": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "frames": 338464,
+        "duration_seconds": 14.102666666666666
+      },
+      "transcription": "Now consider which memory to replay. The hardest example right now is different from the one most harmed by a hypothetical update. That update is only used to score the memories, then discarded.",
+      "segments": [
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.32,
+          "text": " Now consider which memory to replay.",
+          "tokens": [
+            50363,
+            2735,
+            2074,
+            543,
+            4088,
+            284,
+            24788,
+            13,
+            50505
+          ],
+          "avg_logprob": -0.22270133244720372,
+          "compression_ratio": 1.39568345323741,
+          "no_speech_prob": 0.0017099184915423393,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.42,
+              "word": " Now",
+              "probability": 0.9731666445732117
+            },
+            {
+              "start": 0.42,
+              "end": 0.9,
+              "word": " consider",
+              "probability": 0.8296568393707275
+            },
+            {
+              "start": 0.9,
+              "end": 1.28,
+              "word": " which",
+              "probability": 0.9935985803604126
+            },
+            {
+              "start": 1.28,
+              "end": 1.58,
+              "word": " memory",
+              "probability": 0.9861563444137573
+            },
+            {
+              "start": 1.58,
+              "end": 1.9,
+              "word": " to",
+              "probability": 0.9986685514450073
+            },
+            {
+              "start": 1.9,
+              "end": 2.32,
+              "word": " replay.",
+              "probability": 0.9897358417510986
+            }
+          ],
+          "temperature": 0
+        },
+        {
+          "id": 2,
+          "seek": 0,
+          "start": 3.0,
+          "end": 8.58,
+          "text": " The hardest example right now is different from the one most harmed by a hypothetical update.",
+          "tokens": [
+            50505,
+            383,
+            17612,
+            1672,
+            826,
+            783,
+            318,
+            1180,
+            422,
+            262,
+            530,
+            749,
+            28517,
+            416,
+            257,
+            25345,
+            4296,
+            13,
+            50820
+          ],
+          "avg_logprob": -0.22270133244720372,
+          "compression_ratio": 1.39568345323741,
+          "no_speech_prob": 0.0017099184915423393,
+          "words": [
+            {
+              "start": 3.0,
+              "end": 3.1,
+              "word": " The",
+              "probability": 0.9947587847709656
+            },
+            {
+              "start": 3.1,
+              "end": 3.5,
+              "word": " hardest",
+              "probability": 0.9993305206298828
+            },
+            {
+              "start": 3.5,
+              "end": 4.08,
+              "word": " example",
+              "probability": 0.9991816878318787
+            },
+            {
+              "start": 4.08,
+              "end": 4.44,
+              "word": " right",
+              "probability": 0.967502236366272
+            },
+            {
+              "start": 4.44,
+              "end": 4.82,
+              "word": " now",
+              "probability": 0.9990424513816833
+            },
+            {
+              "start": 4.82,
+              "end": 5.16,
+              "word": " is",
+              "probability": 0.9826540350914001
+            },
+            {
+              "start": 5.16,
+              "end": 5.48,
+              "word": " different",
+              "probability": 0.9983969330787659
+            },
+            {
+              "start": 5.48,
+              "end": 5.76,
+              "word": " from",
+              "probability": 0.9955025315284729
+            },
+            {
+              "start": 5.76,
+              "end": 5.88,
+              "word": " the",
+              "probability": 0.9968044757843018
+            },
+            {
+              "start": 5.88,
+              "end": 6.08,
+              "word": " one",
+              "probability": 0.9960571527481079
+            },
+            {
+              "start": 6.08,
+              "end": 6.38,
+              "word": " most",
+              "probability": 0.9969969987869263
+            },
+            {
+              "start": 6.38,
+              "end": 6.88,
+              "word": " harmed",
+              "probability": 0.9913421273231506
+            },
+            {
+              "start": 6.88,
+              "end": 7.22,
+              "word": " by",
+              "probability": 0.9986622333526611
+            },
+            {
+              "start": 7.22,
+              "end": 7.4,
+              "word": " a",
+              "probability": 0.9970458149909973
+            },
+            {
+              "start": 7.4,
+              "end": 7.94,
+              "word": " hypothetical",
+              "probability": 0.993691086769104
+            },
+            {
+              "start": 7.94,
+              "end": 8.58,
+              "word": " update.",
+              "probability": 0.9944816827774048
+            }
+          ],
+          "temperature": 0
+        },
+        {
+          "id": 3,
+          "seek": 0,
+          "start": 9.28,
+          "end": 13.32,
+          "text": " That update is only used to score the memories, then discarded.",
+          "tokens": [
+            50820,
+            1320,
+            4296,
+            318,
+            691,
+            973,
+            284,
+            4776,
+            262,
+            9846,
+            11,
+            788,
+            25148,
+            13,
+            51060
+          ],
+          "avg_logprob": -0.22270133244720372,
+          "compression_ratio": 1.39568345323741,
+          "no_speech_prob": 0.0017099184915423393,
+          "words": [
+            {
+              "start": 9.28,
+              "end": 9.48,
+              "word": " That",
+              "probability": 0.9922713041305542
+            },
+            {
+              "start": 9.48,
+              "end": 9.9,
+              "word": " update",
+              "probability": 0.9982675313949585
+            },
+            {
+              "start": 9.9,
+              "end": 10.12,
+              "word": " is",
+              "probability": 0.9982448816299438
+            },
+            {
+              "start": 10.12,
+              "end": 10.42,
+              "word": " only",
+              "probability": 0.995864987373352
+            },
+            {
+              "start": 10.42,
+              "end": 10.76,
+              "word": " used",
+              "probability": 0.9982194304466248
+            },
+            {
+              "start": 10.76,
+              "end": 10.96,
+              "word": " to",
+              "probability": 0.9993845224380493
+            },
+            {
+              "start": 10.96,
+              "end": 11.28,
+              "word": " score",
+              "probability": 0.9982290863990784
+            },
+            {
+              "start": 11.28,
+              "end": 11.48,
+              "word": " the",
+              "probability": 0.9979105591773987
+            },
+            {
+              "start": 11.48,
+              "end": 11.86,
+              "word": " memories,",
+              "probability": 0.9919290542602539
+            },
+            {
+              "start": 12.36,
+              "end": 12.64,
+              "word": " then",
+              "probability": 0.9978944659233093
+            },
+            {
+              "start": 12.64,
+              "end": 13.32,
+              "word": " discarded.",
+              "probability": 0.9939762353897095
+            }
+          ],
+          "temperature": 0
+        }
+      ],
+      "differences_vs_canonical": [],
+      "differences_vs_tts": [],
+      "sha256_after": "b1560d676dffdfeede02836dc71fd28cc4756d8662bf330581a67e8225519a6e",
+      "wav_unchanged_during_asr": true,
+      "asr_elapsed_seconds": 2.775502847000098,
+      "sha256_final_recheck": "b1560d676dffdfeede02836dc71fd28cc4756d8662bf330581a67e8225519a6e",
+      "cache_hash_matches": true,
+      "cache_tts_text_matches": true
+    },
+    {
+      "repo": "learning-and-remembering",
+      "id": "beat-4",
+      "sha256_before": "6625c9f21594b4170274ce1c651dca2bbfc4060eb88825e0dfe160498a9c860e",
+      "manifest_sha256": "1524de2afa1de63d8330a6f58de49588baec4ce68fc42a8ca47c01a55f001401",
+      "canonical_text": "These examples explain forgetting and two selection scores. They don't establish a winning selector. The repository's controlled studies include inconclusive and adverse results.",
+      "tts_text": "These examples explain forgetting and two selection scores. They don't establish a winning selector. The repository's controlled studies include inconclusive and adverse results.",
+      "has_tts_override": false,
+      "cache_metadata": {
+        "cache_key": "dad4a9d7e191eeeec238775bde6408d7a1fcb36ac9b03dcb461904de5bb8a5b0",
+        "audio_sha256": "6625c9f21594b4170274ce1c651dca2bbfc4060eb88825e0dfe160498a9c860e",
+        "parameters": {
+          "tts_text": "These examples explain forgetting and two selection scores. They don't establish a winning selector. The repository's controlled studies include inconclusive and adverse results.",
+          "voice": "am_michael",
+          "language": "en-us",
+          "speed": 0.95,
+          "lead_in": 0.12,
+          "tail_out": 0.5
+        },
+        "engine": {
+          "model_sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+          "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+          "kokoro_onnx_version": "0.6.1",
+          "cache_version": 1
+        }
+      },
+      "audio_info": {
+        "sample_rate": 24000,
+        "channels": 1,
+        "sample_width": 2,
+        "frames": 311328,
+        "duration_seconds": 12.972
+      },
+      "transcription": "These examples explain forgetting and two selection scores. They don't establish a winning selector. The repository's controlled studies include inconclusive and adverse results.",
+      "segments": [
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 0.0,
+          "end": 3.72,
+          "text": " These examples explain forgetting and two selection scores.",
+          "tokens": [
+            50363,
+            2312,
+            6096,
+            4727,
+            32012,
+            290,
+            734,
+            6356,
+            8198,
+            13,
+            50563
+          ],
+          "avg_logprob": -0.1854489433268706,
+          "compression_ratio": 1.37984496124031,
+          "no_speech_prob": 0.0009703424875624478,
+          "words": [
+            {
+              "start": 0.0,
+              "end": 0.38,
+              "word": " These",
+              "probability": 0.9840227365493774
+            },
+            {
+              "start": 0.38,
+              "end": 0.9,
+              "word": " examples",
+              "probability": 0.9961547255516052
+            },
+            {
+              "start": 0.9,
+              "end": 1.5,
+              "word": " explain",
+              "probability": 0.9795902967453003
+            },
+            {
+              "start": 1.5,
+              "end": 2.02,
+              "word": " forgetting",
+              "probability": 0.9913600087165833
+            },
+            {
+              "start": 2.02,
+              "end": 2.48,
+              "word": " and",
+              "probability": 0.9114747047424316
+            },
+            {
+              "start": 2.48,
+              "end": 2.74,
+              "word": " two",
+              "probability": 0.9558568000793457
+            },
+            {
+              "start": 2.74,
+              "end": 3.26,
+              "word": " selection",
+              "probability": 0.9927754402160645
+            },
+            {
+              "start": 3.26,
+              "end": 3.72,
+              "word": " scores.",
+              "probability": 0.9988318085670471
+            }
+          ],
+          "temperature": 0
+        },
+        {
+          "id": 2,
+          "seek": 0,
+          "start": 4.42,
+          "end": 6.3,
+          "text": " They don't establish a winning selector.",
+          "tokens": [
+            50563,
+            1119,
+            836,
+            470,
+            4474,
+            257,
+            5442,
+            31870,
+            13,
+            50713
+          ],
+          "avg_logprob": -0.1854489433268706,
+          "compression_ratio": 1.37984496124031,
+          "no_speech_prob": 0.0009703424875624478,
+          "words": [
+            {
+              "start": 4.42,
+              "end": 4.52,
+              "word": " They",
+              "probability": 0.9909979104995728
+            },
+            {
+              "start": 4.52,
+              "end": 4.74,
+              "word": " don't",
+              "probability": 0.9735395312309265
+            },
+            {
+              "start": 4.74,
+              "end": 5.28,
+              "word": " establish",
+              "probability": 0.9989416003227234
+            },
+            {
+              "start": 5.28,
+              "end": 5.54,
+              "word": " a",
+              "probability": 0.9978932738304138
+            },
+            {
+              "start": 5.54,
+              "end": 5.8,
+              "word": " winning",
+              "probability": 0.9900305271148682
+            },
+            {
+              "start": 5.8,
+              "end": 6.3,
+              "word": " selector.",
+              "probability": 0.9969370365142822
+            }
+          ],
+          "temperature": 0
+        },
+        {
+          "id": 3,
+          "seek": 0,
+          "start": 7.14,
+          "end": 12.24,
+          "text": " The repository's controlled studies include inconclusive and adverse results.",
+          "tokens": [
+            50713,
+            383,
+            16099,
+            338,
+            6856,
+            3640,
+            2291,
+            15861,
+            5731,
+            290,
+            12681,
+            2482,
+            13,
+            51013
+          ],
+          "avg_logprob": -0.1854489433268706,
+          "compression_ratio": 1.37984496124031,
+          "no_speech_prob": 0.0009703424875624478,
+          "words": [
+            {
+              "start": 7.14,
+              "end": 7.2,
+              "word": " The",
+              "probability": 0.99433434009552
+            },
+            {
+              "start": 7.2,
+              "end": 8.26,
+              "word": " repository's",
+              "probability": 0.7841382026672363
+            },
+            {
+              "start": 8.26,
+              "end": 8.66,
+              "word": " controlled",
+              "probability": 0.9957399368286133
+            },
+            {
+              "start": 8.66,
+              "end": 9.24,
+              "word": " studies",
+              "probability": 0.9974772334098816
+            },
+            {
+              "start": 9.24,
+              "end": 9.76,
+              "word": " include",
+              "probability": 0.9933991432189941
+            },
+            {
+              "start": 9.76,
+              "end": 10.76,
+              "word": " inconclusive",
+              "probability": 0.9967839121818542
+            },
+            {
+              "start": 10.76,
+              "end": 11.12,
+              "word": " and",
+              "probability": 0.9935327768325806
+            },
+            {
+              "start": 11.12,
+              "end": 11.6,
+              "word": " adverse",
+              "probability": 0.9985130429267883
+            },
+            {
+              "start": 11.6,
+              "end": 12.24,
+              "word": " results.",
+              "probability": 0.9990143775939941
+            }
+          ],
+          "temperature": 0
+        }
+      ],
+      "differences_vs_canonical": [],
+      "differences_vs_tts": [],
+      "sha256_after": "6625c9f21594b4170274ce1c651dca2bbfc4060eb88825e0dfe160498a9c860e",
+      "wav_unchanged_during_asr": true,
+      "asr_elapsed_seconds": 2.3154804569999214,
+      "sha256_final_recheck": "6625c9f21594b4170274ce1c651dca2bbfc4060eb88825e0dfe160498a9c860e",
+      "cache_hash_matches": true,
+      "cache_tts_text_matches": true
+    }
+  ]
+}

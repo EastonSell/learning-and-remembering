@@ -1,0 +1,58 @@
+WEBVTT
+
+NOTE Sentence timings are approximate, not word-aligned.
+
+1
+00:00:00.120 --> 00:00:04.167
+Here are two tasks that one small model can solve
+together.
+
+2
+00:00:04.167 --> 00:00:08.077
+First, watch its shared weights move as it learns task
+A.
+
+3
+00:00:08.720 --> 00:00:12.748
+Now train on B alone, and A's prediction gets worse.
+
+4
+00:00:12.748 --> 00:00:15.768
+Instead, replay an example from task A.
+
+5
+00:00:15.768 --> 00:00:19.021
+In this toy, that helps retain both tasks.
+
+6
+00:00:19.021 --> 00:00:25.915
+Both paths use equal example counts, but replay needs
+memory and sees fewer new examples.
+
+7
+00:00:26.587 --> 00:00:29.115
+Now consider which memory to replay.
+
+8
+00:00:29.115 --> 00:00:35.645
+The hardest example right now is different from the one
+most harmed by a hypothetical update.
+
+9
+00:00:35.645 --> 00:00:40.069
+That update is only used to score the memories, then
+discarded.
+
+10
+00:00:40.753 --> 00:00:44.894
+These examples explain forgetting and two selection
+scores.
+
+11
+00:00:44.894 --> 00:00:47.701
+They don't establish a winning selector.
+
+12
+00:00:47.701 --> 00:00:53.105
+The repository's controlled studies include inconclusive
+and adverse results.
