@@ -1,0 +1,27 @@
+{
+  "command": [
+    "python",
+    "-B",
+    "run.py",
+    "--execute-admitted",
+    "--admission",
+    "[admission file]",
+    "--training",
+    "[pinned raw training member]",
+    "--test",
+    "[pinned raw test member]",
+    "--output",
+    "[new output directory]"
+  ],
+  "started_utc": "2026-10-25T07:48:35.542171+00:00",
+  "wall_limit_seconds": 600,
+  "rss_limit_bytes": 1073741824,
+  "sampling_interval_seconds": 0.25,
+  "attempt": 1,
+  "no_retries": true,
+  "returncode": 0,
+  "termination": null,
+  "wall_seconds": 15.51927303299999,
+  "peak_sampled_rss_bytes": 133455872,
+  "finished_utc": "2026-10-25T07:48:51.061675+00:00"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "checkpoints_recomputed": 360,
+  "case_count": 36,
+  "scope": "Independently recomputed every saved checkpoint prediction/probability and boundary metric from retained weights and test inputs; paired main accuracy/runtime intervals and MAC accounting verified. Did not replay training steps or independently measure elapsed time.",
+  "summary_sha256": "1bd2a6b258952c19be9c12e269ece32e1795899c65a1ad520d034bb7dfff280a"
+}

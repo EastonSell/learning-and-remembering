@@ -1,0 +1,10 @@
+{
+  "manifest_sha256": "ca1f60f5aac6c295d30cc5e2900f72da6ab084b9b92a2570ac732c415b17f281",
+  "admission_sha256": "6e2195a3eb89e0a86c740d102e5d76798942bf6c78159f080c88edf9853bd022",
+  "review_sha256": "f631f6e2e7501c3a520e412518019246dcbc0f5fb49ae6b849822777ebc707f3",
+  "reviewer": "independent implementation reviewer",
+  "kind": "PROSPECTIVE_NEW_SEED_EXTENSION_REUSED_DATASET",
+  "training_sha256": "e2b9eb9f0d0467e2b64a4816a3420edf2b8043447576f4b84337aba44a9f97d3",
+  "test_sha256": "8bd03229c5c5291fefe43e45465dd948d2645bf23328b9d993e0b777666b2015",
+  "base_commit": "925be90c602b3bb853c3338a52d817360eed5b9b"
+}

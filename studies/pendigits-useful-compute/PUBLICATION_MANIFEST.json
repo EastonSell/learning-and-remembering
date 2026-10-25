@@ -1,0 +1,118 @@
+{
+  "release": "pendigits-useful-compute-v1-public-prose-redaction-1-20261025",
+  "base_commit": "925be90c602b3bb853c3338a52d817360eed5b9b",
+  "scope": "Additive postrun public metadata/prose derivative and one root README entry. Exact original prose remains in the verified private archive. Executed code, numeric protocol and results unchanged; historical studies unchanged. File consistency is not release authentication.",
+  "original_source_predata_manifest_sha256": "ca1f60f5aac6c295d30cc5e2900f72da6ab084b9b92a2570ac732c415b17f281",
+  "public_postrun_derivative_manifest_sha256": "d8f17d6439944d4edffa4ee2ae0046626217ba38c43431599a3edeb3b385d381",
+  "full_original_evidence_sha256": "62a93f6e69ad955344e04c3e6dc2c260e3faa62ce0a6233f46246180c42ef44d",
+  "files": {
+    "README.md": {
+      "sha256": "81d59365216292d220e386fa6c281b8cd5b0f9ab8787f260c1a8a612344660e2",
+      "bytes": 9778
+    },
+    "studies/pendigits-useful-compute/PRE_DATA_MANIFEST.json": {
+      "sha256": "d8f17d6439944d4edffa4ee2ae0046626217ba38c43431599a3edeb3b385d381",
+      "bytes": 1660
+    },
+    "studies/pendigits-useful-compute/PROTOCOL.md": {
+      "sha256": "2aac629add6bda0febec5d9ed8a3c36eb39e87243d4008bc29de87f9f7683bcb",
+      "bytes": 10669
+    },
+    "studies/pendigits-useful-compute/PUBLICATION.md": {
+      "sha256": "c08bed7b53a9666abe0b5a1d85278f26905da3b0cc66e11817c8484e99af6e78",
+      "bytes": 4626
+    },
+    "studies/pendigits-useful-compute/PUBLIC_PROVENANCE_DERIVATIONS.json": {
+      "sha256": "3fb9eeeca2901d03125651547e8ea18c18ad6d0364bd9d4083e02ba8a7a2bedf",
+      "bytes": 3677
+    },
+    "studies/pendigits-useful-compute/README.md": {
+      "sha256": "634fa8b923009c365de3966ad875db3448634a8c25091bb6174ec8b2fc02fb28",
+      "bytes": 3191
+    },
+    "studies/pendigits-useful-compute/REPORT.md": {
+      "sha256": "1c78d833c84585ab4b0abc847b5ba3e7ea07006396ff320c212112241ce5ff9b",
+      "bytes": 7375
+    },
+    "studies/pendigits-useful-compute/SOURCE_PRE_DATA_MANIFEST.json": {
+      "sha256": "ca1f60f5aac6c295d30cc5e2900f72da6ab084b9b92a2570ac732c415b17f281",
+      "bytes": 994
+    },
+    "studies/pendigits-useful-compute/engine.py": {
+      "sha256": "042c6b663d63cf988d0cc7a855a6dc280888116f5b31cda2b662f8e05f0cbd48",
+      "bytes": 12390
+    },
+    "studies/pendigits-useful-compute/protocol.json": {
+      "sha256": "c9456893df3c80d218fd0ac2ab3fb16c215dc9ac300a702fa8eb29deb1754295",
+      "bytes": 813
+    },
+    "studies/pendigits-useful-compute/results/all-36-cases.csv": {
+      "sha256": "a6ed85a0277800b8aa04d0daf97189df13c68f46de10a6f58f265622105e5c20",
+      "bytes": 5455
+    },
+    "studies/pendigits-useful-compute/results/cases.json": {
+      "sha256": "0bb38c909eb8df47ae34c2adaf0ed712f449b128c1fe313f589bba8593810a7e",
+      "bytes": 226587
+    },
+    "studies/pendigits-useful-compute/results/completion-public.json": {
+      "sha256": "be42a3e0fd90909f9bfe00910de91772f33bbe2c30b43ddabc69e199df556928",
+      "bytes": 965
+    },
+    "studies/pendigits-useful-compute/results/environment-public.json": {
+      "sha256": "ce2016d92953455dce736d7863a02bced67eea69f56a0c742156eb18da5fcd2f",
+      "bytes": 1870
+    },
+    "studies/pendigits-useful-compute/results/paired-mir-minus-uniform_base.csv": {
+      "sha256": "4f1a0b1f4df1a111125cfceb5f58f7a0ee06cb5a62719736b38da96cd7bf2702",
+      "bytes": 1654
+    },
+    "studies/pendigits-useful-compute/results/paired-mir-minus-uniform_credit.csv": {
+      "sha256": "3f133477ff9fb2f2364028e61109fbba5b956489352981b19e0edd9b63404943",
+      "bytes": 1661
+    },
+    "studies/pendigits-useful-compute/results/provenance-public.json": {
+      "sha256": "de91562f0ea6696235808ed03358991dda6ce9af22916238f367cffe3928cdaa",
+      "bytes": 616
+    },
+    "studies/pendigits-useful-compute/results/resources.json": {
+      "sha256": "9175d37a2b092dde6ebf8d54cbc369577a0044fae80131a53d6d02cadd502f26",
+      "bytes": 72
+    },
+    "studies/pendigits-useful-compute/results/summary.json": {
+      "sha256": "1bd2a6b258952c19be9c12e269ece32e1795899c65a1ad520d034bb7dfff280a",
+      "bytes": 10541
+    },
+    "studies/pendigits-useful-compute/results/supervision-public.json": {
+      "sha256": "59507ab0cdcbcfd74cc8e4a2db5130236f316dd1c7e3d9aab4b459f74d472ab5",
+      "bytes": 637
+    },
+    "studies/pendigits-useful-compute/review/independent-postrun.json": {
+      "sha256": "4e2c674b7234663c5b8030a8e5bb751523a66d3793921ff0d2613ecc259c2803",
+      "bytes": 445
+    },
+    "studies/pendigits-useful-compute/review/independent-predata-public.json": {
+      "sha256": "058c99f380c4f9e0f8f218788bb2fd2d68d9deb803fe0fda3b7e6c266df3927f",
+      "bytes": 873
+    },
+    "studies/pendigits-useful-compute/run.py": {
+      "sha256": "f65b1417f9a49bb49ef83f333bb87b2e56b908f83d48d970d334ce7763d7df19",
+      "bytes": 12150
+    },
+    "studies/pendigits-useful-compute/test_engine.py": {
+      "sha256": "812d4b25b9e07f7b1f5d3a138ffdde6d81da2bbf4bb0c2715bb90ff1128aaeb1",
+      "bytes": 8609
+    },
+    "studies/pendigits-useful-compute/test_public_derivative.py": {
+      "sha256": "f8c0a46b95154c185b8903a9614b952bc51d30b713c75652fea8b10d9485151e",
+      "bytes": 3064
+    },
+    "studies/pendigits-useful-compute/test_runner.py": {
+      "sha256": "310092132f6809c32cbca10a001c540c0727b6b28fb3abddf9fe275a7f8d1329",
+      "bytes": 6406
+    },
+    "tests/test_pendigits_useful_compute.py": {
+      "sha256": "4b298490dfb752be8909428a0b8ed47682f15f9112551d1d45ecde3aef94e564",
+      "bytes": 665
+    }
+  }
+}

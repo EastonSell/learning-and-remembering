@@ -1,0 +1,19 @@
+{
+  "status": "FROZEN_PENDING_INDEPENDENT_REVIEW",
+  "version": "pendigits-useful-compute-v1",
+  "frozen_utc": "2026-10-25T07:45:26.603403+00:00",
+  "base_commit": "925be90c602b3bb853c3338a52d817360eed5b9b",
+  "files": {
+    "PROTOCOL.md": "24a2db89cabd579a372f609f41e6c471de13da8d9e00858054445e3df2da925c",
+    "README.md": "df25acb1b91fa7ab1185b32a209693d13cd1ccff3f6b75b7c9be510f90cf5762",
+    "engine.py": "042c6b663d63cf988d0cc7a855a6dc280888116f5b31cda2b662f8e05f0cbd48",
+    "protocol.json": "c9456893df3c80d218fd0ac2ab3fb16c215dc9ac300a702fa8eb29deb1754295",
+    "run.py": "f65b1417f9a49bb49ef83f333bb87b2e56b908f83d48d970d334ce7763d7df19",
+    "test_engine.py": "812d4b25b9e07f7b1f5d3a138ffdde6d81da2bbf4bb0c2715bb90ff1128aaeb1",
+    "test_runner.py": "310092132f6809c32cbca10a001c540c0727b6b28fb3abddf9fe275a7f8d1329"
+  },
+  "new_real_data_access": false,
+  "new_real_fitting_or_evaluation": false,
+  "synthetic_tests_only": true,
+  "publication_authorized_by_this_manifest": false
+}

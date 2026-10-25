@@ -1,0 +1,24 @@
+{
+  "status": "FROZEN_PENDING_INDEPENDENT_REVIEW",
+  "artifact_role": "POSTRUN_PUBLIC_PROSE_REDACTION_DERIVATIVE",
+  "is_original_predata_freeze": false,
+  "version": "pendigits-useful-compute-v1-public-prose-redaction-1",
+  "derived_utc": "2026-10-25T08:00:53.139162+00:00",
+  "source_manifest": "SOURCE_PRE_DATA_MANIFEST.json",
+  "source_manifest_sha256": "ca1f60f5aac6c295d30cc5e2900f72da6ab084b9b92a2570ac732c415b17f281",
+  "base_commit": "925be90c602b3bb853c3338a52d817360eed5b9b",
+  "status_semantics": "Immutable public derivative pending a new independent review for any future execution. Not the original predata freeze, not approval to rerun, and not the manifest that authorized the recorded results.",
+  "executed_implementation_and_numeric_protocol_changed": false,
+  "additional_empirical_runs_for_derivation": 0,
+  "files": {
+    "PROTOCOL.md": "2aac629add6bda0febec5d9ed8a3c36eb39e87243d4008bc29de87f9f7683bcb",
+    "README.md": "634fa8b923009c365de3966ad875db3448634a8c25091bb6174ec8b2fc02fb28",
+    "engine.py": "042c6b663d63cf988d0cc7a855a6dc280888116f5b31cda2b662f8e05f0cbd48",
+    "protocol.json": "c9456893df3c80d218fd0ac2ab3fb16c215dc9ac300a702fa8eb29deb1754295",
+    "run.py": "f65b1417f9a49bb49ef83f333bb87b2e56b908f83d48d970d334ce7763d7df19",
+    "test_engine.py": "812d4b25b9e07f7b1f5d3a138ffdde6d81da2bbf4bb0c2715bb90ff1128aaeb1",
+    "test_runner.py": "310092132f6809c32cbca10a001c540c0727b6b28fb3abddf9fe275a7f8d1329",
+    "SOURCE_PRE_DATA_MANIFEST.json": "ca1f60f5aac6c295d30cc5e2900f72da6ab084b9b92a2570ac732c415b17f281",
+    "test_public_derivative.py": "f8c0a46b95154c185b8903a9614b952bc51d30b713c75652fea8b10d9485151e"
+  }
+}

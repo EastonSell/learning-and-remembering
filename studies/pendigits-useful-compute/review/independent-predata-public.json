@@ -1,0 +1,22 @@
+{
+  "status": "APPROVED",
+  "reviewer": "independent implementation reviewer",
+  "manifest_sha256": "ca1f60f5aac6c295d30cc5e2900f72da6ab084b9b92a2570ac732c415b17f281",
+  "reviewed_at": "2026-10-25T07:46:12.071274+00:00",
+  "checks": [
+    "Read full protocol, run.py and engine.py independently",
+    "30 synthetic tests independently passed",
+    "MAC ledger independently checked:1664 forward,3968 train per row",
+    "Finite exact source manifest verified"
+  ],
+  "limits": [
+    "Previously exposed dataset, not fresh replication",
+    "Matrix MAC proxy excludes Python and elementwise overhead",
+    "Runtime one process/environment; no universal efficiency claim"
+  ],
+  "conditions": [
+    "Exactly one frozen 36-case run",
+    "600-second supervised ceiling and 1GiB sampled RSS, preserve incomplete cases",
+    "Independent postrun audit before publication"
+  ]
+}

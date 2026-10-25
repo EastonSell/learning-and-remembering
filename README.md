@@ -20,6 +20,10 @@ For read-only checks that remain active under Python optimization, use the
 It also checks completion consistency, recurrence/old-class arithmetic and CSV
 agreement without rewriting frozen evidence or changing the negative result.
 
+## Useful-compute PenDigits control
+
+[The prospective 36-model control](studies/pendigits-useful-compute/PUBLICATION.md) also failed to support MIR: final macro recall was 77.75% for MIR, 80.26% for useful equal-update uniform replay, and 89.27% for uniform replay with prospectively credited extra updates. MIR minus credited uniform was −11.52 percentage points (paired 95% interval [−12.96, −10.06]). Credited uniform was more accurate but slower; equal-update uniform was descriptively both more accurate and faster than MIR. [Complete signed results](studies/pendigits-useful-compute/REPORT.md) distinguish the fixed matrix-MAC allowance from actual runtime. This reused-dataset extension and one-environment timing run do not establish a general efficiency winner or change the original frozen study.
+
 ## Watch the narrated explanation
 
 [![Narrated concept illustration](docs/animations/narrated/poster.png)](docs/animations/narrated/concept.mp4)

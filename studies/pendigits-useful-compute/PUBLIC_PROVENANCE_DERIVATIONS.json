@@ -1,0 +1,45 @@
+{
+  "scope": "Listed non-outcome metadata and prose are public redaction derivatives, not untouched originals. Executed implementation, numeric protocol, original tests and numeric outcomes are unchanged. Exact original prose and provenance remain in the verified private evidence backup. SOURCE_PRE_DATA_MANIFEST.json preserves the original freeze; PRE_DATA_MANIFEST.json binds the postrun derivative.",
+  "files": {
+    "results/provenance-public.json": {
+      "source_sha256": "d770fdccd11773092a5ad00fa8aea809e9653e24f4e4fa8fdde6a770786fa425",
+      "public_sha256": "de91562f0ea6696235808ed03358991dda6ce9af22916238f367cffe3928cdaa",
+      "changes": "Replaced internal reviewer role label with a neutral descriptive role. Original hashes remain unchanged."
+    },
+    "results/completion-public.json": {
+      "source_sha256": "ded55362fd0936000e20531eb5b1b911571b139f4823f95a2558085b6e61280d",
+      "public_sha256": "be42a3e0fd90909f9bfe00910de91772f33bbe2c30b43ddabc69e199df556928",
+      "changes": "Replaced nested internal reviewer role label. Source outcome hashes, case count and checkpoint count remain unchanged. This is not the original COMPLETE.json byte artifact."
+    },
+    "results/environment-public.json": {
+      "source_sha256": "7f14b9e09413467057509388241b3df176ddd4d63f11396e0c220654ca3aebf1",
+      "public_sha256": "ce2016d92953455dce736d7863a02bced67eea69f56a0c742156eb18da5fcd2f",
+      "changes": "Omitted machine-specific build/include/library/interpreter paths only; versions, BLAS/SIMD information and thread settings are retained."
+    },
+    "results/supervision-public.json": {
+      "source_sha256": "bfb340700382edc04a8bd27c2aad299ccf6b4b5aa8ca4b12ade4e7f02bcc9500",
+      "public_sha256": "59507ab0cdcbcfd74cc8e4a2db5130236f316dd1c7e3d9aab4b459f74d472ab5",
+      "changes": "Replaced absolute command paths with descriptive placeholders; exact timing, resources, attempt, exit and termination fields are unchanged."
+    },
+    "review/independent-predata-public.json": {
+      "source_sha256": "f631f6e2e7501c3a520e412518019246dcbc0f5fb49ae6b849822777ebc707f3",
+      "public_sha256": "058c99f380c4f9e0f8f218788bb2fd2d68d9deb803fe0fda3b7e6c266df3927f",
+      "changes": "Replaced the internal reviewer role label and omitted an unrelated project-pause condition. Experimental constraints are unchanged."
+    },
+    "README.md": {
+      "source_sha256": "df25acb1b91fa7ab1185b32a209693d13cd1ccff3f6b75b7c9be510f90cf5762",
+      "public_sha256": "634fa8b923009c365de3966ad875db3448634a8c25091bb6174ec8b2fc02fb28",
+      "changes": "Removed unrelated private workflow statement and clarified postrun public-derivative status and future-admission binding."
+    },
+    "PROTOCOL.md": {
+      "source_sha256": "24a2db89cabd579a372f609f41e6c471de13da8d9e00858054445e3df2da925c",
+      "public_sha256": "2aac629add6bda0febec5d9ed8a3c36eb39e87243d4008bc29de87f9f7683bcb",
+      "changes": "Removed unrelated private workflow statements; clarified source-freeze versus postrun public-derivative provenance. All hypotheses, numeric thresholds, data definitions, seeds, budgets, schedules and analysis rules are unchanged."
+    },
+    "PRE_DATA_MANIFEST.json": {
+      "source_sha256": "ca1f60f5aac6c295d30cc5e2900f72da6ab084b9b92a2570ac732c415b17f281",
+      "public_sha256": "d8f17d6439944d4edffa4ee2ae0046626217ba38c43431599a3edeb3b385d381",
+      "changes": "Replaced the original freeze file at this path with an explicitly postrun public-derivative manifest. Original manifest retained byte-identically as SOURCE_PRE_DATA_MANIFEST.json. Public prose digests and added integrity tests are bound; old admission is not reusable."
+    }
+  }
+}
