@@ -15,6 +15,11 @@ This repository studies those questions through small, reproducible experiments.
 
 [Thirty newly trained MLPs on PenDigits](studies/pendigits-recurrent-replay/README.md) did not support MIR over uniform replay: final macro accuracy 78.48% versus 79.94%, difference −1.46 percentage points, paired-seed 95% bootstrap interval [−3.16, +0.33]. Current-pair acquisition was 7.88 points lower with MIR. The interval crossing zero is not proof of equivalence or confirmed inferiority. High-loss reached 85.65% descriptively, not as a confirmed winner. [Full report and limitations](studies/pendigits-recurrent-replay/REPORT.md), [frozen protocol](studies/pendigits-recurrent-replay/PROTOCOL.md), and [reproduction levels](studies/pendigits-recurrent-replay/README.md#what-is-bundled) preserve all adverse findings. This is a small trajectory-classification pilot, not an LLM or deployment benchmark.
 
+For read-only checks that remain active under Python optimization, use the
+[fail-closed PenDigits evidence checker](docs/PENDIGITS_EVIDENCE_CHECKS.md).
+It also checks completion consistency, recurrence/old-class arithmetic and CSV
+agreement without rewriting frozen evidence or changing the negative result.
+
 ## Watch the narrated explanation
 
 [![Narrated concept illustration](docs/animations/narrated/poster.png)](docs/animations/narrated/concept.mp4)
